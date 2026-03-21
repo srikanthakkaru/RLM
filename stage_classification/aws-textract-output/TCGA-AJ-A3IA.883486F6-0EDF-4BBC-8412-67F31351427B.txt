@@ -1,0 +1,155 @@
+UUID: 883486F6-0EDF-4BBC-8412-67F31351427B
+TCGA-AJ-A3IA-01A-PR
+Redacted
+Sex: Female
+D.O.B.:
+SPESIMENT
+Collected:
+Received:
+Reported:
+SURGICAL PATHOLOGY REPORT
+ADDENDUM REPORT
+Upon clinician, this case was reviewed and additional immunohistochemical staining was performed on blocks B1, B2 and D7.
+The fallopian tube shows focal positivity for p53 and MIB1, with features consistent with serous tubal intraepithelial carcinoma. There are also foci positive
+for p53 and MIB1 on the ovarian surface (block B2). These areas have features consistent with tubal intraepithelial carcinoma, as apposed to p53
+signature or a tubal in transition lesion. The endometrial cancer, as shown in block D7, is strongly positive for p53 and negative for WT-1, consistent with
+a serous carcinoma, high-grade of endometrial origin.
+I would recommend the patient be treated according to these findings.
+Addendum Report Issued Rv
+DIAGNOSIS
+DIAGNOSIS:
+A. Presumed pelvic soft tissue, "adhesion", excision:
+Benign fibrofatty tissue; no malignancy identified.
+B. Fallopian tube and ovary, right, salpingo-oophorectomy:
+Atrophy, advanced; negative for malignancy.
+ICD-0-3
+Epithelial dysplasia, marked, focal, fallopian tube and ovarian surface (see comment).
+C. Fallopian tube and ovary, left, salpingo-oophorectomy:
+Atrophy. advanced; negative for malignancy.
+COC : 8380/3
+Path carcinoma, serous NOS 8441/3
+D. Uterus, radical hysterectomy:
+Adenocarcinoma.
+Tumor Characteristics:
+(pm addendum) Site: indometrium C54-1
+1. Histologic type: Endometrioid adenocarcinoma.
+2. Histologic grade: 3 (poorly differentiated).
+11/6/12
+3. Tumor site: Primarily anterior uterine wall.
+4. Tumor size: Greatest dimension: Approximately 3.0 cm.
+5. Myometrial invasion: Present, depth of invasion 15 mm into 17 mm thick myometrium.
+6. Involvement of cervix: Not identified.
+7. Extent of involvement of other organs: See remainder of report.
+Right parametrium: Negative.
+Left parametrium: Negative.
+8. Lymphovascular space invasion: Not identified.
+Surgical Margin Status:
+1. Margins: Uninvolved by invasive carcinoma; distance of invasive carcinoma from closest margin: 2 mm (peritoneal serosal margin).
+Other:
+1. Pathologic stage: pT1b, NO.
+E. Lymph nodes, right external iliac, excision:
+Negative for malignancy, two nodes.
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+F. Lymph nodes, right obturator, excision:
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Negative for malignancy, six nodes.
+Prior Malignancy History
+Dual/Synchronous Primary Noted
+G. Lymph nodes, right common and lower aortic, excision:
+Case is
+Review
+Negative for malignancy, eight nodes.
+(circle): Initial QUALIFIED Date 116/12 Review d: DISQUALIFIED
+H. Lymph nodes, left external iliac, excision:
+Negative for malignancy, four nodes.
+I. Lymph nodes, left obturator, excision:
+Negative for malignancy, five nodes.
+J. Lymph node, left common and lower aortic, excision:
+Negative for malignancy, one node.
+K. Omentum, omentectomy:
+Negative for malignancy.
+A single small negative lymph node is present.
+COMMENTS:
+There is a microscopic focus of markedly atypical epithelium in one cross section of the right fallopian tube and a similar focus on the surface of the right
+ovary. Neither focus reaches the level of a diagnostic serous carcinoma, and no other foci are identified. These areas, however, raise the possibility that
+other serous surfaces may show similar foci, and follow-up is suggested.
+Sections have also been reviewed by Dr.
+ho is in agreement.
+CLINICAL INFORMATION
+CLINICAL HISTORY:
+Preoperative Diagnosis: Endometrial cancer.
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+A. Adhesion.
+B. Right ovary/tube.
+C. Left ovary/tube.
+D. Uterus and cervix.
+E. Right external iliac lymph node.
+F. Right obturator lymph node.
+G. Right common and lower aortic lymph node.
+it. Left external iliac lymph node.
+I. Left obturator lymph node.
+J. Common and lower aortic lymph node.
+K. Omentum.
+SPECIMEN DATA
+GROSS DESCRIPTION:
+The specimen is received in eleven formalin filled containers labeled with the patient's name
+A. Container A is additionally labeled adhesion and contains a 1.0 X 0.5 0.3 cm. tan-brown soft tissue entirely submitted in cassette A labeled :
+B. Container B is additionally labeled right ovary and tube and contains a 3.0 X 1.7 X 0.6 cm. yellow-tan lobulated ovary received with attached
+paraovarian soft tissue and segment of fimbriated fallopian tube. The fallopian tube is 4.8 cm. in length and ranges from 0.4 to 0.7 cm. in diameter and
+is otherwise unremarkable. The ovary features a yellow-tan fibrous cut surface with multiple gray-white corpora albicantia. Representative sections to
+include the entire ovary are submitted in cassettes B1-3 labeled
+esignated as follows: B1--cross sections of fallopian tube; B2 and 3-
+ovary, entirely.
+C. Container C is additionally labeled left ovary/tube and contains a 2.5 x 1.8 X 1.1 cm. yellow-tan lobulated ovary received with attached paraovarian
+soft tissue and segment of fimbriated fallopian tube. The fallopian tube is 4.5 cm. in length and ranges from 0.4 to 0.7 cm. in diameter and is otherwise
+unremarkable. Normal appearing pink-tan glistening endometrium is present on the posterior aspect and averages 0.3 cm. in thickness. The ovary
+features a yellow-tan fibrous cut surface with multiple gray-white corpora albicantia. Representative sections to include the entire ovary are submitted in
+cassettes C1-3 labeled
+(esignated as follows: C1-cross sections of fallopian tube; C2 and 3-ovary, entirely.
+D. Container D is additionally labeled uterus and cervix and contains a 58.1 gram, uterus with attached cervix devoid of adnexa. The 4.5 cm. in length
+by 4.5 C 3.0 cm. uterine corpus is surfaced by pink-tan smooth and glistening serosa. The 2.8 cm. in length by 3.5 x 3.0 cm. uterine cervix is partially
+surfaced by pink-tan glistening ectocervical mucosa and features a central 0.7 cm. patent os. The parametrial soft tissues are inked and taken en face.
+The endocervical canal is pink-tan and glistening and indurated. The endometrium is lined by pink-tan granular tumor involving primarily the anterior
+wall that extends 1.5 cm. into a 1.7 cm thick mvometrium Additional myometrial nodules or lesions are not identified. Representative sections are
+submitted in cassettes D1-11 labeled
+esignated as follows: 1-right parametrium, en face; 2--left parametrium, en face; 3-anterior
+endoectocervix; 4-posterior endoectocervix; 5--antenor lower uterine segment; 6-posterior lower uterine segment; 7-10 full thickness anterior
+endomyometrium to include mass and deepest extensive invasion; 11--full thickness posterior endomyometrium to include most normal appearing
+endometrium; additionally, a yellow, green and blue cassette are submitted for
+E. Container E is additionally labeled right external iliac lymph node and contains a 2.5 x 2.0 X 1.3 cm. yellow-tan fibrofatty soft tissue. On palpation,
+two firm fatty possible lymph nodes are identified 07 and 2.0 cm. in greatest dimension. The largest possible lymph node is inked and bisected and the
+lymph nodes are submitted in cassette E labeled
+to include one uninked possible lymph node, in toto and one inked and bisected lymph
+node.
+F. Container F is additionally labeled right obturator lymph node and contains a 4.5 X 3.3 x 1.5 cm. aggregate od yellow-tan fibrofatty soft tissue. On
+palpation, six firm fatty nossible lvmoh nodes are identified ranging from 0.5 up to 3.0 cm. in greatest dimension. They are entirely submitted in
+cassettes F1-3 labeled
+designated as follows: F1--four whole possible lymph nodes; F2-one whole possible bisected lymph node;
+F3--
+one whole possible quadrisected lympn node.
+G. Container G is additionally labeled right common and lower aortic lymph nodes and contains a 4.1 X 3.2 X 1.4 cm. aggregate of yellow-tan fibrofatty
+soft tissue. On palpation, eight firm fattv oossible lymph nodes are identified ranging from 0.3 up to 2.0 cm. in greatest dimension. They are entirely
+submitted in cassettes G1-2 labeled
+I to include four whole possible lymph nodes in each cassette.
+H. Container H is additionally labeled left external iliac lymph node and contains a 3.8 x 3.8 X 1.4 cm. aggregate of yellow-tan fibrofatty soft tissue. On
+palpation, four firm fatty possible lvmnh nodes are identified ranging from 0.9 up to 4.0 cm. in greatest dimension. They are entirely submitted in
+cassettes H1-3 labeled
+signated as follows: H1-two whole possible lymph nodes; H2--one whole possible bisected lymph node; H3--
+one whole possible trisected lymph node.
+I.
+Container I is additionally labeled left obturator lymph node and contains a 3.5 X 3.3 x 1.2 cm. aggregate of yellow-tan fibrofatty soft tissue. On
+palpation, five firm fatty possible lymph nodes are identified ranging from 0.5 up to 1.5 cm. in greatest dimension. They are entirely submitted in
+cassettes 11 and 2 labeled
+designated as follows: 11--three whole possible lymph nodes; 12-two whole possible lymph nodes.
+J. Container J is additionally labeled left common and lower aortic lymph node and contains a 4.0 X 2.5 x 1.5 cm. aggregate of yellow-tan fibrofatty soft
+tissue. On palpation. one firm fatty possible lymph node, 2.5 cm. in greatest dimension. The possible lymph node is bisected and entirely submitted
+in
+cassette J labeled
+K. Container K is additionally labeled omentum and contains an 18.0 x 7.5 x 1.5 cm. yellow-tan finely lobulated fibrofatty soft tissue consistent with
+omentum. Sectioning reveals a yellow-tan finely lobulated, fibrofatty cut surface with no nodules or lesions. Representative sections are submitted in

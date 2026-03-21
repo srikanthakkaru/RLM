@@ -39,7 +39,7 @@ modal = ["modal>=0.73.0", "dill>=0.3.7"]
 e2b = ["e2b-code-interpreter>=0.0.11", "dill>=0.3.7"]
 daytona = ["daytona>=0.128.1", "dill>=0.3.7"]
 prime = ["prime-sandboxes>=0.2.0", "dill>=0.3.7"]
-ocr = ["pymupdf>=1.24.0"]
+ocr = ["pymupdf>=1.24.0", "paddlepaddle>=2.6.0", "paddleocr>=2.8.0", "opencv-python>=4.8.0", "pdf2image>=1.16.0"]
 
 [build-system]
 requires = ["setuptools>=61.0"]

@@ -1,0 +1,126 @@
+UUID:805B997D-9755-4AC1-8695-294806148F25
+TCGA-AP-A05H-01A-PR
+Redacted
+ICD-0-3
+adenocarcinoma serous, NOS 8441/3
+Specimens Submitted:
+1: Uterus, cervix, fallopian tubes and ovaries; Total hysterectomy with
+Site: indometruin C54.1
+bilateral salpingo-oophorectomy
+has 5/2/11
+2: Lymph nodes, para-aortic, Right; Excision
+3: Lymph nodes, common iliac, Right; Excision
+4 : Lymph nodes, Presacral; Excision
+5 : Lymph nodes, para-aortic, Left; Excision
+6: Omentum; Partial omentectomy
+7: Pelvic wall, Right; Biopsy
+8: Lymph nodes, external iliac, Right; Excision
+9 : Lymph nodes, obturator, Right; Excision
+10: Lymph nodes, external iliac, Left; Excision
+11: Lymph nodes, obturator, Left; Excision
+12: Lymph nodes, common iliac, Left; Excision
+13: Cul-de-sac, Anterior; Biopsy
+14: Cul-de-sac, Posterior; Biopsy
+15: Pelvic wall, Left; Biopsy
+16: Paracolic gutter, Right; Biopsy
+17: Diaphragm, Right; Biopsy
+18: paracolic, Left; Biopsy
+19: Diaphragm, Left; Biopsy
+DIAGNOSIS:
+1.
+Uterus, cervix, fallopian tubes and ovaries; Total hysterectomy with
+bilateral salpingo-oophorectomy
+Tumor Type:
+Endometrial adenocarcinoma, serous type
+Myometrial Invasion:
+(>50%)
+Measures11mm in maximum depth
+Myometrium thickness measures18mm in the area of maximal tumor
+invasion
+Endocervical Invasion:
+Not identified
+Lymphovascular invasion:
+Not identified
+Endometrium:
+** Continued on next page **
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dant/Synchronous Primary Noted
+Case is (circle):
+QUALIFIED
+/ LISQUALIPED
+Reviewer Initials
+Date Reviewed:
+6211
+to
+Page 2 of 10
+Exhibits atrophy
+Myometrium:
+Exhibits one leiomyoma
+Adnexa:
+Unremarkable
+2. Lymph nodes, para-aortic, Right; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:3
+3.
+Lymph nodes, common iliac, Right; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:3
+4. Lymph nodes, Presacral; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:1
+5. Lymph nodes, para-aortic, Left; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:4
+6. Omentum; Partial omentectomy :
+- Benign fibroadipose tissue.
+7. Pelvic wall, Right; Biopsy :
+- Benign fibrovascular tissue.
+8. Lymph nodes, external iliac, Right; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:4
+9. Lymph nodes, obturator, Right; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:4
+** Continued on next page **
+Page 3 of 10
+10. Lymph nodes, external iliac, Left; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:5
+11. Lymph nodes, obturator, Left; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:6
+12. Lymph nodes, common iliac, Left; Excision:
+Lymph Nodes:
+Not involved
+Number of nodes examined:1
+13. Cul-de-sac, Anterior; Biopsy :
+- Benign fibroadipose tissue.
+14. Cul-de-sac, Posterior; Biopsy :
+- Benign fibroadipose tissue.
+15. Pelvic wall, Left; Biopsy :
+- Benign fibroadipose tissue.
+16. Paracolic gutter, Right; Biopsy :
+- Benign fibroadipose tissue.
+17. Diaphragm, Right; Biopsy :
+- Benign fibroadipose tissue.
+18. Paracolic, Left; Biopsy :
+- Benign fibromuscular tissue.
+19. Diaphragm, Left; Biopay :
+- Benign fibromuscular tissue.
+I ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF
+THE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED
+THIS REPORT.

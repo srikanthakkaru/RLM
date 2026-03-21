@@ -1,0 +1,157 @@
+Sex: Female
+D.O.B.:
+MRN #:
+Ref Phy.
+SPECIMEN INFORMATION
+Collected:
+Accession
+Received:
+Acct / Reg #
+Reported:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS.
+DIAGNOSIS:
+A, Omentum, biopsy:
+Tumor not identified.
+Criteria
+Yes
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+B. Left paraaortic lymph nodes, excision:
+HIPAA Discrepancy
+Two lymph nodes, negative for metastatic disease.
+Prior Malignancy History
+Frozen section diagnosis confirmed.
+Dual/Synciwonous PrimaryHoted
+Case (circle):
+QUALIFIED
+DISCUALIFIED
+Reviewer/nitials
+Date Reviewed:
+C. Left paraaortic lymph nodes, excision:
+Kml
+9/11/11
+Three lymph nodes, negative for metastatic disease.
+D. Right paraaortic lymph nodes, excision:
+Three tymph nodes, negative for metastatic disease.
+E. Left pelvic lymph nodes, excision:
+Ten lymph nodes, negative for metastatic disease.
+ICD-0-3
+F. Right pelvic lymph nodes, excision:
+adino carcinoma andometrioid, NOS 8380/3
+Eight lymph nodes, negative for metastatic disease.
+G. Uterus, bilateral adnexa, hysterectomy with bilateral salpingoophorectomy:
+Site: endometrium C54.1
+Cervix:
+be
+Tumor Characteristics:
+9/3/11
+1. Histologic type: Endometrioid adenocarcinoma.
+2. Histologic grade: 3.
+3. Tumor site: Endometrium.
+4. Tumor size: 5.0x2.7cm.
+5. Myometrial invasion: Tumor extends 0.7 cm into a 2.8 cm thick myometrium.
+6. Involvement of cervix Not seen.
+7. Extent of involvement of other organs: Not identified.
+8. Lymphovascular space invasion: Focally present.
+Surgical Margin Status:
+1. Margins uninvolved: Cervix, serosa, parametria.
+2. Margins involved: None.
+Lymph Node Status:
+Number of lymph nodes received: See above.
+Other:
+1. Other significant findings:
+a. Myometrium leiomyomata.
+b. Attached ovary with focus of stromal hyperthecosis.
+c. Separate ovary and bilateral fallopian tubes without evidence of malignancy.
+2. pTNM stage: pT1aN0 (FIGO IA).
+Electronic Signature:
+COMMENTS:
+Appropriately controlled immunochemical stains performed on blocks G3 show the following results:
+P53 - Focally positive in lesional cells.
+WT-1 Negative in lesional cells.
+Cytokeratin 7 - Positive in lesional cells.
+Cytokeratin 20 - Negative in lesional cells.
+UUID 01A114A2-098F-4AAD-9010-54910FB89B4A
+CDX2 - Negative in lesional cells.
+TCGA-AJ-A2QK-01
+Redacted
+Inhibin - Negative in lesional cells.
+Additional controlled immunostains were performed on block G16 with the following results:
+Cytokeratin 7 - Negative in cellular proliferation.
+Cytokeratin 20 - Negative in cellular proliferation.
+CDX2 - Negative in cellular proliferation.
+P53 - Negative in cellular proliferation.
+WT-1 - Negative in cellular proliferation.
+Inhibin - Positive in cellular proliferation.
+Findings consistent with stromal hyperthecosis.
+CLINICAL INFORMATION
+CLINICAL HISTORY:
+Preoperative Diagnosis:
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+A. Omentum biopsy
+B. Left paraaortic lymph nodes
+C. Left paraaortic lymph nodes
+D. Right paraaortic lymph nodes
+E. Left pelvic lymph nodes
+F. Right pelvic lymph nodes
+G. Uterus, cervix, bilateral tubes and ovaries
+SPECIMEN DATA
+GROSS DESCRIPTION:
+A. The first container A is labeled
+omentum biopsy. The specimen consists of a piece of yellow tan fibroadipose tissue measuring 1.5
+x 1.0 x 0.5 cm. The specimen is bisected. There are no nodules grossly identified. The specimen is entirely submitted in a single cassette
+I
+B. The second container B is labeled
+left paraaortic lymph nodes #2. The specimen consists of two probable lymph nodes measuring
+1.0 x 1.0 x 0.5 cm and 1.5 x cm. The smaller piece has been inked. Each of the lymph nodes have been bisected. The lymph nodes are
+entirely submitted in cassette
+C. The third container C is labeled
+left parasortic lymph node. The specimen consists of a portion of fibroadipose tissue measuring
+6.0 x 3.5 x 1.0 cm. Sectioning reveals three probable lymph nodes measuring from 0.5 to 1,8 cm. The lymph nodes are entirely submitted in cassettes
+as follows: one probable node bisected-1; one probable node bisected-2; one probable node-3.
+D. The fourth container D is labeled
+right parasortic. The specimen consists of a portion of fibroadipose tissue measuring 5.0 x 4.0 x
+1.5
+cm. Sectioning reveals three probable lymph nodes measuring from 0.7 to 3.0 cm in greatest dimension. The lymph nodes are entirely submitted in
+cassettes
+3 follows: two probable nodes-1; one probable node sectioned-2 to 5.
+E. The fifth container E is labeled
+left pelvic lymph nodes. The specimen consists of a portion of fibroadipose tissue measuring 11.0 x
+7.0
+x 3.0 cm. Sectioning reveais eleven probable lymph nodes measuring from 0.7 up to 2.5 cm. The lymph nodes are entirely submitted in cassettes
+as follows: one probable node bisected-1; two probable nodes-2; one probable node bisected-3 and 4; one probable lymph node
+DISECTOR-J and u, one probable lymph node bisected-7 and 8; one probable tymph node bisected-9; one probable lymph node bisected-10; one
+probable lymph node bisected-11 and 12; one probable lymph node bisected-13 and 14.
+F. The sixth container F is labeled
+right pelvic lymph nodes. The specimen consists of a portion of fibroadipose tissue measuring 10.0
+x 7.5 4.0 cm. Sectioning reveals seven procable rymph nodes measuring from 0.9 up to 4.2 cm. The lymph nodes are entirely submitted, with the
+exception of the largest lymph node, in cassettes
+35 follows: one probable lymph node bisected-1; one probable lymph node
+bisected-2; one probable lymph node bisected-3; two proceuro yymph nodes-4; one probable lymph node-5; one probable lymph node sectioned-6 to
+9; representative sections from the largest lymph node-10 to 13.
+G. The seventh container G is labeled
+uterus, cervix, bilateral tubes and ovaries. The specimen consists of a previously bisected
+uterus with attached cervix, attached left adnexa and separately submitted right adnexa. The serosal surface of the uterus is gray to brown tan with
+slight hemorrhage and adhesions. The serosa has been inked. Sections from the parametrium have been taken. The cervix measures 4.5 cm in length
+and 3.5 cm in diameter. The ectocervix is gray to brown tan with hemorrhage. The endocervical canal is light tan and reveais normal mucosal folds.
+There are no masses identified. The endometrial cavity measures 6.0 cm in length and 4.0 cm in diameter. The ining is gray to brown tan and
+hemorrhagic revealing a brown tan shaggy polypoid mass measuring 5.0 x 2.7 cm that is within 2.1 cm of the lower uterine segment. On sectioning the
+mass extends into the underlying myometrium approximately 0.7 cm into a 2.8 cm myometrium. The myometrium is gray tan trabecular. There are
+white tan whoried intramural masses identified measuring up to 0.9 cm. On sectioning there is no evidence of hemorrhage or necrosis. The attached
+ovary measures 3.0 x 2.0 x 1.0 cm. The surface is gray tan cribriform. On sectioning the cut surface is yellow to gray tan displaying corpus albicans
+measuring up to 0.5 cm. The corresponding fallopian tube measures 3.0 cm in length and 0.3 cm in diameter. The surface is gray to brown tan. On
+sectioning the fallopian tube appears grossly unmarkable. The separately submitted ovary measures 4.0 x 1.5 x 0.5 cm. The surface is gray tan
+cribriform. On sectioning the cut surface is yellow to gray tan. There are corpus albicans measuring up to 0.5 cm identified. The corresponding
+fallopian tube measures 8.0 cm in length and 1.0 cm in diameter. The surface is gray to brown tan. On sectioning the lumen is dilated measuring up to
+0.7 cm containing serosanquineous fluid. No other lesions are identified. Received with the specimen are three cassettes, one green, one blue, 18. one
+yellow, labeled
+The
+yellow one is additional labeled 16. green one additionally labeled 17, and the blue one additionally labeled
+mass bisected as follows: one cross section-3 and 4; one cross section-5 and 6; one cross section-7 and 8; one cross section-9 and 10; polypoid
+Representative sections are submitted in cassettes
+as follows: anterior cervix-1; posterior cervix-2; full thickness sections from the
+portion of the mass-11; lower uterine segment-12; left parametrium-13; right parametrium-14; sections from the myometrial masses-15; attached
+ovary-16; corresponding tube-17; separately submitted ovary-18; corresponding tube-19.

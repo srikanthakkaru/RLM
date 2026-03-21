@@ -1,0 +1,159 @@
+Criteria
+Diagnosis Discrepancy
+Yes
+NO
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous PrimaryNoted
+Case is (circle):
+QUALIFIED
+Reviewer (Initials
+DISQUALIFIED
+unit
+Date Rewiewed:
+19/3/11
+19/1/11
+Sex: Female
+D.O.B.:
+MRN #:
+Ref Phy
+SPECIMEN INFORMATION
+Collected: !
+Accession #
+Received
+Acct / Reg #:
+Reported:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS
+DIAGNOSIS:
+A. Right ovary and fallopian tube, salpingo-oophorectomy:
+Ovary and fallopian tube without significant pathologic abnormality.
+ICD-0-3
+B. Left ovary and fallopian tube, salpingo-oophorectomy:
+Ovarian tissue without significant pathologic abnormality.
+Fallopian tube tissue not identified.
+carcinoma (papillary)serous NOS 8441/3
+C. Uterus, hysterectomy:
+Site: Endometrium C54.1
+Tumor Characteristics:
+1. Histologic type: Papillary serous carcinoma.
+he
+2. Histologic grade: High grade.
+4/3/11
+3. Tumor site: Endometrium,
+4. Tumor size: 3.2x27cm.
+5. Myometrial invasion: Tumor extends 0.6 cm into a 1.4 cm thick myometrium, as measured microscopically (less than one-half).
+6. involvement of cervix: Tumor focally present within endocervical mucosa, as well as within stromal tissue.
+7. Extent of involvement of other organs: Not identified.
+8. Lymphovascular space Invasion: Not identified.
+Surgical Margin Status:
+1. Margins uninvolved: Cervix, serosa, bilateral parametria.
+Lymph Node Status:
+1. See below.
+Other:
+1. pTNM stage: pT2, NO (FIGO: ii).
+D. Right external iliac lymph nodes, excision:
+Three lymph nodes, negative for metastatic disease
+E. Right obturator tymph nodes, excision:
+Eight tymph nodes, negative for metastatic disease.
+F. Right lower periaortic and common lymph nodes, excision:
+Six lymph nodes, negative for metastatic disease.
+G. Left external iltac lymph nodes, excision:
+Two lymph nodes, negative for metastatic disease
+H. Left obturator lymph nodes, excision
+Seven lymph nodes, negative for metastatic disease.
+1
+Left lower periaortic and common lymph nodes, excision:
+Seven lymph nodes. negative for metastatic disease
+J. Omentum
+Negative for malignancy.
+UUID:
+TCGA-AJ-A2QM-01A-PR
+Redacted
+CLINICAL INFORMATION
+CLINICAL HISTORY:
+Preoperative Diagnosis: Serous carcinoma of the endometrium
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+A. Right ovary and tube
+B. Left ovary and tube
+C. Uterus and cervix
+D. Right external iliac
+E. Right obturator
+F. Right lower periaortic and common
+G. Left external iliac
+H. Left obturator
+1. Left lower periaortic and common
+J. Omentum
+SPECIMEN DATA
+GROSS DESCRIPTION:
+A. The specimen is received labeled
+jht ovary and tube. The specimen consists of an ovary with attached fallopian tube. The ovary
+measures cm. The surface IS yellow to gray-tan. On sectioning, the cut surface is yellow-gray and reveals corpus albicans measuring up
+to 0.5 cm identified. There are no lesions grossly identified. The attached fallopian tube measures 3.6 cm in length and 0.2 cm in diameter, and the
+surface is gray-tan. On sectioning, there is no material or lesions Identified within the lumen. The fallopian tube appears grossly unremarkable.
+Representative sections are submitted in cassettes labeled
+IS follows: ovary in total -- 1-2; representative fattopian tube - 3.
+B. The specimen is received labeled
+left ovary and tube. The specimen consists of an ovary measuring 3.0 x 1.0 x 0.5 cm. The surface is
+gray-tan On sectioning there is corpus albicans Identified measuring up to 0.5 cm. There are no lesions grossly identified. The fallopian tube segment is
+not grossly identified. The ovary is entirely submitted in two cassettes labeled
+B1-2
+C. The specimen is received labeled
+terus and cervix. The specimen consists of a previously bisected uterus with attached cervix. The
+uterus measures 4.5 x 4.5 x 3.2 cm and weighs 46 gm. The serosal surface of the uterus is gray to brown-tan. Sections from the parametrium have been
+taken. The cervix measures 3.5 cm in length and 2.5 cm in diameter. The exocervix is gray-tan to brown-tan with hemorrhage. The endocervical canal is
+light tan and reveals normal mucosa) folds. There are no lesions identified grossly. The endometrial cavity measures 3.5 cm in length and 3.5 cm in
+diameter and reveals a gray-tan, lobular mass measuring 3.2 x 2.7 cm that is within 0.4 cm of the lower uterine segment. On sectioning, the mass
+extends into the underlying myometrium approximately 0.7 cm into a 1.4 cm thick myometrium. The myometrium is gray-tan and trabecular and
+there
+are no lesions grossly identified. Received with the specimen are three cassettes, one green. one yellow and one blue, labeled
+with the
+yellow additionally labeled -16, the green additionally labeled -17, and the blue additionally labeled -18. Representative sections are submitted in
+cassettes labeled
+as
+follows: anterior cervix posterior cervix - 2; full thickness sections from the lesion - 3-7; lower uterine segment
+- 8; left parametrium - 9; rigm parametrium - 10.
+D. The specimen is received labelec
+it external iliac. The specimen consists of a portion of fibroadipose tissue measuring 7.5 4.0
+1.0 cm. Sectioning reveals three probable lymph nodes that measure from 0.6 to 2.0 cm in greatest dimension. The lymph nodes are entirely submitted
+in cassettes
+t, as follows: one probable node - 1; one probable bisected - 2-3; one probable node bisected - 4-5.
+E. The specimen is received labeled 1.
+right obturator. The specimen consists of a portion of fibroadipose tissue measuring 4.5 x 3.5 x 1.0
+cm Sectioning reveals eight probable lympn nodes that measure from 0.5 to 1.8 cm. The lymph nodes are entirely submitted in cassettes 39067E,
+$ follows: one probable node bisected - 1; three probable nodes - 2; one probable node bisected - 3; two probable nodes - 4: one probable
+node bisected - 5; one probable lymph node bisected - 6.
+F. The specimen is received labeled
+light lower periaortic and common, The specimen consists of portion of fibroadipose tissue, 3.5x2.0
+x 0.6 cm. Sectioning reveals six probable lymph nodes that measure from 0.3 to 1.6 cm. The lymph nodes are entirely submitted in cassettes. labeled
+est, as follows: three probable nodes - 1; one probable lymph node, bisected - 2; one probable lymph node, bisected - 3; one probable lymph
+subscted - 4.
+G. The specimen is received labeled with the patient's name,
+left external iliac. The specimen consists of a portion of fibroadipose tissue
+measuring
+5.2
+x
+3.5
+x
+0.9
+cm. Section raveate turn arrhable tymph nodes that measure 1.5 and 3.0 cm in greatest dimension. The lymph nodes are
+entirely submitted in cassettes labele
+allows: one probable node bisected - 1; one probable node trisected - 2-4.
+H. The specimen is received labelec
+t obturator. The specimen consists of a portion of fibroadipose tissue measuring 5.2 x 4.5 x 1 5 cm.
+Sectioning reveals seven probable lymph nodes that measure from 0.7 to 1.8 cm. The lymph nodes are entirely submitted in casset
+4 as
+follows: one probable node, bisected - 1; three probable nodes - 2; one probable node, bisected - 3; one probable lymph, bisected one probable
+lymph node, bisected - 5-6.
+1. The specimen is received labeler
+ft lower perlaortic and common. The specimen consists of a portion of fibroadipose tissue measuring
+3.5 x 3.0 x 0.5 cm. Sectioning reveals seven possible lymph nodes that measure from 0.5 to 1.5 cm. The lymph nodes are entirely submitted in
+reseattas labeled :
+is follows: two probable nodes bisected - 1: one probable lvmch node. bisected - 2 two probable nodes - 3: two
+probable nodes - 4.
+: The specimen is received labelec
+ntum. The specimen consists of a piece of yellow-tar lobular fibroadipose ementum tissue that
+measures 52.0 x 12.0 x 1.5 cm, On sectioning there are no nodules grossly identified Representative sections are submitted in four casseites labeled

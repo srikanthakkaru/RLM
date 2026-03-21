@@ -1,0 +1,406 @@
+UID:553324CE-4488-416F-B965-074CE5FF9834
+TCGA-AX-A06]-01A-PR
+Redacted
+F
+Specimen Inquiry
+PATIENT:
+ACCT #:
+LOC:
+U#:
+AGE/SX:
+/ F
+RM/BED:
+REG DR:
+REG:
+STATUS:
+TLOC:
+DIS:
+SPEC #:
+Obtained:
+Subm Dr:
+STATUS:
+Received:
+Criteria
+CLINICAL HISTORY:
+Yes
+Diagnosis Discrepancy
+No
+LAVH WITH LYMPH NODE DISSECTION
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+SPECIMEN/PROCEDURE
+Dual/Synchronous Primary Notes
+Case is (Lircle):
+Reviewer initials
+RR
+QUALITITO
+DISQUALIFIED
+1. LYMPH NODE - LEFT PARA AORTIC
+Date Reviewed 12871
+2. LYMPH NODE - RIGHT COMMON ILIAC
+tw 10/30/11
+3. LYMPH NODE - RIGHT PARAAORTIC
+ICD-0-3
+4. LYMPH NODE - RIGHT PELVIC
+5. LYMPH NODE - LEFT EXTERNAL ILIAC
+admocarcinoma endometriord NOS 838013
+6. UTERUS - UTERUS AND RIGHT TUBE AND OVARY
+7. LEFT OVARY - AND FALLOPIAN TUBE
+Site endometrium C54.1 10/30/11
+8. LYMPH NODE - OBTURATOR
+IMPRESSION:
+1)
+LYMPH NODES, LEFT PARA-AORTIC, REGIONAL DISSECTION:
+Three benign lymph nodes (0/3).
+2)
+LYMPH NODE, RIGHT COMMON ILIAC, BIOPSY:
+One benign lymph node (0/1) .
+3)
+LYMPH NODES, RIGHT PARA-AORTIC, REGIONAL DISSECTION:
+Seven benign lymph nodes with focal endosalpingionis (0/7).
+4)
+LYMPH NODES, RIGHT PELVIC, REGIONAL DISSECTION:
+Five benign lymph nodes (0/5).
+5)
+LYMPH NODES, LEFT EXTERNAL ILIAC, REGIONAL DISSECTION:
+Five benign lymph nodes with focal endosalpingiosis (0/5).
+6)
+UTERUS, RIGHT OVARY AND FALLOPIAN TUBE; LAPAROSCOPIC ASSISTED VAGINAL HYSTERECTOMY
+WITH RIGHT SALPINGO-OOPHORECTOMY:
+ENDOMYOMETRIUM:
+Endometrial 2. adenocarcinoma, endometrioid type; FIGO grade III, nuclear grade
+Adenocarcinoma invades the inner half of the myometrium; the maximum depth
+of invasion is 11 mm of 26 mm total myometrial thickness (42%).
+Foci suspi Lous for lymphovascular invasion are noted.
+OVARY, RIGHT:
+** CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 2
+IMPRESSION: (continued)
+Adult granulosa cell tumor (diffuse) with luteinized cells, see checklist
+and comment.
+CERVIX:
+Benign squamous and endocervical glandular mucosa,
+No evidence of dysplasia or malignancy.
+UTERINE SEROSA
+No significant histopathologic abnormality.
+FALLOPIAN TUBE, RIGHT,
+No evidence of malignancy.
+7)
+OVARY AND FALLOPIAN TUBE, LEFT SALPINGO-OOPHORECTOMY
+Ovary with benign and atrophic physiologic changes.
+Hydrosalpinx.
+8)
+LYMPH NODES, LEFT OBTURATOR, REGIONAL DISSECTION:
+Four benign lymph nodes (0/4).
+ENDOMETRIAL CARCINOMA CHECKLIST
+MACROSCOPIC
+SPECIMEN TYPE
+Rystere ctony
+TUMOR SITE
+Specify location (s), if known: Anterior and posterior uterine wall
+TUMOR SIZE
+Greatest dimension: 4.0 cm
+Additional dimensions: 4,0 x 0.7 cm
+OTHER ORGANS PRESENT
+Right ovary
+Left ovary
+Right fallopian tube
+Left fallopian tube
+MICROSCOPIC
+HISTOLOGIC TYPE
+Endometrioid adenocarciroma, not otherwise characterized
+HISTOLOGIC GRADE
+G3: more than 50% nonsquamous solid growth
+** CONTINUED ON NEXT PAGE
+SPEC #:
+Continued) Page: 3
+IMPRESSION: (continued)
+MYOMETRIAL INVASION
+Invasion present Maximal depth of myometrial invasion: 11 mm
+Thickness of myometri form in area of maximal tumor invasion: 26 mm
+The % of myometilal involvement: 42%
+EXTENT OF INVASION
+PRIMARY TUMOR (PT)
+TNM (FIGO)
+pT1 (I) I Tumor confined to corpus uteri
+pT1b (IB) : Tumor invades less than one-half of the myometrium
+REGIONAL LYMPH NODES (pN)
+TNM (FIGO)
+pNo, No regional lymph node metastasis
+Number examined: 25
+DISTANT METASTASIS (pM)
+TNM (FIGO)
+pmx: Cannot be assessed
+MARGINS
+Uninvolved by invasive carcinoma
+Distance of invasive carcinoma from closest margin: 15 mm from uterine seroual surface
+VENOUS/LYMPHATIC (LARGE/SMALL VESSEL) INVASION (V/L)
+Absent
+ADDITIONAL PATHOLOGIC FINDINGS
+Leiomyomas, myometrium
+Pathologic TNM (AJCC 6th Edition) : pT1b NO MX
+OVARIAN TUMOR CHECKLIST
+MACROSCOPIC
+SPECIMEN TYPE
+Hysterectomy with bilateral calpingo-oophorectomy
+Regional lymph node dissection
+TUMOR SITE
+Right ovary
+Parenchymal growth
+Left ovary
+** CONTINUED ON NEXT PAGE **
+SPEC #:
+atinued) Page: 4
+IMPRESSION: (continued)
+Uninvolved
+SPECIMEN INTEGRITY
+Intact - right ovary
+TUMOR SIZE
+Greatest dimension: 3.6 cm
+MICROSCOPIC
+HISTOLOGIC TYPE
+Adult granulosa cell tumor
+HISTOLOGIC GRADE
+Not applicable
+EXTENT OF INVASION
+PRIMARY TUMOR (PT)
+TNM (FIGO)
+pT1 (I) (--): Tumor limited to ovaries (1 or both)
+pTla (IA) : Tumor limited to 1 ovary; capsule intact, no tumor on ovarian
+surface. No malignant cells in ascites or peritoneal washings
+REGIONAL LYMPH NODES (pN)
+pNo: No regional lymph node metastasis
+Number examined: 25
+DISTANT METASTASIS (pM)
+pmX: Cannot be assessed
+SUMMARY OF ORGANS/TISSUES MICROSCOPICALLY INVOLVED BY TUMOR
+One ovary
+VENOUS/LYMPHATIC (LARGE/SMALL VESSEL) INVASION (V/L)
+Absent
+ADDITIONAL PATHOLOGIC FINDINGS
+Endometrial adenocarcinoma, endometrioid type (see diagnosis)
+Pathologic TNM (AJCC 6th Edition) : pT1a NO MX
+Dictated by:
+Entered:
+** CONTINUED ON NEXT PAGE
+SPEC #:
+'ontinued) Page: 5
+bonderlois
+benign
+COMMENT:
+942014
+This endometrial adenocarcinoma is associated with an ovarian adult granulosa cell
+tumor (AGCT) The AGCT shows diffuse (sarcomatoid) growth pattern with luteinized cells,
+mild nuclear atypia with infrequent mitoses, and has hyalinized stroma.
+Representative sections reviewed by
+Entered:
+SPECIAL STAINS/PROCEDURES:
+The following special stains are performed with appropriate positive and negative controls
+on block 6CC:
+Inhibin:
+Moderate to strong fairly diffuse staining in tumor cells
+Pan-keratin (AE-1/AE-3) :
+Negative staining in tumor cells
+vimentin:
+Strong diffuse staining in tumor cells
+The following special stains are performed with appropriate positive and negative controls
+on blocks 6CC and 6HH:
+Reticulum:
+Reticular fibers arranged around groups (rather than individual) cells
+Dictated by:
+GROSS DESCRIPTION:
+1)
+Received without fixative, labeled "left para-aortic lymph nodes" and with the
+patient's name, is an aggregate of irregular portions of yellow-tan lobulated adipose
+tissue, 4.0 x 3.0 x 1.0 cm. The specimen is dissected for lymph nodes, there are
+three pink-tan ovoid lymph nodes identified, ranging from 0.8 x 0.5 x 0.4 cm to 1.5
+X
+1.2 x 0.7 cm. All lymph nodes identified are submitted as follows:
+CASSETTE SUMMARY:
+Cassette 1A:
+One lymph node, bivalved.
+Cassette 1B:
+One lymph node, bivalved.
+Cassette 1C:
+One lymph node, bivalved.
+2)
+Received in formalin, labeled "right common iliac lymph node" and with the patient's
+name, is an aggregate of irregular portions of yellow-tan lobulated adipose tissue,
+2,5 x 2.5 x 1.1 cm. The specimen is dissected for lymph nodes, there is one
+CONTINUED ON NEXT PAGE **
+SPEC #:
+ontinued) Page: 6
+GROSS DESCRIPTION: (continued)
+yellow-tan ovoid lymph node identified, 1.5 x 0.8 x 0.7 cm. All lymph nodes
+identified are submitted as follows:
+CASSETTE SUMMARY:
+Cassette 2:
+One lymph node, bivalved.
+3)
+Received in formalin, labeled "right para-aortic lymph node" and with the patient's
+name, is an aggregate of irregular portions of yellow-tan lobulated adipose tissue,
+4.5 x 3,0 x 2.0 cm. The specimen is dissected for lymph nodes, there are seven
+pink-tan to yellow-tan ovoid lymph nodes identified, ranging from 1.0 x 0,7 x 0.3 cm
+to 2.1 x 0.8 x 0.5 cm. All lymph nodes identified are submitted as follows:
+CASSETTE SUMMARY:
+Cassette 3A:
+Four lymph nodes.
+Cassette 3B:
+One lymph node, bivalved.
+Cassette 3C:
+Two lymph nodes, bivalved, one inked blue.
+4)
+Received in formalin, labeled "right pelvic lymph nodes" and with the patient's name,
+is an aggregate of irregular portions of yellow-tan lobulated adipose tissue, 4.5 x
+4.5 x 1.7 cm. The specimen is dissected for lymph nodes, there are five pink-tan to
+yellow-tan ovoid lymph nodes identified, ranging from 1.0 x 0.7 x 0.5 cm to 2,5 X 1.5
+x 0.5 cm. All lymph nodes identified are submitted as follows:
+CASSETTE SUMMARY:
+Cassette 4A:
+One lymph node, bivalved.
+Cassette 4B:
+One lymph node, bivalved.
+Cassette 4C:
+One lymph node, bivalved.
+Cassette 4D:
+One lymph node, bivalved.
+Cassette 4E:
+One lymph node, bivalved.
+5)
+Received in formalin
+labeled "left external iliac lymph nodes" and with the patient's
+name, is an aggregati of irregular portions of yellow-tan lobulated adipose tissue,
+4.5 x 4.0 X 1.5 cm. The specimen is dissected for lymph nodes, there are five
+pink-tan ovoid lymph nodes identified, ranging from 0.9 x 0.7 x 0.3 cm to 2,2 x I. X
+0.8 cm. All lymph nodes identified are submitted as follows:
+CASSETTE SUMMARY:
+Cassette 5A:
+Two lymph nodes.
+Cassette 5B:
+One lymph node, bivalved.
+Cassette 5C:
+One lymph node, bivalved.
+Cassette 5D:
+One lymph node, bivalved.
+6)
+Received fresh, labeled with the patient's name and "uterus, right tube and ovary", is
+a 410 gram specimen including a previously opened uterus (11.0 x 9.0 x 5.0 cm) with
+attached right ovary (3.6 cm in length and 0.9 cm in diameter), right fallopian tube
+(1.1 cm in length and 0.6 cm in diameter) The exocervix (3.7 x 3.7 cm) is covered by
+CONTINUED ON NEXT PAGE
+SPEC #:
+:inued) Page: 7
+GROSS DESCRIPTION: (continued)
+diameter. smooth, glistening, white mucosa. The external os is circular and
+The endometrial The endocervical canal (3.0 cm in length) has a tan herringbone measures 0.6 cm
+in
+friable, cavity (6.7 cm from cornu to cornu, 6.0 cm in length) has mucosa.
+wall. The exophytic tumor located in the anterior wall which extends to the a posterior tan-pink,
+invasion of tumor measures approximately 4.0 x 4.0 x 0.7 cm. There be
+the underlying mucosa to a depth of approximately one-half appears to
+of myometrium. 0.5 cm. The The tumor extends into the anterior lower uterine segment by of a the distance
+and myometrium measures 2.6 cm in maximum thickness. The
+leiomyoma glistening in the and without adhesions. There is a 5.0 x 4.5 x 2.0 cm submucosa serosa is
+shiny
+right has fundus, distorting the anterior and posterior endomyometrium. The
+tissue is and outer surfaces, (1.1 x 0.8 x 0.5 cm) with area of white cyst fibrotic
+smooth ovary inner a smooth white outer surface and a white-tan unilocular with
+albicantia present, possibly representing residual ovarian tissue. No
+unremarkable. are The seen. The fallopian tube is patent with a fimbriated end corpora and is
+specimen and the bisected tissue segments are inked yellow at cut posterior ends. The
+inked black anterior surface of the uterus is inked blue, the grossly surface
+is representatively sampled and submitted as follows:
+CASSETTE SUMMARY
+Cassette 6A,6B:
+Cassette 6C,6D:
+Anterior cervix, bisected, submitted in two cassettes.
+Cassette 6E:
+Posterior cervix, bisected, submitted in two cassettes.
+Cassette 6G:
+Anterior lower uterine segment.
+Cassette 6H,6J
+Posterior lower uterine segment.
+Full thickness section of tumor, anterior endomyometrium,
+Cassette 6K,6L:
+bisected and inked yellow, submitted in two cassettes.
+Cassette 6M,6N:
+bisected, submitted in two cassettes.
+Tumor with anterior endomyometrium, one full thickness section,
+Cassette 6P,6Q:
+blected submitted in two cassettes.
+Tumor with anterior endomyometrium, one full thickness section,
+Cassette 6R,6S:
+bisected, submitted in two cassettes.
+with anterior endomyometrium, one full thickness section,
+bisected, submitted in two cassettes.
+Tumor, posterior endomyometrium, one full thickness section,
+Cassette 6T,6U:
+submitted in two cassettes,
+Posterior endomyometrium, one full thickness section, bisected,
+Cassette 6V,6W:
+submitted Posterior endomyometrium, one full thickness section, bisected,
+in two cassettes.
+Cassette 6X,6Y:
+submitted in two cassettes.
+Posterior endomyometrium, one full thickness section, bisected,
+Cassette 6Z-6BB:
+Cassette 6CC:
+Leiomyoma, representative sections.
+Cassette 6DD:
+Right ovary, right fallopian tube.
+Cyst, right ovary.
+7)
+gram Received fresh, labeled with the patient's name and "left tube and
+fallopian salpingo-oophorectomy tube specimen, including ovary (4.0 x 2.2 1.1 ovary", is a 224
+dilated to 9.1 cm x 8.1 x 4.5 cm. The cyst contains x clear, cm) and serous attached
+CONTINUED ON NEXT PAGE
+SPEC #:
+Continued) Page: 8
+GROSS DESCRIPTION: (continued)
+fluid. The residual fallopian tube measures 1.1 cm in length and 0.3 cm in diameter.
+The attached ovary has a tan-white, smooth outer surface. On cut section, the
+parenchyma is pale white to yellow-tan, fibrotic and grossly unremarkable.
+Representative sections of the specimen are submitted as follows:
+CASSETTE SUMMARY:
+Cassette 7A:
+Fallopian tube.
+Cassette 7B,7C:
+Representative sections of cyst.
+Cassette 7D:
+Left ovary.
+8)
+Received in formalin, labeled "left obturator lymph node" and with the patient's name
+is an aggregate of irregular portions of yellow-tan lobulated adipose tissue, 6.0 x
+4.5 X 1.7 cm. The specimen is dissected for lymph nodes, there are four yellow-ta
+ovoid lymph nodes identified, ranging from 1.5 x 1.0 x 0.7 cm to 3.5 x 2.0 x 0.8 cm.
+All lymph nodes identified are submitted as follows:
+CASSETTE SUMMARY:
+Cassette 8A:
+One lymph node, bivalved.
+Cassette 8B:
+One lymph node, bivalved.
+Cassette 8C:
+One lymph node, bivalved.
+Cassette 8D,8E:
+One large lymph node, bivalved.
+Dictated by:
+Entered:
+COPIES TO:
+Does Not Know
+Undefined Provider
+CPT Codes:
+RETIC-
+VIMENTIN-
+LYMPH NODE BX (1)
+LYMPH NODE, REGIONAL RESECT/
+UTERUS W/WO ADNEXAE, TUMOR-
+IHC KERATIN COCKTAIL-
+INHIBIN-
+** CONTINUED ON NEXT PAGE
+SPEC # :
+itinued) Page: 9
+ICD9 Codes:
+END OF REPORT
+1:

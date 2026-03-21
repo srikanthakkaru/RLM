@@ -1,0 +1,180 @@
+I(D-U-S
+Carcinoma, serves, NOS
+8441/3
+12/9/10
+be
+Site Code Endometrium (54.1
+Surgical Pathology
+SLIDE DISPOSITION:
+DIAGNOSIS:
+A. Uterus, bilateral ovaries, and fallopian tubes;
+hysterectomy
+and bilateral salpingo-oophorectomy: FIGO grade 3 (of 3)
+endometrial carcinoma, serous type, circumferentially
+involving the
+endometrial cavity from cervix to upper uterine fundus and
+forming a
+necrotic, friable, and exophytic mass (6.4 X 6.2 X 2.8
+cm). The
+tumor invades completely through the myometrium to uterine
+serosal
+soft tissues (1.7 cm of total myometrial thickness of 1.7
+cm). The
+tumor involves cervix/ endocervix. Lymphovascular space
+invasion is
+not identified. The margins are negative for tumor.
+Multiple (2)
+intramural leiomyomata (each 1.5 cm in greatest
+dimension) .
+B. Lymph nodes, left pelvic, lymphadenectomy: One (of
+20) left
+pelvic lymph node is positive for a microscopic focus of
+metastatic
+serous carcinoma.
+C. Lymph nodes, right pelvic, lymphadenectomy: Multiple
+(15) right
+pelvic lymph nodes are negative for tumor.
+F. Lymph nodes, right para-aortic, lymphadenectomy:
+Multiple (9)
+right para-aortic lymph nodes are negative for tumor.
+G. Lymph nodes, left para-aortic, lymphadenectomy:
+Multiple (11)
+left para-aortic lymph nodes are negative for tumor.
+D. Omentum, omentectomy: Negative for tumor.
+E. Appendix, appendectomy: Benign appendix.
+H. Diaphragm, right, biopsy: Negative for tumor.
+WUID:D69D2E09-B195-4F3F-B5A1-821A87852266
+TCGA-D1-A16S-01A-PR
+Redacted
+With available surgical material [AJCC pT3aN1] (7th
+edition, 2010) .
+This final pathology report is based on the
+gross/macroscopic
+examination and the frozen section histologic evaluation
+of the
+specimen (s) . Hematoxylin and Eosin (H&E) permanent
+sections are
+reviewed to confirm these findings. Any substantive
+changes
+identified on permanent section review will be reflected
+in a
+revised report.
+GROSS DESCRIPTION:
+A. Received fresh labeled "uterus, bilateral fallopian
+tubes and
+ovaries" is a 165.0 gram uterus with attached bilateral
+tubes and
+ovaries. The uterine serosa is smooth. There is a 6.4 X
+6.2 X 2.8
+cm exophytic friable mass filling the endometrial cavity
+grossly
+invading 1.7 cm. The myometrial thickness is 1.7 cm.
+There are 2
+leiomyomata, averaging 1.5 cm in greatest dimension.
+There is a 2.5
+X 1.9 X 0.7 cm right ovary with a smooth outer surface and
+a solid
+cut surface with a 9.4 X 0.4 cm right fallopian tube which
+has
+multiple paratubal cysts. There is a 2.1 X 1.3 X 1.2 cm
+left ovary
+with a smooth outer surface which is unremarkable and a
+solid cut
+surface. Representative sections are submitted.
+B. Received fresh labeled "left pelvic nodes" is a 9.0 X
+4.0 X 1.5
+cm aggregate of adipose and lymphatic tissue. Lymph nodes
+submitted.
+C. Received fresh labeled "right pelvic nodes" is a 10.0
+X 6.5 X
+0.5 cm aggregate of adipose and lymphatic tissue. Lymph
+nodes
+submitted.
+D. Received fresh labeled "omentum" is a 53.0 X 5.5 X 1.0
+cm
+portion of omentum. No masses are identified grossly.
+One possible
+lymph node is identified. Representative sections are
+submitted.
+E. Received fresh labeled "appendix" is a 7.0 X 0.6 cm
+appendix
+with smooth serosa. There is no gross perforation. The
+lumen
+contains no fecalith. Representative sections submitted.
+F. Received fresh labeled "right para-aortic nodes" is a
+15.5 X 1.4
+X 0.3 cm cm aggregate of adipose and lymphatic tissue.
+Lymph nodes
+submitted.
+G. Received fresh labeled "left para-aortic nodes" is a
+4.0 X 4.0 X
+2.0 cm aggregate of adipose and lymphatic tissue. Lymph
+nodes
+submitted.
+H. Received fresh labeled "right diaphragm biopsy" is a
+0.4 X 0.3 X
+0.3 cm portion of red-tan soft tissue. All submitted.
+BLOCK SUMMARY:
+Part A: Uterus, bilateral fallopian tubes and ovaries
+1 Endomyomet full thickness
+2 Cervix 6:00
+3 Post lower uterine segment
+4 Right ovary
+5 Right fallopian tube
+6 Left ovary
+7 Left fallopian tube
+Part B : Left Pelvic Lymph Nodes
+1 Lt pelvic LN 3 (B7)
+2 Lt pelvic LN 1 (B8)
+3 Left pelvic LN 5 (B1)
+4 Left pelvic LN 4 (B2)
+5 Left pelvic LN 1 (B3)
+6 Left pelvic LN 1 (B4)
+7 Left pelvic LN 3 (B5)
+8 Left pelvic LN 1 (B6)
+Part C: Right pelvic nodes
+1 Rt pelvic LN 2 (C1)
+2 Rt pelvic LN 1of2 (C2)
+3 Rt pelvic LN 2of2 (C2)
+4 Rt pelvic LN 1of2 (C3)
+5 Rt pelvic LN 2of2 (C3)
+6 Rt pelvic LN 3 (C4)
+7 Rt pelvic LN 4 (C5)
+8 Rt pelvic LN 1of4 (C6)
+9 Rt pelvic LN 2of4 (C6)
+10 Rt pelvic LN 3of4 (C6)
+11 Rt pelvic LN 4of4 (C6)
+12 Rt pelvic LN 1 (C7)
+13 Rt pelvic LN 2 (C8)
+14 Rt pelvic LN 1of2 (C9)
+15 Rt pelvic LN 2of2 (C9)
+Part D: Omentum
+1 Omentum 1
+2 Omentum 2
+3 Omental ?LN 1 (D1)
+Part E: Appendix
+1 Appendix tip
+2 Appendix body
+Part F : Right Para-aortic Nodes
+1 Rt para aortic LN 3 (F1)
+2 Rt para aortic LN 2 (F2)
+3 Rt para aortic LN 1 (F3)
+4 Rt para aortic LN 2 (F4)
+5 Rt para aortic LN 1 (F5)
+Part G: Left Para-aortic Nodes
+1 Lt paraaortic LN 5 (G1)
+2 Lt paraaortic LN 2 (G2)
+3 Lt paraaortic LN 4 (G3)
+Part H : Right Diaphragm biopsy
+1 Rt diaphragm biopsy
+Criteria
+Yes
+No
+Diagnos., Discrepancy
+Primary Turnor Site Discreparcy
+H' 'AA Discrep incy
+Prior Malignancy History
+Dual/Synchrono IS Primary Noted
+case is (circle) QUALIFIED
+PISQUENFIED
+Reviewer Initia's

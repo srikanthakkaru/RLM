@@ -1,0 +1,114 @@
+Sex: Female
+D.O.B.:
+MRN #
+Criteria
+Yes
+Ref Ph,
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Primary Noted
+Case (circle):
+QUALIFIED
+DISQUALIFIED
+Collected:
+Reviewer Initials
+reviewed:
+Received:
+Kml
+lwa/3/11
+attill
+Reported:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS,
+DIAGNOSIS: Uterus, cervix, bilateral ovaries and fallopian tubes, hysterectomy with bilateral salpingo-oophorectomy:
+Adenocarcinoma of the endometrium.
+Tumor Characteristics:
+1. Histologic type: Endometrioid type.
+2. 3. Tumor site: Tumor present within the uterine corpus; no involvement of lower uterine segment or uterine cervix identified.
+Histologic grade: 3.
+4. Tumor size: 5.0 cm in greatest dimension.
+5. Myometrial invasion: Tumor shows invasion of less than half of the myometrial thickness.
+7. 6. Lymphovascular Greatest depth space invasion: No definite foci of lymphovascular space invasion identified in sections examined - see specimen D (right pelvic
+of tumor invasion: 0.5 cm into an area of myometrium that is 4.3 cm in thickness:
+lymph nodes).
+Surgical Margin Status:
+1 No tumor identified at the cervical inked margins.
+2. No tumor identified within the bilateral parametrial tissue.
+Other:
+ICA03
+1. Other significant findings:
+Myometrium: Foci of adenomyosis.
+adino carcinoma endometrioid, NOS 8380/3
+Uterine serosa: No neoplasm identified.
+Bilateral ovaries: No neoplasm identified.
+Site: indometrium C54.1
+Bilateral fallopian tubes: No neoplasm identified.
+be
+2. AJCC Cancer Staging of the endometrium: T1a, N1.
+9/3/11
+B. Lymph nodes, right paraaortic, excision:
+No neoplasm identified in three lymph nodes.
+C. Lymph nodes, left paraaortic, excision:
+No neoplasm identified in four lymph nodes.
+D. Lymph node, right pelvic, excision:
+Microscopic focus of metastatic carcinoma involving 1 of 11 lymph nodes (confirmed with pancytokeratin immunostain).
+E. Lymph nodes, left pelvic, excision:
+No neoplasm identified in seven lymph nodes.
+Electronic Signature:
+CLINICAL HISTORY:
+Preoperative Diagnosis:
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+UUID:4AD4E8D1-5DA7-4134-A0C0-0AF1C3A8BCD4
+CGA-AJ-A20L-01A-PR
+Redacted
+SPECIMENS:
+A. Uterus, cervix, bilateral tubes and ovaries
+B. Right paraaortic lymph node
+C. Left paraaortic lymph node
+D. Right pelvic lymph node
+E. Left pelvic lymph node
+GROSS DESCRIPTION:
+The specimen is received in five formalin filled containers labeled with the patient's name
+A. 8.0 Container in A is additionally labeled 'uterus cervix BSO' and contains a 250.5 g uterus with attached cervix received with attached bilateral adnexa. The
+surfaced cm length x 5.0x4.5 cm uterine corpus is surfaced by pink-tan glistening serosa, The 4.0 cm in length x 2.5 x 2.4 cm uterine cervix is
+normal The endocervical canal is yellow-tan and mucoid with the usual folds. Filling the endometrial canal is a 5.0 x 4.0 x 2.0 cm pink-tan friable en No
+by pink-tan, glistening ectocervical mucosa and features a central 1.0 cm patent os. The parametrial soft tissues are inked and taken partially face,
+additional appearing endometrium is identified. On section, this mass extends 0.6 cm into a 4.0 cm thick pink-tan, fibrous, trabeculated myometrium. mass. No
+myometrial nodules or lesions are identified.
+0.9 The right The fimbriated fallopian tube is 4.5 cm in length and ranging from 0.4 to 0.7 cm in diameter. The attached yellow-tan lobulated is
+inner cm. cut surface is yellow-tan and fibrous with two uniloculated subcortical cysts, 0.3 and 0.4 cm in greatest dimension. Each ovary features 2.5x a smooth x
+lining and contains clear, watery fluid.
+the ovary cut aurfare is for a 2.3 cm multiloculated paraovarian cyst. The cysts feature smooth inner linings and contain yellow-tan fluid. The lobulated
+The left is fimbriated remarkable fallopian tube is 5.0 cm in length and ranges from 0.5 to 0.7 cm in diameter. The attached 5.0 x 0.7 cm yellow-tan
+labeled wallow-tan and fibrous with few gray-white corpora albicantia. Representative sections are submitted in cassettes A1 through remainder 19
+of
+signated as follows: A1 right parametrium, en face; A2 - left parametrium, en face; A3 - anterior endoectocervix; A4
+fallopian A16 (notched ends adjoin); A13 and 14 - full thickness posterior endomyometrium, bisected (notched ends adjoin); A15 - right
+endomyometrium, bisected full thickness anterior endomyometrium, bisected (notched ends adjoin); A11 and 12 - full thickness posterior
+(notched ends adjoin); MO - anterior A9 and lower 10 - uterine segment; A6 - posterior lower uterine segment; A7 and 8 full thickness anterior endomyometrium, bisected - posterior
+tube; right ovary; A17 - left fallopian tube; A18 - left paraovarian cyst; A19 - left ovary.
+Additionally, a yellow, green, and blue cassette are submitted for genomics research each labeled
+palpation, three firm fatty possible lymph nodes are identified ranging from 0.4 up to 3.0 cm in greatest dimension. They are entirely submitted tissue. in
+B. Container B is additionally labeled 'right paraaortic lymph node and contains a 5.8 3.4 x 1.5 cm aggregate of yellow tan fibrofatty soft On
+cassettes B1 through 3 labeled
+lymph node.
+designated as follows: B1 two whole possible lymph nodes; B2 and 3 - one whole possible trisected
+cassettes C1 through fatty possible lymph nodes are identified ranging from 1.0 up to 3.2 cm in greatest dimension. They are entirely fibrofatty submitted soft tissue.
+palpation, C. Container four C firm is additionally labeled 'left paraaortic lymph node' and contains a 5.0x4.0x 1.5 cm aggregate of yellow-tan On
+node; C3 and 4 - one whole possidio INSELIED designated lymph node. as follows: C1 two whole possible lymph nodes; C2 - one whole possible bisected in tymph
+4 labeled
+cassettes palpation, D1 multiple firm fatty possible lvmph nodes are identified ranging from 0.3 up to 4.0 cm in greatest dimension. They fibrofatty are entirely soft tissue. submitted On in
+D. Container D is additionally labeled 'right pelvic lymph node and contains a 9.0 x 5.5 x 4.0 cm aggregate of yellow-tan
+through 10 labeled
+whole D3 and 4 - one possible bisected lympi node in each cassette; D5 through 7 - one whole possible lymph node, - quadrisected; possible D8 through lymph nodes: 10 one
+whole designated as follows: D1 four whole possible lymph nodes; D2 three whole
+possible lymph node, quadrisected.
+cassettes E1 multiple firm fatty possible lymph nodes are identified ranging from 0.6 up to 3.3 cm in greatest dimension. They fibrofatty are entirely soft tissue. submitted On in
+palpation, E. Container E is additionally labeled "left pelvic lymph node' and contains an 8.3 x 6.0 x 4.0 cm aggregate of yellow-tan
+through 8 labeled
+lymph
+node; E3 node. and 4 - one whole possible lymph node; E5 and 6 - one whole possible bisected lymph node; E7 and 8 - one whole possible bisected lymph
+designated as follows: E1 - three whole possible lymph nodes; E2 one whole possible bisected

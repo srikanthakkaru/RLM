@@ -1,0 +1,154 @@
+ICD-0-3
+Carcinoma , Serous, NOS
+8441/3
+12/9/10
+in
+industrium C54.1
+Surgical Pathology
+SLIDE DISPOSITION:
+DIAGNOSIS:
+A. Uterus, hysterectomy: High grade serous carcinoma is
+identified
+forming a mass (7.0 X 4.1 X 0.4 cm) circumferentially
+involving the
+endometrial cavity. The tumor invades 0.4 cm into the
+myometrium
+(total myometrial thickness, 1.6 cm). The tumor does not
+involve
+the endocervix. Lymphovascular space invasion is
+identified. The
+margins are negative for tumor.
+B. Lymph nodes, right and left para-aortic,
+lymphadenectomy:
+Multiple (6 of 9) lymph nodes positive for metastatic
+carcinoma,
+consistent with endometrial primary.
+C. Ovary and fallopian tube, right, salpingo-
+oophorectomy: High
+grade serous carcinoma forming an intraluminal cystic mass
+involving
+the right fallopian tube. The right ovary is atrophic.
+D. Ovary and fallopian tube, left, salpingo-oophorectomy:
+High
+grade serous carcinoma involving the adnexal soft tissue
+and
+atrophic ovary. The left fallopian tube is unremarkable.
+E. Lymph nodes, right and left pelvic, lymphadenectomy:
+Multiple
+(2 of 21) lymph nodes are positive for metastatic
+carcinoma,
+consistent with endometrial primary.
+F. Omentum, omentectomy: Negative for tumor.
+With available surgical materials, [AJCC (7th edition)
+pT3aN2].
+.
+UUID:F8F4C024-B723-424C-B98D-AA885C38CDFB
+TCGA-D1-A179-01A-PR
+Redacted
+PRELIMINARY FROZEN SECTION CONSULTATION:
+A. Uterus, hysterectomy: Serous carcinoma. The margins
+are
+negative for tumor.
+C. Ovary and fallopian tube, right, salpingo- -
+oophorectomy:
+Carcinoma involving the right fallopian tube. The right
+ovary is
+atrophic.
+D. Ovary and fallopian tube, left, salpingo-oophorectomy:
+Carcinoma involving the adnexal soft tissue and ovary.
+The left
+fallopian tube is unremarkable.
+F. Omentum, omentectomy: Negative for tumor.
+HOLD to process lymph nodes on permanent sections.
+Frozen section histologic interpretation performed by:
+GROSS DESCRIPTION:
+A. Received fresh labeled "uterus" is a 123.0 gram uterus
+with an
+unremarkable cervix. The uterine serosa is smooth There
+is a 7.0 X
+4.1 X 1.1 cm mass involving the entire endometrial cavity
+and lower
+uterine segment which grossly appears to invade 0.2 cm
+into the 1.6
+cm thick myometrium. Representative sections are
+submitted.
+B. Received fresh labeled "right and left para-aortic
+nodes" is a
+5.4 X 4.5 X 1.9 cm aggregate of adipose tissue and lymph
+nodes. All
+lymph nodes submitted.
+C. Received fresh labeled "right tube and ovary" is a 2.0
+X 1.4 X
+0.6 cm ovary with an 8.0 X 0.6 cm attached fallopian tube
+with a 1.0
+X 0.8 cm paratubal cyst. The ovary has a smooth outer
+surface and a
+solid cut surface. Representative sections submitted.
+D. Received fresh labeled "left tube and ovary" is a 2.5
+X 1.2 X
+0.7 cm ovary with a 7.0 X 0.4 cm attached fallopian tube.
+The ovary
+has a smooth outer surface and a solid cut surface.
+Representative
+sections submitted.
+E. Received fresh labeled "right and left pelvic lymph
+nodes" is a
+9.8 X 7.4 X 1.2 cm aggregate of adipose tissue and lymph
+nodes. All
+lymph nodes submitted.
+F. Received fresh labeled "dependent omentum" is a 17.2 X
+13.0 X
+1.5 cm portion of omentum. No masses are identified
+grossly. Lymph
+nodes are not identified. Representative sections
+submitted.
+BLOCK SUMMARY:
+Part A: Uterus
+1 Endometrial tumor
+2 Cervix
+3 Endocervix
+4 Endometrial tumor-2
+5 Endometrial tumor-3
+6 Endometrial tumor-4
+7 Endometrial tumor-5
+Part B : Right and left para aortic lymph nodes
+1 Rt/Lt paraaortic LN 2 (B1)
+2 Rt/Lt paraaortic LN 1 (B2)
+3 Rt/Lt paraaortic LN 2 (B3)
+4 Rt/Lt paraaortic fat-1
+5 Rt/Lt paraaortic fat-2
+6 Rt/Lt paraaortic LN 1 (B4)
+Part C : Right tube and ovary
+1 Right fallopian tube
+2 Right ovary
+Part D: Left tube and ovary
+1 Left fallopian tube
+2 Left ovary
+3 Left adnexal tissue
+Part E: Right & left pelvic Lymph Nodes
+1 Pelvic LNs-5 (E1)
+2 Pelvic LNs-2 (E2)
+3 Pelvic LNs-5 (E3)
+4 Pelvic LNs-2 (E4)
+5 Pelvic LNs-3 (E5)
+6 Pelvic LNs-2 (E6)
+7 Pelvic LN-1 (E7)
+8 Pelvic LN-1 (E8)
+9 Pelvic LNs-2 (E9)
+10 Pelvic LNs-4 (E10)
+11 Pelvic LN-1 (E11)
+Part F : Dependent Omentum
+1 Dependent omentum
+Yes
+No
+Criteria
+Diagnosis Discrepancy
+Primary Tumor Site Discropancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/SynchronousPrimary Noted
+case is (Lircle):
+QUALIFIED
+/
+Reviewer Initials
+Date Reviewed:

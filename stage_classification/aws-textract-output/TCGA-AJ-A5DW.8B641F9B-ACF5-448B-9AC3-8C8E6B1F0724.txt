@@ -1,0 +1,129 @@
+UUID: 88641F9B-ACF5-448B-9AC3-8C8E6B1F0724
+TCGA-AJ-ASDW-01A-PR
+Redacted
+ICD-0-3
+Sex: Female
+exdemotrioid
+MRN #:
+8380/3
+Ref Phy
+Sate Endometrium C54.1
+In 1/2/13
+Received
+Reported:
+SURGICAL PATHOLOGY REPORT
+ADDENDUM REPORT
+ADDENDUM REPORT ONE:
+Results of immunohistochemical staining for DNA mismatch repair enzyme protein expression:
+MLH1: intact
+PMS2: intact
+MSH2: intact
+MSH6: intact
+IHC control slides stain appropriately
+The immunohistochemical study of DNA mismatch repair protein expression reveals presence of MLH1, MSH2, MSH6 and PMS2 expression in the tumor
+(internal controls stain appropriately). The findings do not completely exclude underlying Lynch Syndrome since some mutations may result in intact
+protein expression. If there are strong clinical findings suggesting possible Lynch Syndrome, additional MSI by PCR testing is available and can be
+ordered on the resection specimen.
+Addendum Report Issued Rv:
+DIAGNOSIS
+DIAGNOSIS:
+A. Lymph nodes, left paraaortic; dissection:
+Six benign lymph nodes (0/6).
+B. Lymph nodes, right paraaortic; dissection:
+Seven benign lymph nodes (0/7).
+C. Lymph nodes, left pelvic; dissection:
+Seven benign lymph nodes (0/7).
+D. Lymph nodes, right pelvic; dissection:
+Five benign lymph nodes (0/5).
+E. Uterus, carvix, and bilateral adnexa; radial hysterectomy and bilateral salpingo-oophorectomy:
+Tumor Characteristics:
+1. Histologic type: Endometrioid adenocarcinoma.
+2. Histologic grade: FIGO grade 2.
+3. Tumor site: Endometrium.
+4. Tumor size: 5.2 cm in greatest dimension.
+5. Myometrial invasion: Not identified.
+6. Involvement of cervix: Not identified.
+7. Extent of involvement of other organs: Tumor is confined to uterus.
+8. Lymphovascular space invasion: Not identified.
+Surgical Margin Status:
+1. Margins uninvolved: Cervical, parametrial.
+3. Margins involved: None.
+Lymph Node Status:
+1. See parts A-D
+Other:
+1. Other significant findings:
+- Unremarkable ovaries, fallopian tubes, and cervix.
+-
+Immunohistochemical stains for mismatch repair proteins will be performed and reported in an addendum.
+2. pTNM stage: pT1aN0.
+CLINICAL INFORMATION
+CLINICAL HISTORY:
+Preoperative Diagnosis: Endometrial cancer
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+A. Left periaortic lymph node
+B. Right periaortic lymph node
+C. Left pelvic lymph node
+D. Right pelvic lymph node
+E. Uterus, cervix, BSO
+SPECIMEN
+GROSS DESCRIPTION:
+A. The first container A is received in formalin labeled with the patient's name
+The specimen consists of portion of fibroadipose tissue that
+measures 4.5x4.0x2.0 cm. Sectioning reveals six possible lymph nodes that measure from 0.5 to 1.8 cm. The lymph nodes are entirely submitted in
+cassettes labeled
+as follows: three probable nodes block 1: one probable node bisected in block 2; one probable node bisected in block
+3; one probable node DISECTED in blocks 4 and 5.
+B. The second container B is received in formalin labeled with the patient's name
+The specimen consists of a portion of fibroadipose
+tissue that measures 5.5 x 4.0 x 1.0 cm. Sectioning reveals six possible lymph nodes measuring from 0.5 to 1.6 cm. The lymph nodes are entirely
+submitted in cassettes labeled
+as follows: three probable nodes block 1; one probable node bisected in block 2; one probable node
+bisected in block 3; one probable none UNDELIOU in block 4; one probable node bisected in block 5.
+C. The third container C is received in formalin labele
+left pelvic.' The specimen consists of a portion of fibroadipose tissue that measures
+8.9 x 6.5 x 2.5 cm. Sectioning reveals seven possible lymph nodes that measure from 0.5 to 3.5 cm. The lymph nodes are entirely submitted in
+cassettes labeled
+follows: two probable nodes block 1; two probable nodes block 2; one probable node sectioned in blocks 3 and 4; one
+probable node trisected in blocks 5 and 6; one probable node sectioned in blocks 7 through 10.
+D. The fourth container D is received in formalin labeled with the patient's name
+right pelvic. The specimen consists of a portion of
+fibroadipose tissue that measures 7.0 x 6.5 x cm. Sectioning reveals five possible lymph nodes that measure from 0.5 to 3.5 cm. Representative
+sections are submitted in cassettes labeled
+as follows: one probable node sectioned in blocks 1 and 2; one probable node bisected in
+blocks 3 and 4; two probable nodes block 5; one probable nude sectioned in blocks 6 through 9.
+E. The fifth container E is received in formalin labeled
+The specimen consists of a uterus with attached cervix, attached bilateral adnexa.
+The uterus measures 7.5 x 7.5 X 5.2 cm and weighs 139 grams. The serosal surface of the uterus is gray-tan to brown-tan. The serosa has been inked.
+Sections from the parametrium have been taken. The cervix is 5.0 cm in length and 2.7 cm in diameter. The ectocervix is gray-tan to brown-tan with
+hemorrhage. The endometrial cavity measures 5.0 cm in length and 3.5 cm from cornu to cornu. The lining measures 0.2 cm. There is a gray-brown,
+slightly hemorrhagic shaggy exophytic mass measuring 5.2x2.7 cm that comes within 0.5 cm of the lower uterine segment. On sectioning, the mass
+extends superficially into the underlying myometrium approximately 0.2 cm into a 1.7 cm thick myometrium. There are no lesions identified. The left
+ovary measures 2.5 x 2.0 X 1.5 cm. The surface is yellow to gray-tan. On sectioning, there is corpus albicans measuring up to 0.5 cm. The left fallopian
+tube measures 3.5 cm in length and 0.3 cm in diameter. The surface is gray-tan to brown-tan. On sectioning, there is no material or lesions identified.
+There is a peritubal cyst measuring 1.0 cm near the fimbriated end containing clear fluid. The right ovary measures 2.7 X 2.0 x 1.2 cm. The surface is
+yellow to gray-tan. On sectioning, there are corpus albicans identified measuring up to 0.3 cm. The right fallopian tube measures 3.2 cm in length and
+0,3 cm in diameter. The surface is gray-tan to brown-tan. On sectioning, there is no material or lesions identified within the lumen. The fallopian tube
+appears grossly unremarkable. Received with the specimen are three cassettes, one yellow, one green, one blue labeled
+Representative
+sections are submitted in cassettes labeled
+as follows: anterior cervix block 1; posterior cervix block 2; full thickness sections taken
+from
+the
+lesion bisected as follows - one stocks 3 and 4; one cross section in blocks 5 and 6; one cross section in blocks 7 and 8; one
+cross section in blocks 9 and 10; one cross section in blocks 11 and 12; lower uterine segment block 13; left parametrium block 14; right parametrium
+block 15; left ovary block 16; left fallopian tube and paratubal cyst in block 17; right ovary block 18; right fallopian tube block 19.
+Criteria
+12/21/12
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumol Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Syndironous Pri rary listed
+Case is (cl
+QUALITIED
+Reviewer
+12/21/12

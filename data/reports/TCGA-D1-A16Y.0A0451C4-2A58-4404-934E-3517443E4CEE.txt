@@ -1,0 +1,307 @@
+ICD - 0 - 3
+adeno carcinoma, Endometrioid, NOS
+8380/3
+12/9/10
+Site Code Endometrum (54.1
+Surgical Pathology
+REVISED REPORT (Revised information underlined)
+DIAGNOSIS:
+A. Uterus, bilateral ovaries, and fallopian tubes;
+hysterectomy and
+bilateral salpingo-oophorectomy: FIGO grade I (of III)
+endometrial
+adenocarcinoma, endometrioid type, is identified forming a
+mass (3.3
+X 2.0 X 0.7 cm) located in the left uterine wall. The
+tumor invades
+0.2 cm into the myometrium (total myometrial thickness 2.5
+cm). The
+tumor does not involve the endocervix. Lymphovascular
+space
+invasion is not identified. [AJCC pT1b]. FIGO grade I
+(of
+III) endometrioid carcinoma is also identified as polyp,
+confined to
+the endometrium, (1.4 X 1. 0 X 0.6 cm). . Extensive
+adenomyosis is also identified. The bilateral ovaries and
+fallopian
+tubes show no diagnostic abnormalities.
+B. C. D. E. Lymph nodes, left pelvic, excision: Multiple
+left
+pelvic lymph nodes (4 external iliac, 3 common iliac, 3
+obturator)
+are negative for tumor. The specimen labeled "left
+internal iliac
+lymph nodes" contained no nodal tissue.
+F. G. H. I. Lymph nodes, right pelvic, excision:
+Multiple right
+pelvic lymph nodes (3 external iliac, 1 internal iliac, 4
+common
+iliac, 2 obturator) are negative for tumor.
+J. Lymph nodes, right para-aortic above the inferior
+mesenterio
+artery, excision: Multiple (2) right para-aortic lymph
+nodes above
+the inferior mesenteric artery are negative for tumor.
+JID:0A0451C4-2A58-4404-934E-3517443E4CEE
+TCGA-D1-A16Y-01A-PR
+Redacted
+K. Lymph nodes, right para-aortic below the inferior
+mesenteric
+artery, excision: Multiple (4) right para-aortic lymph
+nodes below
+the inferior mesenteric artery are negative for tumor.
+L. Gonadal vessels, right, excision: Negative for tumor.
+M. Lymph nodes, left para-aortic above the inferior
+mesenteric
+artery, excision: Multiple (3) left para-aortic lymph
+nodes above
+the inferior mesenteric artery are negative for tumor.
+N. Lymph nodes, left para-aortic below the inferior
+mesenteric
+artery, excision: A single left para-aortic lymph node
+below the
+inferior mesenteric artery is negative for tumor.
+O. Gonadal vessels, left, excision: Negative for tumor.
+Photographed.
+This final pathology report is based on the
+gross/macroscopic
+examination and frozen section histologic evaluation of
+the
+specimen (s) .
+AMENDMENTS: (Previous Signout Date:
+Revision Description: The polyp, designated as benign,
+was
+incorrectly written to the report. The oringinal
+diagnosis for this
+polypoid lesion was inadvertently replaced with this
+benign
+designation. The polyp is a focus of non-invasive FIGO
+grade I
+endometrioid carcinoma.
+Original Diagnosis
+A. Uterus, bilateral ovaries, and fallopian tubes;
+hysterectomy and
+bilateral salpingo-oophorectomy: FIGO grade I (of III)
+endometrial
+adenocarcinoma, endometrioid type, is identified forming a
+mass (3.3
+X 2.0 X 0.7 cm) located in the left uterine wall. The
+tumor invades
+0.2 cm into the myometrium (total myometrial thickness 2.5
+cm) . The
+tumor does not involve the endocervix. Lymphovascular
+space
+invasion is not identified. [AJCC pT1b]. A benign
+endometrial
+polyp (1. 4 X 1.0 X 0.6 cm) and extensive adenomyosis are
+also
+identified. The bilateral ovaries and fallopian tubes
+show no
+diagnostic abnormalities
+B. C. D. E. Lymph nodes, left pelvic, excision: Multiple
+left
+pelvic lymph nodes (4 external iliac, 3 common iliac, 3
+obturator)
+are negative for tumor. The specimen labeled "left
+internal iliac
+lymph nodes" contained no nodal tissue.
+F. G. H. I. Lymph nodes, right pelvic, excision:
+Multiple right
+pelvic lymph nodes (3 external iliac, 1 internal iliac, 4
+common
+iliac, 2 obturator) are negative for tumor.
+J. Lymph nodes, right para-aortic above the inferior
+mesenteric
+artery, excision: Multiple (2) right para-aortic lymph
+nodes above
+the inferior mesenteric artery are negative for tumor.
+K. Lymph nodes, right para-aortic below the inferior
+mesenteric
+artery, excision: Multiple (4) right para-aortic lymph
+nodes below
+the inferior mesenteric artery are negative for tumor.
+L. Gonadal vessels, right, excision: Negative for tumor.
+M. Lymph nodes, left para-aortic above the inferior
+mesenteric
+artery, excision: Multiple (3) left para-aortic lymph
+nodes above
+the inferior mesenteric artery are negative for tumor.
+N.
+Lymph nodes, left para-aortic below the inferior
+mesenteric
+artery, excision: A single left para-aortic lymph node
+below the
+inferior mesenteric artery is negative for tumor.
+O. Gonadal vessels, left, excision: Negative for tumor.
+Photographed.
+This final pathology report is based on the
+gross/macroscopic
+examination and frozen section histologic evaluation of
+the
+specimen (s) .
+GROSS DESCRIPTION:
+A. Received fresh labeled "uterus, right and left
+fallopian tubes
+and ovaries" is a 255. 0 gram uterus with attached
+bilateral tubes
+and ovaries and an unremarkable cervix. The uterine
+serosa smooth
+There is a 3. 3 X 2. 0 X 0.7 cm mass in the left side of the
+endometrial cavity with 2.5 cm myometrial thickness.
+Tumor invades
+0.2 cm into the myometrium. A polypoid mass ( 1 4 X 1.0 X
+0.6 cm)
+with a narrow stalk is also identified in the posterior
+fundus.
+There is a 2.5 X 1. 5 X 1.3 cm right ovary with a smooth
+outer
+surface and a solid cut surface with a 5. 9 X 0. 5 cm right
+fallopian
+tube. There is a 2.7 X 2.0 X 1.2 cm left ovary with a
+smooth outer
+surface and a solid cut surface with a 6.2 X 0.5 cm left
+fallopian
+tube. Photograph taken. Representative sections
+submitted.
+B. Received fresh labeled "left common pelvic nodes" is a
+4.0 X 2.2
+X 1.1 cm aggregate of adipose and lymphatic tissue. All
+lymphatic
+tissue submitted.
+C. Received fresh labeled "left internal pelvic nodes" is
+a 4.5 X
+1.5 X 1.0 cm aggregate of adipose and lymphatic tissue.
+All
+1 ymphatic tissue submitted.
+D. Received fresh labeled "left external pelvic nodes" is
+a 6.0 X
+5.0 X 1.5 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+E. Received fresh labeled "left obturator pelvic nodes"
+is a 5.0 X
+4.5 X 1.5 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+F. Received fresh labeled "right common pelvic nodes" is
+an 8.0 X
+5.0 X 1.0 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+G. Received fresh labeled "right internal pelvic nodes"
+is a 4.5 X
+3.0 X 1.0 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+H. Received fresh labeled "right external pelvic nodes"
+is a 6.5 X
+5.0 X 1.5 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+I. Received fresh labeled "right obturator pelvic nodes"
+is a 5.0 X
+4.0 X 3.0 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+J. Received fresh labeled "right para-aortic nodes above
+IMA" is a
+2.6 X 2.0 X 1.0 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+K. Received fresh labeled "right para-aortic nodes below
+IMA" is a
+4.5 X 2.5 X 1.0 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+L. Received fresh labeled "right gonadal vessels" is a
+3.8 cm in
+length by 0.4 in diameter portion of unremarkable blood
+vessel. A
+representative section is submitted.
+M. Received fresh labeled "left para-aortic nodes above
+IMA" is a
+3.5 X 2.2 X 1.5 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+N. Received fresh labeled "left para-aortic nodes below
+IMA" is a
+3.5 X 2.5 X 1.5 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+O. Received fresh labeled "left gonadal vessels" is a 4.5
+cm in
+length by 0.4 in diameter portion of unremarkable blood
+vessel. A
+representative section is submitted.
+BLOCK SUMMARY:
+Part A: Uterus, right and left fallopian tubes and
+ovaries
+1 Posterior cervix
+2 Post lower uterine segment
+3 Tumor-1
+4 Tumor-2
+5 Fundus polyp
+6 Endomyometrium
+7 Rt fallopian tube and ovary
+8 Lt fallopian tube and ovary
+Part B : Left Pelvic Lymph Nodes common
+1 Lt common LNs 2
+2 Lt common LN 1
+Part C: Left Pelvic Lymph Nodes internal
+1 Lt internal LN 0
+Part D: Left Pelvic Lymph Nodes external
+1 Lt external LNs 3
+2 Lt external LN 1
+3 Lt external LN (1of2)
+4 Lt external LN (2of2)
+Part E: Left Pelvic Lymph Nodes obturator
+1 Lt obturator LNs 2
+2 Lt obturator LNs (lof4)
+3 Lt obturator LNs (2of4)
+4 Lt obturator LNs (30f4)
+5 Lt obturator LNs (4of4)
+Part F : Right common pelvic nodes
+1 Rt common LNs 2
+2 Rt common LNs 2
+Part G: Right internal pelvic nodes
+1 Rt internal LN 1
+Part H : Right external pelvic nodes
+1 Rt external LN 1
+2 Rt external LN 1
+3 Rt external LN (lof2)
+4 Rt external LN (2of2)
+5 Rt external LN (3of3)
+Part I: Right obturator pelvic nodes
+1 Rt obturator LN 1
+2 Rt obturator LN (1of4)
+3 Rt obturator LN (2of4)
+4 Rt obturator LN (3of4)
+5 Rt obturator LN (4of4)
+Part J: Right Para-aortic Lymph Nodes above IMA
+1 Rt above IMA LNs 2
+Part K: Right Para-aortic Lymph Nodes below IMA
+1 Rt below IMA LNs 2
+2 Rt below IMA LNs 2
+Part L: Right Gonadal vessels
+1 Rt gonadal vessels
+Part M: Left Para-aortic Lymph Nodes above IMA
+1 Lt above IMA LNs 3
+Part N: Left Para-aortic Lymph Nodes below IMA
+1 Lt below IMA LN 1
+Part O: Left gonadal vessels
+1 Lt gonadal vessels
+Yes
+No
+Criteria
+Diagnosis Discrepancy
+Primary Tumor Site Discrepan:cy
+HIPA/ Discrepancy
+Prior Malignancy History
+Dual/Synchronou Negary Noted
+Case is (circle):
+QUALIFIED
+/
+DEQUIREE
+Reviewer Initial)
+Date Reviewed:

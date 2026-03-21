@@ -1,0 +1,166 @@
+ICD-0-3
+adenocarcinoma,
+Page 1 of 3
+Endometrioid, NOS
+JUID:7686A445-554F-43EF-BE79-6EA5E5C4D821
+838013
+be
+TCGA-A5-A0GE-01A-PR
+Redacted
+11/22/10
+Site , indometrium C54.1
+PATHOLOGY REP
+PATH #:
+A/S:
+Rec:
+Soc. Sec. No:
+Col:
+Location:
+Pathologist:
+Assistant:
+Attending MD:
+Ordering MD:
+Copies To:
+DIAGNOSIS:
+1.
+UTERUS, BILATERAL TUBES AND OVARIES (TOTAL ABDOMINAL HYSTERECTOMY
+AND BILATERAL SALPINGO-OOPHORECTOMY)
+- Endometrial adenocarcinoma, endometrioid type, FIGO grade 2,
+nuclear grade 2-3
+-A rare microscopic focus of possible early myometrial invasion
+is noted in foci where the myometrium measures 2.2 cm in
+thickness
+Tumor measures 3.4 X 2.9 cm in greatest dimension, and lies
+along the posterior wall
+-No extension into endocervical tissue is identified
+-Parametrial tissue is negative for tumor
+-Background of proliferative phase endometrium
+Leiomyoma, small, intramural
+-
+Focal cervix squamous metaplasia associated with chronic cervicitis,
+-Bilateral fallopian tubes with no significant histopathologic
+changes (no evidence of tumor involvement)
+-Right ovary demonstrating multiple hemorrhagic follicle cysts
+with no evidence of tumor involvement
+-Left ovary demonstrating multiple follicle cysts
+-Pathologic stage T1b
+2. RIGHT PELVIC LYMPH NODE, BIOPSY:
+-Solitary pelvic lymph node with no metastatic carcinoma
+identified
+3. RIGHT PERIAORTIC LYMPH NODE:
+-Four (4) lymph nodes with no metastatic carcinoma identified
+4. LEFT PELVIC LYMPH NODE, BIOPSY:
+-Two (2) lymph nodes with no metastatic carcinoma identified
+5.
+LEFT PERIAORTIC LYMPH NODE, BIOPSY:
+-Solitary lymph node with no metastatic carcinoma identified
+6. APPENDIX, APPENDECTOMY:
+-Appendix with no significant histopathologic changes
+HISTORY: Endometrial carcinoma
+MICROSCOPIC:
+See Diagnosis.
+GROSS:
+1. UTERUS, TUBES, OVARIES
+Page 2 of 3
+Labeled with the patient's name, labeled as designated on the
+specimen requisition form, and received in formalin is a uterus
+bilateral adnexa which weighs 130 grams. The uterine corpus is
+symmetric, measuring 7.8 cm superior to inferior, 5.0 cm cornu to
+cornu, and 5.0 cm anterior to posterior. The serosa is tan-red and
+smooth. The cervix has a length of 3.7 cm and a diameter of 3.8 cm
+There is a 0.5 cm slit-like patent os. The vaginal cuff ranges in
+thickness from 0.9 cm anteriorly to 0.9 cm posteriorly. There are
+no apparent gross abnormalities. The ectocervical mucosa is
+ulceration. The transformation zone is indistinct. The
+endocervical canal is 2.7 cm in length and is contains 1 soft tan
+polyp(s), 0.3 X 0.3 X 0.2 cm. in greatest dimension. On sectioning
+multiple mucus-filled nabothian cysts are identified. The
+endometrial cavity is 3.5 cm in length, 2.7 cm in width, and is
+lined by a hemorrhagic red-tan endometrium with a thickness of 0.2
+cm. The endometrium contains a friable tan-pink, focally
+hemorrhagic polypoid tumor, measuring 3.4 X 2.9 X 1.0 cm in
+greatest dimension and on sectioning extends 0.7 cm into the
+posterior myometrium. The myometrium is 2.2 cm in maximum
+thickness. The myometrium is grossly unremarkable. The right
+ovary measures 2.7 X 2.5 x 2.0 cm and contains multiple
+hemorrhagic cysts measuring from 0.7 to 0.9 cm in greatest
+dimension. The right fallopian tube is 5.0 cm long, 0.5 cm in
+diameter, and is grossly unremarkable. The left ovary measures 2.5
+X 2.0 X 1.7 cm and contains multiple smooth-walled serous cysts
+,
+measuring from 0.3 to 1.3 cm in greatest dimension. The left
+fallopian tube is 5.5 cm long, 0.6 cm in diameter, and is grossly
+unremarkable. Entirely submitted.
+A: anterior cervix-1
+B : posterior cervix-1
+C-D: right parametrium-5 each
+E-F: left parametrium-6 each
+G: anterior corpus uteri-1
+H-I: posterior corpus uteri-1 each
+J: right tube and ovary-2
+K: left tube and ovary-2
+2. RIGHT PELVIC NODE
+Labeled with the patient's name, labeled as designated on the
+specimen requisition form, and received in formalin is a portion of
+adipose tissue measuring 3.5 X 2.7 X 0.5 cm in greatest dimensions.
+Lymph node dissection reveals one, firm yellow-tan lymph node (s)
+measuring 1.2 X 0.9 X 0.3 cm in greatest dimensions.
+Entirely submitted.
+L: bisected lymph node-2
+3. RIGHT PERIAORTIC LYMPH NODE
+Labeled with the patient's name, labeled as designated on the
+specimen requisition form, and received in formalin is a portion of
+adipose tissue measuring 2.5 X 0.7 X 0.3 cm in greatest dimensions.
+Lymph node dissection reveals one, firm yellow-tan lymph node (s)
+measuring 2.5 X 0.5 X 0.3 cm in greatest dimensions. Entirely
+submitted.
+M: lymph node-1
+4. LEFT PELVIC LYMPH NODE
+Labeled with the patient's name, labeled as designated on the
+of specimen requisition form, and received in formalin is an aggregate
+adipose tissue measuring 3.5 X 2.4 X 0.3 cm in greatest
+dimensions. Lymph node dissection reveals one, firm yellow-tan
+lymph node (s) measuring 1.5 X 0.9 x 0.3 cm in greatest dimensions.
+Entirely submitted.
+N: lymph node-1
+5. LEFT PA LYMPH NODE
+Labeled with the patient's name, labeled as designated on the
+specimen requisition form, and received in formalin is a portion of
+Page 3 of 3
+adipose tissue measuring 2.0 X 1.2 X 0.3 cm in greatest dimensions.
+Lymph node dissection reveals one, firm yellow-tan lymph node (s)
+measuring 0.7 x 0.3 X 0.3 cm in greatest dimensions. Entirely
+submitted.
+O: bisected lymph node-2
+6. APPENDIX
+Labeled with the patient's name, labeled as designated on the
+specimen requisition form, and received in formalin is a vermiform
+appendix, 5.5 cm long and 0.6 cm in maximum diameter, with attached
+fat up to 1.2 cm in width and 0.8 cm in thickness. There are no
+apparent gross abnormalities. Representative sections.
+P: 3
+Gross dictated by
+, M.D.
+Special Studies: None
+See Also:
+M.D.
+Pathologist
+I,
+?
+M.D. , the pathologist of record,
+have personally examined the specimen, interpreted the
+results, reviewed this report and signed it electronically.
+Date Finalled:
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous
+Case is (circle).
+QUALIFIED
+DISCUALIZIO
+Reviewer Initials
+Date Reviewed

@@ -1,0 +1,89 @@
+UUID: 8FC0BB09-c917-4552-96A4-B4868FD33D27
+Sex: Female
+TCGA-AJ-A3NH-01A-PR
+Redacted
+D.O.B.:
+(Age:
+MRN #:
+Ref Physic
+SPECIMEN
+Collected: 1
+Received:
+Reported:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS
+DIAGNOSIS:
+Uterus with bilateral adnexa, hysterectomy with bilateral salpingo-oophorectomy:
+Tumor Characteristics:
+1. Histologic type: Serous carcinoma.
+Criteria
+be 1/7/12
+Yes
+2. Histologic grade: High grade.
+No.
+Diagnosis Discrepancy
+3. Tumor site: Endometrium.
+Primary Tumor Site Discrepancy
+4. Tumor size: 4.9 by 4.8 cm.
+HIPAA Discrepancy
+Prior Malignancy History
+5. Myometrial invasion: Tumor focally extends throughout the entire myometrial wall, 1.8 cm.
+Dual/Synchronous Primary-Noted
+6. Involvement of cervix: No.
+Case is (cirtle):
+QUALIFIED
+/ DISQUANFIED
+7. Extent of involvement of other organs: Not seen.
+Review
+Date Reviewed:
+12/30/11
+8. Lymphovascular space invasion: Not seen.
+Surgical Margin Status:
+1. Margins uninvolved: Cervix, bilateral parametria.
+2. Margins involved: Tumor extends to the inked serosal surface of the uterus, but does not microscopically perforate it.
+Lymph Node Status:
+1. No lymph nodes present.
+Other:
+1. Other significant findings: Lelomyomata.
+Bilateral ovaries and fallopian tubes without significant pathologic abnormality.
+2. pTNM stage: pT1b NX (FIGO IB).
+Electronic Signature:
+COMMENTS:
+Appropriately control stain for P53 performed on blocks 6 and 7 show strong nuclear positivity in majority of tumor cells, consistent with a serous
+carcinoma.
+CLINICAL INFORMATION
+CLINICAL HISTORY:
+Preoperative Diagnosis:
+year old female G2 adenocarcinoma of endometrium on D&C
+Postoperative Diagnosis:
+ICD-0-3
+Symptoms/Radiologic Findings:
+SPECIMENS:
+adenocarcenoma perous NOS 8441/3
+Uterus, bilateral tubes and ovaries
+Site: endometrium C54.1
+1/9/12
+SPECIMEN DATA
+GROSS DESCRIPTION
+Received labeled
+#1, uterus, bilateral tubes and ovaries is a 150 gram previously opened hysterectomy specimen consisting of a 6.8 x 6.2
+X 4.2 cm uterine body and an attached 3.1 x 2.8 x 2.6 cm cervix. The left ovary and fallopian tube are attached to the comu.
+The serosa is smooth to shaggy and tan red. The ectocervix is smooth and pink white with a 0.4 cm slit like os. The endocervical canal is tan and 1.9 cm
+in length. The endometrial cavity is 3.7 cm from comu to cornu and 4.8 cm in length. The cavity diffusely consists of a 4.9 x 4.8 cm polypoid, friable gray
+white mass. The mass extends into the lower uterine segment. The cut surface of the mass is gray white and diffusely involved the underlying
+myometrium, extending to the inked serosa, with a depth of 1.8 cm.
+No uninvolved endometrium is identified. There is a minimal amount of residual tan pink trabeculated myometrium. There are three intramural and one
+subserosal whorled gray white dense nodules ranging from 0.8 cm to 2.1 cm in greatest dimension. No areas of hemorrhage or necrosis are identified in
+the nodules.
+The 1.5 x 0.9 X 0.5 cm left ovary has a lobulated tan outer surface. The cut surface is tan with gray white corpora albicans. The attached 5.1 x 0.4 cm
+fimbriated left fallopian tube has a tan pink serosa and a pinpoint lumen.
+Also received in the same container is a 2.3 x 1.0 x 0.5 cm ovary with an attached 4.3 0.4 cm fimbriated fallopian tube. The outer surface of the ovary
+is smooth to lobulated and tan pink. The cut surface is tan with gray white corpora albicans. The fallopian tube has a tan pink serosa and a pinpoint
+lumen.
+The specimen is inked, serially sectioned and representative sections are submitted as labeled: Block 1- anterior cervix; block 2- posterior cervix;
+block 3-- anterior lower uterine segment; block 4 posterior lower uterine segment; blocks 5 and 6 - anterior full thickness mass in each; blocks 7-8-
+posterior full thickness mass in each, to include a myometrial nodule in block 8; block 9 - three myometrial nodules; block 10- left parametrium; block
+11- right parametrium; block 12- left ovary and fallopian tube; block 13- right ovary and fallopian tube. The blocks are labeled
+Also
+received in the same container is a green and yellow cassette labeled E
+for genomic research studies.

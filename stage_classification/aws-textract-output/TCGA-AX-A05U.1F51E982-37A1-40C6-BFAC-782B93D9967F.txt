@@ -1,0 +1,322 @@
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+/
+Primary Tumor Site Discrepancy
+TCGA-AX-A05U-01A-PR
+H:PAA Discrepancy
+Redacted
+Prior Malignancy History
+I
+Dual/Synchronous P.im www.Noted
+RUN DATE:
+Case is (circle):
+QUALIFIED
+DISQUALIFIED
+Reviewer Initials
+RE
+Date Reviewed: DATE
+RUN TIME:
+a
+10/30/11
+BY:
+PATIENT:
+ACCT #:
+LOC:
+AGE/SX:
+/F
+RM/BED:
+REG DR:
+STATUS:
+SPEC #:
+Obtained:
+Subm Dr.
+STATUS:
+Received:
+CLINICAL HISTORY:
+ENDOMETRIAL CA
+ICD-0.3
+SPECIMEN/PROCEDURE:
+1. LYMPH NODE - PARA AORTIC
+adenocarcinoma, endometrinid, NOS 838013
+2. LYMPH NODE - RT PARA AORTIC
+3. LYMPH NODE - RT COMMON ILIAC
+Site: endometrium C54.1
+he
+4. LYMPH NODE - RT EXTERNAL ILIAC
+10/30/11
+5. LYMPH NODE - RT OBTURATOR
+6. LYMPH NODE - LEFT OBURATOR
+7. LYMPH NODE - LEFT EXTERNAL ILIAC
+8. LYMPH NODE - LEFT COMMON ILIAC
+9. UTERUS - CERVIX, BILATERAL TUBES AND OVARIES
+IMPRESSION:
+1)
+LEFT PARA-AORTIC LYMPH NODES:
+Four lymph nodes are negative for tumor (0/4).
+2)
+RIGHT PARA-AORTIC LYMPH NODES:
+Seven lymph nodes are negative for tumor (0/7).
+3)
+RIGHT COMMON ILIAC LYMPH NODES:
+Two lymph nodes are negative for tumor (0/2).
+4)
+RIGHT EXTERNAL ILIAC LYMPH NODES:
+Three lymph nodes are negative for tumor (0/3).
+5)
+RIGHT OBTURATOR LYMPH NODES:
+Three lymph nodes are negative for tumor (0/3).
+6)
+LEFT OBTURATOR LYMPH NODES:
+Two lymph nodes are negative for tumor (0/2).
+7)
+LEFT EXTERNAL ILIAC LYMPH NODE:
+Mature adipose tissue.
+No lymph node material is identified.
+8)
+LEFT COMMON ILIAC LYMPH NODES:
+** CONTINUED ON NEXT PAGE
+SPEC #1
+(Continued) Page: 2
+IMPRESSION: (continued)
+Two lymph nodes are negative for tumor (0/2).
+9)
+UTERUS, BILATERAL TUBES AND OVARIES:
+ENDOMETRIUM:
+Adenocarcinoma of endometrium, endometrioid type, FIGO grade I, nuclear
+grade 2, (3.8 cm.) invading < 50% of the myometrium.
+The uninvolved endometrium shows complex hyperplasia with and without
+atypia as well as disordered proliferative endometrium.
+MYOMETRIUM:
+Myometrial invasion measuring 5 mm where the wall measures 21 mm (29%).
+No vascular space invasion is identified.
+Adenomyosis.
+CERVIX:
+Chronic cystic cervicitis.
+No evidence of tumor or dysplasia.
+Endometriosis involving the deep cervical stroma.
+OVARIES, BILATERAL:
+Atrophic pattern with focal hyperthecosis.
+No tumor is identified.
+The left ovary has a benign serous cystadenofibroma with dominant cystic
+component (2.0 cm)
+FALLOPIAN TUBES, BILATERAL:
+No pathologic diagnosis.
+ENDOMETRIAL CARCINOMA CHECKLIST
+ACROSCOPIC
+SPECIMEN TYPE
+Hysterectomy
+TUMOR SITE
+Specify location (s), if known: Anterior corpus
+TUMOR SIZE
+Greatest dimension: 3.8 cm
+Additional dimensions: 1.8 x 0.8 cm
+OTHER ORGANS PRESENT
+Right ovary
+Left ovary
+Right fallopian tube
+Left fallopian tube
+MICROSCOPIC
+CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 3
+IMPRESSION: (continued)
+HISTOLOGIC TYPE
+Endometrioid adenocarcinoma, not otherwise characterized
+HISTOLOGIC GRADE
+G1: 5% or less nonsquamous solid growth
+MYOMETRIAL INVASION
+Invasion present
+Maximal depth of myometrial invasion: 5 mm
+Thickness of myometrium in area of maximal tumor invasion: 21 mm
+The % of myometrial involvement: 29%
+EXTENT OF INVASION
+PRIMARY TUMOR (pT)
+TNM (FIGO)
+pT1b (IB) : Tumor invades less than one-half of the myometrium
+REGIONAL LYMPH NODES (pN)
+TNM (FIGO)
+pNO: No regional lymph node metastasis
+Number examined: 23
+DISTANT METASTASIS (pM)
+TNM (FIGO)
+pmX: Cannot be assessed
+MARGINS
+Uninvolved by invasive carcinoma
+VENOUS/LYMPHATIC (LARGE/SMALL VESSEL) INVASION (V/L)
+Absent
+ADDITIONAL PATHOLOGIC FINDINGS
+Hyperplasia
+Complex (adenomatous)
+Atypical hyperplasia
+Complex (adenomatous)
+Other (specify) : Adenomyosis, endometriosis
+Pathologic TNM (AJCC 6th Edition) : pT1b NO MX
+Dictated by:
+Entered:
+** CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 4
+GROSS DESCRIPTION:
+1)
+Received labeled with the patient's name and "left para-aortic". Received is a 2.5 x
+1.7 x 1.5 cm aggregate of yellow gold lobulated adipose tissue. Dissected for
+possible lymph nodes. Four possible lymph nodes identified, ranging from 1 to 1.5 cm
+in greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 1A:
+Three possible lymph nodes.
+Cassette 1B:
+One lymph node bisected.
+2)
+Received labeled with the patient's name and "right para-aortic". Received is a 3.5 x
+4 x 2 cm aggregate of yellow gold hemorrhagic fibroadipose tissue. Dissected for
+possible lymph nodes. Five possible lymph nodes identified, ranging from 1.5 to 3 cm
+in greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 2A:
+Three possible lymph nodes.
+Cassette 2B:
+One lymph node bisected.
+Cassette 2C:
+One lymph node bisected.
+3)
+Received labeled with the patient's name and "right common iliac". Received is a 3 x
+1.3 x 0.9 cm portion of yellow gold to pink tan lobulated adipose tissue. Dissected
+for possible lymph nodes. Two possible lymph nodes identified, ranging from 1.5 to
+2.1 cm in greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 3A:
+One lymph node bisected.
+Cassette 3B:
+One lymph node bisected.
+4)
+Received labeled with the patient's name and "right external iliac". Received is a
+4.7 x 1.6 x 1 cm portion of yellow gold lobulated adipose tissue. Dissected for
+possible lymph nodes. Three possible lymph nodes identified, ranging from 0.9 to 3.5
+cm in greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 4A:
+Two possible lymph nodes.
+Cassette 4B,4C:
+One lymph node bisected.
+5)
+Received labeled with the patient's name and "right obturator". Received is a 4.7 x
+3.5 x 1.4 cm aggregate of yellow gold with lobulated adipose tissue. Dissected for
+possible lymph nodes. Three possible lymph nodes identified, ranging from 1 to 3 cm
+in greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 5A:
+One lymph node bisected.
+Cassette 5B:
+One lymph node bisected.
+Cassette 5C:
+One lymph node bisected.
+CONTINUED ON NEXT PAGE **
+SPEC #:
+(Continued) Page: 5
+GROSS DESCRIPTION: (continued)
+6)
+Received labeled with the patient's name and "left obturator". Received is a 4.2 x
+2.5 x 1.5 cm aggregate of yellow gold hemorrhagic fibroadipose tissue. Dissected for
+possible lymph nodes. Three possible lymph nodes identified, ranging from 1 to 3 cm
+in greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 6A:
+Two possible lymph nodes.
+Cassette 6B:
+One lymph node bisected.
+7)
+Received labeled with the patient's name and "left external iliac". Received is a 4.5
+3.5 x 1.6 cm aggregate of yellow gold lobulated adipose tissue. Dissected for
+possible lymph nodes. No lymph nodes are grossly identifiable. Specimen is
+representatively submitted in cassettes 7A-7C.
+8)
+Received labeled with the patient's name and "left common iliac". Received is a 3 x
+2.5 x 1 cm aggregate of yellow gold hemorrhagic tissue fragments. Two possible lymph
+nodes identified, ranging from 1 to 2 cm in greatest dimension.
+CASSETTE SUMMARY:
+Cassette 8A:
+One lymph node bisected.
+Cassette 8B:
+One lymph node bisected.
+9)
+Received fresh, labeled with the patient's name, number and "uterus, cervix, bilateral
+tubes and ovaries", is a hysterectomy and bilateral salpingo-oophorectomy specimen
+consisting of uterus (10.0 x 7.5 x 6.5 cm), right ovary (4.0 x 3.0 x 1.5 cm), right
+fallopian tube which appears to be previously ligated and measures 2.2 cm in length
+and 0.5 cm in diameter at the proximal end and 2.5 cm in length and 0.5 cm in diameter
+at the distal end, left ovary (3.0 x 1.8 x 1.5 cm), and left fallopian tube which
+appears to be previously ligated and measures 2.5 cm in length and 0.5 cm in diameter
+at the proximal end and 2.2 cm in length and 0.7 cm in diameter at the distal end.
+The uterus is abnormally enlarged with multiple nodules ranging from 1.5 cm to 5.5 cm
+in maximum dimension and the serosal surface of the uterus has an irregular contour
+with red-tan focally hemorrhagic surface. The ectocervix is flattened, pink-tan with
+an external os measuring 1.8 cm. Upon opening the specimen the endocervical canal is
+3.0 cm, irregular, pink-tan and otherwise unremarkable. There is a 3.8 x 1.8 x 0.8 cm
+pink-tan polypoid lesion in the endometrial cavity attached to the anterior
+endometrium. The endometrial cavity is 6.0 x 2.5 cm, focally hemorrhagic and
+approximately 40% of the lumen is occupied by the tumor. The posterior endomyometrium
+is mostly free of tumor and is pink-tan with focal hemorrhages. The tumor grossly
+does not extend to the endocervical canal and is 4.5 cm away from the external os
+anteriorly. The myometrium is white-tan to pink and measures 1.5 cm to 2.5 cm in
+thickness. Upon sectioning the posterior myometrium has a white-tan whorled
+leiomyoma, 5.5 x 5.0 x 4.8 cm. The anterior myometrium shows the tumor invading
+approximately 0.8 cm at the area of 2.5 cm myometrial thickness. There is a 1.0 x 0.9
+CONTINUED ON NEXT PAGE
+SPEC #
+(Continued) Page: 6
+GROSS DESCRIPTION: (continued)
+x 0.5 cm yellow-tan fleshy polypoid mass in the posterior endometrial cavity, located
+at the superior margin which upon sectioning does not appear to involve the
+myometrium.
+The external surface of the right ovary is pink-tan, cerebriform and unremarkable.
+The right fallopian tube is previously ligated, however unremarkable. The external
+surface of the left ovary is pink-tan, cerebriform with a 2.0 x 1.0 x 0.5 cm firm
+polypoid lesion extending from the lateral surface. Upon sectioning the ovarian
+stroma is white-tan, homogeneous and unremarkable with the polyp showing yellow-tan
+gelatinous material. Specimen is representatively sectioned and submitted as follows.
+The specimen is a part of research and accordingly normal tissue and tumor were
+submitted for research.
+CASSETTE SUMMARY:
+Cassette 9B:
+Right ovary and fallopian tube.
+Cassette 9C:
+Left ovary.
+Cassette 9D:
+Polypoid extension from the left ovarian surface and left
+fallopian tube.
+Cassette 9E:
+Anterior ectocervix.
+Cassette 9G:
+Anterior lower uterine segment.
+Cassette 9H,9J:
+Representative section of the anterior endomyometrium with tumor
+(at the level of maximum invasion)
+.
+Cassette 9K:
+Posterior cervix.
+Cassette 9L:
+Posterior lower uterine segment.
+Cassette 9M:
+Posterior endomyometrium.
+Cassette 9N:
+Posterior endomyometrium with polypoid lesion.
+Cassette 9P,90:
+Representative sections of the largest leiomyoma.
+Dictated by:
+Entered:
+COPIES TO:
+Undefined Provider
+CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 7
+CPT Codes:
+LYMPH NODE, REGIONAL RESECT/
+SOFT TISSUE, LIPOMA/ADIPOSE (1)
+UTERUS W/WO ADNEXAE, NOT TUMOR OR PROLAPSE-
+ICD9 Codes:
+Electronically Signed by:
+**
+END OF REPORT

@@ -1,0 +1,252 @@
+):85F75553-6E10-4AF5-98DF-DAB52D006158
+diagnosis Discrepancy
+TCGA-AX-A05T-01A-PR
+Redacted
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+if
+Prior Malignancy History
+Dual/Synchronous Primary Hotel
+I
+RUN DATE:
+Reviewer Initials RE Date Reviewed
+Case is (circle)
+QUALIFIED
+DISQUALIFIED
+RUN TIME:
+(0/28 / )
+BY:
+to 10130/11
+PATIENT:
+ACCT #:
+LOC:
+U# :
+AGE/SX:
+RM/BED:
+REG:
+REG DR:
+STATUS: DIS IN
+TLOC:
+DIS:
+SPEC #: PN:
+Obtained:
+Subm Dr:
+STATUS: SOUT
+Received:
+CLINICAL HISTORY:
+ENDOMETRIAL CANCER
+ICD-0-3
+PECIMEN/PROCEDURE:
+carcinoma endometrioid, NOS 8380/3
+1. LYMPH - LT PARA AORTIC
+2. LYMPH - RT PARA AORTIC
+Site endometrium C54.1 hw 10/30/11
+3. LYMPH - RT EXTERNAL ILIAC
+4. LYMPH - RT COMMON ILIAC
+5. LYMPH - RT OBTURATOR
+6. LYMPH - LT EXTERNAL ILIAC
+7. LYMPH - LT OBTURATOR
+8. UTERUS - W/ CER.IX; BILAT TUBES AND OVARIES
+IMPRESSION:
+1)
+LEFT PARA-AORTIC LYMPH NODES:
+Three lymph nodes are negative for tumor (0/3).
+2)
+RIGHT PARA-AORTIC LYMPH NODES:
+Four lymph nodes are negative for tumor (0/4).
+3)
+RIGHT EXTERNAL ILIAC LYMPH NODES:
+Four lymph nodes are negative for tumor (0/4).
+4)
+RIGHT COMMON ILIAC LYMPH NODE:
+One lymph node is negative for tumor (0/1).
+5)
+RIGHT OBTURATOR LYMPH NODES:
+Four lymph nodes are negative for tumor (0/4).
+6)
+LEFT EXTERNAL ILLAC LYMPH NODES:
+Mature fibroadipose tissue.
+No lymph node material identified.
+7)
+LEFT OBTURATOR LYMPH NODES:
+Five lymph nodes are negative for tumor (0/5).
+8)
+UTERUS, TUBES AND OVARIES:
+ENDOMETRIUM:
+** CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 2
+IMPRESSION (continued)
+Adenocarcinoma of endometrium, endometrioid type, with focal squamous
+differentiation, FIGO grade I, nuclear grade 2 (2.5 cm) showing 2.0 mm or
+less of myometrial invasion where the myometrium measures 16.0 mm.
+No vascular space invasion is identified.
+MYOMETRIUM:
+Superficial invasion by endometrial carcinoma (less than 50%).
+Adenomyosis.
+CERVIX:
+Slight chronic cervicitis.
+No tumor is identified.
+OVARIES BILATERAL:
+Serous cystadenoma (1.2 cm) involving the right ovary.
+The left ovary is trophic.
+FALLOPIAN TUBES BILATERAL:
+No pathologic diagnosis.
+ENDOMETRIAL CARCINOMA CHECKLIST
+MACROSCOPIC
+SPECIMEN TYPE
+Hysterectomy
+TUMOR SITE
+Specify location(s), if known: Corpus
+TUMOR SIZE
+Greatest dimension: 2.5 cm
+Additional dimensions: 2.0 x 1.5 cm
+OTHER ORGANS PRESENT
+Right ovary
+Left ovary
+Right fallopian tube
+Left fallopian tube
+MICROSCOPIC
+HISTOLOGIC TYPE
+Endometrioid adenocarcinoma, with squamous differentiation
+HISTOLOGIC GRADE
+G1: 5% or less nonsquamous solid growth
+MYOMETRIAL INVASION
+Invasion present
+** CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 3
+IMPRESSION: (continued)
+Maximal depth of myometrial invasion: 2,0 mm
+Thickness of myometrium in area of maximal tumor invasion: 16.0 mm
+The % of myometrial involvement: 12%
+EXTENT OF INVASION
+PRIMARY TUMOR (pT)
+TNM (FIGO)
+pT1b (IB) : Tumor invades less than one-half of the myometrium
+REGIONAL LYMPH NODES (pN)
+TNM (FIGO)
+pNo: No regional lymph node metastasis
+Number examined: 21
+DISTANT METASTASIS (pM)
+TNM (FIGO)
+pmx: Cannot be asses red
+MARGINS
+Uninvolved by invasive carcinoma
+VENOUS/LYMPHATIC (LARGE/SMALL VESSEL) INVASION (V/L)
+Absent
+ADDITIONAL PATHOLOGIC FINDINGS
+Other (specify) : Serous cystadenoma of ovary; adenomyosis
+Pathologic TNM (AJCC 6th Edition) : pT1b NO MX
+Dictated by:
+Entered:
+GROSS DESCRIPTION:
+1)
+dimension. to pink-tan fibroadipose tissue, ranging from 1.5 to 2.5 cm in portions
+yellow-gold Received labeled with the patient's name and "left para-aortic", are two of
+nodes are Specimens are dissected for possible lymph nodes. Three possible greatest lymph
+submitted identified, ranging from 0.4 to 0.6 cm in greatest dimension. Entirely
+in cassette 1A.
+2)
+nodes. portion Four yellow-gold lobulated adipose tissue, dissected for possible x lymph 1.7
+cm Received labeled of with the patient's name and "right para-aortic", is a 3.5 x 0.5
+greatest dimension. Entirely submitted in cassette 2A.
+possible lymph nodes are identified, ranging from 0.5 to 1.0 cm in
+** CONTINUED ON NEXT PAGE **
+SPEC #:
+(Continuea, rage: 4
+GROSS DESCRIPTION: (continued)
+3)
+Received 1.0 labeled with the patient's name and "right external iliac", is a 3.3 x 2.7
+nodes. Three possible lymph nodes are identified, ranging from 1.0 to 2.0 cm in
+cm aggregate of yellow-gold lobulated adipose tissue, dissected for possible lymph x
+greatest dimension. Entirely submitted in cassette 3A.
+4)
+0.3 Received labeled with the patient's name and "right common iliac", is a 1.5 1.0
+nodes. cm portion of yellow-gold lobulated adipose tissue, dissected for possible x lymph x
+entirely submitted in cassette 4A.
+One lymph node is grossly identifiable that is 0.6 x 0.4 X 0.2 cm and is
+5)
+yellow-gold lobulated adipose tissue, ranging from 3.0 to 3.4 cm in portions
+Received labeled with the patient's name and "right obturator" are two of
+dimension. dissected for possible lymph nodes. Three possible lymph greatest nodes
+identified, ranging from 1.5 to 3.0 cm in greatest dimension. Submitted as are follows:
+CASSETTE SUMMARY:
+Cassette 5A:
+Two possible lymph nodes.
+Cassette 5B,5C:
+One lymph node, serially sectioned d entitely submitted.
+6)
+Received 0.2 labeled with the patient's name and "left external iliac", is a 1.5 1.0
+nodes. No lymph nodes are grossly identifiable. Specimen is entirely submitted in
+cm portion of yellow-gold lobulated adipose tissue, dissected for possible x lymph x
+cassette 6A.
+7)
+Received 1.2 labeled with the patient's name and "left obturator", is a 3.2 x 2.5
+nodes. cm portion of yellow-gold lobulated adipose tissue, dissected for possible x lymph
+Five possible lymph nodes are identified, ranging from 0.7 to 2.5 cm in
+greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 7A:
+Three possible lymph nodes.
+Cassette 7B:
+One lymph node, bisected.
+Cassette 7C:
+One lymph node, bisected.
+8)
+Received fresh in a container with the patient's name, medical record number
+opened uterus 8 x 4.5 x 3.5 cm, right fallopian tube 3 cm in length x 0.4
+"uterus, cervix, tubes and ovaries," is an 80 gram specimen including a previously and
+diameter, right ovary 2 x 1.5 x 1 cm, left fallopian tube 3 cm in length x cm 0.6 in in
+diameter, left ovary 2 x 1.5 x 0.3 cm. The ectocervix 2 x 2 am is covered cm
+white smooth glistening mucosa. The external os is slit-like and measures by 0.6 tan cm in
+greatest dimension. Attached is a 1.3 x 0.8 x 0.4 cm vaginal cuff only on the
+posterior cervix. The endocervical canal is 2 cm in length, has an irregular
+mucosa, tan The endometrial cavity is 2 cm from cornu to cornu X 4 cm in length and bumpy has
+pink hemorrhagic endometrium. There is a 2.5 x 2 x 1.5 cm tan pink tan white
+a
+raised mucosal mass on the anterior posterior and superior wall of the endometrium.
+The mass is located 2.5 cm from the lower uterine segment. The myometrium measures 2
+CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 5
+GROSS DESCRIPTION: (continued)
+cm in maximal thickness. The serosa is shiny and glistening with focal adhesions.
+The fallopian tubes are patent and have fimbriated ends. On the left fallopian tube
+is a cyst 2 cm in greatest dimension., filled with clear fluid with smooth cystic
+wall. The ovaries are tan white and firm. Cut surface of the right ovary reveals a
+smooth walled cyst filled with clear fluid, 1.2 cm in greatest dimension. The
+anterior serosa is inked blue, the posterior serosa is inked black, the superior
+serosa is inked yellow. Sections are submitted as follows:
+CASSETTE SUMMARY:
+Cassettes 8A-8B:
+Posterior cervix with vaginal cuff, posterior lower uterine
+segment.
+Cassettes 8C-8D:
+Anterior cervix, anterior lower uterine segment.
+Cassettes 8E-8H:
+Posterior endometrium through the mass.
+Cassettes 8J-8L:
+Anterior endometrium through the mass.
+Cassette 8M:
+Right fallopian tube and ovary.
+Cassette 8N:
+Left fallopian tube and ovary.
+Cassette 8RT:
+Tumor for research.
+Cassette 8RN:
+Normal : issue For research.
+Dictated by:
+Entered:
+COPIES TO:
+Undefined Provider
+CPT Codes:
+UTERUS W/WO ADNEXAE,
+,
+LYMPH NODE, REGIONAL RESECT (5+)
+ICD9 Codes:
+Resident Physician:
+I have personally reviewed the material
+(specimen/slide) and approve this final report.
+Electronically Signed by:
+** END OF REPORT **

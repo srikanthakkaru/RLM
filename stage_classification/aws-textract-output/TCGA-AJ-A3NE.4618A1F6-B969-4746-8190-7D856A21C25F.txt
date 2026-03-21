@@ -1,0 +1,190 @@
+UUID: :4618A1F6-B969-4746-8190-7D856A21C25F
+TCGA-AJ-A3NE-01A-PR
+Redacted
+SURGICAL PATHOLOGY:
+PROCEDURE DATE:
+RECEIVED DATE:
+REPORT DATE:
+COPY TO:
+Criteria
+be 1/7/12
+Yes
+No
+Diagnosis Discrepancy
+Pre-Op Diagnosis
+Primary Tumor Site Discrepancy
+Endometrial cancer
+HIPAA Discrepancy
+Prior Malignancy History
+Post-Op Diagnosis
+Dual/Synchronous Primary Hoted
+Same
+Cases (circle):
+4
+Clinical History
+Nothing indicated on requisition
+Reviewer la QUALIFIED Date Reviewed: LISQUALIFIED 12/30/11
+Gross Description:
+Five parts
+Container labeled
+1 - left pelvic lymph nodes" are
+8.8 x 6.0 x 1.7 cm of tan yellow fibroadipose tissue fragments which
+on palpation and sectioning reveal several poorly defined tan yellow
+to brown nodules up to 3.2 cm. Sectioning the largest nodule is a
+fleshy gray tan cut surface. The largest nodule is sectioned and
+submitted labeled "A and B." The remaining nodules are submitted
+labeled "C and D."
+Container labeled
+2 - right pelvic lymph nodes"
+are 8.2 x 5.0 x 1.5 cm of tan yellow fibroadipose tissue fragments
+which on palpation and sectioning reveal several well defined and
+poorly defined tan yellow to brown nodules up to 4.2 cm. The
+largest nodule has a fleshy and fatty cut surface. The largest
+nodule is sectioned and submitted labeled "A and B." The next
+largest nodule is bisected and submitted labeled "C." The whole
+smaller nodules are submitted labeled "D and E."
+Container labeled
+3 - right aortic nodes" are 3.5
+x 2.6 x 0.8 cm of tan yellow fibroadipose tissue fragments which on
+palpation and sectioning reveal several poorly defined tan yellow to
+brown nodules up to 1.1 cm. The nodules are entirely submitted in a
+single cassette.
+ICD-0-3
+adenocarcinome, indometrioid, NOS 8380/3
+Site: endometrium C54.1
+be
+1/7/12
+Container labeled
+4 - left aortic nodes" are 4.4 x
+3.0 x 1.0 cm of tan yellow fibroadipose tissue fragments which on
+palpation and sectioning reveal several poorly defined tan yellow to
+brown nodules up to 2.2 cm. The largest nodule is bisected and
+submitted labeled "A." The whole smaller nodules are submitted
+labeled "B."
+Container labeled
+5 - uterus, cervix, bilateral
+tubes and ovaries" is a previously laterally opened uterus with
+attached cervix and bilateral adnexa. The uterus and cervix together
+weigh 114 grams and on reconstruction measure approximately 9.2 x
+6.0 x 5.2 cm. The cervix has a wrinkled gray tan to brown
+ectocervical mucosa. The os is patent. The uterine canal sounds to
+a depth of approximately 7.9 cm. The endocervical canal is lined by
+trabeculated gray tan to brown mucosa with anterior and left lateral
+areas of marked granularity and focal friability. The uterine
+serosa is smooth and tan brown anteriorly with a few thin gray brown
+fibrous adhesions noted posteriorly. The myometrium measures up to
+2.7 cm and is tan pink and trabecular. In the anterior wall there
+is an intramural 1.7 cm well defined tan white fibrous nodule with a
+bulging whorled tan white fibrotic cut surface. The endometrial
+canal is virtually completely lined by granular gray tan mucosa
+which focally appears to extend up to 0.1 cm into the underlying
+myometrium noted predominantly in the anterior aspect. Focal areas
+of papilliferous change are identified noted predominantly in the
+fundic region. A small amount of parametrial soft tissue on each
+side shows no nodularity or gross lesions. Within the specimen
+container are 2.0 x 1.6 x 0.5 cm of papilliferous friable gray tan
+tissue fragments.
+The left fallopian tube is 4.7 x 0.8 x 0.8 cm. The right fallopian
+tube is 5.3 x 0.8 x 0.8 cm. Each has a focally shaggy gray tan to
+brown serosa with an area of discontinuity grossly consistent with
+previous ligation. On sectioning each has a tan wall with pinpoint
+lumen. The left ovary is 2.6 x 2.0 x 1.7 cm and has a lobular gray
+tan to brown outer surface with a mottled gray tan fibrotic cut
+surface having several thin walled cystic structures up to 0.7 cm
+containing clear serous fluid. The right ovary is 3.1 x 2.6 x 2.2
+cm and has a lobular tan gray to brown outer surface. On sectioning
+there is a mottled tan gray fibrotic cut surface with an eccentric
+1.2 cm centrally hyalinized appearing corpus luteum. Also received
+in the same container are three tissue cassettes each labeled
+Representative sections are submitted labeled as follows: A -
+anterior cervix; B - posterior cervix; C - lower uterine segment and
+shaved posterior serosa; D through H - anterior endomyometrium; I
+through N - posterior endomyometrium; o and P - left lateral
+endomyometrium; Q and R - right lateral endomyometrium; S through X
+- fundic endomyometrium; Y - left parametrium; Z - right
+parametrium; AA - separate papilliferous tissue fragments; BB - left
+adnexa; CC - right adnexa.
+Microscopic Description:
+The slides labeled V. Conner are examined. See diagnosis.
+Final Diagnosis
+Uterus (radical hysterectomy):
+Specimen integrity: Intact hysterectomy specimen.
+Histologic type: Endometrioid adenocarcinoma (see comment).
+Histologic grade: Moderately to poorly differentiated, FIGO grade
+II-III.
+Tumor size: Approximately 2 cm in greatest diameter (see comment).
+Myometrial invasion: Focal invasion of myometrium, less than half
+the myometrium, maximal
+thickness of invasion is approximately 1 mm into an approximately
+24 mm thick
+=40%
+myometrium.
+Involvement of endocervix: No.
+Involvement of uterine serosa: No.
+Involvement of lower uterine segment: Yes.
+Lymphovascular space invasion: Present.
+Surgical margin status:
+Cervix: No carcinoma is identified.
+Left parametrium: Endometriosis and endosalpingiosis, no carcinoma
+identified. PAS 4
+Right parametrium: Endometriosis, no carcinoma identified. PAS 4
+Treatment effect: Unknown.
+Other findings:
+Adenomyosis, endometriosis, and endosalpingiosis. PAS 4
+Leiomyoma. PAS 8
+Right adnexa:
+Right fallopian tube:
+Evidence of prior tubal ligation and endosalpingiosis, no
+carcinoma identified. PAS 3, 4
+Right ovary:
+Endosalpingiosis, no carcinoma identified. PAS 4
+Left adnexa:
+Left fallopian tube:
+Evidence of prior tubal ligation, no carcinoma identified. PAS 3
+Left ovary:
+Endosalpingiosis, no carcinoma identified. PAS 4
+Left pelvic lymph nodes (regional resection):
+Three lymph nodes demonstrating glandular inclusions consistent
+with endosalpingiosis (see
+comment). PAS 4
+Reactive sinus histiocytosis, lymphoid hyperplasia, no metastatic
+pelvic notes 0/24
+carcinoma identified within
+14 lymph nodes (0/14). PAS 4
+Right pelvic lymph nodes (regional resection):
+Reactive sinus histiocytosis and lymphoid hyperplasia, no
+aortic node=0/12
+metastatic carcinoma Identified
+within 10 lymph nodes (0/10). PAS 4
+Right aortic tymph node (regional resection):
+Glandular inclusion consistent with endosalpingiosis identified
+within one (1) lymph node.
+Reactive sinus histiocytosis and lymphoid hyperplasia, no
+metastatic carcinoma identified
+within five lymph nodes (0/5). PAS 4
+Left aortic lymph nodes (regional resection):
+Reactive sinus histiocytosis and lymphoid hyperplasia, no
+metastatic carcinoma identified
+within seven lymph nodes (0/7). PAS 4 SPC-A
+pTN stage: pT1aN0
+CPT: 88309 x 1, 88307 x 4
+Comments
+Only focally is a small amount of endometrioid adenocarcinoma
+present predominantly seen within the separate fragment of
+papilliferous soft tissue that measured 2 cm in greatest diameter.
+Focally, tumor is present invading into the myometrium and invades
+less than half the myometrium and maximal thickness of invasion is 1
+mm into an approximately 24 mm thick myometrium. Foci of
+endometrioid adenocarcinoma are present with an endothelial lined
+lymphovascular space which is consistent with lymphovascular space
+invasion. Areas of adenomyosis are present as well as
+endosalpingiosis and endometriosis. A leiomyoma is present. Some
+bland glandular inclusions are identified within the lymph nodes
+which are interpreted as representing areas of endosalpingiosis.
+Clinical correlation and follow up is recommended.
+At the request of the undersigned pathologist, these slides have
+been additionally reviewed by Dr. who concurs with the
+diagnosis.
+This test has been finalized at the
+Campus.
+<Sign Out Dr. Signature>

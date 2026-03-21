@@ -1,0 +1,189 @@
+SURGICAL PATHOLOGY:
+PROCEDURE DATE:
+RECEIVED DATE:
+REPORT DATE:
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+COPY TO:
+HIPAA Discrepancy
+Prior Malignancy History
+&
+Dual/Synchronous PrimaryNated
+4
+Case (circle): QUALIFIED / DISQUALIFIED
+Date/Reviewed:
+Kml Reviewer Initials 10/31/11
+Pre-Op Diagnosis
+Endometrial cancer
+Post-Op Diagnosis
+Same as above
+Clinical History
+Nothing indicated
+ICD-0-3
+Gross Description:
+(8380/3)
+Five parts
+Container labeled
+adenocaccinoma, 8441/3 mixed indometrioid
+1 - right pelvic lymph node"
+has 6.0 x 4.5 x 1.6 cm of tan-yellow fibroadipose tissue fragments
+and serous code to highest 8441/3
+which on palpation and sectioning reveal a few poorly defined
+pink-yellow nodules up to 2.0 cm. The largest nodules are bisected
+and submitted labeled A-B. Whole smaller nodules are submitted
+Site indometrium 1541
+labeled C.
+Container labeled
+2 - left pelvic lymph node" has
+be
+4.7 x 4.0 x 2.0 cm of tan-yellow fibroadipose tissue fragments which
+1/4/12
+on palpation and sectioning reveal a few poorly defined pink-yellow
+nodules up to 2.1 cm. The largest nodule is bisected and submitted
+labeled A. Whole smaller nodules are submitted labeled B-C.
+Container labeled "
+3 - right aortic lymph node"
+has 3.2 x 2.0 x 1.0 cm of tan-yellow fibroadipose tissue fragments
+which on palpation and sectioning reveal a few poorly defined
+pink-yellow nodules up to 1.9 cm. The nodules are entirely submitted
+in two cassettes.
+Container labeled
+4 - left aortic lymph node" has
+page lof4
+4.0 x 3.1 x 1.1 cm of tan-yellow fibroadipose tissue fragments which
+on palpation and sectioning reveal a few poorly defined pink-yellow
+nodules up to 1.6 cm. The largest nodule is bisected and submitted
+TCGA-AJ-A3EK-B1A-PR
+labeled A. Whole smaller nodules are submitted labeled B.
+Container labeled
+5 - uterus, cervix, tubes and
+ovaries" has a previously laterally opened moderately distorted
+uterus with attached cervix and bilateral adnexa. The uterus and
+cervix together weigh 96 grams and on reconstruction measure
+approximately 9.1 x 5.6 X 4.2 cm. The cervix has a wrinkled
+tan-pink ectocervical mucosa. The os is patent. The uterine canal
+sounds to a depth of 6.5 cm. The endocervical canal is lined by
+trabeculated tan-pink mucosa. The uterine serosa is smooth and
+tan-pink. The myometrium measures up to 1.6 cm and is tan-pink and
+fibrotic. Virtually the entire endometrial canal is occupied by a
+friable gray-tan to pink papilliferous plaque-like lesion occupying
+both the anterior and posterior aspects extending to both lateral
+aspects and the fundus, as well as into the lower uterine segment.
+This occupies an area of approximately 8.8 x 3.5 cm. On the
+posterior aspect this measures up to 0.7 cm in thickness and grossly
+appears to focally extend into the wall. In the right lateral aspect
+the lesion grossly appears to focally extend to within 1.1 cm of the
+outer surface margin. The parametrial soft tissue on each side shows
+no nodularity or gross lesion. The left fallopian tube measures 6.1
+x 0.5 x 0.5 cm. The right fallopian tube measures 5.9 x 0.5 x 0.5
+cm. Each has a smooth tan-pink serosa with a tan-pink wall and a
+pinpoint lumen. The left ovary measures 3.1 x 2.1 x 1.6 cm and has a
+lobular tan-yellow outer surface with a mottled tan-gray fibrotic
+cut surface. The right ovary measures 3.6 x 1.6 x 1.0 cm and has a
+lobular tan-yellow outer surface with a mottled tan-gray to pink
+fibrotic cut surface. Also received in the same container is a 2.1 x
+1.5 x 0.8 cm aggregate of friable granular gray-tan to pink apparent
+lesional tissue. Also
+container are two tissue
+cassettes each labeled
+Representative sections
+are submitted labeled as follows: A - anterior cervix: B - posterior
+cervix; C - lower uterine segment shaved posterior serosa; D-F -
+anterior endomyometrium; G-K - posterior endomyometrium; L-M - left
+lateral endomyometrium; N-O - right lateral endomyometrium; P-S -
+fundic endomyometrium; T - left parametrium; U - right parametrium;
+V - left adnexa; W - right adnexa; X - separate lesional tissue
+fragments.
+Microscopic Description:
+See diagnosis.
+Final Diagnosis
+Lymph nodes, right pelvic area, regional dissection:
+Number of lymph nodes identified: 5
+Number of lymph nodes demonstrating metastatic malignancy: o (0/5)
+Lymph nodes, left pelvic area, regional dissection:
+Number of lymph nodes identified: 5
+Number of lymph nodes containing metastatic malignancy: o (0/5)
+Lymph nodes, right aortic area, regional dissection:
+Number of lymph nodes identified: 2
+Number of lymph nodes containing metastatic malignancy: o (0/2)
+Lymph nodes, left aortic area, regional dissection:
+Number of lymph nodes identified: 7
+page 2 of 4
+Number of lymph nodes containing metastatic malignancy: o (0/7)
+Uterus, bilateral fallopian tubes and ovaries, hysterectomy and
+bilateral salpingo-oophorectomy:
+Endometrial adenocarcinoma
+Tumor characteristics:
+Histologic type: Endometrioid endometrial adenocarcinoma with
+serous areas.
+Histologic grade: Grade 3
+Tumor site: Entire endometrial cavity
+Tumor size: Approximately 8.8 x 3.5 cm as measured grossly
+Myometrial invasion: Focally present, invading approximately 0.3
+cm into a 1.6 cm thick
+myometrium (much less than 50% of the myometrial thickness)
+Extent of tumor: Extends into lower uterine segment, but does not
+involve endocervical
+mucosa or stroma.
+Involvement of other organs: Not identified
+Lymphovascular space invasion: Present (see comment)
+Parametrial tissues: Right and left are both negative
+Other:
+Ectocervix:
+Negative for viral changes, dysplasia and malignancy.
+Endocervix:
+Intense chronic endocervicitis.
+Negative for glandular dysplasia.
+Endometrium:
+See above.
+Myometrium:
+See above.
+Serosa:
+Negative for endometriosis and malignancy.
+Ovaries:
+Negative for endometriosis and malignancy.
+Fallopian tubes:
+Negative for endometriosis and malignancy.
+Stage:
+pT1a (FIGO IA) NO
+PAS 9
+CPT:
+Comments
+The amount of carcinoma is impressive. Much of this is present as
+sheets of tumor and overt back-to-back oval and tubular glands along
+with nondescript areas of cribriforming. There are areas of (benign)
+squamoid metaplasia, as expected in endometrioid forms of
+endometrial adenocarcinoma. Because of the findings noted below,
+the grade assigned is a 3.
+In addition, within the myometrium there are multiple areas of
+lymphovascular space invasion identified, best seen in sections 5J
+and K. These are discrete nests of tumor surrounded by what appear
+to be endothelial-lined spaces. One of these nests is within vessels
+located approximately 5 mm (0.5 cm) from the serosal surface.
+Finally, in order to more fully assess the presence of serous
+differentiation, immunohistochemical stains are performed on block
+50, with the following results:
+P53: positive (extensively).
+ER: positive
+WT1: negative
+The features are most consistent with an endometrioid adenocarcinoma
+with presence of serous differentiation.
+page 3 of 4
+At my request, the case has also been reviewed by Dr.
+who concurs with the findings.
+This test has been finalized at the
+This test was developed ite performance characteristics
+determined by
+It has not been
+cleared or approved by the U.S. Food and Drug Administration. The
+FDA has determined that such clearance or approval is not necessary.
+This test is used for clinical purposes. It should not be regarded
+as investigational or for research. This laboratory is certified
+under the Clinical Laboratory Improvement Amendments of 1988
+(CLIA-88) as qualified to perform high complexity clinical
+laboratory testing.
+page 4 of 4
+<Sign Out Dr. Signature>

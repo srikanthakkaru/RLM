@@ -1,0 +1,151 @@
+UUID 146E0540-B6F0-495F-ADD5-90F7564C14CA
+TCGA-AJ-A8CW-01A-PR
+Redacted
+Sex: Female
+D.O.B.:
+MRN #
+Ref Ph
+SPECIMEN INFORMATION
+Collected:
+Accession #:
+Received:
+Acct / Reg #
+Reported:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS
+DIAGNOSIS:
+ICO 0.3
+A. Right ovary and fallopian tube, excision:
+Corpora albicantia.
+Adenscorenoma, sudometrioid NOS
+Small benign cysts.
+Definitive fallopian tube not identified.
+838013
+B. Left ovary and fallopian tube, excision:
+Site indametrum
+Corpora albicantia,
+C 54.1
+Small benign cysts.
+Definitive fallopian tube not identified.
+40 4/17/14
+C. Uterus, hysterectomy:
+Tumor Characteristics:
+1. Histologic type: Endometrioid adenocarcinoma.
+2. Histologic grade: 2 (greater than 5% solid component).
+3. Tumor site: Endometrium
+4. Tumor size: 5.5 X 5.0 X 4.5 cm.
+5. Myometrial invasion: Tumor focally extends 0.2 cm into a 3.5 cm thick myometrium (majority of tumor is exophytic, as assessed microscopically).
+6. Involvement of cervix: No.
+7. Extent of involvement of other organs: None present.
+8. Lymphovascular space invasion: Not identified.
+Surgical Margin Status:
+1. Margins uninvolved: Bilateral parametria, uterine serosa, cervix.
+3. Margins involved: None.
+Lymph Node Status:
+1. See parts D through H.
+Other:
+1. Other significant findings: Leiomyomata
+2. Frozen section diagnosis confirmed.
+2. pTNM stage: pT1a NO (FIGO IA).
+D. Right paraaortic lymph nodes, excision:
+One lymph node, negative for metastatic disease.
+E. Right external iliac lymph nodes, excision:
+Eleven lymph nodes, negative for metastatic disease.
+F. Right obturator lymph nodes, excision:
+Four lymph nodes, negative for metastatic disease.
+G. Left external iliac lymph nodes, excision:
+Nine lymph nodes, negative for metastatic disease.
+H. Left obturator lymph nodes, excision:
+Four lymph nodes, negative for metastatic disease.
+I. Omentum, excision:
+Negative for tumor.
+CLINICAL INFORMATION
+CLINICAL HISTORY:
+Preoperative Diagnosis: Complex hyperplasia with atypia
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+A. Right ovary/tube
+B. Left tube and ovary
+C. Uterus and cervix FS
+D. Right paraaortic
+E. Right external iliac
+F. Right obturator
+G. Left external iliac
+H. Left obturator
+I. Omentum
+SPECIMEN DATA
+GROSS DESCRIPTION:
+The specimen is received in nine containers labeled with the patient's name
+Container A is additionally labeled "#1", and contains a 2.4 x 2.3 x 0.7 cm yellow-tan lobulated ovary received with attache paraovarian soft tissue.
+Sections through the paraovarian soft tissue reveal a fibrovascular cut surface. Discrete segment of fallopian tube is not identified. The ovary is
+sectioned to reveal a yellow-gray firm fibrous cut surface. The specimen is entirely submitted in cassettes A1-A4 labele
+designated as
+follows: A1: Paraovarian soft tissue for possible fallopian tube capture; A2-A4: Entire ovary,
+Container B is additionally labeled "left tube and ovary", and contains a 3.0 X 2.0 X 0.7 cm yellow-tan lobulated ovary received with attached paraovarian
+soft tissue. Sectioning reveals a yellow-tan fibrovascular cut surface. A discrete segment of fallopian tube is not identified. Representative sections are
+submitted in cassettes B1-B4 labeled
+designated as follows: B1-B2: Paraovarian soft tissue for possible fallopian tube capture; B3-B4:
+Ovary, entirely.
+Container C is additionally labeled "#3", and contains a 501.1 gm uterus with attached cervix. The 11.0 cm in length by 11.0 by 9.0 cm distorted uterine
+corpus is surfaced by a pink-tan serosal. The 4.0 cm in length by 4.5 by 4.5 cm uterine cervix is partially surfaced by a pink-tan glistening ectocervical
+mucosa and features a central 1.4 cm patent os. The right and left parametrial soft tissues are inked and taken en face. The endocervical canal is
+yellow-tan focally cystic and mucoid. A 1.8 X 1.0 X 0.5 cm pink-tan polypoid lesion is located within the endocervical canal. On section, no areas of
+invasion are identified. The endometrium is lined by a yellow-tan fungating friable mass, 5.5 X 5.0 X 4.5 cm. No normal-appearing endometrium is
+identified. On section, this mass extends 1.5 cm into a 3.5 cm thick pink-tan fibrous myometrium. Within the myometrium are multiple well-
+circumscribed firm rubbery nodules ranging from 1.0 up to 4.5 cm in greatest dimension. They feature gray-white whorled and bulging cut surfaces
+with
+no evidence of hemorrhage or necrosis. Two nodules are focally calcified. No additional myometrial nodules or lesions are identified. A section
+is
+submitted for frozen section with the residual entirely resubmitted for permanent section in cassette C1 labeled
+dditional representative
+sections are submitted in cassettes C2-C18 designated as follows: C2: Right parametrium, en face; C3: Left parametrium, en face; C4: Anterior
+endo/ectocervix; C5: Posterior endo/ectocervix; C6: Endocervical polyp; C7: Anterior lower uterine segment; C8: Posterior lower uterine segment; C9-
+C10: Full-thickness anterior endo/myometrium to include mass, bisected (notched thins the join), C11-C12: Full-thickness anterior endo/myometrium to
+include mass bisected (notch thins the join); C13-C14: Full-thickness posterior endo/myometrium to include mass, bisected (notch thins the join); C15-
+C16: Full-thickness posterior endo/myometrium to include mass, bisected (notch thins the join); C17-C18: Whorled nodules. Additionally, a yellow,
+green and blue cassette for genomics research, each labeled
+Container D is additionally labeled "right paraaortic", and contains a 1.5 X 1.5 X 0.4 cm yellow-tan fibrofatty soft tissue. On palpation, a possible 0.6 cm
+firm fatty lymph nodes is identified. The specimen is entirely submitted in cassette D labeled
+Container E is additionally labeled "right external iliac and common", and contains a 7.8 x 7.5 cm aggregate of yellow-tan fibrofatty soft tissue.
+On
+palpation, multiple firm fatty noscible nodes are identified ranging from 0,3 up to 2.6 cm in greatest dimension. They are entirely submitted in
+cassettes E1-E7 labele
+esignated as follows: E1: Three whole possible lymph nodes; E2-E4: Two whole possible bisected lymph
+nodes in each cassette; E5: One whole possible lymph node; E6-E7: One whole possible trisected lymph node.
+Container F is additionally labeled "right obturator", and contains a 5.6 x 4.0 X 2.4 cm aggregate of yellow-tan fibrofatty soft tissue. On palpation, four
+firm fatty possible lymph nodes are identified ranging from 0.2 up to 4.0 cm in greatest dimension. The largest nodule is sectioned to reveal a red
+hemorrhagic cut surface with multiple gray-white nodules possibly consistent with tumor. All possible lymph nodes are submitted in cassettes F1-F8
+labeled
+designated as follows: F1: Two whole possible lymph nodes; F2: One whole possible bisected lymph node; F3-F8: Largest,
+possibly involved lymph node, serially sectioned.
+Container G is additionally labeled "left external iliac", and contains a 4.7 X 2.0 cm aggregate of yellow-tan fibrofatty soft tissue. On palpation,
+multiple firm fatty possible lymph nodes are identified ranging from 0.2 up to 2.0 cm. in greatest dimension. They are entirely submitted in cassettes G1-
+G4 labeled
+ignated as follows: G1: Six whole possible lymph nodes; G2-G4: One whole possible bisected lymph node in each
+cassette.
+Container H is additionally labeled "left obturator". and contains a 4.0 x 3.0 X 1.8 cm yellow-tan fibrofatty soft tissue. On palpation, four firm fatty
+possible lymph nodes are identified ranging from 1.3 up to 2.8 cm in greatest dimension. They are entirely submitted in cassettes H1-H3 labeled
+signated as follows: H1: Two whole possible bisected lymph nodes (one inked); H2-H3: One whole possible bisected lymph node
+in
+each ca
+Container I is additionally labeled "#9", and contains a 15.0 x 10.5 x 4 4,0 cm yellow-tan finely lobulated fibrofatty soft tissue. On section and palpation,
+the cut surface is comprised of yellow-tan greasy fibroadipose tissue. No nodules or lesions are identified. Representative sections are submitted in
+cessettes 11-14 labeled "
+INIRA-OPERATIVE CONSULTATION:
+C. FROZEN SECTION DIAGNOSIS: "Endometrioid carcinoma, at least FIGO II, with superficial invasion (<50%)", communicated b
+Criteria
+Diagnosis Discropancy
+In 11/3/13
+Yes
+No
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dua:/synchronous Primary Notes
+Case is (circle)
+Reviewer Initial
+Roul
+AQUALIFIED
+DISQUALIFIED
+newed

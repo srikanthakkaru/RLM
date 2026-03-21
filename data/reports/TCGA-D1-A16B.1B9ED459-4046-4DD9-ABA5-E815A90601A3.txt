@@ -1,0 +1,78 @@
+ICD-0-3
+Adenocarcimoma, Endometrioid NOS
+838013
+12/9/10
+: Surgical Pathology
+Site Code: Endometrium C54.1
+TISSUE DESCRIPTION:
+A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 B1 B2 B3 B4
+B5 B6 B7 B8
+B9 C1 C2 C3 C4 C5 C6 D1 E1 F1 G1 H1 Il
+Uterus, right ovary (2.3 X 1.0 X 0.6 cm) with 6. 5 cm
+segment of
+right fallopian tube, and left ovary (2.4 X 1.0 X 0.7 cm)
+with 6.2
+cm segment of left fallopian tube together weighing 135.0
+grams,
+separately submitted right and left pelvic lymph nodes,
+separately
+submitted right and left para-aortic lymph nodes above and
+below the
+inferior mesenteric artery, right gonadal vessels (7.2 cm
+in length)
+and left gonadal vessels (1.3 X 0.8 X 0.5 cm). .
+DIAGNOSIS:
+Uterus, bilateral ovaries, and fallopian tubes; total
+abdominal
+hysterectomy and bilateral salpingo-oophorectomy:
+Endometrioid
+adenocarcinoma, FIGO II (of III) forming a mass (3.2 X 2.7
+1.9 cm)
+in the upper endometrial cavity. The tumor invades into
+the
+myometrium to a maximum depth of 1.3 cm (total myometrial
+thickness,
+2.3 cm). . Lymphatic vascular invasion is not identified.
+The cervix
+shows acute and chronic cervicitis with erosion.
+Ovaries and fallopian tubes, right and left salpingo-
+oophorectomies:
+No diagnostic abnormalities.
+Lymph nodes, right pelvic, excision: Multiple (2 internal
+iliac, 2
+common iliac, 1 external iliac and 2 obturator) right
+pelvic lymph
+nodes are negative for tumor.
+JUID:1B9ED459-4046-4DD9-ABA5-E815A90601A3
+TCGA-D1-A16B-01A-PR
+Redacted
+Lymph nodes, left pelvic, excision: Multiple (5 common
+iliac, 4
+external iliac and 2 obturator) left pelvic lymph nodes
+are negative
+for tumor. A specimen submitted as "left internal iliac
+pelvic
+lymph nodes" contained no nodal tissue.
+Lymph nodes, right and left para-aortic, excision:
+Multiple (3 left
+above IMA, 4 left below IMA, 2 right above IMA, and 3
+right below
+IMA) para-aortic lymph nodes are negative for tumor.
+Gonadal vessels, excision: Left and right gonadal vessels
+are
+negative for tumor.
+#
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Jual/SynchronoutPumane Noted
+Case is (circle):
+QUALIFIED
+DISQUALIFIED
+Reviewer Initials
+one Reviewed:
+/

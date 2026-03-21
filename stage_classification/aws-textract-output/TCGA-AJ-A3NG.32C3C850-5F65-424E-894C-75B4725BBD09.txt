@@ -1,0 +1,158 @@
+SURGICAL PATHOLOGY:
+PROCEDUF : DATE: RECEIVED DATE: REPORT DATE:
+COPY TO:
+Criteria In 1/7/12
+Diagnosis Discrepancy
+Yes
+No
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+x
+Pre-Op Diagnosis
+Prior Malignancy History
+Endometrial cancer
+Dual/Synchronous Primary Noted
+Post-Op Diagnosis
+QUALIFIED
+1mm
+DISQUALIFIED
+Same as above
+Date Reviewed: Main
+Clinical History
+Nothing indicated
+Gross Description:
+Five parts
+Container labeled
+1 - cervix, uterus, bilateral tubes
+and ovaries" has a previously laterally opened slightly distorted
+uterus with attached cervix and bilateral adnexa. The uterus and
+cervix together weigh 50 grams and on reconstruction measure
+approximately 7.0 x 4.5 x 3.0 cm. The cervix has a wrinkled
+pink-red ectocervical mucosa. The os is patent. The uterine canal is
+lined by trabeculated tan-pink mucosa. The uterine serosa is smooth
+and tan-pink. The myometrium measures up to 1.3 cm and is gray-pink
+and fibrotic. The entire endometrial canal over both the anterior
+and posterior aspects as well as the fundus in both lateral aspects
+is occupied by a granular gray-tan to pink plaque-like lesion
+measuring overall 6.6 x 4.5 cm. This grossly extends into the lower
+uterine segment. On sectioning, this has a tan-gray focally
+verrucous-appearing fibrotic-appearing cut surface. In the posterior
+aspect this measures up to 0.9 cm in thickness and grossly extends
+into the myometrium where it is seen at its nearest point 1.0 cm
+from the posterior serosa. The small amount of parametrial soft
+tissue on each side shows no nodularity or gross lesions. The left
+fallopian tube measures 6.0 x 0.5 x 0.5 cm. The right fallopian
+tube measures 5.7 x 0.5 x 0.5 cm. Each has a smooth tan-pink serosa
+with a tan wall and a pinpoint lumen. The left ovary measures 1.2 x
+0.9 x 0.7 cm and has a lobular tan-yellow outer surface with a
+mottled tan-gray fibrotic cut surface. The right ovary measures 1.6
+1CD-0-3
+8380/3
+8441/3
+adenocarcinoma, mixed endometrioid and serous - code to highest
+Site: indometruin C54.1
+be
+1/7/12
+:32C3C850-5F65-424E-894C-7584725BBD09
+TCGA-AJ-A3NG-01A-PR
+Redacted
+x 1.1 x 0.9 cm and has a lobular tan-yellow outer surface with a
+mottled tan fibrotic cut surface. Also received in the same
+container are two tissue cassettes labeled
+Representative sections are submitted labeled as follows: A
+anterior cervix; B - posterior cervix; C - lower uterine segment
+shaved posterior serosa; D-H - anterior endomyometrium; I-N -
+posterior endomyometrium; O-P - left lateral endomyometrium; Q-R -
+right lateral endomyometrium; S-Y- fundic endomyometrium; Z - left
+parametrium; AA - right parametrium; BB - left adnexa; CC - right
+adnexa.
+Container labeled
+2 - right pelvic lymph nodes" has 7.0
+x 6.0 x 1.6 cm of tan-yellow fibroadipose tissue fragments which on
+palpation and sectioning reveal a few poorly defined pink-yellow
+nodules up to 3.0 cm. The largest nodule is bisected and submitted
+labeled A-B. Individual nodules are bisected and individually
+submitted labeled C-D. Whole smaller nodules are submitted labeled
+E.
+Container labeled
+3 - left pelvic lymph nodes" has 6.5 x
+6.0 x 1.5 cm of tan-yellow fibroadipose tissue fragments which on
+palpation and sectioning reveal a few poorly defined pink-yellow
+nodules up to 3.1 cm. The largest nodule is sectioned and submitted
+labeled A-B. Remaining nodules are each bisected and individually
+submitted labeled C-E.
+Container labeled
+4 - right aortic lymph nodes" has 6.0
+x 4.5 x 1.3 cm of tan-yellow fibroadipose tissue fragments which on
+palpation and sectioning reveal several poorly defined pink-yellow
+nodules up to 2.0 cm. The largest nodules are bisected and
+individually submitted labeled A-B. Whole smaller nodules are
+submitted labeled C.
+Container labeled
+5 - left common iliac nodes" has 3.0 x
+2.2x0.8 cm of tan-yellow fibroadipose tissue fragments which on
+palpation and sectioning reveal a single 1.8 cm poorly defined
+elongated pink-yellow nodule. The nodule is bisected and entirely
+submitted in a single cassette.
+Microscopic Description:
+Reviewed are slides labeled
+Final Diagnosis
+Uterus, cervix, bilateral fallopian tubes and ovaries, hysterectomy
+with bilateral salpingo-oophorectomy:
+Tumor characteristics:
+Specimen integrity: Intact, previously opened.
+Histologic type: Mixed, with endometrioid and papillary serous
+features (see comment).
+Histologic grade: Poorly differentiated (grade III).
+Tumor site: Endometrial cavity, near entirety.
+Tumor size: 6.6 x 4.5 x 0.9 cm.
+Myometrial invasion: Present, tumor invades 0.9 cm into a 1.5 cm
+thick myometrium
+(greater than one-half).
+Involvement of cervix: Tumor focally involves endocervical stroma.
+Extent of involvement of other organs: Not identified.
+Lymphovascular space invasion: No unequivocal lymphovascular space
+invasion identified in
+sections examined
+Surgical margin status:
+Surgical margins appear free of malignancy in sections
+examined.
+Lymph node status:
+Number of lymph nodes received: See below.
+Number of lymph nodes containing metastatic carcinoma: o
+Other:
+Leiomyoma.
+Bilateral ovaries with changes of atrophy.
+Fallopian tubes with no pathologic diagnosis.
+Lymph nodes, right pelvic, resection:
+Six lymph nodes negative for metastatic carcinoma (0/6).
+Lymph nodes, left pelvic, resection:
+Four lymph nodes negative for metastatic carcinoma (0/4).
+Lymph nodes, right aortic, resection:
+Seven lymph nodes negative for metastatic carcinoma (0/7).
+Lymph node, left common iliac:
+One lymph node negative for metastatic carcinoma (0/1). PAS 9
+SPC-A
+CPT: 88309, 88307 x 3, 88305
+Stage: pT2NO
+Comments
+The patient's clinical history of endometrial cancer is
+prior pathology specimens are available within the :
+system for comparative evaluation. Histologic sections aemonstrate a
+moderate to poorly differentiated adenocarcinoma demonstrating
+predominantly endometrioid type. Focally, however, areas of
+papillary serous differentiation are noted. Large areas of solid
+growth pattern are seen. These findings are consistent with a poorly
+differentiated tumor.
+Clinical correlation and correlation with prior pathology is
+recommended.
+At the request of the undersigned pathologist, these slides have
+been additionally reviewed by Dr.
+who concurs with the
+diagnosis.
+This test has been finalized at the
+Campus.
+Original report signed out by Dr.
+ADDENDUM:
+Addendum is made to add Stage pT2N0 to the diagnosis.
+ADDENDUM DATE:

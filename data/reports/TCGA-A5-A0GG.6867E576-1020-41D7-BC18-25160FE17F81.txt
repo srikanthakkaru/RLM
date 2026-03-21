@@ -1,0 +1,279 @@
+ICD-0-3
+adeno carcinoma, Endometrious Page 1 of 5
+8380/3
+NOS
+In
+11/22/10
+UUID:6867E576-1020-41D7-BC18-25160FE17F81
+TCGA-A5-A0GG-01A-PR
+Redacted
+Site: indivertrium C541
+#:
+A/S:
+F
+Rec:
+Col:
+Location:
+Pathologist
+Assistant:
+Attending MD:
+Ordering MD:
+Copies To:
+DIAGNOSIS:
+***ADDENDUM***
+1.
+RIGHT FALLOPIAN TUBE AND OVARY, RIGHT SALPINGO-OOPHORECTOMY:
+-Tubo-ovarian adhesions and adhesions involving serosal surface
+of fallopian tube
+- Paratubal and paraovarian cysts lined by benign serous
+epithelium (hydatids of Morgagni)
+Peritubal endosalpingiosis
+- Ovary with atrophic changes and cystic epithelial inclusions
+-No evidence of metastatic carcinoma
+2. UTERUS, LEFT FALLOPIAN TUBE AND OVARY, TOTAL ABDOMINAL
+HYSTERECTOMY AND LEFT SALPINGO-OOPHORECTOMY:
+-Primary endometrial adenocarcinoma, endometrioid type, with
+villoglandular features, focal superimposed secretory changes,
+and possible minor neuroendocrine component, FIGO grade II,
+nuclear grade 2 (see comment)
+-Adenocarcinoma extensively involves the endometrium of the
+uterine fundus, anterior uterine corpus, and posterior
+uterine corpus
+Minimal (focal) superficial myometrial invasion by carcinoma
+is present involving less than 10% of the uterine wall
+thickness
+-No lymphatic or blood vessel invasion by tumor identified
+-No extension of carcinoma into lower uterine segment or
+cervix
+-Parametrial tissues are free of tumor
+-No evidence of metastatic carcinoma involving ovaries or
+fallopian tubes
+Non-neoplastic endometrium shows areas of simple and complex
+glandular hyperplasia with varying degrees of cytologic atypia
+- -Four uterine leiomyomas, one of which is microscopic
+-Uterine serosal adhesions
+-Monckeberg's medial calcific sclerosis of uterine arteries
+-Cervix with chronic inflammation, atrophic squamous changes,
+and nabothian cysts
+-Right ovary with atrophic changes and a few cystic epithelial
+inclusions
+-Fallopian tube with serosal adhesion
+(cont
+on nevt magel.
+ratory Medicine
+Page: 2
+3. LYMPH NODES, RIGHT PELVIC, EXCISION:
+-Eight reactive lymph nodes
+- -No evidence of metastatic carcinoma (0/8)
+4. LYMPH NODE, DESIGNATED "PRECAVAL PLUS RIGHT COMMON", EXCISION:
+-One reactive lymph node
+Page 2 of 5
+-No evidence of metastatic carcinoma (0/1)
+5. LYMPH NODES, LEFT COMMON AND LOWER PERIAORTIC, EXCISION:
+-Two reactive lymph nodes
+-No evidence of metastatic carcinoma (0/2)
+6. LYMPH NODE, LEFT COMMON [ILIAC], EXCISION:
+-One tiny reactive lymph node
+-No evidence of metastatic carcinoma (0/1)
+7. [SOFT TISSUE] LEFT PELVIC, BIOPSY:
+-No evidence of metastatic carcinoma
+8. LYMPH NODES, LEFT PELVIC, EXCISION:
+- Five reactive lymph nodes
+-No evidence of metastatic carcinoma (0/5)
+9. SOFT TISSUE, RIGHT PELVIC, BIOPSY:
+-No evidence of metastatic carcinoma
+10. OMENTUM, BIOPSY:
+-No evidence of metastatic carcinoma
+COMMENT Dreliminary findings were discussed with Dr.
+Findings in additional routinely stained sections
+(slides S ds-1, U ds-1 and V ds-1) - have been incorporated in the
+diagnosis. Immunohistochemical stains for chromogranin and
+synaptophysin will be preformed in order to evaluate for a potential
+neuroendocrine component to the uterine neoplasm. Results of the
+immunostains will be reported in an addendum.
+ADDENDUM
+A few of the neoplastic endometrial cells exhibit positive staining
+for synaptophysin and rare endometrial tumor cells stain positively
+for chromogranin; however, most of the tumor cells do not show
+specific staining for these neuroendocrine markers.
+HISTORY: Uterine carcinoma
+MICROSCOPIC: See Diagnosis.
+GROSS:
+1: RIGHT TUBE AND OVARY
+Labeled with the patient's name designated, "right tube and ovary"
+and received in formalin is a salpingo-oophorectomy specimen. The
+ovary is atrophic, about 1.3 x 1.1 X 1.1 cm and has a focally shaggy
+pink-tan external surface with adhesion focally to the adjacent
+fallopian tube, Cut surfaces of the ovary reveal no evidence of
+primary or metastatic tumor. The fallopian tube is about 3.0 cm long
+oratory Medicine
+and ranges from 0.3 to 0.4 cm in diameter. The fimbriated end of the
+Page: 3
+fallopian tube is adherent to the adjacent ovary. The serosal
+surface of the fallopian tube is pink-tan and shows a few additional
+adhesions elsewhere. Cross sections of the fallopian tube reveal a
+pin-point patent lumen. The fallopian tube appears grossly free of
+metastatic tumor.
+Entirely submitted.
+A. Ovary and paraovarian tissues - 2
+B. Ovary and adherent fimbriated end of fallopian tube - 1
+C,D. Fallopian tube - multiple
+2: UTERUS LEFT OVARY AND FALLOPIAN TUBE
+Labeled with the patient's name, designated "uterus left ovary and
+fallopian tube" and received fresh in the Operating Room for
+intraoperative frozen section is a 70 gram total hysterectomy and
+right salpingo-oophorectomy specimen. The uterus is symmetric. The
+Page 3 of 5
+uterus measures 6.5 cm from the fundus to the ectocervix, 4.0 cm from
+cornu to cornu and a maximum of 3.2 cm from the anterior surface to
+the posterior surface. The uterine serosa is pink-tan and shows a
+few tiny adhesions and a small amount of adherent blood clot. The
+cervix is about 2.5 cm long and has a maximum diameter of 2.0 cm in
+the ectocervical region. The mucosa lining the ectocervix is pink
+tan and smooth. The external cervical os is 0.5 cm in diameter and
+patent. The uterus is incised on both sides. The cervical
+transformation zone is distinct. The endocervical canal is 2.0 cm
+long and lined by tan soft mucosa. Cut sections of the cervix reveal
+a few minute cystic spaces. The endometrial cavity is about 4.0 cm
+long and up to 3.2 cm in width. The endometrium of the uterine
+fundus, anterior uterine corpus and posterior uterine corpus is
+largely replaced by a soft tan friable exophytic tumor mass that
+measures about 4.5 X 3.0 cm in area. The exophytic tumor has a
+maximum thickness of about 0.7 cm. Cut sections of the uterus reveal
+no grossly evident invasive tumor within the underlying myometrium.
+The muscular uterine wall ranges from about 1.0 to 1.5 cm in
+thickness. The myometrium is tan and semi-firm. The endometrium
+lining the lower uterine segment appears grossly free of tumor.
+Within the uterine wall there are three circumscribed intramural
+leiomyomas that range from about 0.3 to 0.5 cm in diameter. Each of
+the leiomyomas are composed of firm solid tan-white whorled tissue
+without grossly evident areas of hemorrhage or necrosis. The right
+ovary is atrophic, about 2,5 X 0.8 X 0.5 cm and has a pink-tan
+relatively smooth serosal surface. Cut surfaces of the right ovary
+are grossly free of tumor. The right fallopian tube has fimbria at
+one end, is 4.5 cm long and ranges from 0.3 to 0.4 cm in diameter.
+The serosal surface of the fallopian tube is pink-tan and shows a
+tiny adhesion. Cross sections of the fallopian tube reveal a patent
+lumen, up to 0.2 cm in diameter. The fallopian tube appears free of
+tumor. A representative portion of tumor from the uterus was frozen
+and sectioned for intraoperative diagnosis. The frozen section
+remnants and the rest of the specimen are subsequently fixed in
+formalin.
+Representative sections.
+E. Remnant of frozen section - 1
+F. Right parametrium - 1
+G. Left parametrium - 1
+H. Anterior uterine fundus with endometrial tumor - 1
+I. Anterior uterine corpus with endometrial tumor - 1
+(1
+J. Anterior uterine corpus with endometrial tumor and a leiomyoma - 1
+laboratory Medicine
+K. Anterior lower uterine segment - I
+Page: 4
+L. Anterior cervix - 1
+M. Posterior uterine fundus with endometrial tumor and leiomyoma - 1
+N. Posterior uterine corpus with endometrial tumor and leiomyoma - 1
+O. Posterior uterine corpus with endometrial tumor - 1
+P. Posterior lower uterine corpus - 1
+Q. Posterior cervix - 1
+R. Right ovary and fallopian tube - 4
+3: RIGHT PELVIC LYMPH NODE
+Labeled with the patient's name, designated "right pelvic lymph
+node", and received in formalin is a 4.0 X 3.0 X 0.8 cm aggregate of
+soft yellow adipose tissue, within which there are embedded several
+semi-soft tan lymph nodes. The lymph nodes range from about 0.1 to
+0.4 cm in maximum dimension.
+Entirely submitted.
+S. Three lymph nodes - 3
+T. Five lymph nodes - 4
+4 : PRECAVAL PLUS RIGHT COMMON
+Labeled with the patient's name, designated "precaval plus right
+Page 4 of 5
+common lymph node" and received in formalin is a 2.2 X 1.0 x 0.3 cm
+aggregate of soft yellow adipose tissue, within which there is
+embedded a single irregularly shaped semi-soft tan lymph node that
+measures about 1.5 cm in maximum dimension.
+Entirely submitted.
+U. One lymph node - 1
+5: LEFT COMMON AND LOWER PERIAORTIC
+Labeled with the patient's name, "left common plus lower periaortic"
+and received in formalin is a 2.0 x 1.0 X 0.5 cm aggregate of soft
+yellow fatty tissue within which there are embedded two soft tan
+lymph nodes. The lymph nodes measure about 0.25 and 0.5 cm in
+maximum dimension.
+Entirely submitted.
+V. Two lymph nodes - 2
+6: LEFT COMMON
+Labeled with the patient's name, designated "left common" and
+received in formalin is a 2.0 X 1.0 X 0.3 cm aggregate of yellow
+fatty tissue, within which there is a single soft tan 0.1 cm diameter
+lymph node.
+Entirely submitted.
+W. One lymph node - 1
+7: LEFT PELVIC BIOPSY
+Labeled with the patient's name, designated "left pelvic biopsy" and
+received in formalin is a 1.5 x 0.7 x 0.2 cm fragment of soft tan
+fibromembranous tissue.
+Entirely submitted.
+X. 1
+8 : LEFT PELVIC LYMPH NODE
+Labeled with the patient's name, designated "left pelvic lymph node"
+and received in formalin is a 4.0 x 1.5 x 0.8 cm aggregate of soft
+yellow fatty tissue, within which there are embedded three semi-soft
+tan lymph nodes. The lymph nodes range from about 0.25 to 1.5 cm in
+maximum dimension.
+boratory Medicine
+Page: 5
+Entirely submitted.
+Y. Two lymph nodes - 2
+Z. Three lymph nodes - 3
+9: RIGHT PELVIC BIOPSY
+Labeled with the patient's name, designated "right pelvic biopsy"
+and received in formalin is a 0.9 x 0.4 X 0.2 cm aggregate of soft
+tan yellow fibroadipose tissue.
+Entirely submitted.
+AA. 1
+10: OMENTAL BIOPSY
+Labeled with the patient's name, designated "omental biopsy" and
+received in formalin is a 4.5 x 3.0 X 0.3 cm portion of soft tan
+lobulated omental fat that appears grossly free of tumor.
+Representative sections.
+BB. 1
+Gross dictated by
+OPERATIVE CALL
+OPERATIVE CONSULT (FROZEN)
+SPECIMEN #2, FROZEN SECTION #1. SELECTED SECTION OF TUMOR FROM
+UTERUS:
+Page 5 of 5
+- Adenocarcinoma, endometrioid type, FIGO grade 1, nuclear
+grade 2
+-
+Probable superficial myometrial invasion
+Special Studies: Frozen Section (x1); additional H&E's (Sx1, Ux1, Vx1)
+chromogranin (H); synaptophysin (H)
+See Also:
+DATE:
+, M.D.
+Pathologist
+I,
+M.D., , the pathologist of record, have
+personally examined the specimen, interpreted the
+results, reviewed this report and signed it electronically.
+Date Finalled
+I,
+M.D., , the pathologist of record, have
+personally examined the specimen, interpreted the
+results, reviewed this amended report and signed it
+electronically.
+Date Finalled:
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+IIPAA Discrepancy
+'rior Malignancy History
+Dual/Synchronous Primary Noted
+ase is (circle): N QUALIFIED DISQUALIFIED
+reviewer Initials
+Date Reviewed:

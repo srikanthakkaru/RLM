@@ -1,0 +1,116 @@
+ID:9C8BD34A-DC49-4547-850A-80DCD20073F8
+TCGA-AP-A050-01A-PR
+Redacted
+Specimens Submitted:
+1: UTERUS, CERVIX, BILATERAL FALLOPIAN TUBES AND OVARIES; TOTAL HYSTERECTOMY
+AND BILATERAL SALPINGO-OOPHORECTOMY
+2: LYMPH NODES, LEFT OBTURATOR SENTINEL; EXCISION
+3 : LYMPH NODES, RIGHT EXTERNAL ILIAC: EXCISION
+ICD-0-3
+4 : LYMPH NODES, RIGHT OBTURATOR EXCISION
+5: LYMPH NODES, RIGHT HYPOGASTRIC; EXCISION
+6: LYMPH NODES, RIGHT COMMON ILIAC; EXCISION
+adenocarciroma indometrioid, NOS 8380/3
+7 : LYMPH NODES, LEFT EXTERNAL ILIAC; EXCISION
+8: LYMPH NODES, LEFT OBTURATOR EXCISION
+Site. indometrium C54.1
+for
+9: LYMPH NODES, LEFT HYPOGASTRIC; EXCISION
+10: LYMPH NODES, LEFT COMMON ILIAC; EXCISION
+5/2/11
+11: HERNIA SAC: EXCISION
+DIAGNOSIS:
+1. UTERUS, CERVIX, BILATERAL FALLOPIAN TUBES AND OVARIES; TOTAL
+HYSTERECTOMY AND BILATERAL SALPINGO-OOPHORECTOMY
+Tumor Type:
+Adenocarcinoma, endometrioid type
+Architectural Grade (For Endometrioid Types only)
+III (>50% solid growth)
+Nuclear Grade (For Endometrioid Types only) :
+Grade 2
+FIGO Grade (For Endometrioid Types only) :
+Grade 3
+Myometrial Invasion:
+(>50%)
+The precise depth of invasion is difficult to determine due to
+distortion. However, grossly the tumor involves approximatley 80% of the
+myometrial thickness.
+Endocervical Invasion:
+Not identified
+Lymphovascular invasion:
+Identified
+Endometrium:
+Exhibits atrophy
+Myometrium:
+** Continued on next page
+Crheria
+Yes
+No
+Diagnosis Discrepancy
+X
+Primary Tumor Site Discrepancy
+HiPAA Discropancy
+Prior Malignancy History
+Dual/Sunchronous rimary News!
+Case (rirele): QUALIFIED / DISQUALIFIED
+Reviewer Init ala
+10
+Date Reviewed
+TH
+two 5/2/11
+TSS Name/#:
+Page 2 of 7
+Exhibits adenomyosis
+Exhibits one leiomyoma
+Adnexa:
+Unremarkable
+Left fallopian tube exhibits:adhesions and foreign body giant cell
+reaction
+2. LYMPH NODES, LEFT OBTURATOR SENTINEL; EXCISION:
+Lymph Nodes:
+Number of nodes examined:1
+Number of metastatic nodes:0
+Comment:
+Deeper levels and CK AE1:AE3 are negative for metastasis
+3. LYMPH NODES, RIGHT EXTERNAL ILIAC; EXCISION:
+Lymph Nodes:
+Number of nodes examined:5
+Number of metastatic nodes:0
+4. LYMPH NODES. RIGHT OBTURATOR: EXCISION:
+Lymph Nodes:
+Number of nodes examined:6
+Number of metastatic nodes:0
+5. LYMPH NODES, RIGHT HYPOGASTRIC; EXCISION:
+Lymph Nodes:
+Not identified
+Benign adipose tissue only
+Comment:
+Tissue is entirely submitted.
+6. LYMPH NODES, RIGHT COMMON ILIAC; EXCISION:
+Lymph Nodes:
+Number of nodes examined:1
+Number of metastatic nodes:0
+7. LYMPH NODES, LEFT EXTERNAL ILIAC; EXCISION:
+Lymph Nodes:
+Number of nodes examined:4
+Number of metastatic nodes:0
+8. LYMPH NODES, LEFT OBTURATOR EXCISION:
+Lymph Nodes:
+** Continued on next page **
+TSS Name/#
+Page 3 of 7
+Number of nodes examined:3
+Number of metastatic nodes:0
+9. LYMPH NODES, LEFT HYPOGASTRIC; EXCISION:
+Lymph Nodes:
+Not identified
+Benign adipose tissue only.
+10. LYMPH NODES, LEFT COMMON ILIAC; EXCISION:
+Lymph Nodes:
+Number of nodes examined:3
+Number of metastatic nodes:0
+11. HERNIA SAC, EXCISION:
+- Benign fibroadipose tissue consistent with hernia sac.
+I ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF
+THE SLIDES (AND/OR OTHER MATERIAL) , AND THAT I HAVE REVIEWED AND APPROVED
+THIS REPORT.

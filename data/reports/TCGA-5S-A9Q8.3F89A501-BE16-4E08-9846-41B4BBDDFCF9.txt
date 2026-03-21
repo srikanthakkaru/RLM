@@ -1,0 +1,145 @@
+UUID:3F89A501-BE16-4E08-9846-41B4BBDDFCF9
+TCGA-5S-A9Q8-01A-PR
+Redacted
+SURGICAL PATHOLOGY REPORT
+ICD-0-3
+FINAL
+adeno carcinoma, endometrioid, NOS
+Procedure Date:
+8380/3
+Accession Date:
+CLINICAL DATA: Fibroids, pelvic mass
+Site : endometrium NOS C54.1
+FROZEN:
+A1FS: Endometrioid carcinoma.
+Received at reported at
+11/20/14
+GROSS EXAMINATION:
+A. "Right Tube and Ovary (Frozen)". The specimen is received fresh for frozen section
+designated "Right Tube and Ovary" and consists of a disrupted cystic and solid ovary
+and attached fallopian tube
+segment. The ovary, as received, measures approximately 9.0 X 6.0 X 4.5 cm. The
+identifiable external surfaces are
+grey-tan to pink-purple, dull and lobular. The intact portion of the external surface is
+inked blue. Sectioning shows
+multiple cystic spaces and a predominantly solid component composed of fleshy tan-
+pink lobular tissue. No
+significant hemorrhage or necrosis is seen. There is no ovarian parenchyma is grossly
+identified. The fallopian
+tube is 8.5 cm long by 1.2 cm in diameter. Tubal fimbriae are present. The external
+surface is dark pink-tan, dull
+and focally shaggy. Sectioning shows a grossly unremarkable fallopian tube lumen.
+Representative sections are
+submitted in eleven cassettes. A1FS, A2-A9- ovarian mass; A10, A11- fallopian tube.
+B. "Uterus, Cervix, Left Tube and Ovary". The specimen is received in formalin
+designated "Uterus, Cervix, Left Tube and Ovary" and consists of an enlarged, distorted
+uterus with attached cervix
+and attached left adnexa. The uterus and cervix together weigh 753.0 grams and
+measuring 18.4 X 13.7 X 9.9 cm.
+The serosa is dark pink-red, dull with multiple hemorrhagic and fibroadipose adhesions.
+The cervix is 3.5 cm in
+diameter. The ectocervix is pink-tan and smooth. The ectocervical margin and cervical
+stromal surfaces are inked
+yellow and the uterine serosal surfaces are inked blue. The endocervix shows a 1.5 X
+0.5 X 0.4 cm pink-tan smooth
+endocervical polyp located in the upper endocervical canal. No other focal lesions are
+seen. There is a 6.4 X 4.5 X
+3.4 cm pink to tan-yellow endometrial mass involving the anterior and posterior
+endometrial surfaces. Sectioning
+shows apparent invasion of the myometrium to a depth of 3.0 cm out of a total
+myometrial thickness of 6.5 cm
+(inner one-half). The mass does not extend into the lower uterine segment and is
+approximately 5 cm from the
+nearest paracervical margin. The myometrium is very coarsely trabecular and there are
+rare circumscribed tanwhite
+to yellow rubbery whorled nodules, some of which are calcified measuring up to 2.2 cm.
+The left adnexa
+weighs 54.5 grams and measures 10.4 X 5.6 X 3.8 cm. Sectioning shows a disrupted
+complex cystic adnexal mass.
+The cystic structures show focally hemorrhagic, smooth dull inner surfaces. Ovarian
+parenchyma is seen. Multiple
+luminal structures are seen, however, a well-defined fallopian tube is identified.
+Representative sections are
+submitted in 29 cassettes. B1- serosal adhesions; B2- anterior cervix; B3- anterior upper
+endocervix, black ink on
+cervical end; B4- posterior cervix; B5- posterior upper endocervix, black ink on cervical
+end ; B6-B8, B9-B11,
+SURGICAL PATHOLOGY REPORT
+FINAL
+B12-B14- full-thickness sections of endomyometrium with blue inked serosal surface;
+B15-B16, B17-B18, B19-
+B20- full-thickness sections of endomyometrium with blue inked serosal surface; B21-
+paracervical margin inked
+yellow; B22- myometrial nodules; B23- B29- left adnexa.
+C. "Omentum". The specimen is received in formalin designated "Omentum" and
+consists of multiple portions of pink-red to tan-yellow omentum measuring 27 X 17 X 3
+cm in aggregate.
+Sectioning shows focal hemorrhage and ill-defined areas of slight induration.
+Representative sections are submitted
+in five cassettes.
+D. "Para-aortic Lymph Node". The specimen is received in formalin designated
+"Paraaortic
+Lymph Node" and consists of fragments of tan-yellow fibroadipose tissue measuring 6 X
+2 X 2 cm.
+Sectioning shows two possible lymph nodes measuring 1.1 and 3.8 cm. The specimen is
+submitted in its entirety in
+three cassettes. D1- one lymph node; D2, D3- one lymph node bisected.
+E. "Right Obturator Node". The specimen is received in formalin designated "Right
+Obturator Node" and consists of a 10x3x2 cm portion of tan-yellow fibroadipose
+tissue. Sectioning shows two
+possible lymph nodes measuring 2.5 X 5.3 cm. Submitted in toto in three cassettes. E1-
+one lymph node bisected;
+E2, E3- one lymph node sectioned.
+F. "Left lliac Node". The specimen is received in formalin designated "Left Iliac Node"
+and consists of one lymph node measuring 2.2 cm. Bisected and submitted in toto in one
+cassette.
+DIAGNOSIS:
+A. Right fallopian tube and ovary, salpingo-oophorectomy:
+Right ovary involved with endometrioid adenocarcinoma; see comment.
+Right fallopian tube negative for carcinoma.
+B. Uterus, cervix, left fallopian tube and ovary, hysterectomy, salpingo-oophorectomy:
+Endometrioid adenocarcinoma of the endometrium, invading the myometrium 30 mm out
+of
+a total myometrial thickness of 65 mm (less than 50% myometrial invasion).
+Uterine serosa with focal endometriosis.
+Uterine leiomyomata.
+Cervix with invasion of cervical stromal connective tissue by endometrioid
+adenocarcinoma.
+Resection margins are negative.
+Left ovary with endometriotic cysts; negative for carcinoma.
+Left fallopian tube with hydrosalpinx; negative for carcinoma.
+C. Omentum, omentectomy:
+Fibroadipose tissue negative for carcinoma.
+D. Para-aortic lymph nodes, regional resection:
+SURGICAL PATHOLOGY REPORT
+FINAL
+Two lymph nodes negative for carcinoma (0/2).
+E. Right obturator nodes, regional resection:
+Two lymph nodes negative for carcinoma (0/2).
+F. Left iliac node, excisional biopsy:
+One lymph node negative for carcinoma.
+COMMENT:
+Given the presence of tumor in both the endometrium and ovary, it is not clear if
+synchronous primaries are present
+versus an endometrial primary. If synchronous tumors are clinically favored, then the
+ovarian tumor is staged as
+pT1cNOMO and the uterine tumor is staged as T2NOMO. However, if an endometrial
+primary is clinically favored,
+then the tumor is staged as T3aNOMO based on the presence of ovarian involvement.
+CPT Code: 88331, 88307 X 3, 88309, 88305
+Criterie
+10/18/14
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Primary-Noted
+Case is (circle):
+SC
+/
+DISQUALEED
+Reviewer Initials
+Date Reviewed:
+9/29/14

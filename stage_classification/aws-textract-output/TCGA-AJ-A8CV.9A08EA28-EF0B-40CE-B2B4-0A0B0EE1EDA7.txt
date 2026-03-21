@@ -1,0 +1,136 @@
+SURGICAL PATHOLOGY:
+PROCEDURE DATE:
+RECEIVED DATE:
+REPORT DATE:
+UUID:9A08EA28-EFOB-40CE-B2B4-0A0B0EE1EDA7
+COPY TO:
+TCGA-AJ-A8CV-01A-PR
+Redacted
+Pre-Op Diagnosis
+Endometrial cancer
+Post-Op Diagnosis
+Nothing indicated on requisition
+Clinical History
+Nothing indicated on requisition
+Gross Description:
+Three parts
+Container 1 labeled
+- left pelvic lymph nodes." Received in
+formalin is a 7.0 x 4.0x2.0 cm aggregate of multiple pieces of
+fatty tissue. Sectioning reveals multiple lymph nodes up to 5.0 cm
+CUC
+ICD0-3
+in greatest dimension. All lymph nodes are submitted in cassettes
+labeled
+as follows: A - two intact lymph nodes, B - one
+Adenocaremona,
+quadrisected lymph node, C - one trisected lymph node, D - one
+sectioned lymph node in toto, E and F - one sectioned lymph node in
+NOS 9380/3
+toto, G - one sectioned lymph node in toto, H through J - one
+path
+sectioned lymph node in toto.
+Carenoma,
+Container 2 labeled
+right pelvic lymph nodes." Received
+838013
+in formalin is an 8.2x5.7x1.7 cm aggregate of multiple pieces of
+fatty tissue. Sectioning reveals multiple lymph nodes up to 4.6 cm
+in greatest dimension. All lymph nodes are submitted in cassettes
+Site Endometrium
+labeled
+as follows: A - two intact lymph nodes, B - one
+(54.)
+trisected lymph node, C - one bisected lymph node, D and E - one
+sectioned lymph node in toto, F through H - one sectioned lymph node
+IN 4/17/14
+in toto.
+Container 3 labeled
+uterus, bilateral tubes, bilateral
+ovaries, cervix." Received in formalin is a 79.4 gram, 6.5 x 5.0 x
+4.0 cm uterus with attached cervix, attached 8.8 gram right adnexa,
+and attached 7.6 gram left adnexa. The ectocervix is surfaced by
+pink tan to slightly violaceous mucosa. The uterine serosa is
+smooth and tan brown. The endocervical canal is tan and corrugated.
+The endometrial cavity is 3.5 cm in width and 3.5 cm in length and
+gives rise to a 4.5 x 3.0 x 2.0 cm exophytic friable tan white
+tumor. The tumor does not grossly involve the low uterine segment.
+On section, the tumor extends approximately 0.7 cm into the
+myometrium where the myometrium is 1.7 cm thick.
+The right adnexa consists of a 4.5 cm long x 0.3 cm diameter
+previously fallopian tube attached to the mesovarium of a 2.4 x 1.2
+x 1.1 cm smooth tan white ovary. On section the ovarian stroma is
+homogeneously yellow tan. The left adnexa consists of a 4.4 cm long
+x 0.5 cm diameter fallopian tube attached to the mesovarium of a 2.3
+x 1.0 x 1.0 cm smooth yellow tan ovary. The ovarian stroma is
+homogeneously yellow tan. Separate in the container there is a 0.9
+x 0.7 x 0.5 cm encapsulated yellow tan nodule. On section the
+nodule is centrally ascitic. Representative sections are submitted
+for genomic studies in two cassettes labeled
+Representative sections of the remaining tissue are submitted in
+cassettes labeled
+as follows: A - representative anterior
+cervix, B - representative posterior cervix, C - representative
+anterior lower uterine segment, D - representative posterior lower
+uterine segment, E through G - anterior endomyometrium with tumor, H
+through J - posterior endomyometrium with tumor, H to include
+greatest depth of invasion, K through N - sectioned entire right
+parametrium, O and P - sectioned entire left parametrium, Q -
+representative right ovary, R - representative right fallopian tube,
+S - representative left ovary, T - representative left fallopian
+tube, U - trisected separately submitted nodule.
+Microscopic Description:
+Slides reviewed.
+Final Diagnosis
+Left pelvic lymph node dissection:
+Eight benign regional lymph nodes (0/8).
+Right pelvic lymph node dissection:
+Six benign regional lymph nodes (0/6).
+Hysterectomy:
+Carcinoma of endometrium.
+Tumor characteristics:
+Histologic type: Endometrioid
+Grade: Moderately differentiated (G2)
+Location: Endometrial cavity as a whole.
+Extent of invasion: Invades more than one half of the myometrium.
+Maximal thickness of myometrial invasion is 11 mm into a 17 mm
+thick myometrium.
+Extension of tumor: Does not extend beyond endometrial cavity.
+Lymphovascular space invasion: Not identified.
+Surgical margin status:
+Cervical margin: Negative.
+Left parametrial margin: Negative.
+Right parametrial margin: Negative.
+Lymph node status (utilizing all specimens):
+Sites: Bilateral pelvic.
+Number of lymph nodes examined: 14
+Number of lymph nodes containing metastatic carcinoma: o (0/14)
+Other:
+Endocervix: No pathologic diagnosis.
+Endometrium: Complex hyperplasia with atypia.
+Myometrium: Leiomyoma.
+Uterine serosa: Focal endometriosis.
+Bilateral fallopian tubes and ovaries: No pathologic diagnosis.
+Benign appendix epiploica.
+Stage: pT1bN0
+CPT: 88309, 88307 x2
+Comments
+This test has been finalized at the
+<Sign Out Dr. Signature>
+Criteria
+In 11/3/13
+Yes
+NO
+Diagnosis Discrepancy
+Primary Turner Site Discrepancy
+MIDMA Discrepancy
+Prior Malignancy History
+Dual/Sinchronous Primary Notes
+Case is (circle)
+QUALIFIED
+1
+DISQUALIZED
+Reviewer Initial
+kml
+Reviewed
+-

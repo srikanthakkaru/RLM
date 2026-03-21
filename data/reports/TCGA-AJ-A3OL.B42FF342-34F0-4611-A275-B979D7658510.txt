@@ -1,0 +1,177 @@
+SURGICAL PATHOLOGY:
+PROCEDURE DATE
+RECEIVED DATE:
+REPORT DATE:
+COPY TO:
+10 Consultation
+Frozen Section Diagnosis: "Carcinoma, morphologically suggestive of
+endometrial origin, results
+reported to Dr.
+following positive patient
+identification"
+Performed by Dr.
+Pre-Op Diagnosis
+Endometrial cancer
+Post-Op Diagnosis
+Same
+Clinical History
+Nothing indicated on requisition
+Gross Description:
+Container is labeled #1 "
+- omental biopsy." Received in
+formalin is a 5.0 x 3,4 x 0.2 cm portion of yellow tan fatty tissue.
+Sectioning reveals no discrete nodules or mass lesions. The entire
+specimen is sectioned and submitted in cassettes 1A-1C labeled
+Container is labeled #2
+peritoneal implant for frozen
+section." Received for frozen section and subsequently placed in
+formalin is a 0.9 x 0.5 x 0.2 cm portion of yellow tan soft tissue.
+The entire specimen is submitted for frozen section. The frozen
+section remnant is resubmitted for permanent in cassettes 2 labeled
+Container is labeled #3
+uterus, cervix, bilateral tubes
+and ovaries." Received in formalin is a 65.7 gram 6.7 x 5.8 x 3.2
+cm uterus with attached cervix, attached 8.0 gram right adnexa, and
+attached 5.9 gram left adnexa. The serosa is smooth and gray tan.
+A 2.8 x 2.3 cm ectocervix is surfaced by a gray tan mucosa which
+surrounds a 0.9 x 0.3 cm os. The endocervical canal is tan and
+corrugated on section. The endometrial cavity gives rise to a 3.4 x
+:B42FF342-34F0-4611-A275-B979D7658510
+TCGA-AJ-A30L-01A-PR
+Redacted
+ICD-0-3
+Criteria
+low 2/2/12
+Yes
+No
+carcinoma, endometriand, NOS 8380/3
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Site: indometrium 254.1
+Dual/Synchronous Prim ary Noted
+Case (circle):
+tw
+Kml QUALIFIED wed DISQUALIZED 1/31/12
+2/2/12
+3.0 x 2.0 cm friable exophytic tan white tumor which focally
+questionably involves the superior aspect of the posterior lower
+uterine segment. On section the tumor extends 0.3 cm into the
+myometrium where the myometrium is 1.0 cm thick. The remaining
+myometrium is gray tan with a few up to 0.5 cm in greatest dimension
+well circumscribed tan white coiled fibrous nodules. The right
+adnexa consists of a 5.0 cm long x 0.5 cm diameter fallopian tube
+attached to the mesovarian of a 2.0 x 1.2 X 0.7 cm smooth yellow tan
+ovary. On section the fallopian tube is grossly unremarkable. The
+ovarian stroma is homogeneously yellow tan. The left adnexa
+consists of a 5.0 cm long x 0.4 cm diameter fallopian tube attached
+to the mesovarium of a 2.4 x 1.1 x 0.7 cm smooth yellow tan ovary.
+On section the fallopian tube is grossly unremarkable. The ovarian
+stroma is homogeneously smooth yellow tan. Representative sections
+are submitted for genomic studies in two cassettes labeled
+Representative sections of the remaining tissue are
+submitted in cassettes labeled as follows: 3A - representative
+anterior cervix; 3B - representative posterior cervix; 3C -
+representative anterior lower uterine segment; 3D - representative
+superior posterior lower uterine segment; 3E-3G - representative
+anterior endomyometrium to include tumor, 3E to include greatest
+depth of invasion; 3H-3J - representative posterior endomyometrium
+with tumor; 3K - representative intramural fibrous nodule; 3L-3M -
+section of entire right parametrium; 3N-30 - section of entire left
+parametrium; 3P - representative right ovary; 3Q - representative
+right fallopian tube; 3R - representative left ovary; 3S -
+representative left fallopian tube.
+Container is labeled #4
+- right pelvic lymph nodes."
+Received in formalin is a 6.0 x 5.0 x 1.5 cm aggregate of multiple
+irregular pieces of fatty tissue. Sectioning reveals numerous lymph
+nodes up to 4.5 cm in greatest dimensions. All lymph nodes are
+submitted in cassettes labeled
+as follows: 4A - one bisected
+lymph node; 4B - one sectioned lymph node, in toto; 4C - one
+sectioned lymph node in toto; 4D-4E - one sectioned lymph node in
+toto; 4F-4J - one sectioned lymph node in toto.
+Container is labeled #5
+- left.aortic nodes." Received
+in formalin is a 3.7 x 3.2 x 1.2 cm aggregate of multiple pieces of
+fatty tissue. Sectioning reveals multiple lymph nodes up to 2.5 cm
+in greatest dimensions. All lymph nodes are submitted in cassettes
+labeled as follows: 5A-5B - each with one bisected lymph node;
+5C - one quadrisected lymph node; 5D-5E - one sectioned lymph node
+in toto.
+Container is labeled #6
+left pelvic lymph node."
+Received in formalin is a 5.5 x x 2.2 cm aggregate of two
+irregular pieces of fatty tissue. Sectioning reveals numerous lymph
+nodes up to 4.2 cm in greatest dimensions. All lymph nodes are
+submitted in cassettes labeled ;" as follows: 6A - one
+quadrisected lymph node; 6B - one sectioned lymph node in toto;
+6C-6E - one sectioned lymph node in toto; 6F-6H - one sectioned
+lymph node in toto.
+Container is labeled #7 - right aortic nodes." Received
+in formalin is a 4.7 x 2.8 x 1.2 cm portion of fatty tissue.
+Sectioning reveals two 2.2 cm and 3.2 cm in greatest dimensions tan
+gray lymph nodes. Both lymph nodes are entirely submitted in
+cassettes labeled
+as follows: 7A - section of entire small
+lymph node; 7B-7E - one sectioned lymph node in toto.
+Microscopic Description:
+Reviewed are slides labeled
+Final Diagnosis
+Omentum, biopsy:
+Benign fibroadipose tissue consistent with omentum.
+No histologic evidence of metastatic carcinoma identified in
+sections examined.
+Peritoneal implants, biopsy:
+Poorly differentiated carcinoma consistent with endometrial origin
+(see comment).
+Uterus, cervix, bilateral fallopian tubes and ovaries, hysterectomy
+with bilateral salpingo-oophorectomy:
+Tumor characteristics:
+Specimen integrity: Intact.
+Histologic type: Endometrioid carcinoma.
+Histologic grade: 3 (FIGO: 3).
+Tumor site: Tumor extensively involves endometrial cavity.
+Tumor size: 3.4 x 3.0x2.0cm.
+Myometrial invasion: Present, tumor invades 1.2 into a 1.5 cm
+thick myometrium
+(greater than one half).
+Involvement of cervix: Present, tumor invades endocervical stroma.
+Extent of involvement of other organs: Tumor present on peritoneal
+surface (see comment).
+Lymphovascular space invasion: Present.
+Surgical margin status: Surgical margins free of malignancy in
+sections examined.
+Lymph node status: See below.
+Other:
+Myometrium:
+Adenomyosis.
+Ovaries, bilateral:
+Endosalpingiosis.
+Fallopian tubes, bilateral:
+No pathologic diagnosis.
+pTN stage: pT3aNO
+Lymph nodes, right pelvic, regional resection:
+Five lymph nodes negative for metastatic carcinoma (0/5).
+Lymph nodes, left aortic, regional resection:
+Four lymph nodes negative for metastatic carcinoma (0/4).
+Lymph nodes, left pelvic, regional resection:
+Four lymph nodes negative for metastatic carcinoma (0/4).
+Lymph nodes, right aortic, regional resection:
+Two lvmph nodes negative for metastatic carcinoma (0/2). PAS 9
+CPT:
+Comments
+Histologic sections from the endometrial neoplasm demonstrate a
+tumor comprised of large epithelial cells with marked pleomorphism
+and prominent nuclear atypia. In areas there is glanular and
+pseudo-glandular growth as noted; however, much of the neoplasm is
+composed of sheet-like growth of these neoplastic cells with no
+discernible glandular formation. The overall histologic
+characteristics are those of a poorly differentiated (grade 3)
+endometrial adenocarcinoma. Clinical correlation is recommended.
+At the request of the undersigned pathologist, these slides have
+been additionally reviewed by Dr. who concurs with the
+diagnosis.
+This test has been finalized at the
+<Sign Out Dr. Signature>

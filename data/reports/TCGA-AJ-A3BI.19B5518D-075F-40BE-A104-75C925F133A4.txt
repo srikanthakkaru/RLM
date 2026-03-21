@@ -1,0 +1,128 @@
+UUID: 19855180-075F-40BE-A104-75C925F1334
+TCGA-AJ-A3BI-01A-PR
+Redacted
+Sex: Female
+D.O.B.:
+MRN #
+Ref Physician
+SPECIMEN-INFO
+Collected:
+Received:
+Reported:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS
+DIAGNOSIS:
+A. Lymph nodes, right paraaortic, excision:
+Criteria
+Yes
+No
+Negative for malignancy, five lymph nodes.
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+B. Lymph node, left paraaortic, excision:
+HIPAA Discrepancy
+Negative for malignancy, one node.
+Prior Malignancy History
+Dual/synchronous Primary Noted
+Case (circle):
+QUALIFIED
+DISQUALIFIED
+C. Uterus, tubes and ovaries, radical hysterectomy:
+Reviewe/Injtials
+Tumor Characteristics:
+kml
+Date-Reviewed:
+1. Histologic type: Endometricid adenocarcinoma.
+2. Histologic grade: 3 (see comment).
+3. Tumor site: Endometrial cavity and superficial myometrium.
+4. Tumor size: 4.1 x 3.9 cm.
+5. Myometrial invasion: Present: malignancy is confined to the inner one-half of the myometrium (3.0 mm invasion into 20 mm thick myometrium).
+6. Involvement of cervix Not identified.
+7. Extent of involvement of other organs: No other organ involvement identified.
+8. Lymphovascular space Invasion: Not identified.
+Surgical Margin Status:
+1. Margins are free of malignancy: right and left parametrial tissues are histologically unremarkable.
+Lymph Node Status:
+1. Number of tymph nodes received (includes all parts): 16.
+2. Number of lymph nodes containing metastatic carcinoma: 0.
+Other:
+1. Other significant findings:
+Cervix: Squamous metaplasia and chronic inflammation; negative for dysplasia or malignancy.
+Endocervical canal: No malignancy identified.
+Endometrium: Two hyperplastic type, histologically benign endometrial polyps are present, in addition to the malignancy described above.
+Myometrium: Lelomyomata.
+Serosa: Fibrovascular adhesions.
+Fallopian tubes and ovaries: Fibrovascular adhesions, bilateral.
+Serous cystadenoma, histologically benign, unilateral.
+100-0-3
+2. pTNM stage: pT1a, NO.
+adinocarciniona, indonet wind NOS 8380/3
+D. Lymph nodes, right pelvic, excision:
+Negative for malignancy, five nodes.
+Site: Endometrum c.54.1 he 10/25/11
+E. Lymph nodes, left pelvic, excision:
+Negative for malignancy, five nodes.
+Electronic Signature:
+COMMENTS:
+The morphology of the endometrial carcinoma is Grade 2. The presence of focally significant nuclear atypia, however, places the overall differentiation as
+Grade 3. Convincing features of papillary serous carcinoma are not identified.
+CLINICAL HISTORY:
+CLINICAL INFORMATION
+Preoperative Diagnosis:
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+A. Right paraaortic lymph node
+B. Left paraaortic lymph node
+C. Uterus, cervix., bilateral tubes and ovaries
+D. Right pelvic lymph node
+E. Left pelvic lymph node
+GROSS DESCRIPTION:
+A. Received in formalin labeled
+yellow representative firm tissue sections consistent are with probable ymph and node, #1 right ranging paraaortic, from 0.3 is X a 0.2 4.2 0.2 2.5 cm x 0.8 to cm, 1.8 x irregular 0.7 X fibroadipose The tissue bearing five irregular tan-
+node in each. The blocks
+bisected submitted are to labeled include the lvmph nodes in their entirety as labeled: 1 - two whole probable specimen lymph nodes; is sectioned 2-4 - and one lymph
+B. Received in formalin labeled
+one X 0.2 lymph cm, irregular, node, bisected; tan-yellow firm tissue consistent and #2 with left probable paraaortic lymph lymph node. node, The is specimen a 2.8 x 1.5 x 1.0 cm. is sectioned irregular and submitted fibroadipose in its entirety tissue bearing as labeled: a 2.8 x 0.5
+2 - adipose tissue, The blocks are labeled
+C. Received in formalin labeled
+and
+#3
+the hysterectomy comua. However, specimen, the consisting orientation of of a the 6.5 specimen x x 2.7 is uterus, cm, not uterine completely cervix, body and obvious. and bilateral an attached tubes and 3.6 x ovaries, 2.4 X 2.2 is a cm 114 cervix. gm, previously The bilateral inked adnexa and opened are attached to
+The serosa is shaggy and tan-red. The ectocervix is smooth to granular, hemorrhagic and tan, with a 0.6 cm, slit-like os.
+The
+endocervical
+canal
+is
+The 4.1 x mass 3.9 cm does polypoid, friable tan-white tan-red, mass and in one 3.1 half cm in of length. the endometrial The endometrial cavity. The cavity mass is 3.1 does cm not from comu to to comu and 4.9 cm in length. There is a
+granular,
+not grossly appear to involve the underlying myometrium.
+appear
+extend
+into
+the
+lower
+uterine
+segment.
+polyp The remainder is in the same of the side endometrium of the cavity is tan-pink as the mass with and two tan-pink the larger endometrial polyp is in the polyps, opposite measuring cavity. 0.6 cm and 1.8 cm in greatest dimension. The smaller
+measuring The myometrium 0.2 cm is and trabeculated, 1.3 cm in greatest tan-pink, dimension. and ranges No in areas thickness of hemorrhage from 1.3 cm or to necrosis 1.9 cm. are There identified are two in intramural, the nodules. whorled, gray-white dense nodules
+ovary 4.2x3.2x1.7 is a 4.8 x 3.5 cm, x 1.1 ovary cm, portion has a shaggy, of tan-red tan-red outer surface. The cut surface is tan-yellow with a gray-white corpora
+The
+tube with shaggy shaggy, pinpoint lumen. to yellow, fibrofatty soft tissue. Within this tissue is a cm, possible albicans. fimbriated Attached to fallopian the
+a tan-red serosa and a
+The 4.8x2.5x1.2 cm, ovary has a shaggy, tan-red outer surface. The cut surface is tan-yellow.
+tube Attached has a to shaggy, the ovary tan-red is a 1.8 x 0.4 serosa with cm, a possible pinpoint fimbriated lumen. fallopian tube and a 4.3x21x05 cm, ovoid, tan-pink membranous
+clear fluid. identified. The cut surface of the membranous tissue consists of a 3.2 cm, smooth-lined tissue. cyst The containing fallopian a
+serous No excrescences are
+endometrial lower The specimen uterine polyp, segment; is serially 5-6 sectioned - full thickness and representative endometrial sections mass in are each; submitted 7-8 - endometrial as labeled: mass; 1-2 - 9 anterior - and posterior cervix; 3-4 - anterior and posterior
+17 - smaller ovary entirely and attached submitted; 11 - uninvolved endomyometrium with serosa; 12 myometrial smaller nodules; endometrial polyp in toto; 10 - larger
+genomic ovary. The research blocks are study. labeled fallopian tube; 18 Iso - received larger ovary; in the 19 same - larger container ovary and are a attached - yellow, a fallopian green and tube; a 13-14 blue 20 - cassette cystic - left tissue and labeled right attached parametrium; to larger 15-
+for
+D. Received in formalin labeled
+tan-yellow
+representative
+firm sections tissues consistent are submitted with to possible lymph nd #4 node, right pelvic ranging lymph from node, 0.4 X is a 6.2x5.5x2.1 cm to 4.4 cm, x 1.8 irregular 0.7 fibroadipose The tissue bearing five irregular
+bisected; 3-6 - one lymph node serially sectioned; include the 7-10 lymph - one node lymph in their node entirety serially as sectioned, labeled: 1 - The two blocks whole are probable labeled cm. lymph specimen nodes: is 2 sectioned - one lymph and node
+E. Received in formalin labeled
+tan-yellow representative firm sections tissues consistent with probable lymph d #5 node, left pelvic ranging lymph from node, 1.3x0.8x0.3cm, is a 6.1 x 5.8 x 2.9 to 3.5 cm, irregular fibroadipose tissue bearing five irregular
+node serially sectioned; are 6-8 submitted - one lymph to include node serially the lymph sectioned. nodes The in their blocks entirety are labeled as labeled: 1-3 - one X 1.5 lymph x 0.6 node cm. The bisected specimen in each; is sectioned 4-5 one and lymph

@@ -1,0 +1,227 @@
+UUID: 921E6140-A03E-4FBD-9FB8-554AE96FD160
+TCGA- 2E -A9G8-01A-PR
+Redacted
+SURGICAL PATHOLOGY REPORT
+NAME:
+SURG PATH #:
+MR #:
+SPECIMEN CLASS:
+BILLING #:
+ALT ID #:
+LOCATION:
+DATE OF PROCEDURE:
+AGE:
+SEX:
+F
+DATE RECEIVED:
+DOB:
+TIME RECEIVED:
+PHYSICIAN:
+DATE OF REPORT:
+COPY TO:
+DATE OF PRINTING:
+Procedures/Addenda
+Addendum
+Date Ordered:
+Status: Signed Out
+Date Complete:
+By:
+Date Reported:
+Addendum Comment
+Prognostic markers are now available for review on
+PhD, Attending Physician
+ICD03
+NOS
+CULE
+8380/3
+Site: Fundres litere C543
+Material Received:
+A: uterus, cervix, bilateral tubes and ovaries
+B: left pelvic lymph node
+party Endome treem C54.1
+C: right pelvic lymph nodes
+D: left para aortic, common lymph node
+210 6/18/14
+E: right para aortic lymph node
+History:
+year-old female with a clinical history of endometrial adenocarcinoma.
+Final Diagnosis:
+A. Uterus, cervix, bilateral tubes and ovaries, hysterectomy and bilateral salpingo-oophorectomy:
+Cervix: Nabothian cysts.
+Endometrium: Invasive endometrial carcinoma, endometrioid type, FIGO grade 3, nuclear grade 3. See comment.
+Myometrium: Leiomyoma.
+Ovary: Corpora albicantia.
+Fallopian tube: No diagnostic abnormalities.
+B. Lymph nodes (5), "left pelvic lymph node," regional dissection:
+There is no evidence of malignancy in five of five lymph nodes (0/5).
+MR #:
+Page 1 of 4
+Date of Printing:
+SURGICAL PATHOLOGY REPORT
+Order Number:
+NAME:
+SURG PATH #:
+MR #:
+ALT ID #:
+C. Lymph nodes (14), "right pelvic lymph nodes," regional dissection:
+There is no evidence of malignancy in fourteen of fourteen lymph nodes (0/14).
+D. Lymph nodes (4), "left para aortic, common lymph node," regional dissection:
+There is no evidence of malignancy in four of four lymph nodes (0/4).
+E. Lymph nodes (5), "right para aortic lymph node," regional dissection:
+There is no evidence of malignancy in five of five lymph nodes (0/5).
+Comment:
+ENDOMETRIUM:
+Specimen: Uterus, cervix, left fallopian tube and ovary
+Procedure: Simple hysterectomy
+Specimen Integrity: Intact hysterectomy specimen
+Tumor Site: Endometrium, predominantly posterior
+Tumor Size:
+Greatest dimension: 5.2 cm
+Additional dimensions: 5.1 X 5.0 cm
+Histologic Type: Endometrioid adenocarcinoma, not otherwise characterized
+Histologic Grade:
+International Federation of Gynecology and Obstetrics (FIGO) Grading System (applies to endometrioid and mucinous
+adenocarcinomas only):
+FIGO grade 3 (More than 50% nonsquamous solid growth)
+Nuclear grade: 3
+Myometrial Invasion:
+Depth of invasion: 0.5 cm
+Myometrial thickness: 1.4 cm
+Endocervical involvement: Not identified.
+Extent of Involvement of Other Organs: None.
+Peritoneal Ascitic Fluid: Not available.
+Margins:
+Uninvolved by invasive carcinoma
+Distance of invasive carcinoma from closest margin: 0.8 cm
+Specify margin: Serosal
+Lymph-Vascular Invasion: Not identified
+Lymph Nodes: (0/28)
+Pelvic lymph nodes and para-aortic lymph nodes
+Number Examined: 28
+Number Involved: 0
+Prognostic Markers: Ordered. See
+for addendum Image Analysis report
+Pathologic Staging (pTNM): pT1a, NO, M(not applicable).
+TNM Descriptors (required only if applicable) (select all that apply)
+Primary Tumor (pT)
+pT1a:
+Tumor limited to endometrium or invades less than one-half of the myometrium
+Regional Lymph Nodes (pN)
+pNO:
+No regional lymph node metastasis
+Distant Metastasis (pM)
+Not applicable
+The pathologic stage assigned here should be regarded as provisional, as it reflects only current pathologic data and does not
+incorporate full knowledge of the patient's clinical status and/or prior pathology.
+-
+MR #:
+Page 2 of 4
+Date of Printing:
+SURGICAL PATHOLOGY REPORT
+NAME:
+SURG PATH
+MR #:
+ALT ID #:
+By this signature, I attest that I have personally formulated the final interpretation expressed in this report and that the above diagnosis is based
+upon my examination of the slides and/or other material indicated in this report.
+***Electronically Signed Out By***
+Interpreted by:
+Attending Physician
+Resident
+Gross Description:
+A.
+Received fresh labeled with the patient's name and "uterus, cervix, bilateral tubes and ovaries" is a 154 gram hysterectomy
+specimen, measuring 10.5 X 4.2 cm. The specimen is opened to reveal a 4.5 3.2 cm fungating mass located
+predominantly in the posterior endometrium. Within the anterior and posterior myometrium is a 5.2 X 5.1 X 5.0 cm circumscribed
+tan-white whorled nodule, grossly consistent with a leiomyoma. This leiomyoma is compressing up against and displacing the
+majority of the endometrium. The endometrial cavity measures 3.5 X cm and the endocervical cavity measures 3.2 X 0.9 cm.
+The uterus is serially sectioned to reveal an average endometrial thickness of 0.1 cm and an average myometrial thickness of 1.4
+cm. Grossly, the mass is invading 0.3 cm into the myometrium. Representative sections of the uterus are submitted as follows:
+A1
+12:00 cervix.
+A2
+6:00 cervix.
+A3
+Anterior lower uterine segment.
+A4
+Posterior lower uterine segment
+A5
+Full thickness anterior wall.
+A6
+One full thickness section from the mass in the posterior wall.
+A7-A8
+One full thickness section of the mass from the posterior wall (bisected).
+A9
+One additional representative section of the mass from the posterior wall.
+A10
+A representative section from the leiomyoma.
+Attached to the uterus is a 4.5 cm in length by 0.6 cm in diameter tan-pink fallopian tube that is serially sectioned to reveal an
+unremarkable pinpoint lumen. Proximately there is 0.6 X 0.6 x 0.5 cm circular piece of plastic. Representative sections from the
+right fallopian tube are submitted in cassette A11. Adjacent to the fallopian tube is a 2.6 X 2.1 X 1.2 cm smooth, tan-white ovary
+that is bivalved to reveal a variegated tan-white cut surface. One-half of the ovary is submitted in cassette A12.
+Also attached to the uterus is a 4.2 cm in length by 0.6 cm in diameter fimbriated left fallopian tube. The external surface is
+smooth, tan-pink and unremarkable. The tube is serially sectioned to reveal an unremarkable pinpoint lumen. Representative
+sections from the left fallopian tube are submitted in cassette A13. Adjacent to the left fallopian tube is a 2.1 X 1.8 X 0.6 cm
+tan-white ovary that is bivalved to reveal a variegated tan-white cut surface. One-half is submitted in cassette A14.
+B. Received in formalin labeled with the patient's name and "left pelvic lymph node" is a 4.7 X 1.8 X 0.8 cm aggregate of
+yellow-tan adipose tissue. The specimen is palpated to reveal seven possible lymph nodes ranging in size from 0.6 0.4 X 0.2 cm
+to 1.5 X 1.2 cm. The lymph nodes are submitted as follows:
+B1
+Four possible lymph nodes.
+B2
+Two possible lymph nodes.
+B3
+One possible lymph node.
+C. Received in formalin labeled with the patient's name and "right pelvic lymph nodes" is a 3.2 X 2.5 X 0.5 cm aggregate of
+yellow-tan adipose tissue. The tissue is palpated to reveal 12 possible lymp nodes ranging in size from 0.4 X 0.4 X 0.2 cm to 1.8 X
+0.5 X 0.4 cm. The lymph nodes are submitted as follows:
+C1
+Four possible lymph nodes.
+C2
+Four possible lymph nodes.
+C3
+Three possible lymph nodes.
+C4
+Two possible lymph nodes.
+D. Received in formalin labeled with the patient's name and "left para-aortic, common lymph node" is a 1.9 x 0.6 x 0.3 cm
+aggregate of yellow-tan adipose tissue. The specimen is entirely submitted in cassette D1.
+E. Received in formalin labeled with the patient's name and "right para-aortic lymph node" are four tan-pink, firm lymph nodes
+ranging in size from 1.0 X 0.7 X 0.4 cm to 1.7 X 0.6 0.4 cm. These lymph nodes are submitted as follows:
+E1
+Two lymph nodes.
+E2
+Two lymph nodes.
+MR #:
+Page 3 of 4
+Date of Printing:
+SURGICAL PATHOLOGY REPORT
+NAME:
+SURG PATH #:
+MR #:
+ALT ID #:
+I
+Resident
+If immunohistochemical stains and/or in situ hybridization are cited in this report, the performance characteristics were determined by the
+in compliance with CLIA'88
+regulations. Some of these tests rely on the use of "analyte specific reagents" and are subject to specific labeling requirements by the FDA. Known
+positive and negative control tissues demonstrate appropriate staining. This testing was developed by the
+It has not been cleared or approved by the FDA. The FDA has determined that such clearance or approval
+is not necessary.
+Criter's
+he 11/25/13
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Primary Note
+Case is (circle):
+QUALIFIED
+/ DISQUALIFIED
+Reviewer Initials ANT
+Date Reviewed: 11/23/13
+MR #:
+Page 4 of 4
+Date of Printing:
+SURGICAL PATHOLOGY REPORT

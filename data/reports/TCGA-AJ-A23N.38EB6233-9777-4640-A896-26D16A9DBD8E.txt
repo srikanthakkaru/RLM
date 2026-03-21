@@ -1,0 +1,95 @@
+Sex: Female
+D.O.B.:
+MRN #:
+Ref Phye
+SPECIMEN INFORMATION
+Collected
+Accession
+Received:
+Acct / Reg
+Reported
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS
+DIAGNOSIS:
+A. Portion of omentum, excision:
+Criteria
+Metastatic high grade adenocarcinoma, diffusely infiltrative.
+Yes
+No
+Diagnosis Discremency
+Frozen section diagnosis confirmed.
+Primary Tumor Sita Discrepancy
+H:PAA Discrepancy
+Prior Malignancy History
+B. Omentum, excision:
+Cus:/Synchron.ous Princ Noted
+Diffusely infiltrative high grade adenocarcinoma
+indicitcle)
+QUALIFIED
+DISQUALIFIED
+Date Review
+C. Uterus, right adnexa, hysterectomy with right salpingoophorectomy:
+he 4/19/11
+Tumor Characteristics:
+1. Histologic type
+cardingers
+2. Histologic grade: 3.
+3. Tumor site:
+4. Tumor size. Tumor microscopic in its originating source measuring approximately 1.0 cm in lateral dimension.
+5. Myometrial Invasion: Tumor focally extends 0.3 cm into a 1.1 cm thick myometrium.
+6. Involvement of cervix: Cervix not removed.
+7. Extent of Involvement of other organs: Tumor extends into the right ovary as well as within the parametrial tissue as well as extensively along the
+uterine serosa.
+8. Lymphovascular space Invasion: Not definitively identified.
+Surgical Margin Status:
+Tumor does not definitively extend to margins of resection, however, is metastatic multifocally.
+ICD-0-3
+Lymph Node Status:
+No lymph nodes removed.
+Other:
+Carcinoma serons NOS 8441/3
+1. Other significant findings:
+Site indometrium C54.1
+a. Background endometrium with predominantly atrophic features.
+b. Right fallopian tube without significant pathologic abnormality.
+4/19/11
+2. pTNM stage: pT3a NX (FIGO IIIA).
+her
+Electronic Signature:
+COMMENTS:
+Appropriately controlled Immunohistochemical stains for WT-1 and P53 performed on blocks C10 and C13 show positve staining for p53 with no to only
+focal nuclear staining for WT1. This, along with patient age and background atrophic endometrium are consistent with a serous carcinoma of endometrial
+origin.
+CI INICAI INFORMATION
+CLINICAL HISTORY:
+Preoperative Diagnosis: Adenocarcinoma on Pap, thickened endometrium. Blopsy not possible - cervical stenosis
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+UUID: 38EB6233-9777-4640-A896-26D16A9DBD8R
+A. Portion of omentum with frozen section
+TCGA-AJ-A23N-01A-PR
+Redacted
+B. Omentum
+C. Uterus, right tube and ovary
+SPECIMEN DATA
+GROSS DESCRIPTION:
+The specimen is received in three containers labeled with the patient's name,
+On
+Container gray-white A is additionally tumor nodules labeled are identified, "portion of 2.0 omentum" and 3.0 cm and in contains greatest a dimension. 10.0x5.0x3.0 A section cm, yellow-tan, is submitted finely for are frozen topulated submitted section fibrofatty in with cassettes the soft residual tissue. A2-3. entirely section,
+two
+Additional representative sections
+Additionally, a yellow cassette is submitted for genomics research labeled
+resubmitted for permanent section in cassette A1 labeled
+labeled "#2" and contains an 18.0 x 8.5 x 3.5 cm, yellow-tan, finely lobulated are submitted fibrofatty in soft cassettes tissue consistent B1-4 labeled with omentum.
+Container Sectioning B reveais is additionally gray-white tumor up to 6.0 cm in greatest dimension. Representative sections
+labeled "uterus. right tube and ovary" and contains a 41.8 gm supracervical from 0.5 to 1.0 hysterectomy cm) and right specimen ovary (3.0 comprised x 1.5 x of 1.3 uterine cm). The
+Container (5.6 C cm is additionally in length by 3.5 x 3.5 cm), right fallopian tube (6.0 cm In length soft tissue and is ranging inked and taken en face. The endometrium is pink-tan with and lush
+with corpus uterine an corpus average is thickness surfaced by of 0.3 pink-tan, cm. Discrete shaggy serosa. Invasive The lesions Identified. parametrial are not The identified. ovary is The sectioned surrounding to reveal myometrium a yellow-tan is pink-tan fibrous cut and surface fibrous with a an gray-white average
+thickness albicans of 1.1 cm. and a No 0.6 myometrial cm cystic nodules ovary. The or lesions cyst features are a arey-white papillary follows: excrescence 1 right parametrium, and contains en clear, face; watery 2 left parametrium, finid. Representative en face; 3
+corpus are 4 posterior C1-16 labeled lower uterine segment; 5-6 full thickness anterior endomyometrium; tube; 13-16 ovary, 7 remainder entirely.
+'asignated as of anterior endometrium; 8-9
+sections submitted in cassettes
+anterior full thickness lower posterior uterine segment; endomyometrium; 10-11 remainder of posterior endometrium; 12 fallopian
+INTRA-OPERATIVE CONSULTATION:
+FROZEN SECTION DIAGNOSIS: Part A - Metastatic adenocarcinoma per Dr

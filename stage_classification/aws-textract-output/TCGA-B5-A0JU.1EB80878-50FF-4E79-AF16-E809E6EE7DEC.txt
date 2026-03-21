@@ -1,0 +1,141 @@
+ICD-0-3
+adenocarcinoma indometrioid, NOS 8380/3
+9196817048
+Site indometrum C54 /
+p.1
+4/7/11 for
+UID:1EB80878-50FF-4E79-AF16-E809E6EE7DEC
+TCGA-B5-A0JU-01A-PR
+Redacted
+CLINICAL HISTORY:
+Abnormal uterine bleeding, post menopausal. Malignant neoplasm corpus uteri.
+Per E-browser, EMB-endometrioid adenocarcinoma FIGO 1.
+GROSS EXAMINATION:
+A. "Oterus, cervix, bilateral tubes and ovaries (AF1-2)", received fresh for
+frozen section is a 194 gran, 12. x 17.6 x 4.3 cm uterus with attached
+bilateral ovaries. The anterior desection margin is inked blue and the
+posterior resection margin is inked black. The uterus (119 gram, 12.2 x 11.2
+4.3 cm) has a tan-pink, smooth Herosa and a 1.1 cm patent cervical os with
+grossly unremarkable muccsa. The uterus is opened to reveal a 7.2 x 4.9 x 2.5
+cm polypoid, funcating, tan-brown mass with hemorrhage located primarily in
+the anterior endometrial cavity and extending approximately 1.5 cm into the
+posterior cavity. The mass involves the anterior lower uterine segment,
+however, is not grossly invasive. The maximum thickness of tumer is 2.2
+cm
+and grossly invades the myometrium, 0.4 cm of 2.2 cm. The tumor does no:
+appear to grossly invade the endocervical canal. The uninvolved endometrium
+is 0.1 C.I. thick, tan-brown, and goosly unremarkable. The remainder of the
+myonetrium is grossly unremarkable. A full-thickness representative section
+of the anterior endcmyonetrial malss is bisected and frozen. as AF1-2. The
+frozen section remnants are submitted in blocks A1-2, respectively.
+BLOCK SUMMARY:
+A3- anterior cervix
+A4- posterior cervix
+A5-5- fuli-thickness mass anterior lower uterine segment, bisected
+A7- full-thickness posterior lower uterine segment
+A8-9- full-thickness mass
+A10- additional full-thickness section posterior endomyonetrium
+Also received is a 5 x 0.5-1 cm right fallopian tube with attached mesentery
+and 2.2 x :. 6 x 0.5 cm tan-yellow cerebriform ovary. The fallopian tube has
+a tan-brown, glistening serosa, and sectioning reveals a complete, patent
+lumen. The cut surface of the ovary is grossly unremarkable without masses.
+Representative sections of fallopian tube and ovary are submitted in block
+All.
+The left fallopian tube measures 6 x 0.6-2.2 cm and has attached mesentery and
+a 2.9 x 2.5 x 0.8 cm, tan-yellow cerebriform ovary. Sectioning the fallopian
+cube reveals a markedly dilated Lumen (1.2 cm) with yellow-red fluid.
+Sectioning of the ovary reveals a grossly unremarkable cut surface without
+masses. Representative sections of the fallopian tube and ovary is submitted
+in block A12.
+B. "Left pelvic lymph node", received fresh and placed in formalin is a 7.2 x
+2.8 x 2.4 cm aggregate of pink-yellow soft tissue that is dissected for lymph
+node candidates. Lymph node candidates are submitted as follows:
+BLOCK SUMMARY:
+Yes
+Criteria
+B1-
+two lymph node candidates one inked blue
+Diagno-is Disr.epancy
+B2-3-
+one lymph node candidate, cut into four sections
+Primary Tumor Discrepancy
+HIPAA Discrepancy
+B4-5- one lymph node candidate, cut into four sections
+Prior Malignancy History
+B6-
+Dual/Synchronous Primary Noted QUALIFIED
+DISQUALIFIED
+two lymph node candidates one inked blue and bisected
+Case (circle):
+Date Reviewed
+B7-
+one lymph node candidate, bisected
+Reviewer
+B8-
+one lymph node candidate,
+bisected
+Kmt Initials tw
+B9-
+one lymph node candidate, bisected
+p.2
+rage L U
+B10- one lymph node candidate, tulsected
+C. "Right pelvic lymph nodes", received fresh and placed in formalin is a 5.5
+x 2.7 x 1.9 cm aggregate of pink-yellow soft tissue. The soft tissue is
+dissected for lymph node candidates five lymph ncde candidates are identified
+and submitted as follows:
+C1-2-
+one lymph node candidate, dut into four sections
+C3-
+one lymph node candidate, but into four sections
+C4-
+lymph node candidates
+C5-
+lymph node candidates
+C6-8- one lymph node candidate, but into four sections
+INTRA OPERATIVE CONSULTATION:
+A. "Uterus, cervix, bilateral tubes and ovaries": AF1-2- (anterior
+endomyonetrial tumor)-
+1- endometrioid
+adenocarcinoma, 2 FIGO
+grade 2, 3- invasion 0.5
+cm of 2.7 cm
+MICROSCOPIC EXAMINATION:
+Microscopic examination is performed.
+DIAGNOSIS:
+A. "UTERUS, CERVIX, TUBES, AND OVARIES (AF1-2):
+UTERUS: 119 GRAMS
+ENDOMETRIUM
+TUMOR SITE: DIFFUSE (LARGE$) MASS ANTERIOR)
+HISTOLOGIC TYPE: ENDOMETRICID ADENOCARCINOMA.
+FIGO GRADE: 2
+TUMOR SIZE: 7.2 X 4.9 X 2.18 CM.
+MAXIMUM DEPTH OF MYOMETRIAL INVASION: 0.5 CM, IN A 2.7 THICK WALL.
+LYMPHATIC/VASCJLAR INVASION: NEGATIVE
+ADJACENT NON-NEOPLASTIC ENDOMETRIUM: ATROPHIC
+REMAINING MYOMETRIUM: ADENOMHOSIS
+CERVIX: NO EVIDENCE OF INVASION
+SEROSA: FREE OF TUMOR.
+SPECIMEN MARGIKS: NOT INVOLVED
+RIGHT AND LEFT OVARIES: NO PATHOLOGIC DIAGNOSIS, AND NO EVIDENCE OF
+MALIGNANCY.
+RIGHT AND LEFT FALLOPIAN TUBESH CHRONIC SALPINGITIS AND
+HEMATO-HYDROSALPINX, NO EVIDENCE OF MALIGNANCY.
+B. "LEFT PELVIC LYMPH NODES":
+TEN LYMPH NODES, NEGATIVE FCR CARCINOMA (0/10)
+C. "RIGHT FELVIC LYMPH KODES":
+SEVEN LYMPH NODES. NEGATIVE FOR CARCINOMA (0/7)
+COMMENT: The pathologic stage of tumor is pT1b, pNO, pMx.
+I certify that I personally conducted the diagnostic evaluation of the above
+specimen (s) and have rendered the above diagnosis(es)
+p.3
+rage , U1
+C= ADDENDUM 1:
+Please see Image Cytometry Report
+esults of supplementary
+tests.
+I certify that I personally conducted the diagnostic evaluation of the above
+specimen (s) and have rendered the above diagnosis (es)
+.
+Performed by:
+Ordering MD.

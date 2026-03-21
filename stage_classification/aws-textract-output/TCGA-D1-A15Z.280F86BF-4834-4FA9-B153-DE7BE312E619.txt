@@ -1,0 +1,78 @@
+ICD-0-3
+Adenocarcinoma, Endometrioid, NOS
+8380/3
+12/9/10
+: Surgical Pathology
+Site Code. Endometrum in
+C54.1
+TISSUE DESCRIPTION:
+B1 B2 B3 B4 B5 B6 B7 B8 C1 C2 C3 C4 C5 C6 D1 D2
+D3 E1 E2
+E3 E4 E5 E6 E7 E8 F1 F2 F3 F4
+Uterus, right ovary (3.0 X 1.6 X 1.0 cm) with 6.0 cm
+segment of
+right fallopian tube, and left ovary (2.6 X 2.0 X 0.4 cm)
+with 8.0
+cm segment of left fallopian tube together weighing 145.0
+grams;
+right and left pelvic lymph nodes; right and left para-
+aortic lymph
+nodes; and tissue from the abdomen (skin and subcutaneous
+tissue
+with umbilicus, 3970.0 grams).
+DIAGNOSIS:
+Uterus, bilateral ovaries, and fallopian tubes; total
+hysterectomy
+and bilateral salpingo-oophorectomy: FIGO grade II (of
+III)
+endometrial adenocarcinoma, endometrioid type, is
+identified forming
+a mass (4.2 X 3.6 X 1.1 cm) located in the right anterior
+uterine
+cavity. The tumor invades 0.6 cm into the myometrium
+(total
+myometrial thickness, 1.9 cm). The cervix and lower
+uterine segment
+are uninvolved by tumor.
+Ovary, left, oophorectomy: Endosalpingiosis.
+Ovary, right, oophorectomy: Unremarkable.
+Fallopian tubes, left and right, salpingectomy:
+Unremarkable.
+Lymph nodes, right pelvic, excision: Multiple right
+pelvic lymph
+nodes (6 external iliac, 1 internal iliac, 4 common iliac,
+1
+obturator) are negative for tumor.
+JUID:280F86BF-4834-4FA9-B153-DE7BE312E619
+TCGA-D1-A15Z-01A-PR
+Redacted
+Lymph nodes, left pelvic, excision: Multiple left pelvic
+lymph
+nodes (4 external iliac, 2 internal iliac, 4 common iliac,
+6
+obturator) are negative for tumor.
+Lymph nodes, left and right para-aortic, excision: A
+single right
+para-aortic lymph node below the inferior mesenteric
+artery is
+negative for tumor. Multiple (4) left para-aortic lymph
+nodes above
+the inferior mesenterio artery are negative for tumor.
+Skin and subcutaneous tissue, abdomen, excision: Skin and
+subcutaneous tissue (3970.0 grams) with umbilicus
+identified
+grossly.
+riteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HPAA Discrepancy
+Prior Malignancy History
+Duel/Synchtonous distributed
+Case is (circle):
+QUALIFIED
+RISQUANTED
+Reviewer Initials
+Date/Reviewed:
+2/10

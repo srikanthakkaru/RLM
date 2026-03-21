@@ -1,0 +1,113 @@
+ICD-0-3
+Carcinoma, Serous, NOS
+8441/3
+12/9/10
+Surgical Pathology
+Site Code: Endometrum
+for
+C54.1
+TISSUE DESCRIPTION:
+A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 J1 K1 L1 M1
+N1 01 P1 Q1
+R1 S1 B1 B2 B3 B4 B5 B6 B7 B8 B9 T1 C1 C2 C3 C4 C5 C6 C7
+D1 D2 D3 E1
+E2 E3 F1 F2 F3 F4 G1 G2 G3 H1 I1
+Uterus, right ovary (4.3 X 2.4 X 1.3 cm) with 9.3 cm
+segment of
+right fallopian tube, and left ovary (4.2 X 1.8 X 1.3 cm)
+with 9.8
+cm segment of left fallopian tube together weighing 195.0
+grams;
+portion of omentum (20.0 X 18.0 X 1.0 cm); right and left
+pelvic
+lymph nodes; right and left para-aortic lymph nodes above
+and below
+the inferior mesenteric artery; right gonadal vessels (9.0
+cm in
+length); left gonadal vessels (7.5 cm in length) ;
+separately
+submitted staging biopsies [cul de sac, bladder
+peritoneum, left
+colic gutter, right colic gutter, left pelvic sidewall,
+right pelvic
+sidewall, small bowel mesentery, large bowel mesentery,
+and right
+diaphragm (ranging in aggregate size from 0.8 cm to 2.0 cm
+in
+greatest dimension) and appendix (5.2 X 0.6 cm).
+DIAGNOSIS:
+Uterus, hysterectomy: FIGO grade III (of III) papillary
+serous
+carcinoma forming a polypoid mass (2.5 X 2.5 X 1.5 cm)
+arising from
+the lower uterine segment. No invasion is identified. A
+benign
+endometrial polyp (0.8 cm in greatest dimension) located
+in the
+anterior fundus. A single subserosal leiomyoma (3.0 cm in
+greatest
+dimension) and a single intramural (2.0 cm in greatest
+dimension)
+UUID:F32EB1C9-4802-4873-8F0E-E10724DA9C15
+TCGA-D1-A15X-01A-PR
+Redacted
+are also identified in the myometrium. The cervix is
+without
+diagnostic abnormality.
+Ovary, left, oophorectomy: Corpus luteal cyst.
+Ovary, right, oophorectomy: Endometriotic cysts.
+Fallopian tube, left, salpingectomy: Benign paratubal
+cysts
+(ranging in size from 0.5 cm to 2.0 cm in greatest
+dimension) .
+Fallopian tube, right, salpingectomy; Benign paratubal
+cysts
+(ranging in size from 0.5 cm to 2.0 cm in greatest
+dimension) .
+Omentum, omentectomy: Negative for tumor.
+Lymph nodes, right pelvic, excision: Multiple right
+pelvic lymph
+nodes (1 external iliac, 4 internal iliac, 1 common iliac,
+8
+obturator) are negative for tumor.
+Lymph nodes, left pelvic, excision: Multiple left pelvic
+lymph
+nodes (3 external iliac, 4 internal iliac, 3 common iliac,
+5
+obturator) are negative for tumor.
+Lymph nodes, left and right para-aortic, excision:
+Multiple
+para-aortic lymph nodes above the inferior mesenteric
+artery (4
+left, 5 right) are negative for tumor. Multiple para-
+aortic lymph
+nodes below the inferior mesenteric artery (3 left, 4
+right) are
+negative for tumor.
+Gonadal vessels, left and right, excision: The left and
+right
+gonadal vessels are negative for tumor.
+Soft tissue; cul de sac, bladder peritoneum, left colic
+gutter,
+right colic gutter, left pelvic sidewall, right pelvic
+sidewall,
+small bowel mesentery, large bowel mesentery, and right
+diaphragm;
+staging biopsies: Negative for malignancy, all nine
+specimens
+Appendix, appendectomy: Negative for malignancy
+ADDENDUM:
+The neoplastic cells are positive for p53 and negative for
+WT-1,
+confirming the H&E diagnosis.
+siteria
+Yes
+No
+Diagnosis Liscrepancy
+'rimary Tumor Site Discrepancy
+GPAA Discrepancy
+him Malignancy History
+tust/Synchronous Printary Hoted
+'ase is (circle): QUALIFIED DISCUARED
+Reviewer Initials
+were Reviewed:

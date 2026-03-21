@@ -1,0 +1,116 @@
+ICD-0-3
+Order carimima Endometriou NOS
+0:7857FD81-AA42-4C76-BF65-0BA2B3451065
+TCGA-A5-A0GQ-01A-PR
+Site: indometrum C54.1 8380/30 be 11/23/2
+Redacted
+Ordering M.D.:
+)
+Copies To:
+Age/sex:
+Assistant:
+Location:
+Date of Procedure:
+Date Received:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS:
+A. LEFT TUBE AND OVARY, SALPINGO-OOPHORECTOMY
+-
+Ovary with no significant pathologic change
+-
+Fallopian tube with paratubal cyst; negative for malignancy
+B. RIGHT TUBE AND OVARY, SALPINGO-OOPHORECTOMY
+-
+Ovary with mild cystadenofibromatous changes; negative for malignancy
+-
+Fallopian tube with paratubal cyst; negative for malignancy
+C. UTERUS AND CERVIX, HYSTERECTOMY
+Cervix
+-
+Negative for malignancy
+-
+Tunnel clusters and lobular endocervical hyperplasia
+Endometrium
+-
+Adenocarcinoma of the endometrium, endometrioid type, FIGO grade I of III
+-
+Arising in a background of complex atypical endometrial hyperplasia
+Myometrium and serosa
+-
+Endometrioid adenocarcinoma myoinvasive to approximately one-half of myometrium
+-
+No angiolymphatic invasion identified
+- Adenomyosis
+-
+Serosa negative for malignancy
+-
+AJCC Pathologic Stage (2002, 6th Ed): pT1c/pN0
+D. RIGHT PELVIC LYMPH NODE, EXCISION
+-
+One lymph node negative for malignancy (1)
+E. LEFT PELVIC LYMPH NODE, EXCISION
+-
+One lymph node negative for malignancy (1)
+HISTORY: Endometrial carcinoma
+MICROSCOPIC:
+See diagnosis.
+GROSS:
+A. LEFT TUBE AND OVARY
+Labeled with the patient's name, labeled "left tube and ovary", and received in formalin is a salpingo-oophorectomy
+specimen including a yellow, 1.4 X 0.3 X 0.3 cm ovary and a portion of fimbriated fallopian tube which is 3.0 cm in
+length X 0.3 cm in diameter. A small 0.4 cm in greatest dimension paratubal cyst is identified. On sectioning no
+gross lesions are identified. Representative sections are submitted.
+Patient Case(s):
+Local
+Page of 2
+PATIENT NOTIFIED OF RESULTS
+DR:
+NURSE:
+DATE:
+PATH #:
+A1. Ovary - 2
+A2. Fallopian tube - 3
+B. RIGHT TUBE AND OVARY
+Labeled with the patient's name, labeled "right tube and ovary", and received in formalin is a salpingo-
+measuring 8.0 cm in length X 0.2 cm in diameter. Representative sections are submitted.
+oophorectomy specimen consisting of a yellow, firm ovary measuring 1.5 X 0.5 X 0.5 cm and a brown fallopian tube
+B1. Ovary - 2
+B2. Fallopian tube - 3
+C. UTERUS AND CERVIX
+specimen Labeled with the patient's name, labeled "uterus and cervix", and received in formalin is a 39.6 hysterectomy
+consisting of a previously posteriorly opened uterus. The uterus measures 7.0 X 3.0 X gram 3.0 The
+ectocervix measures 1.8 X 0.5 cm. The external os measures 0.4 cm in diameter, and the endocervical cm. canal
+width. measures 1.0 cm in length and 0.4 cm in thickness. The endometrial cavity measures 3.0 cm in length x 0.5 cm in
+2.3x2.0x1.0 The superior 2.3 cm of the endometrial cavity is replaced by a friable, white, exophytic heaped-up mass
+cm. The cut surface reveals invasion of approximately 60% of the depth of the myometrium. measuring The
+margin blue, posterior surgical margin black. Slide key:
+myometrium measures 1.8 cm in thickness. No other gross lesions are identified. Ink key: Anterior surgical
+C1. Anterior cervix - 1
+C2. Posterior cervix - 1
+C3. Anterior lower uterine segment - 1
+C4. Posterior lower uterine segment - I
+C5. Left superior corpus - 1
+C6. Right superior corpus - 1
+D. RIGHT PELVIC LYMPH NODE
+yellow Labeled with the patient's name, labeled "right pelvic lymph node", and received in formalin is a single
+submitted. fatty tissue measuring 2.5 X 1.5 X 0.8 cm. No lymph nodes are grossly identified. The specimen piece is entirely of
+D1. 1
+E. LEFT PELVIC
+Labeled fatty tissue with the patient's name, labeled "left pelvic", and received in formalin is a single piece of yellow, lobulated,
+cm submitted.
+which is measuring 2.0 X 1.5 X 0.8 cm. There is one grossly identifiable lymph node measuring 0.8 X 0.4 X 0.2
+E1. 2
+Gross dictated by
+If this report includes immunohistochemical test results. please note the following:
+Numerous immunohistochemical tests were developed and their performance characteristics determined by
+U.S. Food and Drug Administration (FDA). and FDA approval Those is not immunohistochemical required. tests have not been cleared or approved by the
+I have personally examined the specimen internreted the results, reviewed the report and signed it electronically.
+SURGICAL PATHOLOGY REPORT
+Criteria
+Yes
+Page 2 of 2
+Diagnosis Discrepancy
+No
+'rimary Tumor Site Discrepancy
+IIPAA Discrepancy
+Prior Malignancy History

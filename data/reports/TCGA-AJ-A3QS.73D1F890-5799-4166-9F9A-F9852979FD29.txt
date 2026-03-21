@@ -1,0 +1,168 @@
+SURGICAL PATHOLOGY:
+MRN:
+Rm #
+PHYSICIAN
+PROCEDURE
+DATE:
+RECEIVED DATE:
+REPORT DATE:
+COPY TO:
+IO Consultation
+TP DIAGNOSIS: "Adenocarcinoma (reported to Dr
+positive
+patient ID)" by Dr.
+Pre-Op Diagnosis
+Endometrial cancer
+Post-Op Diagnosis
+Same
+Clinical History
+Nothing indicated on requisition
+Gross Description:
+Five parts
+Container labeled "
+1 - uterus, cervix, bilateral tubes
+and ovaries" has a previously partially laterally opened markedly
+distorted uterus with attached cervix and bilateral adnexa received
+after tissue harvest for genomic study. The uterus and cervix
+together weigh 318 grams and on reconstruction measure approximately
+12.5 x 8.5 x 8.5 cm. The cervix has a wrinkled gray-tan to pink
+ectocervical mucosa. The os is patent. The uterine canal sounds to
+a depth of approximately 7.5 cm. The endocervical canal is lined by
+trabeculated tan-pink mucosa. The uterine serosa is smooth and
+tan-pink. The architecture is distorted by multiple subserosal and
+intramural well defined tan-white fibrous nodules with bulging
+whorled tan-white fibrotic cut surfaces. These measure up to 3.2 cm.
+The uninvolved myometrium measures up to 2.6 cm and is tan-pink and
+finely trabeculated. The endometrial canal is markedly distorted by.
+the presence of the previously mentioned nodules and is occupied by
+a friable papilliferous tan-gray to pink lesion occupying an area of
+approximately 6.2 x 3.5 cm. In the posterior aspect In the fundus
+this grossly appears to focally extend into the underlying
+muscularis where in the area of the fundus this is seen within 1.0
+cm of the serosa. A small amount of parametrial soft tissue on each
+side shows no nodularity or gross lesions. The left fallopian tube
+UUID:73D1F890-5799-4166-9F9A-F9852979FD29
+TCGA-AJ-A3QS-01A-PR
+Redacted
+ICD-0-3
+carcinoma, serous, NOS
+8441/3
+Site: endometrium
+Criteria
+Diagnosis Discrepancy
+Yes
+No
+C54.1
+Primary Tumor Site Discrepancy
+330-12
+HIPAA Discrepancy
+RD
+Prior Malignancy History
+Dual/Svn.chronous Primar Noted
+QUALIFIED
+Reviewer in
+DISQUARINED
+3/3/15 3/2/12
+measures 3.6 x 0.5 x 0.5 cm. The right fallopian tube measures 2.9
+x 0.5 x 0.5 cm. Each has a focally shaggy pink-red serosa. Each has
+an apparent area of discontinuity which may be consistent with
+previous ligation. On sectioning, each has a tan wall with a
+pinpoint lumen. The left ovary measures 2,0 x 1.2 x 1.0 cm and has
+a lobular tan outer surface with a mottled tan-gray fibrotic cut
+surface. The right ovary measures 2.1 x 1.2 x 0.7 cm and has a
+lobular tan outer surface with a mottled tan fibrotic cut surface.
+Also received in the same container are three tissue cassettes each
+labeled
+Representative sections are submitted
+labeled as FOLLOWS: A - anterior cervix; B - posterior cervix: C
+lower uterine segment shaved posterior serosa; D-E - nodules; F-G
+full thickness anterior endomyometrium; H-J - anterior
+endomyometrium; K-L - full thickness posterior endomyometrium; M-P -
+posterior endomyometrium; Q-R - left lateral endomyometrium; S-T
+right lateral endomyometrium; U-X - fundic endomyometrium; Y - left
+parametrium; Z - right parametrium; AA - left adnexa; BB - right
+adnexa.
+Container labeled
+2 - right pelvic lymph node" has 4.0
+x 3.0 1.0 cm of tan-yellow fibroadipose tissue which on palpation
+and sectioning reveals a previously bisected 3.0 cm partially
+fragmented apparent fleshy gray-tan to pink nodule. The specimen is
+received after operative consult and touch prep analvsis which is
+reported as "adenocarcinoma (reported to Dr.
+positive patient
+ID)" by Dr.
+The nodule is sectioned and entirely submitted in
+two cassettes.
+Container labeled
+3 - left aortic lymph node" has 3.6
+x 3.0 x 1.0 cm of tan-yellow fibroadipose tissue fragments which on
+palpation and sectioning reveals a previously partially fragmented
+1.1 cm tan-pink fleshy nodule. The nodule is entirely submitted in a
+single cassette.
+Container labeled
+4 - right aortic lymph node" has a
+2.0 x 1.2 x 0.3 cm portion of tan-yellow fibroadipose tissue which
+is entirely submitted in a single cassette.
+Container labeled
+5 - omentum" has a 42.6 x 15.0 x up
+to 1.6 cm sheet of tan-yellow vascularized fibroadipose tissue
+grossly consistent with omentum. On palpation and sectioning there
+are several thin gray-pink to red fibrous adhesions but no discrete
+gross mass lesions. Representative sections submitted in 10
+cassettes.
+Microscopic Description:
+Reviewed are slides labeled
+Final Diagnosis
+Uterus, cervix, bilateral fallopian tubes and ovaries, hysterectomy
+with bilateral saipingo-oophorectomy
+Tumor characteristics:
+Specimen integrity: Intact, received previously opened.
+Histologic type: Papillary serous carcinoma.
+Histologic grade: III (high grade).
+Tumor site: Endometrial cavity.
+Tumor size: 6.2 x 3.5 x 1.0cm.
+Myometrial invasion: No unequivocal myometrial invasion identified
+in sections examined.
+Involvement of cervix: Not identified.
+Extent of involvement of other organs: Single microscopic focus of
+involvement of the left
+ovary (see comment).
+Lymphovascular space invasion: Present.
+Surgical margin status:
+Surgical margins appear free of malignancy in sections examined
+Lymph node status:
+See below.
+Other:
+Cervix: No significant histopathologic change.
+Endometrium: Inactive pattern.
+Myometrium: Leiomyomata; adenomyosis.
+Fallopian tubes: No significant histopathologic change.
+Ovary, right: No significant histopathologic change.
+Stage: pT3a N1
+Lymph node, right pelvic, excision:
+Metastatic carcinoma involving one of one lymph node (1/1).
+Tumor up to 2.0 cm in greatest dimension.
+No extracapsular tumor extension identified in sections examined.
+Lymph nodes, left aortic:
+Six lymph nodes negative for metastatic carcinoma (0/6).
+"Lymph node", right aortic:
+Benign fibroadipose tissue; no lymph node identified.
+Omentum, omentectomy:
+Benign fibroadipose tissue consistent with omentum.
+No histologic evidence of carcinoma identified in sections
+examined. I
+CPT:
+Comments
+Histologic sections demonstrate a poorly differentiated papillary
+serous carcinoma involving much of the endometrial cavity. While
+grossly suspicious for invasion, no definitive myometrial invasion
+is identified in the multiple sections examined. However, within the
+left ovary a single microscopic focus of tumor (less than 1 mm) with
+associated hemorrhage and necrosis is noted. Though microscopic,
+this is consistent with an area of adnexal involvement. Clinical
+correlation is recommended.
+At the request of the undersigned pathologist, these slides have
+been additionally reviewed by Dr. who concurs with the
+diagnosis.
+This report has been finalized at the
+<Sign Out Dr. Signature>

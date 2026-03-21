@@ -38,6 +38,10 @@ Requires-Dist: prime-sandboxes>=0.2.0; extra == "prime"
 Requires-Dist: dill>=0.3.7; extra == "prime"
 Provides-Extra: ocr
 Requires-Dist: pymupdf>=1.24.0; extra == "ocr"
+Requires-Dist: paddlepaddle>=2.6.0; extra == "ocr"
+Requires-Dist: paddleocr>=2.8.0; extra == "ocr"
+Requires-Dist: opencv-python>=4.8.0; extra == "ocr"
+Requires-Dist: pdf2image>=1.16.0; extra == "ocr"
 
 
 ---

@@ -1,0 +1,361 @@
+UID:9086A79B-F764-42D4-BD9A-4C4F9F65C928
+TCGA-AX-A060-01A-PR
+Redacted
+RUN DATE:
+RUN TIME:
+BY:
+specimen Inquiry
+PATIENT:
+ACCT #:
+LOC:
+U#:
+AGE/SX:
+/F
+RM/BED:
+REG:
+REG DR:
+STATUS: DIS IN
+TLOC:
+DIS:
+SPEC #: PN:
+Obtained:
+Subm Dr:
+STATUS SOUT
+Received:
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+CLINICAL HISTORY:
+Primary Tumor Site Discrepancy
+CLINICAL HISTORY NOT SUBMITTED;
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous
+SPECIMEN/PROCEDURE
+Case is (circle):
+RT
+DISQUALIFIED
+Reviewer Initials
+1. . > - RIGHT ADNEXA; 'AH/BSO/PELVIC LND
+Date Reviewed
+lew 11/11/19
+2. .> - LHFT ADNEXA
+3. UTERUS
+4. LYMPH NODE - LEFT EXTERNAL ILIAC
+5. LYMPH NODE - LEFT OBTURATOR
+6. LYMPH NODE - LEFT PARA-AORTIC
+1. LYMPH NODE - RIGHT EXTERNAL ILIAC
+8. LYMPH NODE - RIGHT OBTURATOR
+7. LYMPH NODE - RIGHT PARA-AORTIC
+10. => - HERNIA SAC
+IMPRESSION:
+1)
+ADNEXA, RIGHT SALPINGO-OOPHORECTOMY:
+Ovary with atrophic physiologic changes; no evidence of malignancy
+Fallopian tube with paratubal cysts; no evidence of malignancy
+2)
+ADNEXA, LEFT SALPINGO-OOPHORECTOMY:
+Ovary with atrophic physiologic changes and surface fibrous adhesions; no
+evidence of malignancy.
+Fallopian tube with paratubal cysts; no evidence of malignancy.
+3)
+UTERUS, TOTAL ABDOMINAL HYSTERECTOMY:
+ENDOMYOMETRIUM:
+Endometrial adenocarcinoma, endometrioid type; FIGO grade III;
+predominantly nuclear grade 2 with focal nuclear grade 3 (see checklist and
+comment)
+Invasivo carcinoma involves the anterior and posterior uterine wall and lower
+uterine segment.
+Adenocarcinoma invades the outer half of the myometrium.
+Extensive lymphovascular invasion is identified within the outer half of the
+myometrium; carci o ma is present within lymphovascular spaces approximately 1.0
+mm from the uterine serosal surface.
+CERVIX:
+Benign squamous and endocervical glandular components with cystic cervicitis.
+No evidence of significant dysplasia or malignancy,
+UTERINE SEROSA:
+CONTINUED ON NEXT PAGE
+ICD.0-3
+admocarcinime endometrioid NOS 838013
+Site: indometruin c54.1
+bw
+11/1/14
+Page: 2
+SPEC #:
+PATIENT:
+(Continuod)
+IMPRESSION: (continued)
+No evidence of malignancy.
+4)
+LYMPH NODES, LEFT EXTERNAL ILIAC, REGIONAL DISSECTION:
+Two benign lymph nodes (0/2)
+5)
+LYMPH NODES, LEFT OBTURATOR, REGIONAL DISSECTION:
+Eight benign lymph nodes (0/8)
+.
+6)
+LYMPH NODE, LEFT PARA-AORTIC, BIOPSY:
+One benign lymph node (0/1)
+7)
+LYMPH NODES, RIGHT EXTERNAL ILIAC, REGIONAL DISSECTION:
+Four benign lymph nodes with focal endosalpingiosis (0/4).
+8)
+LYMPH NODES, RIGHT OBTURATOR, REGIONAL DISSECTION:
+Three benign lymph nodes (0/3).
+9)
+LYMPH NODES, RIGHT PARA-AORTIC, REGIONAL DISSECTION:
+Five benign lymph nodes (0/5).
+10) SOFT TISSUE, HERNIA SAC (NOT FURTHER SPECIFIED), HERNIORRHAPHY:
+Benign fibromembranous and fibroadipose tissue compatible with hernia sac.
+ENDOMETRIAL CARCINOMA CHECKLIST
+MACROSCOPIC
+SPECIMEN TYPE
+Iysterectomy
+'U'UMOR SITE
+Specify location (s), if known: Anterior and posterior uterine wall
+TUMOR SIZE
+Greatest dimension: 6.0 cm
+Additional dimensions: 5.5 x 1.1 cm
+OTHER ORGANS PRESENT
+Right ovary
+Loft ovary
+Right fallopian tube
+Left fallopian tube
+MICROSCOPIC
+HISTOLOGIC TYPE
+Endometrioid adenocarcinoma, not otherwise characterized
+** CONTINUED ON NEXT PAGE **
+Page: 3
+SPEC #:
+PATIENT:
+(Continued)
+IMPRESSION: (continued)
+HISTOLOGIC GRADE
+G3: More than 50% nonsquamous solid growth
+MYOMETRIAL INVASION
+Invasion present
+Maximal depth of direct myometrial invasion: 11.0 ram
+Thickness of myometrium in area of maximal tumor invasion: 18.0
+mm
+The % of myometrial involvement: 61%
+EXTENT OF INVASION
+PRIMARY TUMOR (pT)
+'NN (FIGO)
+pT1 (I) : Tumor confined to corpus uteri
+pT1c (IC) : Tumor invades one-half or more of the myometrium
+REGIONAL LYMPH NODES (pN)
+TNM (FIGO)
+pNo: No regional lymph node metastasis
+Number examined: 23
+DISTANT METASTASIS (pM)
+TNM (FIGO)
+pMX: Cannot be assessed
+MARGINS
+Uninvolved by invasive carcinoma
+Distance of invasive carcinoma from closest margin: carcinoma present within
+lymphovascular spaces approximately 1.0 mm from uterine serosal surface
+VENOUS/LYMPHATIC (LARGE/SMALL VESSEL) INVASION (V/L)
+Present: extensive
+ADDITIONAL PATHOLOGIC FINDINGS
+Endosalpingiosis involving lymph node and focally involving uterine subserosal tissue
+Endometrial atrophy and chronic endometritia
+Pathologic TNM (AJCC 6th Edition) : pT1c NO MX
+Dictated by:
+Entered:
+COMMENT:
+This endometrial adenocarcinoma shows solid non-squamous growth pattern (slightly >508)
+and shows glandular component with abundant mucin production (so-called "mucin-rich"
+endometrioid carcinoma) Carcinoma directly invades the outer half of the myometrium and
+shows extensive lymphovascular permeation within the outer half of the myometrium.
+CONTINUED ON NEXT PAGE **
+Page: 4
+SPEC #:
+PATIENT:
+(Continued)
+COMMENT: (continued)
+Representative sections reviewed by
+M. .D. who concurs.
+Entered:
+SPECIAL STAINS/PROCEDURES
+The following special stain is performed with appropriate positive and negative controls on
+block 3E, 3G and 3H:
+Mucicarmine:
+Abundant mucin predominantly present within dilated glandular lumens within
+endometrioid adenocarcinoma.
+Dictated by:
+GROSS DESCRIPTION:
+1)
+Received fresh, labeled with the patient's name, medical unit number and "right
+adnexa", is a salpingo-oophorectomy specimen including an ovary (3.0 x 1.7 x 1.5 cm)
+and attached segment ot fallopian tube with fimbriated end (8.0 cm long and 0.4 cm in
+diameter) There are multiple paratubal cysts filled with white to yellow viscus
+material (ranging from 0.1 to 0.9 cm in greatest dimension) Upon sectioning of the
+ovary, there are multiple corpora albicantia in the parenchyma and a thin smooth
+walled cyst (0.7 cm in diameter) filled with white fluid.
+CASSETTE SUMMARY:
+Cassette 1A:
+Representative sections of the ovary.
+Cassette 1B:
+Representative sections of fallopian tube.
+2)
+Received fresh, labeled with the patient's name, medical unit number and "left
+adnexa", is a salpingo-oophorectomy specimen including an ovary (3.0 x 1.6 X 1.6 cm),
+attached segment of fallopian tube with fimbriated end (6.2 cm long and 0.4 cm in
+diameter). A small segment of fallopian tube is taken by the surgeon for research.
+There are multiple white to yellow paratubal cysts (0.1 to 1.0 cm in greatest
+dimension) - Upon sectioning, there are multiple corpora albicantia in the parenchyma
+of the ovary, and also thin-walled cyst (0.7 cm in diameter) with clear fluid
+in the parenchyma. The surface of the ovary is white and smooth without papillary
+projections.
+CASSETTE SUMMARY:
+Cassette 2A:
+Representative sections of the ovary.
+Cassette 2B:
+Representative sections of the fallopian tube.
+3)
+Received fresh, labeled with the patient's name, medical unit number and "uterus", is
+a 128 gram total hysterectomy specimen, consisting of an opened uterus (10.5 x 6.0 X
+3.8 cm). The uterus is opened by the surgeon and a superficial portion of endometrial
+tumor and uninvolved fallopian tube is taken for research. The orientation of the
+uterus is difficult to determine. The presumed anterior surface of the uterus is
+CONTINUED ON NEXT PAGE
+Page: 5
+SPEC # :
+PATIENT:
+(Continued)
+GROSS DESCRIP'TION: (continued)
+inked black and possible posterior external surface of the uterus is inked blue.
+The ectocervix (2.5 x 1.8 cm) is covered by white smooth glistening mucosa with focal
+submucosa hemorrhage. The external os is oval and measures 1.0 X 0.7 cm. The
+endocervical canal is 2.5 cm long and covered by pink tan mucosa with multiple cysts,
+which IS consistent with Nabothian cyst. There is an elevated pale tan firm
+endometrial tumor (6.0 x 5.5 cm and 1.0 cm above the surface) with irregular friable
+surface involving the anterior surface and part of right posterior surface of the
+endometrial cavity, Tumor grossly appears to involve the lower uterine segment at
+the presumed twelve o'clock position. Grossly, tumor does not appear to involve the
+cndo-ectocervical canal. Upon sectioning, the maximum thickness of the tumor is
+1.2 cm. The area of deepest invasion of tumor is located in the lower anterior
+uterine wall; in this area tumor appears to invade at least the inner half of the
+myomet.rium. The myometrium measures approximately 1.4 cm at the location with deepest
+Lumor invasion. The endometrium uninvolved by tumor (posterior surface of the
+endometrial cavity) measures 0.1 cm in thickness. The maximum thickness of the
+myometrium is 1.6 cm. The serosal surface of the uterus is pink tan smooth without
+adhesions.
+CASSETTE SUMMARY:
+Cassettes 3A-3B:
+Representative section anterior ectocervix, endocervical canal and
+lower uterine segment at 12 o'clock, contiguous section.
+Cassettes 3C-3D:
+Representative section of posterior ectocervix, endocervical canal
+and lower uterine segment at 6 o'clock, adjacent section.
+Cassettes 3E-3J:
+Representative sections of the anterior uterine wall with tumor
+(Cassette 3E with possible deepest tumor invasion).
+Cassettes 3K-3N:
+Representative sections of posterior uterine wall from lower
+portion to the fundus.
+1)
+Received labeled with the patient's name and "left external iliac", are two portions
+of yellow-gold to pink-tan fibroadipose tissue ranging from 2.5 to 4.6 cm in greatest
+dimension. Two possible lymph nodes are identified, ranging from 0.7 to 2,4 cm in
+greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 1A:
+One lymph node, bisected.
+Cassette 4B:
+One lymph node, bisected.
+5)
+Received labeled with the patient's name and "left obturator", is a 4.6 x 4.0 x 1.7 cm
+aggregate of yellow-gold to pink-tan fibroadipose tissue, dissected for possible lymph
+nodes. Eight possible lymph nodes are identified, ranging from 0.5 to 2.4 cm in
+greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Casselle 5A:
+Three possible lymph nodes.
+Cassette 58:
+One lymph node, bisected.
+Cassette 5C:
+One lymph node, bisected.
+Cassette 5D:
+One lymph node, bisected.
+Cassette 5F:
+One lymph node, bisected.
+CONTINUED ON NEXT PAGE
+Page: 6
+SPEC # :
+PATIENT:
+(Continued)
+GROSS DESCRIPTION: (continued)
+Cassette 5G:
+One lymph node, serially sectioned, entirely submitted.
+6)
+Received labeled with the patient's name and "left para-aortic", are three portions of
+yellow-gold to pink-tan fibroadipose tissue, ranging from 1.0 to 2.4 cm in greatest
+dimension. Specimen is dissected for possible lymph nodes. One possible lymph node
+identified that is 1.0 x 0.5 x 0.3 cm. The specimen is bisected and entirely
+submitted in cassette 6A.
+1)
+Received labeled with the patient's name and "right external iliac", is a 5.0 x 4.0 x
+2.0 cm aggregate of yellow-gold to pink-tan fibroadipose tissue, dissected for
+possible lymph nodes. Four possible lymph nodes are identified, ranging from 0.6 to
+2.5 cm in greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 7A:
+Two possible lymph nodes.
+Cassette 7B:
+One Lymph node, bisected.
+Cassette 7C:
+One lymph node, serially sectioned, entirely submitted.
+8)
+Received labeled with the patient's name and "right obturator", are two portions of
+yellow-gold to pink-tan fibroadipose tissue, ranging from 2.5 to 3.8 cm in greatest
+dimension. Specimen is dissected for possible lymph nodes. Three possible lymph
+nodes are identified, ranging from 1.7 to 2.1 cm in greatest dimension. The specimen
+is submitted as follows:
+CASSETTE SUMMARY:
+Cassette 8A:
+One lymph node, bisected.
+Cassette 8B:
+One lymph node, bisected.
+Cassette 8C:
+One lymph node, bisected.
+9)
+Received labeled with the patient's name and "right para-aortic", is a 3.0 x 2.7 x 1 0
+cm aggregate of yellow-gold to pink-tan fibroadipose tissue, dissected for possible
+lymph nodes. Three possible lymph nodes are identified, ranging from 0.4 to 1.0 cm in
+greatest dimension. Submitted as follows:
+CASSETTE SUMMARY:
+Cassette 9A:
+Three possible lymph nodes.
+Cassette 9B:
+Two possible lymph nodes.
+10) Received in formalin, labeled "hernia sac" and with the patient's name, is an
+irregular unoriented pouch-like portion of purple-tan to pink-tan glistening
+membranous tissue, 11.0 X 6.5 X 1.0 cm. The specimen is serially sectioned at close
+intervals, there are no obvious masses, lesions or suspicious areas identified. The
+specimen is representatively sampled and submitted in one cassette.
+Dictated by:
+Entered:
+CONTINUED ON NEXT PAGE
+Page:
+7
+SPEC # :
+PATIENT:
+/
+(Continued)
+COPIES TO:
+NO PCP/Family Physician
+CPT Codes:
+MUC ICARMINE-
+HF.RNIA SAC, ANY LOCATION,
+LYMPH NODE BX
+LYMPH NODE, REGIONAL RESECT
+(ITERUS W/WO ADNEXAE, TUMOR-
+ICD9 Codes:
+Resident Physician:
+I have personally reviewed the material
+(specimen/slide) and approve this final report.
+Electronically Signed by:
+**
+END OF REPORT

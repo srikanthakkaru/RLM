@@ -1,0 +1,185 @@
+Sex: Female
+D.O.B.
+MRN #
+Ref Phy:
+Collected
+Received:
+Reported:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS
+DIAGNOSIS:
+A. Uterine contents, removal:
+High-grade adenocarcinoma with extensive necrosis * see comment.
+B. Left ovary and fallopian tube, salpingo-oophorectomy:
+Left ovary
+Benign ovary with serosal fibrous adhesions.
+No neoplastic process is identified.
+Left fallopian tube -
+Benign fallopian tube with no neoplasm identified.
+C. Right ovary and fallopian tube, salpingo-oophorectomy:
+Right ovary -
+Benign ovary with serosal fibrous adhesions
+No neoplasm identified.
+Right fallopian tube -
+Acute salpingitis.
+D. Uterus, hysterectomy:
+High-grade endometrial adenocarcinoma
+Histologic type: mixed endometrioid adenocarcinoma and papillary serous carcinoma - see comment.
+Histologic grade: Grade 3 (high grade).
+Size: At least 8 cm in greatest dimension with additional material in specimens A and F.
+Myometrial invasion: Tumor invades less than one-half the thickness of the myometrium.
+Greatest depth of invasion is 3 mm into an area of myometrium that is 9 mm thick.
+Foci of lymphovascular space invasion present.
+Surgical margin: Lesion not identified at lower uterine segment margin.
+AJCC cancer staging of the endometrium: pT1aN0
+E. Cervix, excision:
+Ulceration with marked acute and chronic inflammation.
+ICD-0-3
+No neoplasm identified.
+8380/3
+F. Uterine contents, removal:
+adenocarcenome, indometrioid and
+High-grade adenocarcinoma with extensive necrosis.
+papillary serons 846013 -Code to highest 8464/3
+G. Lymph nodes, left common lower aortic, excision:
+No neoplasm identified in two lymph nodes.
+Sites Endometrium C54.1
+he 10/25/11
+H. Lymph nodes, left external iliac, excision:
+No neoplasm identified in two lymph nodes.
+I. Lymph nodes, left obturator, excision:
+No neoplasm identified in two lymph nodes.
+J. Lymph nodes, right lower aortic, excision:
+No neoplasm identified in two lymph nodes.
+K. Lymph nodes, right external iliac, excision:
+Yes
+No
+Criteria
+No neoplasm identified in three lymph nodes.
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+L Lymph nodes, right external iliac, excision:
+Prior Malignancy History
+No neoplasm identified in two lymph nodes.
+Dual/Synchronous Primar Noted
+Case is (circle):
+QUALIFIED
+/ DISQUALITIO
+Review I
+cmt
+Date Reviewed:
+M. Lymph nodes, right obturator, excision:
+No neoplasm identified in four lymph nodes.
+be 10/25/111
+10/25/11
+JUID: :3D42566F-9282-4530-BF6A-624DA6E97989
+TCGA-AJ-A3BG-01A-PR
+Redacted
+N. Omentum, omentectomy:
+No neoplasm identified.
+Electronic Signature:
+COMMENTS:
+There is a high grade adenocarcinoma involving the uterus which has predominantly and endometrioid pattern There are areas that have an appearance
+of papillary carcinoma, and these foci stain positively for p53. There also are solid sheets of highly atypical neoplastic cells. There is an area lymph
+vascular space invasion.
+Selected slides reviewed by
+CLINICAL HISTORY:
+Preoperative Diagnosis: Pelvic mass.
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+A. Uterine contents FS.
+B. Left tube and ovary.
+C. Right tube and ovary.
+D. Uterus.
+E. Cervix.
+F. Uterine contents.
+G. Left common lower aortic.
+H. Left external iliac.
+I. Left obturator
+J. Right lower aortic and common lymph node.
+K. Right external iliac suspicious node.
+L. Right external iliac.
+M. Right obturator.
+N. Omentum.
+GROSS DESCRIPTION:
+A. First container A is labeled with the patient's name
+#1. The specimen consists of an aggregate of yellow-gray shaggy tissue
+fragments measuring in aggregate by 16.5 X 15.4 cm. weighing 422 grams. A representative section from the specimen was examined at the time of
+surgery. Received with the specimen is a single yellow cassette labeled Representative sections are submitted in cassettes
+as
+follows: FS in block 1; additional sections from the specimen in blocks 2-9.
+B. Second container B labeled
+2/ovary. The specimen consists of an ovary with an attached fallopian tube. The ovary measures 3.5
+x 0.5 x 0.5 cm. The surface is yellow to gray-tan. The cut surface is gray-tan and reveals a corpus albican up to 0.6 cm. There is no lesions grossly
+identified. The attached fallopian tube is 5.5 cm. in length and 0.5 cm. in diameter. The surface is gray to brown-tan Sectioning there is no mature
+lesions identified. The fallopian tube appears grossly unremarkable. Representative sections are submitted in cassette labeled
+as
+follows: ovary in total in blocks 1 and 2; representative fallopian tube in block 3.
+C. Third container C is labeled with the patient's name
+right tube/ovary and consists of an ovary with attached fallopian tube. The
+ovary measures 2.2 x 1.5 x 0.5 cm. The surface is yellow to gray-tan. Sectioning there is corpus albicans identified measuring up to 0.5 cm. There is
+lesions grossly identified. The fallopian tube measures 6 cm. in length and 0.5 cm. in diameter. The surface is gray to brown-tan. On sectioning there is
+no mature lesions identified within the lumen. The fallopian tube appears grossly unremarkable. Representative sections are submitted in cassettes
+labeled
+as follows: ovary in total in blocks 1-2; representative fallopian tube in block 3.
+D. Fourth container D is labeled with the patient's
+uterus. The specimen consists of a partially bisected supracervical hysterectomy
+specimen measuring 13 x 7 x 5.5 cm. and weighs 193 grams. The serosal surface of the uterus is gray to brown-tan with slight hemorrhage and
+adhesions The serosal surface has been inked Endometrial cavity measures 10 x 6.5 cm. and is lined by a brown-tan shaggy friable mass involving
+the entire uterine cavity that measures 8 x 5.5 cm. and comes within 2 cm. of the resected margin at the lower uterine segment. The mass extends into
+the underlying myometrium approximately 0.4 cm. into a 0.8 cm. myometrium. The myometrium is gray-tan trabecular. There is no lesions grossly
+identified. Received with the specimen are two cassettes, one green, one yellow labeled
+1 with the green additionally labeled - 17 and the
+blue additionally black 18. Representative sections are submitted in cassettes labeled
+IS follows: full thickness sections from the mass
+in
+blocks 1 through 6; resected margin at the area of the uterine segment bin clock 7; lett parametrium in block 8; right parametrium in block 9.
+E. The fifth container E is labeled the patient's name
+The specimen consists of cervical tissue that measures 2.2 cm. in length
+and 3 cm. in diameter and has a 2 cm. round patent os. The ectocervical mucosa is gray-tan to brown-tan with hemorrhage. Sectioning there is no
+lesions grossly identified. Representative sections are submitted in four cassettes labeled
+F. The sixth container F is labeled the patient's name
+uterine contents. The specimen consists of an aggregate of gray to red-tan
+shaggy soft tissue fragments measuring in aggregate 15x2x45 cm. and weighs 312 grams. Representative sections are submitted in two cassettes
+labeled
+G. The seventh container G is labeled the patient's name
+left common aortic. The specimen consists of a portion of fibroadipose
+tissue measuring 3 X 2 x 1 cm. Sectioning reveals three probable lymph nodes that measure from 0.2 to 0.6 cm. The lymph nodes are entirely
+submitted in cassettes labeled
+as follows: two probable nodes in block 1; one probable node in block 2.
+H. The eighth container H is labeled the patient's name
+1, left external iliac. The specimen consists of a portion of fibroadipose tissue
+measuring 5 x 4.5 x 1.2 cm. Sectioning reveals two probable lymph nodes that measure from 0.6 to 0.9 cm. The lymph nodes are entirely submitted in
+cassettes labeled
+as follows: one probable node block 1; one probable node bisected in block 2.
+1. The ninth container / is labeled with the patient's name
+left obturator. The specimen consists of a portion of fibroadipose tissue 4.5 x
+4 X 1 cm. Sectioning reveals two probable lymph nodes that measure 1.1 and 1.5 cm. in greatest dimension. The lymph nodes are entirely submitted in
+cassettes labelec
+as follows: one probable node bisected in block 1; one probable node bisected in block 2.
+J. The tenth container J is labeled
+he specimen consists of a portion of fibroadipose tissue measuring 4.5 x 1.5 x 1 cm. Sectioning
+reveals two probable lymph nodes that measures 0.9 and 1.5 cm. in greatest dimension. The lymph nodes are entirely submitted in three cassettes
+labeled
+is follows: one probable node bisected in block 1; one probable node bisected in blocks 2-3.
+K. The eleventh container K is labeled with the patient's name
+#11. The specimen consists of a portion of fibroadipose tissue
+measuring x 2.5 x 0.5 cm. Sectioning reveals three probable lymph nodes that measure from 0.5 to 1.5 cm. The lymph nodes are entirely submitted
+in cassettes labeled as
+as follows: one probable node bisected in block 1; two probable nodes in block 2.
+L. The twelfth container L is labeled
+#12 and consists of a portion of fibroadipose tissue. 5 X 3 c 0.5 cm. Sectioning reveals two
+probable lymph nodes that measure U./ and 1.8 cm. in greatest dimension. The lymph nodes are entirely submitted in cassettes labeled
+as follows: one probable lymph node bisected in block 1; one probable lymph node bisected in blocks 2 and 3.
+M. The thirteenth container M is labeled
+and consists of a portion of fibroadipose tissue measuring 6x4x1 cm. Sectioning reveals
+four probable lymph nodes that measure from 0.5 to 1.5 cm. The lymph nodes are entirely submitted in cassettes
+as follows: two
+probable nodes in block 1; one probable node bisected in blocks 2 and 3; one probable lymph node bisected in block 4.
+N. The fourteenth container N is labeled
+The specimen consists of a portion of yellow-tan lobular fibroadipose omentum tissue
+measuring cm. On sectioning there no nodules grossly identified. Representative sections are submitted in four cassettes labeled
+INTRA-OPERATIVE CONSULTATION:
+A. FROZEN SECTION DIAGNOSIS: Adenocarcinoma, favor high-grade per D

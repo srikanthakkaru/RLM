@@ -1,0 +1,150 @@
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Frigery Noted
+Case (circle):
+QUALITIES
+KB
+DISQUALIFIED
+Reviewer Initials
+Date Reviewe 10.2711
+tw
+19/27/11
+11
+Surgical Pathology Report
+Patient Name:
+Mad Ree No:
+Client:
+Location:
+Received:
+DOB:
+Gandac
+R Phone no
+Reported
+Physician(s):
+*
+A7B4B4B-5EE2-4D8D-A90A-DDFB96AE49A8
+TCGA-BS-A0TG-01A-PR
+History/Clinical Dx Endometrial cancer
+Redacted
+Postoperative Doc Same
+Specimen(s) Received:
+A: Left aoric lymph node
+e: Left pehic lywroph node
+C: Uterus, tubes, overles
+D: Right polvic lymph note
+E: Right para-asite lymph node
+DRAGNOSIS:
+A. Left aurtic lymph node:
+One lymph node n desease for metestasis (0/1)
+a. Left pelvis lymph node:
+Seven lyraph nodes negative for metastaels (0/7)
+a Uterus, tubes, overlea:
+ENDOMETRIAL AdSDNOCARCINOMA
+Turner Information:
+Operative procedures
+TAH-BSO with stagha
+Histologic type:
+Endorserfold withdageamous differentiation
+Histologie grade(FIGO):
+Grade 2
+Nuclear grade
+2
+Turnor also
+5.0) x43x0.5cm
+Extent of Invaction:
+Less then 50% (Smith of Invasion; 15 man thickness)
+Lymphoivascular Invasion:
+Present
+Seresa:
+Free of transer
+Persmetrium:
+Free of tumor
+Cervical Involvement:
+Absont
+Right admance
+Free of tumor
+Left adnexa:
+Free of tumor
+Pelvio washings:
+Positive for
+Staging information
+T1b, NO
+D. Right petric symph node:
+Five lymph nodes negative for matastasis (0/5)
+E. Right para-eortic lymph node:
+Two lymph nodes negative for matastasis (0/2)
+-
+P34013
+Surgical Patholog
+Report
+A. Received In formalin labeled * sortio lymph node" consists of Myellow tan portion of microfany issue neighing A gram and
+Gross Description
+measuring 23 x 1.0x0.4 cm. The endre specimen is submitted 1 cassette A.
+B. Received in tormalin tabeted "toft pelvice lymph node" constate of yellow far portion of fibrolally thesed weighing In aggregate
+6 grama and measuring in aggregate 4.0x35120 cm. Seven nodes are Identified measurito up to 6.0 cm in
+greatest dimensions. The entire specimen is submitted as follow
+KEY TO CASSETTES:
+81-B2
+One lymph node, sorially sectioned
+83
+Four lymph nodes
+B4
+Remainder
+c. Received in formalin labeled uterus, overles, tubes" consista old uterus and attached cervix with separately received adneral
+smooth. The uterine compus measures 6.5 x 6.0 a 4.5 one. The Harvix measures 3.5 cm in length artists can in diameter.
+structures weighing in aggregate 121 gramms. The utenus is receiped partially bivelved The seronal apriace is pink ten and The
+execurical mucoss is plak-tan and smooth. A portion of veginsfull is attached. The endorsecial surtace is completely
+replaced by a chaggy polypold mass. The rease aspears to scopped to the lower ulorine segment The mess measures an
+area of 5.0x4.3 crn. No obvious myometrial Invasion is Identific grossly. The thickness of tumor the one. The myoraebriel
+thickness is 1.2 cm. The adminal structures are received separately. The right cuary measures side in length. A small
+place has been removed Cut sections are www.markable. The tube 40 can in wigh and 0.3 cm in
+diameter, There is evidence of previous ligation. The lett over s lar measuring 2.7 cra in greatest dreamstion. A piece has
+been removed. Cut surface is unremarkable. The left ovary responses as one in length and 0.8 craje diameter. There is
+evidance of previous ligation, Representative sections are subditional as follows:
+KEY TO CASSETTES:
+01
+Centr and vaginal cuff
+C2-C3
+Lower usuan segment (vertical sections
+C4-O6
+Full thickness,
+C5-C8
+Endometrium
+CB
+Additional lower uteane segment
+C10
+Parametrial fissue
+CT
+Right admanal structures
+C12
+Left administ structures
+D. Received in formain labeled "right petite lymph node consists yellow tan portions of issue weighing in
+aggregate 10 grams and measuring in aggragem 6.0 x 40 x None General lymph nodes are identified measuring MD to 6.0
+cm In greatest diversion. The entire specimen is subralized as followe:
+KEY TO CASSET
+01-D2
+Single lymph node, a sectioned
+D3
+Single lymph node, bisected
+D4
+Single lymph node
+D6-D6
+Remainder
+E. Received in formalin labalad "right para-aortic lyraph noder codétate of two ponions of yellow Ian resplanty issue weighing 2
+grams In aggregate and measuring 2.0 x 2.0 x 1.2 cm. The write specimen is submitted as follows:
+KEY TO CASSETTES
+E1
+Two lymph nodes
+E2
+Remainder
+Microsoopie Description
+The microscopic findings support the above diagnosis.
+Page 2 of 3
+p.3
+Surgical Patholog Report
+Page Sof 3

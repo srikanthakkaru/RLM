@@ -1,0 +1,139 @@
+ICD-0-3
+Mdenocarenoma Endometrious NOS
+Site: indomitrum c54.1
+8380/3 lw
+:A730192C-227E-4A86-9689-8670D3F5EF59
+11/23/10
+TCGA-AS-A0GP-01A-PR
+Redacted
+Ordering M.D.:
+1
+Copies To:
+Age/Sex:
+Assistant:
+Location:
+Date of Procedure:
+Date Receiver
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS:
+A. UTERUS, BILATERAL TUBE AND OVARIES, TOTAL ABDOMINAL HYSTERECTOMY,
+BILATERAL SALPINGO-OOPHORECTOMY
+Cervix
+-
+Negative for malignancy
+-
+Acute and chronic cervicitis
+Endometrium
+-
+Adenocarcinoma, endometrioid type, FIGO grade I of III (See comment)
+-
+Background atrophic endometrium
+Myometrium and serosa
+-
+Endometrioid adenocarcinoma with focal superficial myoinvasion (less than 1/3 of inner
+myometrium) (See comment)
+-
+No angiolymphatic invasion identified
+-
+Serosa negative for malignancy and other pathologic findings
+Right and left ovaries
+-
+Negative for malignancy
+-
+Endosalpingiosis, left ovary
+Right and left fallopian tubes
+-
+Negative for malignancy
+-
+Features consistent with prior tubal ligation
+AJCC Pathologic stage (2002, 6th Ed): pTlb/pNx
+COMMENT: The myoinvasion is best seen in the permanent sections cut from the remaining
+tissue used for frozen section. It is superficial myometrial involvement mostly confined to the
+fibromuscular cores of the endometrioid papillary projections.
+B. LEFT PELVIC LYMPH NODE, DISSECTION
+-
+One lymph node negative for malignancy (1)
+C. LEFT PERIAORTIC LYMPH NODE, DISSECTION
+-
+One lymph node negative for malignancy (1)
+D. RIGHT PELVIC LYMPH NODE, DISSECTION
+-
+Fibrovascular and mature adipose tissue negative for malignancy; no lymph nodes
+identified
+E. RIGHT PERIAORTIC LYMPH NODE, DISSECTION
+Patient Case(s)
+Page 1 of 3
+PATIENT NOTIFIED OF RESULTS
+DR: NURSE: DATE:
+PATH #:
+Fibrovascular and mature adipose tissue negative for malignancy; no lymph nodes
+identified
+HISTORY: Endometrial cancer
+MICROSCOPIC:
+See diagnosis.
+GROSS:
+A. UTERUS, BILATERAL TUBE AND OVARIES
+Labeled with the patient's name, labeled "uterus, bilateral tube and ovaries", and received in formalin is a 75 gram
+opened uterus with attached bilateral fallopian tubes and ovaries. The uterus measures 7.5 X 5.0 X 4.0 cm. The
+exocervix measures 3.0 X 2.5 cm. The endocervix measures 2.5 X 1.0 cm. The left ovary measures 1.7 X 1.0 X 0.5
+cm. The right ovary measures 2.0 X 1.0 X 0.5 cm. The fallopian tubes are status post tubal ligation. The residual
+left fallopian tube measures 4.8 cm in length and 0.5 cm in width. The residual right fallopian tube measures 5.2 cm
+in length and 0.5 cm in diameter. The endometrial wall thickness is 0.6 cm. The myometrial wall thickness is 1.4
+cm.
+The endometrial surface is tan. On the posterior wall there is a cut firm tan mass which measures 2.0 X 1.8 X 0.6
+cm. The serosal surface is shiny tan. There are no other lesions identified. The ectocervix and endocervix are
+grossly unremarkable. Representative sections.
+A1. Frozen section remnant - 6
+A2. Anterior cervix - 1
+A3. Posterior cervix - 1
+A4. Anterior lower uterine segment - 1
+A5. Posterior lower uterine segment - 1
+A6. Anterior endometrium - 1
+A7. Posterior endometrium - 1
+A8. Posterior mass to overlying serosal surface - 1
+A9. Posterior mass to overlying serosal surface - 1
+A10. Right ovary and fallopian tube - 4
+A11. Left ovary and fallopian tube - 4
+B. LEFT PELVIC LYMPH NODE
+Labeled with the patient's name, labeled "left pelvic lymph node", and received in formalin are six pieces of
+fibrofatty tissue ranging in size from 0.6 to 1.2 and aggregating to 2.5 X 2.0 X 0.7 cm. Entirely submitted.
+B1. 6
+C. LEFT PERIAORTIC LYMPH NODE
+Labeled with the patient's name, labeled "left periaortic lymph node", and received in formalin are three portions of
+fibrofatty tissue measuring from 0.5 to 1.5 cm in largest dimension and aggregating to 1.5 X 1.2 X 0.3 cm. Entirely
+submitted.
+C1. 3
+D. RIGHT PELVIC LYMPH NODE
+Labeled with the patient's name, labeled "right pelvic lymph node", and received in formalin is a piece of fibrofatty
+tissue measuring 2.3 X 0.8 X 0.5 cm. Entirely submitted.
+D1. 1
+E. RIGHT PERIAORTIC LYMPH NODE
+Labeled with the patient's name, labeled "right periaortic lymph node", and received in formalin are two pieces of
+fibrofatty tissue measuring 1.2 X 0.3 X 0.3 cm and 0.7 X 0.5 X 0.4 cm. Entirely submitted.
+E1. 2
+SURGICAL PATHOLOGY REPORT
+Page 2 of 3
+PATH #:
+Gross dictated by
+OPERATIVE CALL
+OPERATIVE CONSULT (FROZEN):
+A. Uterus
+Endometrial adenocarcinoma
+"Only focal posterior superficial myometrial invasion seen"
+M.D.)
+If this report includes immunohistochemical test results, please note the following:
+Numerous immunohistochemical tests were developed and their performance characteristics determined by
+Those immunohistochemical tests have not been cleared or approved by the
+U.S. Food and Drug Administration (FDA), and FDA approval is not required.
+I have personally examined the specimen, interpreted the results, reviewed the report and signed it electronically.
+MD Electronically signed
+Criteria
+Yes
+No
+SURGICAL PATHOLOGY REPORT
+Dragnosis Discrepancy
+Primary Tumor Site Discrepancy
+Page 3 of 3
+I!PAA Discrepancy
+rior Malignancy History
+Dual/Synchronous Primpy Noted

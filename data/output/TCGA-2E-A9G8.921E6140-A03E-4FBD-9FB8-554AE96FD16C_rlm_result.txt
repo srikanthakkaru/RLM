@@ -1,0 +1,43 @@
+Report: /Users/srikanth/Desktop/RLM/data/reports/TCGA-2E-A9G8.921E6140-A03E-4FBD-9FB8-554AE96FD16C.txt
+Model: qwen3.5:latest
+Max Iterations: 5
+Execution Time: 265.02s
+Date: 2026-03-17 11:35:39
+================================================================================
+
+Diagnosis
+Invasive endometrial carcinoma, endometrioid type, FIGO grade 3.
+Procedure: Hysterectomy and bilateral salpingo-oophorectomy.
+Lymph Node Status: No evidence of malignancy in 28 lymph nodes (0/28).
+Benign Findings: Leiomyoma in myometrium; Nabothian cysts in cervix; Corpora albicantia in ovaries; No diagnostic abnormalities in fallopian tubes.
+Uncertainty: The patient's specific age is not reported in the provided text (listed as "year-old female").
+
+Staging
+Pathologic Staging (pTNM): pT1a, N0, M (not applicable).
+Uncertainty: The report explicitly states the pathologic stage should be regarded as provisional, as it reflects only current pathologic data and does not incorporate full knowledge of the patient's clinical status.
+
+Key Findings
+Tumor Site: Endometrium, predominantly posterior.
+Tumor Size: Greatest dimension 5.2 cm (Additional dimensions 5.1 X 5.0 cm).
+Myometrial Invasion: Depth of invasion 0.5 cm (Myometrial thickness 1.4 cm).
+Margins: Serosal margin uninvolved by invasive carcinoma (Distance 0.8 cm).
+Lymph-Vascular Invasion: Not identified.
+Lymph Nodes Examined:
+- Left pelvic: 5 nodes (0/5).
+- Right pelvic: 14 nodes (0/14).
+- Left para-aortic, common: 4 nodes (0/4).
+- Right para-aortic: 5 nodes (0/5).
+Total: 28 nodes (0/28).
+Peritoneal Ascitic Fluid: Not available.
+Prognostic Markers: Ordered; available for review on addendum (specific values not detailed in this text).
+
+Expert Summary
+The surgical pathology confirms a high-grade (FIGO grade 3) endometrioid adenocarcinoma of the endometrium. The tumor is limited to the uterus with invasion into less than half of the myometrium (pT1a). There is no regional lymph node metastasis (pN0). The ovaries and fallopian tubes are benign. While the stage is provisional based on pathologic data, the absence of lymph node involvement and limited myometrial invasion are favorable prognostic indicators. Specific prognostic marker values are noted as available via addendum but are not included in the main text.
+
+Patient-Friendly Explanation
+You had surgery to remove your uterus, cervix, fallopian tubes, and ovaries. The cancer was found in the lining of your uterus. It is classified as Grade 3, which means the cells look very abnormal. However, the cancer is considered early stage because it has not grown deeply into the muscle wall of the uterus and has not spread to the lymph nodes. A benign fibroid was also found and removed. The ovaries and tubes did not show cancer.
+
+Next-Step Considerations
+Review the addendum for the specific results of the prognostic markers.
+Follow-up care will be based on the provisional pathologic stage and the marker results.
+Additional treatment options may be considered based on the full clinical status and pathology review.

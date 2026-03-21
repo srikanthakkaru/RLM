@@ -1,0 +1,232 @@
+ICD 0.3
+udino Endometruid, NOS
+8380/3
+but
+QUUID:7A76BDC7-62D9-4A8D-AAEF-CECF9F819058
+TCGA-A5-A0GN-01A-PR
+Redacted
+Site : indometrum C54.1
+11/23/10
+Ordering M.D.:
+MD
+Copies To:
+Age/sex
+Assistant:
+Location:
+Date of Procedure
+Date Received:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS:
+A. PERITONEAL BIOPSY:
+-
+No malignancy identified
+B. OMENTUM #1:
+-
+No malignancy identified
+C. OMENTUM #2:
+-
+No malignancy identified
+D. LEFT ADNEXA:
+-
+Benign ovary with serosal adhesions
+- Histologically unremarkable fallopian tube segment
+-
+No malignancy identified
+E. HYSTERECTOMY:
+-
+Primary endometrial adenocarcinoma, endometrioid type
+- FIGO grade 1
+- Nuclear grade 2
+- Tumor size: 5.2 cm
+- Tumor involves posterior wall with an extensive intracavitary
+polypoid/exophytic component.
+- Invasion: Myometrial invasion present (56%)
+- Lymphovascular invasion: present
+- Cervix is not involved by tumor
+- Surgical margins are not involved by tumor
+-
+Additional findings:
+- Calcified leiomyoma
+F. LABELED AS PELVIC LYMPH NODE:
+- Ovary with benign surface epithelial inclusion cyst
+-
+Histologically unremarkable fallopian tube segment
+-
+No lymph node identified
+-
+No malignancy identified
+G. RIGHT UTEROSACRAL TISSUE:
+-
+Peritoneal tissue with reactive mesothelial changes and organizing hemorrhage
+-
+No malignancy identified
+H. LEFT PELVIC LYMPH NODE:
+-
+No metastatic carcinoma identified in two lymph nodes (0/2)
+Patient Case(s)
+Page I of 5
+PATH #:
+1. LEFT PERIAORTIC LYMPH NODE:
+-
+Mature adipose tissue
+-
+No lymph node identified
+-
+No malignancy identified
+J. RIGHT PELVIC LYMPH NODE:
+-
+No metastatic carcinoma identified in one lymph node (0/1)
+K. RIGHT PELVIC LYMPH NODE:
+-
+No metastatic carcinoma identified in two lymph nodes (0/2)
+L. CUL DE SAC:
+-
+Organizing hemorrhage
+-
+No malignancy identified
+AJCC Stage: pTlc pN0 pMx
+COMMENT: Although the tumor is of low architectural and moderate nuclear grade, there is
+extensive myometrial invasion and at least focal angiolymphatic invasion; consequently, it may
+behave in a rather aggressive fashion.
+HISTORY: Endometrial cancer
+MICROSCOPIC:
+See diagnosis.
+SPECIAL STUDIES:
+IMMUNOSTAINS:
+GROSS:
+A. PERITONEAL BIOPSY
+Labeled with the patient's name, labeled "peritoneal biopsy", and received in formalin are two portions of soft tan-
+pink tissue measuring 1.8 cm and 0.7 cm in maximum dimension, respectively and aggregating to 1.7 X 0.7 X 0.3
+cm. Entirely submitted.
+A1. 2
+B. OMENTUM #1
+Labeled with the patient's name, labeled "omentum #1", and received in formalin is a 9.8 X 7.3 X 2.8 cm aggregate
+of soft tan-pink and yellow fibroadipose tissue. There are multiple adhesions and hemorrhages on the surface. The
+are submitted.
+omentum appears grossly free of tumor. Sectioning reveals no masses or lesions identified. Representative sections
+B1. 2
+C. OMENTUM #2
+Labeled with the patient's name, labeled "omentum #2", and received in formalin is a 9.1 X 5.6 X 2.7 cm portion of
+soft yellow adipose tissue. The surface is covered by minimal fibrous adhesions and focal areas of hemorrhage.
+Sectioning reveals no masses or lesions. The surface appears grossly free of tumor. Representative sections are
+submitted.
+C1. 2
+D. LEFT ADNEXA
+SURGICAL PATHOLOGY REPORT
+Page 2 of 5
+TH #:
+Labeled with the patient's name, labeled "left adnexa", and received in formalin is a salpingo-oophorectomy
+specimen. The left ovary is 1.9 X 1.0 X 0.9 cm and has a tan-yellow smooth surface with minimal areas of
+hemorrhage. Cut surfaces of the ovary reveal a yellow-tan cortical stroma. The fallopian tube is received attached
+to the ovary and in one piece with one fimbriated end. The fallopian tube measures 5.1 cm in length and ranges
+from 0.6 to 1.2 cm in diameter. The serosa is tan-pink. There is one 0.2 cm strip on the serosal surface of the mid
+portion of the tube. Sectioning reveals a stellate, patent lumen up to 0.3 cm. Representative sections are submitted.
+D1. Left ovary - 1
+D2. Fallopian tube - 4
+E. UTERUS, CERVIX
+Labeled with the patient's name, labeled "uterus, cervix", and received fresh in the Operating Room for
+intraoperative consultation and subsequently fixed in formalin is a 120 gram total hysterectomy specimen. The
+uterus is symmetric. The uterus measures 8.6 cm from fundus to ectocervix, 5.4 cm from cornu to cornu and a
+maximum of 4.5 cm from the anterior surface to the posterior cervix. The uterine serosa is tan-red and smooth with
+minimal fibrous adhesions and fibroadipose tissue. The cervix is about 3.5 cm long and a maximum of 2.3 cm in
+diameter in the ectocervical region. Attached to the cervix there is a short 0.9 cm cuff of grossly unremarkable
+vaginal mucosa. The mucosa lining the ectocervix is tan-pink and unremarkable. The external cervix os is 0.6 cm
+in diameter and slit-like. The uterus is incised from both sides. The anterior cervix is inked blue and the posterior
+cervix is inked black. The cervical transformation zone is indistinct. The endocervical canal is 2.8 cm long and
+lined by tan slightly rugose mucosa. Cut sections of the cervix reveal no gross evidence of tumor or other gross
+pathologic lesions. The endometrial cavity is 6.7 cm long and up to 4.2 cm in width. Within the uterus there is a
+large friable tan-white, partially necrotic and hemorrhagic polypoid lesion projecting from the posterior uterine
+corpus measuring approximately 5.2 X 4.4 X 4.0 cm. Sectioning reveals this lesion to partially invade the superficial
+half of the myometrium. Also located in the area underlying the tumor is an intramural leiomyoma measuring 1.2 X
+0.6 X 0.6 cm. Cut surface of the leiomyoma is tan-white with a whorled surface with focal calcification and no
+evidence of hemorrhage or necrosis. Also identified on the endometrial surface of the uterine corpus is an area of
+friable, papillary projections covering approximately 40% of the endometrial cavity, but confined to the uterine
+cavity. There is no evidence of extension to the cervix. Sectioning of the papillary lesions reveal them to be
+confined to the superficial half of the myometrium. The uninvolved uterine wall has a thickness of 2.0 cm, however
+in the area of the tumor, the thickness of the uterine wall including tumor is up to 4.0 cm. The myometrium is tan-
+pink and slightly trabeculated. A second intramural leiomyoma is identified in the anterior uterine corpus
+measuring 1.6 X 1.3 X 0.8 cm. Cut sectioning of this leiomyoma reveals a tan-white, whorled surface with no
+evidence of hemorrhage, necrosis or calcification. No other lesions are grossly identified. Representative sections
+are submitted.
+E1. Frozen section control #1 - 1
+E2. Anterior cervix - 1
+E3. Anterior lower uterine segment with papillary projections - 1
+E4. Uninvolved anterior uterine corpus - 1
+E5. Anterior uterine corpus with papillary projections and intramural leiomyoma - 1
+E6. Anterior uterine fundus - 1
+E7. Posterior cervix - 1
+E8. Posterior lower uterine segment - 1
+E9, E10. Posterior uterine fundus with tumor (top portion of the tumor bisected) - 1 each
+E11, E12. Portion of tumor in posterior uterine corpus at depth of maximum invasion, bisected - 1 each
+E13. Posterior uterine corpus with tumor - 1
+E14. Posterior uterine fundus - 1
+E15. Intramural leiomyoma with calcifications - 1
+E16. Right distal fallopian tube - 3
+E17. Right fallopian tube proximal to uterus - 4
+E18, Left fallopian tube distal to uterus - 3
+E19. Left fallopian tube proximal to uterus - 3
+F. LEFT PELVIC LYMPH NODE
+SURGICAL PATHOLOGY REPORT
+Page 3 of 5
+PATH #:
+Labeled with the patient's name, labeled "left pelvic lymph node", and received in formalin is a 4.8 X 3.2 X 1.2 cm
+portion of soft tan-pink fibroadipose tissue containing one 1.7 X 1.7 X 1.4 cm firm lymph node. Sectioning the
+lymph node reveals a tan-yellow homogeneous stroma with focal areas of white friable material which grossly
+appear to be tumor. There appears to be a portion of fallopian tube contained within this tissue that measures 4.0
+cm in length and ranges from 0.8 to 1.0 cm in diameter. The serosal surface is tan-pink and smooth, Sectioning
+reveals a stellate patent lumen up to 0.3 cm in diameter. Representative sections are submitted.
+F1. One lymph node - 2
+F2. Possible fallopian tube - 4
+G. RIGHT URETEROSACRAL
+Labeled with the patient's name, labeled "right ureterosacral", and received in formalin is a 1.1 X 1.0 x 0.5 cm
+portion of soft tan-red fibrous tissue. The specimen is serially sectioned and entirely submitted.
+G1. 4
+H. LEFT PELVIC LYMPH NODE
+Labeled with the patient's name, labeled "left pelvic lymph node", and received in formalin is a 5.5 X 5.0 X 1.2 cm
+aggregate of soft yellow adipose tissue containing two lymph nodes measuring 1.5 X 1.5 X 0.7 cm and 3.0 X 0.6 X
+0.5 cm, respectively. Representative sections are submitted.
+H1. Larger lymph node 4
+H2. Smaller lymph node - 3
+I. LEFT PERIAORTIC LYMPH NODE
+Labeled with the patient's name, labeled "left periaortic lymph node", and received in formalin is a 1.2 X 0,7 X 0.2
+cm portion of soft yellow adipose tissue. No lymph nodes are grossly identified. Entirely submitted.
+II. 1
+J. RIGHT PELVIC LYMPH NODE
+Labeled with the patient's name, labeled "right pelvic lymph node", and received in formalin is a 2.0 X 1.6 X 0.6 cm
+portion of soft tan-yellow fibroadipose tissue. One possible lymph node is grossly identified measuring 0.6 X 0.4 X
+0.2 cm. The specimen is entirely submitted.
+J1. 1
+K. RIGHT PELVIC LYMPH NODE
+Labeled with the patient's name, labeled "right pelvic lymph node", and received in formalin is a 5.0 X 3,1 X 0.8 cm
+aggregate of soft yellow adipose tissue. One possible lymph node measuring 1.1 X 1.0 X 0.3 cm is identified and
+entirely submitted. There is firm area of fat that may represent a lymph node that measures 4.0 X 1.5 X 1.0 cm.
+Representative sections of this tissue are submitted.
+K1. One lymph node - 2
+K2. Firm area of adipose tissue - 4
+L. CUL DE SAC
+Labeled with the patient's name, labeled "cul de sac", and received in formalin are two tiny fragments of soft tan-red
+tissue measuring 0.3 and 0.2 cm, respectively, and aggregating to 0.4 X 0.3 X 0.2 cm. Entirely submitted.
+L1. 2
+Gross dictated by
+OPERATIVE CALL
+OPERATIVE CONSULT (FROZEN):
+FS #1 (SPECIMEN E, UTERUS, CERVIX):
+Adenocarcinoma penetrating inner half of myometrium
+SURGICAL PATHOLOGY REPORT
+Page 4 of 5
+PATH #:
+If this report includes immunohistochemical test results, please note the following:
+Numerous immunohistockemical tests wore daveloped and their performance characteristics determined
+by
+lose immunohistochemical tests have not been cleared or approved by the
+U.S. Food and Drug Administration (FDA). and FDA approval is not required.
+I have personally examined the specimen, interpreted the results, reviewed the report and signed it electronically.
+SURGICAL PATHOLOGY REPORT
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Page 5 of 5
+Primary Tumor Site Discrepancy
+IIPAA Discrepancy
+rior Malignancy History

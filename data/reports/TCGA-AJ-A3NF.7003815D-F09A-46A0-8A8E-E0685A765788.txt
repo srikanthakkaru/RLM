@@ -1,0 +1,113 @@
+Sex: Female
+D.O.B.:
+(Age:
+MRN #: (
+Ref Phys
+SPECIMEN INF
+Collected:
+Received:
+Reported:
+SURGICAL PATHOLOGY REPORT
+DIAGNOSIS
+DIAGNOSIS:
+A. Uterus with bilateral adnexa, hysterectomy with bilateral salpingo-oophorectomy:
+Iw 1/7/12
+Criteria
+Yes
+No
+Tumor Characteristics:
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+1. Histologic type: Serous carcinoma.
+HIPAA Discrepancy
+2. Histologic grade: High-grade.
+Prior Malignancy History
+Dual/Synchronous Primary Noted
+3. Tumor site: Endometrium.
+Case is cipcle):
+QUALIFIED
+DISQUALIFIED
+4. Tumor size: 3.5 by 2.5 cm.
+Review Ini
+REVIEWED:
+12/30/11
+5. Myometrial invasion: Tumor extends 1.5 cm into a 2.8 cm thick myometrium (greater than 1/2).
+6. Involvement of cervix: Not seen.
+7. Extent of involvement of other organs: Not seen.
+8. Lymphovascular space invasion: Not seen.
+Surgical Margin Status:
+1. Margins uninvolved: Uterine serosa, bilateral parametria, cervix.
+2. Margins involved: None.
+Lymph Node Status:
+1. See parts B-D.
+Other:
+1. Other significant findings: Bilateral ovaries and fallopian tubes without significant pathologic abnormality.
+2. pTNM stage: pT1b N1 (FIGO IIIC1).
+B. Right paraaortic lymph nodes, excision:
+Nine lymph nodes, negative for metastatic disease.
+ICD-0-3
+C. Right pelvic lymph nodes, excision:
+adenocarcinoma, serous, NOS 8441/3
+Ten lymph nodes, negative for metastatic disease.
+Site: indometrium C54.1
+D. Left pelvic lymph nodes, excision:
+hw
+One of thirteen lymph nodes positive for metastatic carcinoma.
+1/7/12
+E. Omentum, excision:
+Negative for malignancy.
+Electronic Signature:
+CLINICAL INFORMATION
+CLINICAL HISTORY:
+Preoperative Diagnosis:
+year old female, serous uterine adenocarcinoma on D&C
+Postoperative Diagnosis:
+Symptoms/Radiologic Findings:
+SPECIMENS:
+A. Uterus, cervix, bilateral tubes and ovaries
+B. Right paraaortic lymph nodes
+C. Right pelvic lymph nodes
+D. Left pelvic lymph nodes
+E. Omentum
+SPECIMEN DATA
+JUID: 7003815D-F09A-46A0-8A8E-E0685A765788
+GROSS DESCRIPTION:
+TCGA-AJ-A3NF-01A-PR
+Redacted
+The specimen is received in five containers labeled with the patient's name
+A. attached Container right A tube is additionally and labeled uterus, cervix, bilateral tubes and ovaries, and contains a 95.7 uterus
+yellow tan cystic and mucoid with central 0.6 cm patent os. The parametrial soft tissues are inked and taken partially en-face. surfaced by pink tan glistening
+ectocervical mucosa and features a posterior aspect. The 2.5 cm in length by 3.2 x 3.0 cm uterine cervix is by pink tan serosa
+features surgical punctures ovary on and the detached left tube and ovary. The 4.0 cm in length by 4.3 X 3.5 cm gram, uterine corpus with is attached surfaced cervix received with and
+primarily the posterior wall. On the usual folds. The triangular endometrium is remarkable for a 3.5 x 2.5 cm pink tan The endocervical canal is
+identified. thickness. Further inspection of the myometrium reveals focal cystic change. No additional appearing masses are
+is also identified and averages 0.2 sectioning, cm in this lesion extends 1.5 cm into a 2.8 cm thick pink tan fibrous myometrium. Normal granular lesion involving endometrium
+The cysts right ranging fimbriated from 0.1 fallopian up to 0.7 tuber cm is in 4.5 cm in length and ranges from 0.4 to 0.7 cm in diameter. it is remarkable for numerous
+yellow tan lobulated ovary is 2.0 x 1.6 x greatest 1.3 dimension. These cysts feature smooth inner linings and contain yellow tan serous uniloculated fluid. The paratubal attached
+cm. The cut surface is yellow tan and fibrous with multiple gray white corpora albicantia.
+cysts The left ranging fimbriated from fallopian 0.1 to 0.4 tube cm in is 4.5 greatest cm in length and ranges from 0.5 to 0.7 cm in diameter. It is remarkable for numerous uniloculated
+yellow tan lobulated ovary is 1.5 X 1.1 x 0.6 cm. dimension. The cut These cysts feature smooth inner linings and contain yellow tan serous fluid. paratubal
+sections are submitted in cassettes A1-A17 labeled
+surfania yellow tan and fibrous with numerous gray white corpora albicantia. The Representative attached
+appearing endometrium; endomyometrium to include lesion; A10 to A12-full thickness posterior endomyometrium to include uterine segment, A7 to
+thickness A3-anterior anterior endo/ectocervix; A4-posterior endo/ectocervix; A5-anterior designated lower as uterine follows: segment; A1-right A6-posterior parametrium, lower en-face; A2-left parametrium, A9-full en-face;
+blue cassette A14-right fallopian tube; A15-right ovary: A16-left fallopian tube; A17-left ovary, entirely. Additionally, lesion; A13-most a yellow, normal green and
+are submitted for genomic research each labeled
+palpation, B. Container multiple B is additionally firm fatty labeled nodes right paraaortic lymph nodes and contains a 4.8 x 4.7 x 2.3 cm aggregate of tan
+B1-B4
+labeled lymph designated are identified ranging from 0.2 up to 2.0 cm in greatest dimension. They are yellow entirely fibrofatty submitted soft tissue. On
+lymph nodes amount 04-one whole as possible follows: bisected B1 and B2-three lymph node. whole possible lymph nodes in each cassette; B3-two whole possible in cassettes bisected
+firm C. Container fattv possible C is lumph additionally nodes labeled are right nodes and contains a 7.7 x 4.5 x 2.8 cm aggregate of yellow tan fibrofatty soft tissue. multiple
+labeled
+lymph node; C4 C1-four whole possible lymph nodes; C2-three whole possible lymph cassettes whole possible
+designated as identified follows: ranging from 0.2 up to 3.3 cm in greatest dimension. They are entirely submitted in On palpation, C1-C7
+bisected and C5-one whole possible bisected lymph node; C6 and C7-one whole possible bisected nodes; lymph C3-one node.
+D.
+Container
+D
+is
+palpation, cassettes D1-D8 multiple labeled additionally firm fattu possible labeled lvmph left designated pelvic nodes lymph are identified nodes and ranging contains from a 7.0x60x3.0 0.3 up to 3.0 cm cm in aggregate greatest dimension. of yellow tan They fibrofatty are entirely soft tissue. On
+whole bisected possible lymph trisected nodes (one lymph inked): node. U4-one whole possible as follows: bisected D1 and lymph D2-four node; whole D5 and possible D6-one lymph whole nodes possible in each trisected cassette; lymph D3-two node; whole submitted D7 and possible D8-one in
+omentum. E. Container Sectioning E is additionally reveals labeled a omentum and contains a cm yellow tan finely lobulated
+E1-E4
+labeled yellow tan greasy cut surface. No nodules or lesions are identified. Representative fibrofatty sections soft tissue are consistent submitted with in cassettes

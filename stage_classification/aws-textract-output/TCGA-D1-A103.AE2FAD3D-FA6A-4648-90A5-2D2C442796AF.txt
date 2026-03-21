@@ -1,0 +1,91 @@
+ILD-0-3
+Adenocarcinoma endometrioid NOS 8380/3
+Site Code: endometrium C54.1
+1/17/11
+DIAGNOSIS:
+A. Uterus, hysterectomy: FIGO grade 1 (of 3) endometrial
+adenocarcinoma, endometrioid type, forming a mass (2.2 X
+1.9 X 0.5
+cm) located on the posterior uterine wall. The tumor
+invades 0.4 cm
+into the myometrium (total myometrial thickness, 1.4 cm) .
+The tumor
+does not involve the endocervix. The cervix is
+unremarkable.
+Lymphovascular space invasion is not identified. The
+margins are
+negative for tumor. [AJCC pT1bNXMX ]
+B. Ovary, right, oophorectomy: Unremarkable ovary. No
+fallopian
+tube grossly or microscopically identified. There is a
+1.0 X 0.7 X
+0.6 cm paratubal cyst.
+C. Ovary and fallopian tube, left, salpingo-oophorectomy:
+Unremarkable ovary and fallopian tube.
+This final pathology report is based on the
+gross/macroscopic
+examination and frozen section histologic evaluation of
+the
+specimen (s) .
+D:AE2FAD3D-FA6A-4648-90A5-2D2C442796AF
+TCGA-D1-A103-01A-PR
+Redacted
+GROSS DESCRIPTION:
+A. Received fresh labeled "uterus" is a 45.0 gram uterus
+with
+unremarkable cervix. The uterine serosa is smooth. There
+is a 2.2
+X 1.9 X 0.5 cm mass in the posterior wall and a 0.5 X 0.3
+X 0.3 cm
+mass in the right anterior wall of the endometrial cavity.
+The
+myometrial thickness is 1.4 cm. There are no leiomyomas
+in the
+myometrium. Representative sections are submitted.
+B. Received fresh labeled "right fallopian tube and
+ovary" is a 2.0
+X 1.4 X 0.9 cm ovary with a 1.0 X 0.7 X 0,6 cm cyst in the
+adjacent
+soft tissue. The right fallopian tube is not identified.
+The ovary
+has a smooth outer surface and a solid cut surface.
+Representative
+sections are submitted.
+C. Received fresh labeled "left fallopian tube and ovary"
+is a 2.2
+X 1.4 X 0.7 cm ovary with a 4.4 X 0.5 cm attached
+fallopian tube.
+The ovary has a smooth outer surface and a solid cut
+surface. There
+are hemorrhagic adhesions on the surface of the fallopian
+tube and
+ovary which are grossly suspicious for endometriosis.
+Representative sections are submitted.
+BLOCK SUMMARY:
+Part A: Uterus
+1 Endometrium-Post wall 1
+2 Endometrium-Post wall 2
+3 Endometrium-Post wall 3
+4 Endometrium-Post wall 4
+5 Endometrium-Rt Ant wall
+6 Lower uterine segment
+7 Cervix
+Part B: Right Ovary and fallopian tube
+1 Adjacent to rt ovary cyst
+2 Right ovary
+Part C: Left Ovary and fallopian tube
+1 Left tube
+2 Left ovary
+3 Surface left ovary
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Primara Noted
+Case is circle):
+QUALITIFS
+Reviewer Initials V
+Date Reviewed:

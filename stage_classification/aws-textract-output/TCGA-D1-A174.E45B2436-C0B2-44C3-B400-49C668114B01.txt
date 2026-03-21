@@ -1,0 +1,213 @@
+adeno carcinoma Endometrioid, NOS
+8380/3 12/9/10
+in
+Site code Endometreum (54.1
+Surgical Pathology
+SLIDE DISPOSITION:
+DIAGNOSIS:
+A. Uterus, hysterectomy: Endometrial adenocarcinoma,
+endometrioid
+type FIGO grade 3 (of 3) is identified forming a mass (2.6
+X 1.9 X
+1.4 cm) located in the fundus. No residual definitive
+serous
+papillary component is identified in the hysterectomy
+specimen. The
+tumor invades 0.2 cm into the myometrium (total myometrial
+thickness, 2.4 cm). The tumor does not involve the
+endocervix. The
+margins are negative for tumor. A single intramural
+leiomyoma (0.6
+X 0.5 X 0.5 cm) is identified in the myometrium.
+Seen in consultation with
+B. Ovary and fallopian tube, right, salpingo-
+oophorectomy: The
+right ovary is unremarkable. The right fallopian tube has
+multiple
+paratubal cysts (0.1 cm).
+C. Lymph nodes, right pelvic, lymphadenectomy: Multiple
+(19) lymph
+nodes are negative for tumor.
+D. Lymph nodes, left pelvic and lower para-aortic,
+lymphadenectomy:
+Multiple (9) lymph nodes are negative for tumor.
+E. Ovary and fallopian tube, left, salpingo-oophorectomy:
+Negative
+for tumor.
+F. Omentum, biopsy: Negative for tumor.
+G. Small bowel, mesentery, biopsy: Negative for tumor.
+H. Sigmoid colon, mesentery, biopsy: Negative for tumor.
+UUID:E45B2436-C0B2-44C3-B400-49C668114801
+TCGA-D1-A174-01A-PR
+Redacted
+I. Peritoneum, left pericolic gutter, biopsy: Negative
+for tumor.
+J. Peritoneum, bladder, biopsy: Negative for tumor.
+K. Peritoneum, left pelvic, biopsy: Negative for tumor.
+L. Peritoneum, right pelvic, biopsy: Negative for tumor.
+M. Peritoneum, right pericolic gutter, biopsy: Negative
+for tumor.
+With available surgical material [AJCC pT1aN0] (7th
+edition, 2009) .
+PRELIMINARY FROZEN SECTION CONSULTATION:
+A. Uterus, hysterectomy: Endometrial adenocarcinoma,
+endometrioid,
+favor FIGO grade 2 (of 3). Hold to exclude minor serous
+component
+on permanent sections. Cervix is unremarkable.
+Myometrium shows a
+single (1) leiomyoma.
+B. Ovary and fallopian tube, right, salpingo-
+oophorectomy: The
+right ovary is unremarkable. The right fallopian tube has
+multiple
+paratubal cysts (0.1 cm). .
+C. Lymph nodes, right pelvic, lymphadenectomy: Multiple
+(19) right
+pelvic lymph nodes are negative for tumor.
+D. Lymph nodes, left pelvic and lower para-aortic,
+lymphadenectomy:
+Multiple (9) left pelvic lymph nodes are negative for
+tumor.
+E. Ovary and fallopian tube, left, salpingo-oophorectomy:
+Negative
+for tumor.
+F. Omentum, biopsy: Negative for tumor.
+Hold over to process parts G through M on permanent
+sections.
+GROSS DESCRIPTION:
+A. Received fresh labeled "uterus" is a 125.0 gram uterus
+with
+unremarkable cervix. The uterine serosa is smooth. There
+is a 2.6
+X 1.9 X 1.4 cm mass in the fundus of the endometrial
+cavity which
+grossly appears to invade 0.2 cm into the 2. 4 cm thick
+myometrium.
+There is a single intramural leiomyoma (0.6 X 0.5 X 0.5
+cm)
+Representative sections are submitted.
+B. Received fresh labeled "right salpingo-oophorectomy"
+is a 2.5 X
+1.8 X 1.2 cm ovary with a 7.0 X 0.6 cm attached fallopian
+tube. The
+ovary has a smooth outer surface with a solid cut surface.
+Representative sections submitted.
+C. Received fresh labeled "right pelvic lymph nodes" is a
+4.5 X 4.5
+X 1.7 cm aggregate of adipose tissue and lymph nodes.
+Lymph nodes
+submitted.
+D. Received fresh labeled "left pelvic lymph nodes and
+lower para
+aortic" is a 6.6 X 4.5 X 1.0 cm aggregate of adipose
+tissue and
+lymph nodes. Lymph nodes submitted.
+E. Received fresh labeled "left fallopian tube and ovary"
+is a 2.8
+X 1.8 X 1.1 cm ovary with a 6.0 X 0.6 cm attached
+fallopian tube.
+The ovary has a smooth outer surface with a solid cut
+surface.
+Representative sections submitted.
+F. Received fresh labeled "omental biopsy" is a 4.9 X 2.9
+X 1.2 cm
+portion of omentum. Lymph nodes are not identified.
+Representative
+sections are submitted.
+G. Received fresh labeled "small bowel mesentery" is a
+0.9 X 0.4 4 X
+0.2 cm aggregate of yellow soft tissue which is entirely
+submitted
+for permanent sections only.
+H. Received fresh labeled "sigmoid mesentery" is a 0.5 X
+0.4 X 0.2
+aggregate of yellow soft tissue which is entirely
+submitted for
+permanent sections only.
+I. Received fresh labeled "left peri-colic gutter" is a
+1.6 X 0.8 X
+0.2 cm aggregate of yellow soft tissue which is entirely
+submitted
+for permanent sections only.
+J. Received fresh labeled "bladder peritoneum" is a 1.6 X
+0.6 X 0.2
+cm aggregate of yellow soft tissue which is entirely
+submitted for
+permanent sections only.
+K. Received fresh labeled "left pelvic peritoneum" is a
+1.4 X 0.9 X
+0.2 cm aggregate of yellow soft tissue which is entirely
+submitted
+for permanent sections only.
+L. Received fresh labeled "right pelvic peritoneum" is a
+0.6 X 0.4
+X 0.2 cm aggregate of yellow soft tissue which is entirely
+submitted
+for permanent sections only.
+M. Received fresh labeled "right peri-colic gutter" is a
+1.4 X 0.9
+X 0.2 cm aggregate of yellow soft tissue which is entirely
+submitted. Grossed by
+BLOCK SUMMARY:
+Part A: Uterus
+1 Cervix
+2 Endometrial tumor-1
+3 Endometrial tumor-2
+4 Endometrial tumor-3
+5 Fibroid
+6 Endometrial tumor-4
+7 Endometrial tumor-5
+8 Endometrial tumor-6
+9 Endometrial tumor-7
+Part B : Right salpingo-oophorectomy
+1 Rt ovary
+2 Rt tube
+Part C : Right Pelvic Lymph Nodes
+1 Rt pelvic ln-1 (C1)
+2 Rt pelvic ln-1 (C2)
+3 Rt pelvic ln-1 (C3)
+4 Rt pelvic ln-1 (C4)
+5 Rt pelvic 1n-4 (C5)
+6 Rt pelvic LNs 4 (C6)
+7 Rt pelvic LNs 5 (C7)
+8 Rt pelvic LNs 2 (C8)
+Part D: Left Pelvic Lymph Nodes and left lower para-
+aortic lymph
+nodes
+1 Lt pelvic ln-4 (D1)
+2 Lt pelvic In-1 (D2)
+3 Lt pelvic ln-4 (D3)
+4 Lt pelvic ln-1 (D4)
+5 Lt pelvic ln-1/2 (D5)
+6 Lt pelvic 1n-2/2 (D5)
+Part E: Left Ovary and fallopian tube
+1 Lt ovary
+2 Lt tube
+Part F : Omental biopsy
+1 Omental biopsy
+Part G: Small bowel mesentery
+1 Sm bowel mesentary
+Part H : Sigmoid mesentery
+1 Sigmoid mesentary
+Part I : Left peri-colic gutter
+1 Lt peri-colic gutter
+Part J: Bladder peritoneum
+1 Bladder peritoneum
+Part K: Left pelvio peritoneum
+1 Lt pelvic peritoneum
+Part L: Right pelvic peritoneum
+1 Rt pelvic peritoneum
+Part M : Right peri-colic gutter
+1 Rt peri-colic gutter
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Ciscrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/S nchronous Primary Noted
+Case is (circle): QUALIEISE DISQUALITIED
+Reviewer Initials
+Reviewed

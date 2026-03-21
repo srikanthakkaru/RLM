@@ -1,0 +1,311 @@
+JUID:926937F8-6057-4039-B838-0115B9ACFE1A
+TCGA-AX-A06L-01A-PR
+RUN DATE:
+Redacted
+RUN TIME:
+BY:
+Specimen Inquiry
+ENT:
+ACCT #:
+LOC:
+U#:
+AGE/SX:
+F
+REG DR:
+RM/BED:
+REG:
+STATUS: DIS IN
+TLOC:
+DIS:
+SPEC #:
+Obtained:
+STATUS: SOUT
+Subm Dr:
+Received:
+CLINICAL HISTORY:
+HX INVOLVEMENT? OF ATYPICAL ENDOMETRIAL HYPERPLASIA. R/O CA : IF CA= GRADE? DEPTH OF INVASION? CERVICAL
+SPECIMEN/PROCEDURE:
+1. UTERUS - WITH TUBES. OVARIES
+Criteria
+Yes
+Diagnosis Discrepancy
+No
+2. LYMPH NODE - RIGHT PELVIC
+Primary Tumor Site Discrepancy
+3. LYMPH NODE - RIGHT PARA-AORTIC
+HIPAA Discrepancy
+4. LYMPH NODE - LEFT COMMON ILIAC
+Prior Malignancy History
+Okum/Synchronous Primary-NOTEU
+5. LYMPH NODE - LEFT PELVIC
+Case is (circle):
+QUALIFIED
+DISQUALIFIED
+Reviewer Initials
+RR
+6. LYMPH NODE - LEFT PARA-AORTIC
+Date Reviewed 10/28/11
+7. LYMPH NODE - RIGHT COMMON ILIAC
+In 10/30/11
+ICD-0-3
+IMPRESSION
+adinocarcious indometrioid NOS 838013
+Site: indometrium C54.1 he 10/30/11
+1)
+UTERUS, BILATERAL OVARIES AND FALLOPIAN TUBES; HYSTERECTOMY WITH BILATERAL
+SALPINGO-OOPHORECTOMY
+ENDOMYOMETRIUM:
+grade 2 (See Checklist)
+Adenocarcinoma of endometrium, endometrioid type: FIGO grade 1. nuclear
+Carcinoma invades the inner half of the myometrium.
+Lymphovascular invasion is not identified.
+Leiomyoma (5.5 cm). posterior corpus.
+CERVIX:
+metaplasia and mild chronic cervicitis.
+Benign ectocervical and endocervical glandular components with squamous
+No evidence of dysplasia or malignancy
+UTERINE SEROSA:
+No evidence of malignancy
+OVARIES, BILATERAL
+FALLOPIAN TUBES. BILATERAL:
+Atrophic physiologic changes no evidence of malignancy
+Paratubal cyst (left) : no evidence of malignancy.
+2)
+LYMPH NODES, RIGHT PELVIC. REGIONAL DISSECTION:
+Ten benign lymph nodes (0/10)
+3)
+LYMP!! NODE RIGHT PARA-AORTIC. BIOPSY:
+One benign lymph node (0/1)
+**
+CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 2
+PRESSION: (continued)
+4) LYMPH NODE LEFT COMMON ILIAC. BIOPSY;
+One benign lymph node (0/1) .
+5) LYMPH NODES, LEFT PELVIC. REGIONAL DISSECTION
+Seven benign lymph nodes (0/7)
+6)
+LYMPH NODES, LEFT PARA-AORTIC, REGIONAL DISSECTION:
+Three benign lymph nodes (0/3) .
+?)
+LYMPH NODES. RIGHT COMMON ILIAC, REGIONAL DISSECTION
+Three benign lymph nodes (0/3).
+ENDOMETRIAL CARLINOMA CHECKLIST:
+MACROSCOPIC
+SPECIMEN TYPE
+Hysterectomy with bilateral salpingo-oophorectomy
+TUMOR SITE
+Specify location(s), if known:
+Anterior uterine wall
+TUMOR SIZE
+Greatest dimonsion: 6. 0 cm
+Additional dimensions: 3.5 x 1.4 cm
+ER ORGANS PRESENT
+Right ovary
+Left ovary
+Right fallopian tube
+Left fallopian tube
+MICROSCOPIC
+HISTOLOGIC TYPE
+Endometrioid adenocarcinoma, not otherwise characterized
+HISTOLOGIC GRADE
+G1: 5% or less nonsquamous solid growth
+MYOMETRIAL INVASION
+Invasion present
+Maximal depth of myometrial invasion: 8.0 mm
+Thickness of myometrium in area of maximal tumor invasion: 18.0 mm
+** CONTINUED ON NEXT PAGE **
+SPEC #:
+(Continued) Page: 3
+PRESSION (continued)
+The % of myometrial involvement 44%
+EXTENT OF INVASION
+PRIMARY TUMOR (DT)
+TNM (FIGO)
+DT1 (1) : Tumor confined to corpus uteri
+pT1b (IB): Tumor invades less than one-half of the myometrium
+REGIONAL LYMPH NODES (PN)
+TNM (FIGO)
+pNO: No regional lymph node metastasis
+Number examined: 25
+DISTANT METASTASIS (pM)
+TNM (FIGO)
+pMX: Cannot be assessed
+MARGINS
+Uninvolved by invasive carcinoma
+surface Distance of invasive carcinoma from closest margini 10 mm from uterine serosal
+VENOUS/LYMPHATIC Absent (LARGE/SMALL VESSEL) INVASION (V/L)
+ADDITIONAL PATHOLOGIC FINDINGS
+popplex endometrial hyperplasia with atypia
+Indometrial atrophy
+Leiomyoma
+Pathologic TNM: pT1b NO MX
+Dictated by:
+Entered:
+COMMENT:
+Representative sections reviewed at
+Entered:
+SPECIAL STAINS/PROCEDURES :
+FROZEN SECTION SUMMARY:
+One initial frozen section (1AF)
+One additional frozen section (1BP).
+Dictated by:
+* * CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 4
+GROSS DESCRIPTION:
+1)
+Received 250 fresh labeled with the patient's name and "uterus, tubes. and ovaries, a
+cervix, gram 6.0 hysterectomy specimen including an unopened uterus (11.2 cm from fundus is to
+cm). fallopian left tube (5.0 cm in length x 0.5 cm in diameter), right ovary (1.7 right x
+cm from cornu to cornu. 9.0 cm from anterior to posterior).
+x 1.4 fallopian tube (4.0 cm in length x 0.5 cm in diameter) and left 1.2 X 0.4 (2.0
+external glistening. The ectocervix (1.5 x 1.5 cm) covered with pink to tan and
+x 0.5 cm). The serosal surface of the uterus is pink to tan. smooth ovary
+anterior herringbone appearance There is a 6.0 x 3.5 X 1.4 cm pink to tan friable with a
+03 is 1.2 x 0.2 cm. The endocervical canal is 3.5 cm in length mucosa. The
+wall of myometrium. the There is a 5.5 x 5.0 x 4.5 cm intramural fibroid in the posterior inner
+of the wall of the uterus. The cut surface shows tumor invading into the mass on half the
+uterus. The cut surface of the fibroid is white to tan with
+uterine appearance. The tumor mass and fibroid distort the uterine cavity and the whorled the
+thin cavity is unable to be determined The endometrium overlying the fibroid size of
+cm appears in thickness. but is focally thickened to 0.2 cm. The myometrium is
+uhremarkable The cut surface of the bilateral fallopian tubes is approximately pink and 1.5
+cut The cervix and ectocervical margin appear uninvolved to tan The
+surface of the bilateral ovaries is pink to yellow and unremarkable by tumor.
+representative frozen sections of tumor mass are submitted in cassettes 1AF and 1BF Two for
+section.
+FROZEN SECTION DIAGNOSIS: Endometrioid adenocarcinoma, well-differentiated with
+invasion of inner half of myometrium.
+M.D./
+M.D.
+(Reported at
+M.D.
+GYN/Oncology for research. The anterior surface of the uterus is inked in by black.
+A small portion of the right fallopian tube and tumor mass are requested
+CASSETTE SUMMARY:
+Cassette 1C:
+Cassette ID:
+Cassette 1E:
+Cervix at 12 'clock.
+Representative sections of left fallopian tube and ovary.
+Representative sections of right fallopian tube and right ovary.
+Cassette 1G:
+Lower uterine segment. anterior.
+Cassette 1H:
+Cervix at 6 o'clock.
+Cassette 1J:
+Cassette 1K:
+Lower uterine segment. posterior
+Cassettes 1L-10:
+Section of endomyometrium from the posterior wall.
+Cassettes 1R-1Y
+Representative sections of the fibroid on the posterior wall.
+anterior wall.
+Sections of tumor with full thickness of endomyometrium from
+2)
+Received are ten in formalin labeled "right pelvic lymph nodes" and with the
+x x 1.5 x 1.3 cm. All lymph nodes identified are submitted as 1.0 follows: x
+0.3 cm irregular to 2.7 tan to pale tan ovoid lymph nodes identified. ranging patient's from name, 0.6
+CONTINUED ON NEXT PAGE
+SPEC #:
+(Continued) Page: 5
+OSS DESCRIPTION (continued)
+CASSETTE SUMMARY:
+Cassette 2A:
+Cassette 2B:
+Two lymph nodes, bivalved one inked blue.
+Cassette 2C:
+Two lymph nodes. bivalved one inked blue.
+Cassette 2D:
+Two lymph nodes. bivalved. one inked blue.
+One lymph node, bivalved.
+Cassette 2E:
+One lymph node, bivalved
+Cassettes 2G-2J:
+Cassette 2K:
+One large lymph node serially sectioned.
+One lymph node.
+3)
+name, Received is one in formalin labeled "right para-aortic lymph node" and with the
+cm. The irregular portion of yellow-tan lobulated adipose tissue. 1.5 patient's
+identified, specimen is dissected for lymph nodes, there is one pale tan X 0.8 x node 0.4
+1.1 x 0.7 x 0.4 cm. All lymph nodes identified are submitted ovoid as lymph follows:
+CASSETTE SUMMARY:
+Cassette 3 :
+One lymph node, bivalved
+4)
+name. Received is in formalin. labeled "left common iliac lymph node" and with the
+2.5 x 1.5 an aggregate of irregular portions of yellow-tan lobulated patient's
+lymph node x 0.6 cm. Specimen is dissected for lymph nodes. there is adipose tissue,
+as
+follows: identified 1.1 x 0.6 X 0.4 cm. All lymph nodes identified one are tan submitted ovoid
+CASSETTE SUMMARY
+Cassette 4 :
+One lymph node. bivalved
+5)
+5.5 x 2.0 aggregate of irregular portions of yellow-tan lobulated adipose patient's
+Received is an in formalin. labeled "left pelvic lymph nodes" and with the name,
+yellow-tan cm. The specimen is dissected for lymph nodes. there are tissue. 7.0
+X
+x 2.0 ovoid lymph nodes identified. ranging from 1.8 x 0.4 x 0,3 seven cm to tan 3.0 to X 3.0
+cm. All lymph nodes identified are submitted as follows:
+CASSETTE SUMMARY:
+Cassette 5A:
+Three lymph nodes.
+Cassette 5B:
+One lymph node, bivalved.
+Cassette SC:
+One lymph node, bivalved.
+Cassette 5D:
+One lymph node. bivalved.
+Cassettes 5E-5N:
+One large lymph node, serially sectioned.
+6)
+name, Received is an in formalin, labeled "left para-aortic lymph node" and with the
+2.3 x 2.0 aggregate of irregular portions of yellow-tan lobulated patient's
+yellow-tan x 1.1 cm. Specimen is dissected for lymph nodes. there are adipose three tissue,
+x 0.5 ovoid lymph nodes identified ranging from 0.5 x 0.4 x 0.2 cm to 1.3 tan X to 0.8
+cm. All lymph nodes identified are submitted as follows:
+CASSETTE SUMMARY:
+** CONTINUED ON NEXT PAGE
+SPEC #
+ontinued) Page: 6
+loss DESCRIPTION: ( continued)
+Cassette 6A:
+One lymph node .
+Cassette 6B:
+One lymph node, bivalved
+Cassette 6C:
+One lymph node, bivalved.
+7)
+Received name, is an in formalin, labeled "right common iliac lymph node" and with the
+1.7 x 1.5 aggregate of irregular portions of yellow-tan lobulated patient's
+ovoid lymph X 0,8 cm. The specimen is dissected for lymph nodes, there adipose tissue.
+0,5 cm. All nodes identified, 0.4 x 0.4 x 0.3 cm, 0,7 x 0.5 x 0.3 cm, and are 1.0 three x 0.7 tan
+lymph nodes identified are submitted as follows:
+x
+CASSETTE SUMMARY:
+Cassette 7A:
+Two lymph nodes.
+Cassette 7B:
+One lymph node, bivalved
+(Specimens 2-7 dictated by
+Dictated by:
+Entered:
+COPIES TO:
+No PCP/Family Physician
+Undefined Provider
+CPT Codes:
+FS INITIAL-
+FS ADDITIONAL-
+LYMPH NODE. REGIONAL RESECT
+LYMPH NODE BIOPSY (M)
+UTERUS W/WO ADNEXAE. TUMOR-
+ICD9 Codes:
+Resident Physician:
+I have personally reviewed the material
+(specimen/slide) and approve this final report.
+Electronically Signed by:
+** END OF REPORT

@@ -1,0 +1,239 @@
+Confidential
+UUID:BC43D6CA-235C-4217-BF72-F33B089C532B
+TCGA-4E-A92E-01A-PR
+Redacted
+Site ID
+Subject Number:
+Please complete ALL information with black ball point pen. Ensure information is legible.
+Retain original and email/fax copy to
+Sample Collection Date:
+Procured by:
+00 . M M / M - Y Y Y
+Y
+Time of Tumor Sample Excision
+(24 hour clock):
+Time Zone:
+H H : M M
+TUMOR-FROZEN & FRESH SAMPLES
+FROZEN SAMPLES BATCH
+SHIPPED (dry ice); FRESH TUMOR SAMPLE, IF COLLECTED, SHIPPED ON DAY OF COLLECTION
+Collect resected tumor in accordance with standard procedures. Weigh the sample and section off ~100mg.
+Frozen Tumor (Required)
+Place this sample in the cryovial labeled Frozen Tumor sample and record the weight. Place the cryovial in a cane and
+then into the vapor phase dewar. Record the time placed in dewar.
+Weight of Tissue: 260 mg
+Time placed in dewar:
+(tissue weight must be 100mg)
+(24 hour clock)
+H H M M M
+Fresh Tumor (Optional)
+N/A
+Locate the "Fresh Tumor" label in the kit and affix to the 15ml
+tube (sent separately). Place any remaining
+tumor tissue into the 15ml conical tube containing
+Weight of Tissue: 140 mg
+Time placed in
+-
+Lot Number of
+(no min. weight specified)
+(24 hour clock)
+H H : M M
+-
+WHOLE BLOOD SAMPLE (Required) - BATCHED SHIPPED FROZEN (dry ice)
+Sample Collection Date:
+D D M M M Y Y Y Y
+Procured by:
+-
+Time of Blood Sample Collection
+(24 hour clock):
+I
+Time Zone:
+H H : M' M
+1-10ml EDTA tube. Fill tube completely and mix by gentle inversion at least 8-10 times. Freeze sample on dry ice or
+place in vapor phase dewar.
+Time placed in dry ice/dewar:
+(24 hour clock)
+H H : M M
+BASIC PATHOLOGICAL INFORMATION
+Clinical Diagnosis:
+(Ex. Lung Cancer)
+EndometRiAl CAncer Source of Specimen: Endometrial SAL
+(Ex. Right Lung)
+Confidential
+Valid from
+Page 1 of 2
+ICD -0-3 -
+Adenicareminad, endonetricid NOS
+838013
+Site Endometrium
+C54.1
+to 3/26/14
+Confidential
+Tissue/Blood Requisition Form
+Affix Label Here
+Or Write in Sample ID
+Site ID:
+Subject Number:
+Diagnostic Slides (Required) - SLIDES BATCHED SHIPPED (ambient)
+From the diagnostic FFPE block, cut 3 slides with one section ~ 4-5um on each slide. Label the frosted tip of the slide
+in pencil with the sample ID (located on the label at the top of this form). Record the ID number of the diagnostic
+histology cassette and the number of slides. H&E stain the slides and store in a slide mailer.
+Diagnostic Histology Cassette ID
+Number of Slides Cut
+3
+Refer to
+Study Manual for detailed specimen processing and shipping Instructions. (1 denotes required samples)
+Specimen
+Collection Vessel
+Transfer Tube
+Shipping Status
+Frozen Tumor*
+None
+Cryovial
+Same Day - Dry Ice
+Frozen Blood*
+1-10ml EDTA
+None
+Same Day - Dry Ice
+Fresh Tumor
+None
+15ml-
+Same Day - Refrigerated
+Diagnostic Slides*
+Histology Cassette
+SuperFrost Slides
+5-Slide Mailer-Batch -
+When FROZEN and FRESH samples are ready for shipment please notify by Email notification:
+At this time; please also provide your Sample Manifest.
+When the Diagnostic slides are ready for shipment please notify by Email notification:
+At this
+time pleaseralso provide your Sample Manifest.
+DO NOT RETURN EMPTY CONTAINTERS TO
+White copy Retain for your Records
+Yellow:copy-send to pathology for diagnostic slides
+Confidential
+Valid from
+Page 2 of 2
+Surg Path Final Report
+Final Report
+Result Type:
+Result Date:
+Result Status:
+Result Title:
+Verified By:
+Encounter info:
+* Final Report *
+Final Diagnosis (Verified)
+Uterus and cervix with bilateral fallopian tubes and ovaries, resection:
+Well-differentiated adenocarcinoma (endometrioid type, FIGO grade 1), confined to
+endometrium.
+There is no evidence of tumor invasion into underlying myometrium in the examined
+sections and no evidence of lymphovascular invasion.
+Focal adenomyosis.
+Leiomyomas.
+Benign cervical tissue with no evidence of neoplasm.
+Benign parauterine tissue.
+Benign fallopian tubes and ovaries.
+Left external iliac lymph nodes, excision:
+Benign adipose tissue.
+No lymphoid tissue is present for evaluation.
+Left internal iliac lymph nodes, excision:
+Benign fibroadipose tissue.
+No lymphoid tissue is present for evaluation.
+Left aortic lymph nodes, excision:
+One (1) benign lymph node with no evidence of metastatic neoplasm.
+Right external iliac lymph nodes, excision:
+One (1) benign lymph node with no evidence of metastatic neoplasm.
+Right internal iliac lymph nodes, excision:
+Page 1 of 3
+(Continued)
+Surg Path Final Report
+*
+Final Report *
+Benign fibroadipose tissue.
+Lymphoid tissue is not present for evaluation.
+Right obturator lymph'nodes, excision:
+Two (2) benign lymph nodes with no evidence of metastatic neoplasm.
+Right common iliac lymph nodes, excision:
+Benign fibroadipose tissue.
+Lymphoid tissue is not present for evaluation.
+Right aortic lymph nodes, excision:
+Two (2) benign lymph nodes with no evidence of metastatic neoplasm.
+Comment: AJCC pathologic stage: T1a,NO.
+Gross Description (Verified)
+"A, Uterus, cervix, bilateral tubes, and ovaries." The specimen consists of a 53 gram, 7.2 x 3.6 x 3.5 cm previously bivalved uterus with
+attached cervix. The serosa is pink-tan with rare adhesions The ectocervix is pink-tan to red-tan, smooth and glistening, and averages 3.1 x
+2.6 cm. The os is patent. The cervical neck is inked as follows: anterior cervical neck orange and posterior cervical neck black. Previous
+opening reveals a pink-tan. soft, friable mass involving the superior endometrium This has an overall measurement of 1.7 cm superior to
+inferior, 1.5 cm left to right. and 0.9 cm anterior to posterior. This mass grossly appears to predominantly involve the anterior endometrium,
+This mass grossly appears to be confined to the inner one-half aspect of the myometrium and comes to within 0.8 cm of the anterior serosa
+The remaining endometrium is pale tan and averages less than a millimeter in thickness. The myometrium averages 1.4 cm in thickness
+There are less than five (5) intramural nodules measuring up to 0.7 C. On sectioning these have gray-white, whoried cut surfaces. Attached
+to the uterus is the left fallopian tube with fimbriae, which measures 4.5 x 0.4 cm. Adherent to the tube is a 0.3 cm thin-walled yellow-tan,
+serous fluid-filled cyst. There is also an attached left ovary, which measures 2.0 x 1.5 x 0.7 cm. On sectioning, there is a 0.5 cm white-tan,
+corpus albicans. The remaining cut surface is pink-tan and solid. Attached to the uterus is the right fallopian tube with fimbriae, which
+measures 5.8 x 0.4 cm Adherent to the fimbriae is a 0.4 cm thin-walled clear fluid-filled paratubal cyst. There is also an attached right ovary,
+Page 2 of 3
+(Continued)
+Surg Path Final Report
+Final Report
+*
+which measures 2.7 x 1.0 x 0.7 cm. On sectioning, there is a 0.6 cm white-tan corpus albicans. The remaining cut surface is pink-tan and
+solid. "A1," left parauterine vessels; "A2," right parauterine vessels; "A3," anterior cervix and cervical canal; "A4-A6," anterior
+endomyometrium; "A7," posterior cervix and cervical neck; "A8-A10," posterior endometrium; "A11," intramural nodules; "A12," left tube and
+ovary; "A13," right tube and ovary, representative.
+"B, Left external iliac." The specimen consists of a 3.7 cm yellow-tan, fatty fragment. On examination definite lymphoid tissue is not
+identified All tissue is submitted into cassettes "B1-B2."
+"C. Left internal iliac." The specimen consists of a 2.3 cm yellow-tan, fatty fragment. On examination, definite lymphoid tissue is not identified.
+All tissue is submitted into cassette "C."
+"D. Left aortic." The specimen consists of a 3.2 cm yellow-tan, fatty fragment. On examination, a 1.1 cm possible on is identified. All lymphoid
+tissue is submitted into cassette "D," representative.
+"E, Right external." The specimen consists of two (2) yellow-tan, fatty fragments measuring 3.1 and 3.3 cm. On examination, a 2.0 cm
+possible lymph node is identified. A representative section is submitted into cassette "E."
+"F. Right internal." The specimen consists of a 1.4 cm yellow-tan, fatty fragment. On examination, definite lymphoid tissue is not identified. All
+tissue is submitted into cassette "F."
+"G, Right obturator." The specimen consists of two (2) yellow-tan, fatty fragments measuring 2.2 and 5.6 cm. On examination, two (2)
+possible lymph nodes are identified These measure 1.6 and 4.2 cm. Representative sections are submitted into cassette "G."
+"H, Right common iliac." The specimen consists of a 2.1 cm yellow-tan, fatty fragment. On examination definite lymphoid tissue is not
+identified. All tissue is submitted into cassette "H."
+"I, Right aortic." The specimen consists of a 2.0 cm yellow-tan, fatty fragment On examination, two (2) possible lymph nodes are identified.
+These measure 1.0 and 1.1 cm. Representative sections are submitted into cassette "l."
+Clinical Information (Verified)
+Uterine cancer.
+Page 3 of 3
+(End of Report)
+Non-Gyn Final Report
+*
+Final Report
+Result Type:
+Result Date:
+Result Status:
+Result Title:
+Verified By:
+Encounter info:
+* Final Report *
+Comment (Verified)
+Scant cellularity.
+Diagnosis (Verified)
+Negative for neoplastic cells.
+Specimen Description (Verified)
+Pelvic Washing
+40 cc's of bloody fluid/material received in a cup.
+Processed by
+Clinical Information (Verified)
+uterine cancer
+Printed by:
+Page 1 of 1
+Printed on:
+(End of Report)
+be 12/13/13
+Yes
+No
+Criteria
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Primary Noted
+Case Reviewer is (circle): Initials gave Date Reviewed: 13/9/2013
+QUALIFIED / DISQUALIFIED

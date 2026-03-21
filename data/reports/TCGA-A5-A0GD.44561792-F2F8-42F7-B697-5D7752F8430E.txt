@@ -1,0 +1,271 @@
+ICD-0-3
+adenocancinoma, Endometrioid NOS
+838013
+low
+Username:
+UUID:44561792-F2F8-42F7-B697-5D7752F8430E
+TCGA-A5-A0GD-01A-PR
+***
+Redacted
+11/22/1
+2
+Site indirectrum C54.1
+SURGICAL PATHOLOGY REPORT
+PATH #:
+walt
+A/S:
+Soc. Sec. No. :
+Rec:
+Location:
+Col:
+Pathologist:
+Assistant:
+Attending MD:
+Ordering MD:
+Copies To:
+DIAGNOSIS:
+1. AND UTERUS, FALLOPIAN TUBES AND OVARIES, TOTAL ABDOMINAL HYSTERECTOMY
+- BILATERAL SALPINGO-0OPHORECTOMY (#1, 3 AND #4 SPECIMENS) :
+Endometrial adenocarcinoma, endometrioid type, FIGO grade
+II/III, endometrium
+-Common endometrioid type adenocarcinoma
+-Nuclear grade 3 and grade 2
+-Architectural grade 1
+-
+Polypoid 60% of - exophytic growth mostly, involving approximately
+the endometrium
+-No evidence of endocervical involvement
+-Status post endometrial biopsy
+- No parametrial involvement or extension
+Very adenocarcinoma superficial myometrial invasion by the endometrial
+Involvement of the endometrial-myometrial junction and
+extension into the very adjacent superficial myometrium
+1/4 (estimated myometrial invasion less than 20% or less than
+pT1b, No pathologic stage
+of total myometrial thickness in multiple sections)
+Endometrial and hyperplasia, complex and simple type with atypia,
+Endocervical polyp
+complex hyperplasia without atypia, flat endometrium
+-Small leiomyoma, corpus uteri
+-Mild tubal epithelial hyperplasia, fallopian tubes
+-Cortical stromal hyperplasia, mild, ovaries
+Focal in the aggregates of chronic inflammatory cells and macrophages
+left tubal wall, non-specific
+-Old mural scar, anterior wall of the cervix, consistent with old
+cesarean section scar, cervix
+-Atypical mullerianosis, subserosal, right fallopian tube
+2.
+RIGHT -No PELVIC LYMPH NODES, LYMPHADENECTOMY (#2 SPECIMEN)
+metastatic neoplasm, fibrosis, three total lymph nodes :
+3. RIGHT PERIAORTIC LYMPH NODES, LYMPHADENECTOMY (#5 SPECIMEN) :
+-No metastatic neoplasm, fatty change and fibrosis, two total
+lymph nodes
+4. LEFT PERIAORTIC LYMPH NODES, LYMPHADENECTOMY (#6 SPECIMEN)
+Fatty node change and fibrosis, no metastatic neoplasm, one lymph
+5. LEFT PELVIC LYMPH NODES, LYMPHADENECTOMY (#7 SPECIMEN)
+-No metastatic neoplasm, six total lymph nodes
+6. SIGMOID EPIPLOICA, LOCAL RESECTION (#8 SPECIMEN) :
+-Focal fat necrosis with secondary cystification and
+granulomatous reaction with pigment laden macrophages and
+fibrosis
+7. OMENTUM, OMENTECTOMY (DESIGNATED AS #1 AND #2) (#9 AND #10
+SPECIMENS):
+-No metastatic neoplasm, focal mesothelial hyperplasia and focal
+surface fibrosis with surface microadhesions
+COMMENT: Atypical endometrioid mullerianosis, subserosal, and
+Walthard rests in the right fallopian tube. Atrophy in the squamous
+epithelium of the cervix with focal mild squamous atypia of
+undetermined significance as well as chronic cervicitis and
+microglandular hyperplasia in the cervix. The endometrial
+adenocarcinoma is endometrioid type adenocarcinoma of common type
+with a low architectural grade (grade I) but of high nuclear grade
+(grade 3 and grade 2 nuclear grade). Focal minimal squamous
+differentiation and oxyphilic cellular changes in the endometrial
+adenocarcinoma which often invaginates into the superficial
+myometrium as irregular nests and islands (pseudoinvasion) and
+effaces the endometrial-myometria junction in multiple areas
+extending as large epithelial islands with pushing borders into the
+very adjacent myometrium. The exact measurement of the maximum
+depth of invasion of the carcinoma cannot be accurately evaluated or
+estimated due to the irregular endometrial growth border but the
+than maximum depth of invasion is considered to be very superficial (less
+20% or 1/4 of the myometrial total thickness, questionable
+0.5 to 1 mm maximum depth out of 10 to 15 mm total myometrial
+thickness). Focal adenocarcinoma is also present in the
+flat endometrium intermixed with the endometrial hyperplasia.
+Report left on Dr.
+voice mail on
+HISTORY: Endometrial carcinoma
+MICROSCOPIC:
+See Diagnosis.
+GROSS:
+1:
+UTERUS, FALLOPIAN TUBES AND OVARIES
+Labeled "uterus, fallopian tubes and ovaries", received fresh in the
+Operating Room and subsequently fixed in formalin, is a specimen
+consisting of an entire uterus with attached adnexae weighing 66.9
+grams. The uterus measures 7.5 cm superior to inferior, 3.5 cm
+anterior to posterior, and 3.5 cm cornu to cornu. The cervix
+measures 2.5 X 2.0 cm and is covered by white smooth mucosa. Focal
+areas of hemorrhage are present. The cervical os measures 0.5 X 0.2
+cm and is fishmouth shaped in contour. A 2.7 in circumference by
+1.0 cm to 0.7 cm in length posterior vaginal cuff is identified as
+well as a 2.0 in circumference by 0.1 to 0.2 cm in length of
+2
+anterior vaginal cuff is identified. The left lateral vaginal cuff
+ranges from 1.5 cm in length and 0.2 cm to 0.5 cm in thickness and
+there is no vaginal cuff present in the right side. The vaginal cuff
+margin is inked black. The right parametrium measures 2.5 X 1.0 X
+1.0 cm and the left 2.5 X 2.0. The serosal surface of the uterus
+is tan with no adhesions identified. The right fallopian tube
+measures 6.5 X 0.5 cm and is covered by a smooth tan serosa. Cross
+sectioning of the tube is unremarkable for any gross lesions and
+shows a pinpoint lumen. The right ovary measures 2.5 X 1.5 X 0.7
+cm. The external surface of the ovary is tan-yellow and bosselated.
+Cross sectioning of the ovary is unremarkable for any gross
+lesions. It has variable thickness cortex and solid white fibrous
+medulla. The left fallopian tube measures 5.5 X 0.5 cm and is
+covered by a smooth tan serosa. Cross sectioning of the tube is
+unremarkable for any gross lesions. The left ovary measures 2.5 X
+1.5 X 1.0 cm. The external surface is tan-yellow and bosselated.
+Cross sectioning is unremarkable for any gross lesions. The cortex
+is relatively thin of variable thickness without gross lesions. The
+medulla is white and fibrosed. Both fallopian tubes are complete
+with fimbriated ends and both adnexae are ligated. The uterus is
+opened laterally. In the upper endocervix is a 1.5 X 0.7 X 0.5 cm
+polyp near the left lateral wall. The endocervix is covered by
+corrugated tan mucosa and is unremarkable for any other gross
+lesions. An anterior wall mural scar is suspected in the cervix.
+The endometrial cavity measures 4.5 X 4.5 cm and is filled
+partly by tan polypoid with broad base tumor mostly located in the
+left lateral posterior and anterior walls, which measures 4.0 X 3.0
+cm in surface. This diffusely polypoid endometrial tumor has a tan
+homogeneous cut surface and minimally papillary outer surface. It
+occupies 50-60% of the endometrial lining and extends just above the
+lower uterine segment and close to the fundus. On sectioning it
+seems to infiltrate less than 30% of the myometrium (superficial
+invasion). The rest of the endometrium is coarsely granular and
+thickened. The maximum thickness of the myometrium measures 1.5 cm.
+No gross lesions are identified. Representative sections are
+submitted.
+S.
+Right parametrium - Multiple
+T.
+Left parametrium - Multiple
+U.
+Anterior
+V.
+Posterior
+) Cervix
+W.
+Right
+)
+X.
+Left including polyp )
+Y,Z.
+Tumor at left lateral wall - 1 each
+AA-DD. Tumor at left lateral wall - 1 each
+EE-GG, Tumor at right lateral wall - 1 each
+HH. Lower uterine segment and upper endocervix - 1
+II.
+Right ovary and distal fallopian tube - 3
+JJ.
+Right proximal fallopian tube - 2
+KK.
+Left ovary and distal fallopian tube - 2
+LL.
+Left proximal fallopian tube - 2
+2: RIGHT PELVIC LYMPH NODE
+Labeled "right pelvic lymph node" and received in formalin is a 2.5 X
+2.5 X 1.0 cm aggregate of soft tan-yellow fatty tissue. Various
+lymph nodes ranging from 0.1 to 0.5 cm in diameter are identified.
+A,B. All embedded - Multiple
+3: FROZEN SECTION OF NO. 1
+Labeled "FS of #1" and received in formalin are three fragments of
+soft tan tissue measuring 0.8 X 0.7 x 0.2 cm, 1.2 X 0.8 X 0.2
+cm, and 1 .3 X 0.9 X 0.2 cm.
+C. All embedded - 3
+4: PART OF NO. 1 IN BOUINS
+Labeled"part of #1 in Bouin's (endometrium)" and received in Bouin's
+are part of specimen #1 are three fragments of soft tan tissue
+measuring 0.3 X 0.2 X 0.2 cm, 0.5 X 0.2 X 0.1 cm, and 1.0 X 0.7 X 0.5
+cm.
+D. All embedded - 3
+5: RIGHT PERIAORTIC LYMPH NODE
+Labeled "right periaortic lymph node" and received in formalin is a
+4.0 X 2.5 x 1.5 cm portion of soft tan-yellow fatty tissue. Several
+lymph nodes are palpated and range from 0.1 to 0.4 cm in diameter.
+The specimen is all embedded.
+E. All embedded - Multiple
+6: LEFT PERIAORTIC LYMPH NODE
+Labeled "left periaortic lymph node" and received in formalin is a
+4.5 x 1.5 X 1.0 cm portion of soft tan-yellow fatty tissue. A 2.5 x
+1.5 X 0.5 cm lymph node is palpated. The lymph node is all embedded.
+F. 1)
+) One lymph node
+G. 1)
+7: LEFT PELVIC LYMPH NODE
+Labeled "left pelvic lymph node" and received in formalin is a 2.5 x
+2.5 x 1.0 cm portion of soft tan-yellow fatty tissue. Several lymph
+nodes ranging from 0.3 cm in diameter to 1.0 X 0.5 X 0.5 cm are
+palpated.
+H,I. All embedded - Multiple
+8: SIGMOID EPIPLOICA
+Labeled "sigmoid epiploica" and received in formalin is a 1.7 X 1.0 X
+0.9 cm portion of soft tan-yellow fatty tissue.
+J. All embedded - 2
+9: OMENTUM NO.2
+Labeled "omentum #2" and received in formalin is a 13.5 X 7.5 X 1.0
+cm portion of soft tan-yellow lobulated fatty tissue. Cross
+sectioning of the specimen is unremarkable for any gross lesions.
+K-N. Representative sections - 2 each
+10: OMENTUM NO. 1
+Labeled "omentum #1" and received in formalin is a 14.5 X 6.5 X 1.0
+cm portion of soft tan-yellow fatty lobulated tissue. Cross
+sectioning of the specimen is unremarkable for any gross lesions.
+O-R. Representative sections - 2 each
+ADDITIONAL SECTIONS:
+MM. 2)
+NN. 2)
+00. 1) Endomyometrium with tumor
+PP. 1)
+QQ. 2)
+RR. Endometrium and lower uterine segment - 2
+SS. Endomyometrium with tumor - 1
+TT. Endomyometrium with tumor -
+1
+Gross dictated by
+OPERATIVE CONSULT (GROSS) :
+Endometrial polypoid neoplasm consistent with carcinoma, invasive
+(superficial myometrial invasion estimated <1/3 of wall), corpus
+uteri
+Possible lower uterine extension
+Short vaginal cuff right lateral. Endocervical polyp
+(ID)
+OPERATIVE CONSULT (FROZEN) :
+Endometrial adenocarcinoma, endometrioid common type, at least
+grade II
+(ID)
+Special Studies: Frozen Section; Photo, Deeper sections
+See Also:
+DATE:
+M.D.
+Pathologist
+I,
+,
+M.D., , the pathologist of record, have
+personally examined the specimen, interpreted the
+results, reviewed this report and signed it electronically.
+Date Finalled:
+Calteria
+Yes
+No
+Diagnosis Discome
+Primary Tumor Site Discrepancy
+iliPAiA Discrepancy
+Prior Malignary History
+Dual Sunchronous Primary Npted
+Case is (circle):
+ONALIFIED
+Reviewer Initials
+"reviewed:

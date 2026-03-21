@@ -1,0 +1,141 @@
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous PrimaryNoted
+Case (circle):
+QUALIFIED
+DISQUALIFIED
+Reviewermitials
+Date Reciewed:
+tw 10/31/11
+10/31/11
+Surgical Pathology
+PROCEDURE DATE:
+RECEIVED DATE:
+REPORT DATE:
+COPY TO:
+Pre-Op Diagnosis
+Endometrial cancer
+Post-Op Diagnosis
+Same as above
+Clinical History
+Nothing indicated
+Gross Description:
+Six parts
+Container one is labeled II
+- left pelvic lymph nodes." "
+Received in formalin is an 8.0 X 3.0 X 1.5 cm aggregate of multiple
+irregular pieces of fatty tissue. Sectioning reveals numerous lymph
+nodes up to 4.8 cm in greatest dimensions. All lymph nodes are
+submitted as follows: 1A - two intact lymph nodes; 1B - one bisected
+lymph node; 1C-1D - each with one sectioned lymph node in toto;
+1E-1H - one sectioned lymph node in toto.
+Container two is labeled "
+- left aortic lymph nodes. =
+Received in formalin is a 6.0 x 2.8 x 1.6 cm aggregate of two
+irregular pieces of fatty tissue. Sectioning reveals numerous lymph
+nodes up to 1.8 cm in greatest dimensions. All lymph nodes are
+submitted as follows: 2A - one intact lymph node; 2B - one trisected
+lymph node; 2C - one quadrisected lymph node; 2D - one trisected
+lymph node; 2E - one sectioned lymph node in toto.
+Container three is labeled
+- right pelvic lymph nodes."
+Received in formalin is a 5.5 X 3.2 X 1.8 cm aggregate of multiple
+pieces of fatty tissue. Sectioning reveals few possible lymph nodes
+up to 3.5 cm in greatest dimensions. All lymph nodes are submitted
+as follows: 3A-3B - each with one sectioned lymph node in toto;
+3C-3D - each with one bisected lymph node; 3E - one sectioned lymph
+node in toto; 3F-3G - one sectioned lymph node in toto.
+Container four is labeled
+"
+- right aortic lymph nodes." "
+Received in formalin is a 6.5 x 2.4 X 1.1 cm mass of fatty tissue.
+Sectioning reveals numerous lymph nodes up to 2.8 cm in greatest
+dimensions. All lymph nodes are submitted as follows: 4A - one
+trisected lymph node; 4B - five intact lymph nodes; 4C-4D - one
+sectioned lymph node in toto; 4E-4F - one sectioned lymph node in
+/CD-0-3
+TCGA-AJ-A3EL-01A-PR
+adenocarcinoma endometrioid NOS 838013.
+Site endometrium C 54.1
+In 10/31/11
+Page 2 of 3
+toto.
+Container five is labeled
+- uterus, cervix, right ovary."
+Received in formalin is a 107.9 gram, 7.0 X 5.5 X 5.0 cm uterus with
+attached cervix and attached 19.1 gram right adnexal tissue. The
+serosa is smooth and tan-brown at the anterior aspect, becoming
+markedly shaggy, possibly cauterized at the posterior aspect. The
+ectocervix is surfaced by smooth pink-tan mucosa. The endocervical
+canal is tan and corrugated. The endometrial cavity is 3.0 cm in
+width and 4.5 cm in length and is lined by endometrium which is 0.2
+to 0.3 cm thick, tan-brown, giving rise to a 3.0 x 2.3 X 1.5 cm
+exophytic friable tumor involving the low uterine segment as well as
+the anterior and posterior aspects. On section, tumor extends 0.2 cm
+into the myometrium where the myometrium is 1.8 cm thick. The
+remaining myometrium is homogeneous and pink-tan with few up to 0.7
+cm in greatest dimensions well circumscribed tan-white whorled
+fibrous nodules. At the right adnexal region there is an attached
+6.8 x 4.2 X 2.2 cm mass of shaggy gray-tan to markedly violaceous
+tissue. Sectioning reveals a discrete amount of residual cystic
+hemorrhagic ovarian stroma. Representative sections are submitted
+for genomics studies in three cassettes labeled
+Representative sections of the remaining tissue are submitted as
+follows: 5A - anterior cervix; 5B - posterior cervix; 5C-5D -
+anterior low uterine segment to include tumor; 5E-5F - posterior low
+uterine segment; 5G-5H - anterior endomyometrium with tumor, one
+full thickness section bisected; 5I-5J - anterior endomyometrium
+with tumor, one full thickness section bisected; 5K - anterior
+endomyometrium; 5L-5N - posterior endomyometrium; 50-5P - sectioned
+entire right parametrium5Q-5R - sectioned entire left parametrium;
+5S-5U - residual ovarian stroma.
+Container six is labeled
+- cyst wall." Received in
+formalin is a 5.0 x 4.2 x 1.2 cm aggregate of multiple irregular
+pieces of membranous to hemorrhagic gray-tan to yellow-orange
+tissue. Representative sections are submitted in cassettes 6A-6C.
+Microscopic Description:
+Slides reviewed.
+Final Diagnosis
+Left pelvic lymph node dissection:
+Nine benign hyperplastic regional lymph nodes (0/9).
+Left aortic lymph node dissection:
+Five benign hyperplastic regional lymph nodes (0/5).
+Right pelvic lymph node dissection:
+Six benign hyperplastic regional lymph nodes (0/6).
+Right aortic lymph node dissection:
+Eight benign hyperplastic regional lymph nodes (0/8)
+Hysterectomy:
+Carcinoma of endometrium.
+Tumor characteristics:
+Histologic type: Endometrioid.
+Grade: Poorly differentiated (G3)
+Site: Uterine cavity especially lower uterine segment.
+Size: 3.0 x 2.3 x 1.5 cm.
+Myometrial invasion: Present, 0.3 cm thickness invasion into a
+1.8 cm thick myometrium.
+Involvement of cervix: Not identified.
+Extent of involvement of other organs: None identified.
+Lymphovascular space invasion: Not identified.
+Surgical margin status: Margins uninvolved.
+Page 3 of 3
+Lymph node status:
+Number of lymph nodes received (utilizing all specimens) : 28
+Number of lymph nodes containing metastatic carcinoma:
+0
+(0/28)
+Other significant findings:
+Adenomyosis, endometriosis involving serosa and right ovary.
+Stage: pTla,NO
+Cyst wall:
+Corpus luteal cyst.
+PAS 9
+CPT:
+Comments
+This test has been finalized at the
+<Sign Out Dr. Signature>

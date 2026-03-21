@@ -1,0 +1,117 @@
+ICD-0-3
+Carcinoma, serous, NOS
+8441/3
+12/9/10
+live
+Surgical Pathology
+Site Code: Endometric C54.1
+TISSUE DESCRIPTION:
+A1 A2 J1 J2 K1 K2 L1 M1 N1 B1 B2 B3 B4 B5 B6 B7
+B8 B9 B10
+B11 B12 B13 B14 B15 C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12
+D1 D2 D3
+D4 D5 D6 D7 D8 D9 D10 D11 E1 E2 E3 E4 F1 G1 G2 H1 H2 H3 H4
+Il I2 I3
+Uterus, right ovary (3.1 X 1.5 X 1.1 cm) with 9.0 cm
+segment of
+right fallopian tube, and left ovary (2.8 X 1.7 X 1.1 cm)
+with 9.0
+cm segment of left fallopian tube together weighing 125.0
+grams,
+tissue from the bladder peritoneum (4.1 X 1.6 X 0.2 cm),
+left colic
+gutter (aggregating 2.3 X 1.9 X 0.5 cm), right colic
+gutter
+(aggregating 3.9 X 2.4 X 0.3 cm), tissue from the
+diaphragm (2
+pieces aggregating 0.5 X 0.4 X 0.4 cm), small bowel
+mesentery
+(biopsy, 0.4 X 0.3 X 0.2 cm), portion of omentum
+(aggregating 15.0 X
+6.5 X 2.8 cm), appendix (8.3 X 0.4 cm), right and left
+pelvic lymph
+nodes, right and left para-aortic lymph nodes.
+DIAGNOSIS:
+Uterus, total abdominal hysterectomy: High grade serous
+carcinoma
+forming a mass (4.8 X 4.7 X 3.6 cm) arising in association
+with an
+endometrial polyp. The tumor invades throughout the
+thickness of
+the myometrium to focally involve the uterine serosa.
+Lymphovascular invasion is present. The cervix is
+unremarkable.
+Ovary, left, oophorectomy: Endometrioma with focal
+hyperplasia (1.1
+cm).
+Ovary, right, oophorectomy: No diagnostic abnormalities.
+UUID:778F9F58-841E-48F3-B6EA-7CF58463808B
+TCGA-D1-A16G-01A-PR
+Redacted
+Fallopian tubes, right and left, salpingectomies: No
+diagnostic
+abnormalities.
+Soft tissue, bladder peritoneum, excision: Involved by
+high grade
+serous carcinoma.
+Peritoneum, right and left colic gutter, biopsies:
+Negative for
+tumor. Frozen section histologic interpretation performed
+by:
+Peritoneum, diaphragm, biopsy: Negative for tumor. Frozen
+section
+histologic interpretation performed by:
+Mesentery, small bowel, biopsy: Negative for tumor.
+Frozen section
+histologic interpretation performed by:
+Omentum, omentectomy: Involved by high grade serous
+carcinoma.
+Frozen section histologic interpretation performed by:
+M.D.
+Appendix, appendectomy: Fibrous obliteration of appendix.
+Frozen
+section histologic interpretation performed by:
+Lymph nodes, right pelvic, excision: Multiple right
+pelvic lymph
+nodes (1 internal iliac, 8 external iliac, 2 common iliac
+and 6
+obturator) are negative for tumor. Frozen section
+histologic
+interpretation performed by:
+Lymph nodes, left pelvic, excision: Multiple left pelvic
+lymph
+nodes (3 external iliac, 6 common iliac and 4 obturator)
+are
+negative for tumor. Frozen section histologic
+interpretation
+performed by:
+Lymph nodes, right para-aortic, excision: Multiple right
+para-aortic lymph nodes (4 above and 7 below the inferior
+mesenteric
+artery) are negative for tumor. Frozen section histologic
+interpretation performed by:
+Lymph nodes, left para-aortic, excision: Multiple left
+para-aortic
+lymph nodes (4 above the inferior mesenteric artery) are
+negative
+for tumor. Specimen labeled as "left para-aortic lymph
+nodes below
+the inferior mesenteric artery" revealed no nodal tissue.
+This final pathology report is based on the
+gross/macroscopic
+examination and frozen section histologic evaluation of
+the
+specimen (s) .
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronou$ Metruary Noted
+Case is (circle):
+QUALIFIED
+DISQUANTIED
+Reviewer Initials
+Deterreviewed

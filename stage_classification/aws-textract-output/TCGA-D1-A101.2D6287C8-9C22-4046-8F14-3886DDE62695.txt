@@ -1,0 +1,94 @@
+100-0-3
+adenocarcinoma endometrioid NOS 8380/3
+Site Code : indometrium C54.1
+1/17/11
+lev
+DIAGNOSIS:
+A. Uterus, bilateral ovaries and fallopian tubes,
+hysterectomy
+and bilateral salpingo-oophorectomy:
+FIGO grade II (of III) endometrial adenocarcinoma,
+endometrioid type
+with squamous and mucinous metaplasia, is identified
+forming a
+polypoid mass (4.0 X 3.0 X 1.0 cm), located in the fundus.
+The
+tumor invades 0.2 cm into the myometrium (total wall
+thickness 1.5
+cm). The tumor does not involve the endocervix.
+Lymphovascular
+space invasion is not identified. The margins are
+negative for
+tumor. Multiple (3) intramural leiomyomata (ranging in
+size from
+0.2 cm to 1.5 cm in greatest dimension) are identified. A
+benign
+endometrial polyp (2.5 X 1.7 X 0.6 cm) is also identified.
+The
+bilateral ovaries and fallopian tubes are not involved.
+[AJCC pT1b
+NX Mx]
+This final pathology report is based on the
+gross/macroscopic
+examination and the frozen section histologic evaluation
+of the
+specimen (s) . Hematoxylin and Eosin (H&E) permanent
+sections are
+reviewed to confirm these findings. Any substantive
+changes
+identified on permanent section review will be reflected
+in a
+revised report.
+UVID: 206287C8-9C22-4046-8F14-3886DDE62695
+TCGA-D1-A101-01A-PR
+Redacted
+GROSS DESCRIPTION:
+A. Received fresh labeled "uterus, right and left fallopian
+tubes and ovaries" is a 110 gram uterus with attached
+bilateral
+tubes and ovaries and an unremarkable unremarkable cervix.
+The
+uterine serosa is smooth. There is a 4.0 X 3. 0 X 1.0 cm
+mass in the
+fundus of the endometrial cavity which grossly appears to
+invade 0.2
+cm into the 1.5 cm thick myometrium. A separate
+endometrial polyp
+(2.5 X 1. 7 X 0.6 cm) is also noted. There are multiple
+(3) multiple
+intramural leiomyomas ranging from 0.2 cm to 1.. 5 cm. There
+is a 3.0
+X 1.2 X 0.7 cm right ovary with a ragged outer surface and
+a solid
+cut surface with a 7.7 X 0.5 cm right fallopian tube.
+There is a
+2.5 X 1. 5 X 0. 7 cm left ovary with a ragged outer surface
+and a
+solid cut surface with a 7.2 X 0.3 left fallopian tube.
+Representative sections submitted.
+BLOCK SUMMARY:
+Part A: Uterus, right and left fallopian tubes and
+ovaries
+1 Endometrium 1
+2 Endometrium 2
+3 Endometrium 3
+4 Endometrium 4
+5 Endometrial polyp 1
+6 Endometrial polyp 2
+7 Leiomyoma
+8 Cervix 3:00
+9 Cervix 6:00
+10 Endomyometrium
+11 Rt ovary/tube
+12 Lt ovary/tube
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Primary Noted
+Case is (circle): QUALIFIED DISQUALIFIED
+Reviewer Initials
+Reviewed

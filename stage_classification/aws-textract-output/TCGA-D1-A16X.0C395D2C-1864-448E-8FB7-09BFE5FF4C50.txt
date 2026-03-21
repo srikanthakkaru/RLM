@@ -1,0 +1,220 @@
+ICD 0- 3
+Adenocarcinoma, Endometriord, NOS
+8380/3
+12/9/10
+be
+Surgical Pathology
+Site Code: Endometruin
+C54.1
+DIAGNOSIS:
+A. Uterus, tubes and ovaries, hysterectomy and
+salpingo-oophorectomy: FIGO grade II (of III) endometrial
+adenocarcinoma, endometrioid type, forming a 2.3 3 X 2.0 X
+08 cm mass
+at the right posterior of uterine fundus. The tumor
+invades 0.4 cm
+of myometrium with a 2.2 cm myometrium thickness. The
+lower uterine
+segment and cervix are not involved by tumor. The
+bilateral ovaries
+and fallopian tubes are without diagnostic abnormality.
+C, D, E, F. Lymph nodes, left pelvic, excision: Multiple
+left
+pelvic lymph nodes (6 external iliac, 2 internal iliac, 5
+common
+iliac, 5 obturator) are negative for tumor.
+G, H, I, J.Lymph nodes, right pelvic, excision: Multiple
+right pelvic lymph nodes (7 external iliac, 5 internal
+iliac, 4
+common iliac, 12 obturator) are negative for tumor.
+K, N.Gonadal vessels, left and right, excision: The left
+and
+right gonadal vessels identified; negative for tumor.
+L, O.Lymph nodes, left and right para-aortic, excision:
+Multiple para-aortic lymph nodes above the inferior
+mesenteric
+artery (6 left, 8 right) are negative for tumor.
+M, P.Lymph nodes, left and right para-aortic, excision:
+Multiple para-aortic lymph nodes below the inferior
+mesenteric
+artery (6 left, 6 right) are negative for tumor.
+B. Margin, lower anterior cervix, excision: Negative for
+tumor.
+This final pathology report is based on the
+gross/macroscopic
+examination and frozen section histologic evaluation of
+the
+UUID:0C395D2C-1864-448E-8FB7-09BFE5FF4C50
+TCGA-D1-A16X-01A-PR
+Redacted
+specimen (s) .
+GROSS DESCRIPTION:
+A. Received fresh labeled "uterus tubes and ovaries" is a
+120
+gram uterus with attached bilateral tubes and ovaries and
+unremarkable cervix. The uterine serosa is smooth. There
+is a 2.3
+X 2.0 X 0.8 cm mass in the right posterior endometrium of
+the
+endometrial cavity with 2.2 cm myometrial thickness.
+There is a 2.6
+X 1.5 X 1.0 cm right ovary with a smooth solid cut surface
+with a
+3.1 X 0.5 cm right fallopian tube. There is a 3.2 X 1.1 X
+1.0 cm
+left ovary with a smooth outer surface and a solid cut
+surface with
+a 5.1 1 X 0.5 left fallopian tube.
+B. Received fresh labeled "lower margin anterior cervix" is
+a
+2.6 X 0.5 X 0.4 cm portion of solid type, without
+orientation.
+Margin submitted.
+C. Received fresh labeled "left pelvic external lymph
+nodes" is
+a 7.5 X 6.0 X 1.8 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+D. Received fresh labeled "left pelvic internal lymph
+nodes" is
+a 3.0 X 2. 5 X 0.5 cm aggregate of adipose tissue,
+lymphatic tissue
+not identified grossly. All lymphatic tissue submitted.
+Grossed by
+E. Received fresh labeled "left pelvic obturator lymph
+nodes" is
+a 4.5 x - 3.0 X 1.5 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+F. Received fresh labeled "left pelvio common" is a 4.7 X
+1.5 X
+0.6 cm aggregate of adipose and lymphatic tissue. All
+lymphatic
+tissue submitted.
+G. Received fresh labeled "right pelvic internal lymph
+nodes" is
+a 3.6 X 1.0 X 0.9 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+H. Received fresh labeled "right pelvic external lymph
+nodes" is
+a 7. 9 X 3.9 X 1.4 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+I. Received fresh labeled "right pelvic common lymph nodes"
+is a
+3.0 X 1.2 X 1.0 cm aggregate of adipose and lymphatic
+tissue. All
+lymphatic tissue submitted.
+J. Received fresh labeled "right pelvic obturator lymph
+nodes"
+is a 4.6 X 3.2 X 1. 4 cm aggregate of adipose and lymphatic
+tissue.
+All lymphatic tissue submitted.
+K. Received fresh labeled "right gonadal vessels" is a 6.4
+cm in
+length by 0.8 in diameter portion of unremarkable blood
+vessel.
+Representative sections submitted.
+L. Received fresh labeled "right paraaortic above inferior
+mesenteric artery nodes" is a 3.0 X 1.3 X 1. 3 cm aggregate
+of
+adipose and lymphatic tissue. All lymphatic tissue
+submitted.
+M. Received fresh labeled "right paraaortic below inferior
+mesenteric artery nodes" is a 3.7 X 2.1 X 1.0 cm aggregate
+of
+adipose and lymphatic tissue. All lymphatic tissue
+submitted.
+N. Received fresh labeled "left gonadal vessels" is a 6.2
+cm in
+length by 0.5 in diameter portion of unremarkable blood
+vessel.
+Representative sections submitted.
+O. Received fresh labeled "left paraaortic above inferior
+mesenteric artery nodes" is a 3.0 X 2.1 X 0.9 cm aggregate
+of
+adipose and lymphatic tissue. All lymphatic tissue
+submitted.
+P. Received fresh labeled "left paraaortic below inferior
+mesenterio artery nodes" is a 4.2 X 2. 6 X 0.9 cm aggregate
+of
+adipose and lymphatic tissue. All lymphatic tissue
+submitted.
+BLOCK SUMMARY:
+Part A: Uterus, tubes, ovaries
+1 Endometrium
+2 Endometrium
+3 Endometrium
+4 Endometrium
+5 Left ovary
+6 Left fallopian tube
+7 Right fallopian tube
+8 Right ovary
+9 Cervix at 6:00
+10 Myometrium
+Part B : Lower margin anterior cervix
+1 Lower margin Ant cervix
+Part C: Left pelvic lymph node external
+1 Lt Ext pelvic LN 1
+2 Left Ext pelvic LN 3
+3 Left Ext pelvic LN 1
+4 Left Ext pelvic LN 1
+Part D: Left pelvic lymph node internal
+1 Lt internal LNS ?
+Part E: Left pelvic lymph node obturator
+1 Left Obt pelvic LN 2
+2 Left Obt pelvic LN 3
+Part F : Left pelvic lymph node common
+1 Lt common LNS 3
+2 Lt common LNS 3
+Part G: Right pelvic lymph node internal
+1 Rt internal LNS 5
+2 Rt internal LNS 2
+Part H : Right pelvic lymph node external
+1 Rt external LNS 3
+2 Rt external LNS 2
+3 Rt external LN 1
+4 Rt external LN 1
+Part I: Right pelvic lymph node common
+1 Rt common LNS 4
+2 Rt common LN 1
+Part J: Right pelvic lymph node obturator
+1 Rt obturator LN 1
+2 Rt oburator LNS 2
+3 Rt obturator LN 1
+4 Rt obturator LNS 4
+5 Rt obturator LNS 4
+6 Rt oburator LNS 5
+7 Rt oburator LNS 5
+Part K: Right Gonadal vessels
+1 Rt gonadal vessels
+Part L: Right Para-aortic Nodes above IMA
+1 Rt PA above IMA LNS 4
+2 Rt PA above IMA LNS 4
+3 Rt PA above IMA LN 1
+Part M: Right Para-aortic Nodes below IMA
+1 Rt PA below IMA LNS 3
+2 Rt PA below IMA LN 1
+Part N : Left gonadal vessels
+1 Lt gonadal vessels
+Part O: Left Para-aortic Lymph Nodes above IMA
+1 Lt PA above IMA LNS 3
+2 Lt PA above IMA LNS 3
+Part P: Left Para-aortic Lymph Nodes below IMA
+1 Lt PA below IMA LNS 2
+2 Lt PA below IMA LNS 2
+3 Lt PA below IMA LNS 3
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tunior Site Discrepancy
+HIPM Discrepancy
+Prior Malignancy Histqiy
+Jun:/5y nchronous Primary Noted
+Case is (circle):
+QUALIFIED
+DEPAULATED
+Revie wer Initials
+Reviewed

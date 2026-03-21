@@ -1,0 +1,162 @@
+ICD-0-3
+adenocarcinoma endometrioid, NOS 8380/3
+Site Code: indometrum C54.1
+1/17/11 be
+DIAGNOSIS:
+A. Skin and subcutaneous tissue, abdomen, excision: Skin
+and
+subcutaneous tissue (2145.0 grams) with umbilicus
+identified
+grossly.
+B. Uterus, bilateral ovaries, and fallopian tubes;
+hysterectomy
+and bilateral salpingo-oophorectomy: FIGO grade II (of
+III)
+endometrial adenocarcinoma, endometrioid type, is
+identified forming
+a mass (8.0 X 7.0 X 1.0 cm), circumferentially involving
+the
+endometrial cavity. The tumor invades 0.5 cm into the
+myometrium
+(total wall thickness, 4.0 cm). The tumor does not
+involve the
+endocervix. Lymphovascular space invasion is not
+identified. The
+margins are negative for tumor. A single intramural
+leiomyoma
+(measuring 7.0 X 6.0 X 6.0 cm) is present. The left ovary
+shows a
+benign strumal carcinoid, forming a 1.1 X 1.0 X 1.0 cm
+mass. The
+right ovary is absent.
+C. D. E. F. Lymph nodes, right pelvic, excision:
+Multiple right
+pelvic lymph nodes (2 external iliac, 2 internal iliac, 1
+common
+iliac, and 16 obturator) are negative for tumor.
+G. H. I. J. Lymph nodes, left pelvic, excision: Multiple
+left
+pelvic lymph nodes (5 external iliac, 1 internal iliac, 6
+common
+iliac, and 12 obturator) are negative for tumor.
+GROSS DESCRIPTION:
+JUID:9983D576-706A-48D2-93EE-70EABB3B077C
+TCGA-D1-A102-01A-PR
+Redacted
+A. Received fresh labeled "pannus"is a 2145.0 gram
+portion of skin
+and subcutaneous tissue, with umbilicus. No lesions
+identified.
+Gross Only.
+B. Received fresh labeled "uterus, ovaries and fallopian
+tubes" is
+a 890.0 gram uterus with attached bilateral tubes and
+ovaries and an
+unremarkable cervix. The uterine serosa is smooth. There
+is an 8.0
+X 7.0 X 1.0 cm polypoid yellow mass in the uterine cavity
+with 4.0
+cm myometrial thickness. There is one uterine intramural
+leiomyoma,
+7.0 X 7.0 X 6.0 cm). There is a no right ovary with an 8.0
+X 0.4 cm
+right fallopian tube. There is a 6.0 X 4.0 X 2.5 cm left
+ovary with
+a smooth, solid cut surface with a 1.1 X 1.0 X 1.0 cm
+mass, and a
+10.0 X 2.0 cm left fallopian tube. Representative
+sections
+submitted.
+C. Received fresh labeled "right pelvic external iliac" is
+a 5.0 X
+4.0 X 1.0 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted. Grossed by
+D. Received fresh labeled "right pelvic internal iliac"
+is a 4.0 X
+4.0 X 1.0 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+E. Received fresh labeled "right obturator" is a 6.0 X
+4.0 X 1.0 cm
+aggregate of adipose and lymphatic tissue. All lymphatic
+tissue
+submitted.
+F. Received fresh labeled "right common iliac" is a 3.0 X
+2.0 X 1.0
+cm aggregate of adipose and lymphatic tissue. All
+lymphatic tissue
+submitted.
+G. Received fresh labeled "left pelvic external iliac" is
+an 8.0 X
+6.0 X 2.0 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+H. Received fresh labeled "left pelvic internal iliac" is
+an 0.8 X
+0.8 X 0.2 cm aggregate of adipose and lymphatic tissue.
+All
+lymphatic tissue submitted.
+I. Received fresh labeled "left obturator" is a 5.0 X 3.0
+X 1.5 cm
+aggregate of adipose and lymphatic tissue. All lymphatic
+tissue
+submitted.
+J. Received fresh labeled "left common iliac" is a 2.0 X
+2.0 X 0.7
+cm aggregate of adipose and lymphatic tissue. All
+lymphatic tissue
+submitted.
+BLOCK SUMMARY:
+Part A: Pannus
+Part B: Uterus, tubes, ovaries
+1 Endometrial tumor-1
+2 Endometrial tumor-2
+3 Endometrial tumor-3
+4 Endometrial tumor-4
+5 6:00 Cervix
+6 Myometrium
+7 Lt ovary with tumor
+8 Lt ovary
+9 Lt fallopian tube
+10 Rt fallopian tube
+Part C: Right Pelvic Lymph Nodes external
+1 Rt external lns-1 (C1)
+2 Rt external lns-1 (C2)
+Part D: Right Pelvic Lymph Nodes internal
+1 Rt internal lns-2 (D1)
+Part E: Right Pelvic Lymph Nodes obturator
+1 Rt obturator lns-3 (E1)
+2 Rt obturator lns-4 (E2)
+3 Rt obturator lns-2 (E3)
+4 Rt obturator lns-3 (E4)
+5 Rt obturator lns-3 (E5)
+6 Rt obturator lns-1of2 (E6)
+7 Rt obturator lns-2of2 (E6)
+Part F : Right Pelvic Lymph Nodes common
+1 Rt common lns-1 (F1)
+Part G: Left Pelvic Lymph Nodes external
+1 Lt ext LN2 (G1)
+2 Lt ext LN2 (G2)
+Part H : Left Pelvic Lymph Nodes internal
+1 Lt int LN1 (H1)
+Part I: Left Pelvic Lymph Nodes obturator
+1 Lt obt LN3 (I1)
+2 Lt obt LN6 (I2)
+3 Lt obt LN3 (I3)
+Part J: Left Pelvic Lymph Nodes common
+1 Lt common lns-3 (J1)
+2 Lt common lns-3 (J2)
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Primary Noted
+Case is (circle):
+QUALIFIED
+AISQUALIFED
+Reviewer Initials
+Review

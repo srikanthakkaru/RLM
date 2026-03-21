@@ -1,0 +1,77 @@
+JUID:E4FF43F2-5CB0-4868-9CD5-BE4E84Ad67D5
+TCGA-AP-A05N-@1A-PR
+Redacted
+Specimens Submitted:
+1: Uterus, cervix, bilateral tubes and ovaries, hysterectomy and bilateral
+salpingo-oophorectomy
+2: Sentinel lymph node, right hypogastric, excison
+3 : Sentinel lymph nodes, left hypogastric, excision
+DIAGNOSIS:
+1. Uterus, cervix, bilateral tubes and ovaries, hysterectomy and bilateral
+salpingo-oophorectomy
+Tumor Type:
+Adenocarcinoma, endometrioid type
+with squamous differentiation
+Architectural Grade (For Endometrioid Types only) :
+I (<6% solid growth)
+ICD-0-3
+Nuclear Grade (For Endometrioid Types only) :
+Grade 2
+adenocarcinoma, indometrioid, NOS 838013
+FIGO Grade (For Endometrioid Types only) :
+Grade 1
+site indometrum C54.1
+Myometrial Invasion:
+(=<50%)
+see note
+Endocervical Invasion:
+Not identified
+Lymphovascular invasion:
+Suspicious for lymphovascular invasion
+Endometrium:
+Exhibits complex hyperplasia with atypia
+Myometrium:
+Exhibits adenomyosis
+Exhibits multiple leiomyomata
+Adnexa:
+Unremarkable
+Note: A large portion of the tumor is exophytic. Myometrial invasion is
+identified and does not exceed more than 4-5 mm (out of a 22 mm myometrial
+wall), however, due to the marked irregularity of the endomyometrial
+** Continued on next page **
+No
+Yes
+K
+Criteria Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Malignancy History
+Noted
+DISQUALITIED
+Prior Dual/Syn.hronous Primary QUALIFIED
+541
+(circle):
+Date Reviewed
+Case
+Reviewer
+Initials
+tw
+TSS Name/#:
+Page 2 of 4
+junction and the involvement of adenomyosis, the exact depth of invasion
+cannot be determined with certainty.
+2. Sentinel lymph node, right hypogastric, excison:
+Lymph Nodes:
+Number of nodes examined:1
+Number of metastatic nodes:0
+Additional H/E stained sections and immmunohistochemical stains for
+cytokeratins (AE1:AE3) show no evidence of metastatic tumor.
+3. Sentinel lymph nodes, left hypogastric, excision:
+Lymph Nodes:
+Number of nodes examined:1
+Number of metastatic nodes:0
+Additional H/E stained sections and immunohistochemical stains for
+cytokeratins (AE1:AE3) show no evidence of metastatic tumor.
+I ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF
+THE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED
+THIS REPORT.

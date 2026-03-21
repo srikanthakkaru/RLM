@@ -1,0 +1,170 @@
+SURGICAL PATHOLOGY:
+PROCEDURE DATE: RECEIVED DATE: REPORT DATE:
+COPY TO:
+Criteria
+11/7/12
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+X
+Prior Malignancy History
+Pre-Op Diagnosis
+Dual/Synchronous Primary Noted
+Endometrial cancer
+DISQUALIFIED
+Post-Op Diagnosis
+Same as above
+Case circle): QUALIFIED our Reviewed: 12/30/11
+fort
+Clinical History
+Nothing indicated
+Gross Description:
+Four parts
+Container labeled
+1 - left pelvic lymph nodes" has 8.0
+x 5.0 x 2.3 cm of tan-yellow fibroadipose tissue fragments which on
+palpation and sectioning reveal several well defined and poorly
+defined gray-tan to yellow nodules up to 3.1 cm. On sectioning, the
+largest nodules have fleshy gray-pink cut surfaces. The largest
+nodule is sectioned and submitted labeled A-B. Individual nodules
+are bisected and submitted labeled C-D. Whole smaller nodules are
+submitted labeled E-F.
+Container labeled
+2 - right pelvic lymph nodes" has
+8.0 x 6.0 x 2.2 cm of tan-yellow fibroadipose tissue fragments which
+on palpation and sectioning reveal a few poorly defined tan-yellow
+nodules up to 4.1 cm. On sectioning, the nodules have fleshy and
+fatty cut surfaces. The nodules are entirely submitted labeled as
+follows: A-C - largest nodule sectioned; D-F - individual nodules
+bisected.
+Container labeled
+3 - uterus, cervix, right tube and
+ovary" has a previously laterally opened uterus with attached cervix
+and right adnexa. The uterus and cervix together weigh 60 grams and
+on reconstruction measures approximately 7.0 x 5.0 x 3.4 cm. The
+cervix has a wrinkled gray-tan to brown ectocervical mucosa. The os
+is patent. The uterine canal sounds to a depth of approximately
+UUID: :B6DB87F4-E88A-4209-92E2-75ADB364FB28
+TCGA-AJ-A3NC-01A-PR
+Redacted
+ICD-0-3
+adenocarcinoma, endometrioid, NOS 8380/3
+Site: endometrium C54.1
+to
+1/7/12
+6.8 cm. The endocervical canal is lined by trabeculated tan-brown
+mucosa. The uterine serosa is smooth and tan-brown. The myometrium
+measures up to 1.5 cm and is tan-pink and fibrotic. The endometrial
+canal is lined by up to 0.2 cm of focally granular gray-tan to brown
+mucosa which extends from across the entire fundus to both lateral
+aspects and onto both the anterior and posterior aspect over an area
+6.0 x 3.5 cm. This process does not grossly appear to extend into
+the myometrium. The small amount of parametrial soft tissue on each
+side shows no nodularity or gross lesions. The right fallopian tube
+is 5.7 x 0.6 x 0.6 cm and has a focally shaggy serosa with closed
+rounded distal end having several fibrous adhesions to the adjacent
+ovary. On sectioning, there is a fibrotic wall with a dilated lumen
+containing transparent viscid mucus. The right ovary is 4.5 x 3.7 x
+3.4 cm and has a lobular gray-tan outer surface. On sectioning,
+there is a multiloculated cystic cut surface with thin walls and
+smooth inner lining containing straw-colored viscid mucus. Also
+received in the same container are three tissue cassettes each
+labeled
+-16-18." Representative sections are submitted
+labeled as follows: A - anterior cervix; B - posterior cervix; C -
+lower uterine segment shaved posterior serosa; D-H - anterior
+endomyometrium; I-M - posterior endomyometrium; N-O - left lateral
+endomyometrium; P-Q - right lateral endomyometrium; R-U - fundic
+endomyometrium; V - left parametrium; W - right parametrium; X-CC -
+right adnexa.
+Container labeled
+4 - left tube and ovary" has a
+recognizable adnexal complex consisting of a 3.0 x 0.8 x 0.8 cm
+portion of apparent fallopian tube with an attached previously
+opened collapsed cystic ovary measuring as received 8.5 x 6.8 x 5.5
+cm. The portion of fallopian tube has a tan-gray serosa with a thin
+gray-tan fibrotic wall and a dilated lumen containing viscid
+tan-brown fluid. This appears to be grossly consistent with previous
+ligation. The ovary has a gray-tan to pink outer surface. This is
+seen to be a previously opened cystic structure with hair-bearing
+inner lining containing residual greasy gray-tan to yellow
+hair-bearing material. The walls show focal areas of thickening and
+calcification. Representative sections are submitted in five
+cassettes.
+Microscopic Description:
+The slides labeled
+are examined. See diagnosis.
+Final Diagnosis
+Left pelvic lymph nodes (regional resection):
+Reactive sinus histiocytosis and fatty infiltration, no metastatic
+carcinoma identified within
+nine lymph nodes (0/9). PAS 4
+Right pelvic lymph nodes (regional resection):
+Reactive sinus histlocytosis, lymphoid hyperplasia, and fatty
+infiltration, no metastatic
+carcinoma identified within four lymph nodes (0/4). PAS 4
+Uterus (radical hysterectomy):
+Tumor characteristics:
+Specimen integrity: Intact hysterectomy specimen.
+Histologic type: Predominantly endometrioid adenocarcinoma with
+focal clear cells and focal
+mucinous differentiation (see comment).
+Grade: Moderately to poorly differentiated (FIGO grade 2-3).
+Location and size: Carcinoma present almost uniformly around the
+endometrium involving
+greater than 90% of the endometrium grossly noted 6.0 cm in
+greatest diameter.
+Extent of invasion:
+Carcinoma invades myometrium, invades less than half the
+thickness of myometrium,
+maximal thickness of invasion is 3 mm into a 14 mm thick
+myometrium.
+Extension of tumor:
+Does carcinoma involve endocervix: No (see comment).
+Does carcinoma involve lower uterine segment: No.
+Does carcinoma involve uterine serosa: No.
+Lymphovascular space invasion: Not identified.
+Surgical margin status:
+Cervix: No carcinoma is identified.
+Right parametrium: No carcinoma is identified (see comment).
+Left parametrium: No carcinoma is identified. PAS 9
+Lymph node status: See above diagnoses.
+Right fallopian tube and ovary:
+Right fallopian tube:
+Tubo-ovarian adhesions, no carcinoma is identified. PAS 4
+Right ovary:
+Benign multi-cystic ovary with features suggestive of mature
+cystic teratoma (see comment).
+PAS 8
+Left adnexa:
+Left fallopian tube:
+No carcinoma is identified. PAS 1
+Left ovary:
+Mature cystic teratoma. PAS 8 SPC-A
+pTN stage: pT1aN0
+CPT: 88309 x 1, 88307 x 4
+Comments
+Sections of endometrium demonstrate a predominantly endometrioid
+adenocarcinoma with focal clear cells and focal mucinous
+differentiation. This is graded as a moderate to poorly
+differentiated, FIGO grade 2-3. Sections of cervix and right
+parametrium show fragments of carcinoma outside of the plane of
+sections of the tumor which are interpreted as "floaters."
+The right ovary grossly was multi-cystic. Microscopically, a large
+portion of the cyst demonstrate the lining epithelium to be
+artifactually denuded. Focally, some residual lining epithelium is
+present with focally some mucinous cells and in other areas columnar
+epithelial cells. Focally, within the wall is some bone formation
+as well as skin adnexal structures although no squamous epithelium
+is identified. The overall histologic features are suggestive of a
+mature cystic teratoma. No carcinoma is identified. Clinical
+correlation and follow up is recommended.
+At the request of the undersigned pathologist, these slides have
+been additionally reviewed by Dr.
+who concurs with the
+diagnosis.
+This test has been finalized at the
+Campus.
+<Sign Out Dr. Signature>

@@ -1,0 +1,297 @@
+Primary Turner Site Discrepancy
+UUID:5938A010-17E7-41FB-9F4D-884F1A3C0F2E
+HIP/A Discrepancy
+TCGA-AX-A05Z-01A-PR
+Redacted
+Prior Marignancy History
+Dual/Synchronous Prigerity Noted
+RUN DATE:
+Case is (circle):
+QUALIFIED
+DISQUALIFIED
+RUN TIME:
+Reviewer Initials
+RR
+Date Reviewed
+101811
+BY:
+tw 10/30/11
+Limen Inquiry
+ATIENT:
+ACCT #:
+LOC:
+U#:
+AGE/SX:
+F
+RM/BED:
+REG DR:
+REG:
+STATUS: DIS IN
+TLOC:
+DIS
+SPEC #: PN:
+Obtained:
+Subm Dr:
+STATUS: SOUT
+Received:
+CLINICAL HISTORY:
+ADENOCARCINOMA OF ENDOMETRIUM
+SPECIMEN/PROCEDURE:
+1. UTERUS - RT. FALLOPIAN TU, RT. OVARY, LT. FALLOPIAN TU, LT. OVARY, CERVIX
+2. LYMPH NODE - RT. PARA-AORTIC
+3. LYMPH NODE - LT. COMMON ILIAC
+4. LYMPH NODE - LT. PARA-AORTIC
+5. LYMPH NODE - RT. PELVIC
+6. LYMPH NODE - LT. PELVIC
+ICD-0-3
+7. LYMPH NODE - RT. COMMON ILIAC
+adenocarcinoma indonetrious NOS Nos/ 8380/3
+IMPRESSION:
+Site: indometrum C54.1
+1)
+10/10 10/30/11
+UTERUS, BILATERAL TUBES AND OVARIES:
+ENDOMETRIUM:
+Adenocarcinoma of endometrium, endometrioid type, FIGO grade II, nuclear
+grade II invading 6 mm where the wall measures 9 mm (> 50%)
+Vascular space invasion is focally identified.
+CERVIX:
+Stromal involvement of the upper endocervix is present.
+The margins appear negative.
+MYOMETRIUM:
+No intrinsic myometrial disease (see above) .
+RIGHT OVARY:
+Metastatic adenocarcinoma (5 mm) penetrating to < 1 mm from the serosal
+surface.
+LEFT OVARY:
+Physiological changes.
+No tumor identified.
+FALLOPIAN TUBES, BILATERAL:
+No pathologic diagnosis.
+2)
+RIGHT PARA-AORTIC LYMPH NODES:
+Three lymph nodes are negative for tumor (0/3).
+3)
+LEFT COMMON ILIAC LYMPH NODES:
+Two lymph nodes are negative for tumor (0/2).
+4)
+LEFT PARA-AORTIC LYMPH NODES,
+Four lymph nodes are negative for tumor (0/4).
+5)
+RIGHT PELVIC LYMPH NODES:
+** CONTINUED ON NEXT PAGE
+Page 2
+SPEC #:
+PATIENT:
+(Continued)
+IMPRESSION: (continued)
+Six lymph nodes are negative for tumor (0/6).
+6)
+LEFT PELVIC LYMPH NODES:
+Five lymph nodes are negative for tumor (0/5).
+7)
+RIGHT COMMON ILIAC LYMPH NODES:
+No lymph node material identified.
+ENDOMETRIAL CARCINOMA CHECKLIST:
+MACROSCOPIC
+SPECIMEN TYPE
+Hysterectomy
+TUMOR SITE
+Specify location (s) : Corp is
+TUMOR SIZE
+Greatest dimension: 7.0 x 5.0 x 1.0 cm posteriorially and 6.0 x 4.5 x 1.0 anteriorially
+OTHER ORGANS PRESENT
+Right ovary
+Left ovary
+Right fallopian tube
+Left fallopian tube
+ICROSCOPIC
+HISTOLOGIC TYPE
+Endometrioid adenocarcinoma, not otherwise characterized
+HISTOLOGIC GRADE
+G1: 5% or less nonsquamous solid growth
+MYONETRIAL INVASION
+Invasion present
+Maximal depth of myometrial invasion: 6 mm
+Thickness of myometrium in area of maximal tumor invasion: 9 mm
+The % of myometrial involvement: 66%
+EXTENT OF INVASION
+PRIMARY TUMOR (pT)
+TNM (FIGO)
+pT3a (IIIA) : Tumor involves serosa, parametria, and/or adnexa (direct extension or
+metastasis)
+REGIONAL LYMPH NODES (pN)
+CONTINUED ON NEXT PAGE
+Page: 3
+SPEC #:
+PATIENT:
+(Continued)
+IMPRESSION: (continued)
+TNM (FIGO)
+PNO: No lymph node metastasis.
+Number examined: 20
+DISTANT METASTASIS (pM)
+TNM (FIGO)
+pmx Cannot be assessed
+MARGINS
+Uninvolved by invasive carcinoma
+VENOUS/LYMPHATIC (LARGE/SMALL VESSEL) INVASION (V/L)
+Present
+Pathologic TNM: pT3a NO MX
+Dictated by:
+Entered:
+GROSS DESCRIPTION:
+1)
+Received fresh, labeled with the patient's name and "uterus, left fallopian tube, left
+ovary, right fallopian tube, right ovary", is a 145 gram hysterectomy with bilateral
+salpingo-oophorectomy specimen including an intact uterus with attached bilateral
+fallopian tubes and ovaries. The uterus measures 9.3 cm long x 3.0 cm cornu to cornu
+and 5.0 cm anterior to posterior. The serosa is pink-tan, smooth. The exocervix
+measures 2.5 x 2.5 cm and it is covered by smooth, pink-tan mucosa. The endocervical
+canal is covered by pink-tan granular mucosa. There is an exophytic ulcerating
+friable tumor located in the anterior and posterior lower uterine segment, measuring
+7.0 x 5.0 x 1.0 cm posteriorly and 6.0 x 4.5 x 1.0 cm anteriorly. The tumor is 2.0 cm
+from external os posteriorly and 3.0 cm from external os anteriorly. There is a tumor
+nodule in the endocervical surface, 0.6 cm from external os anteriorly, measuring 0.7
+x
+0,4 x 0.4 cm. The tumor appears no underneath myometrium/stroma invasion. The
+tumor is 0.5 cm from closest resection margin which is anterior and posterior radial
+lower uterine segment/endocervical wall. The endometrium near the fundus is pink-tan,
+smooth and measures 0.4 cm thick. The endometrial cavity without tumor involvement
+measures 2.0 x 1.5 cm. The right fallopian tube measures 4.5 cm long x 0.5 cm in
+diameter and the left measures 4.0 cm long x 0.5 cm in diameter. Both fallopian tubes
+have fimbriated ends, smooth, external surface and unremarkable cut surface. The
+right ovary measures 2.0 x 1.3 x 0.8 cm and it has a smooth glistening and nodular
+yellow-tan cut surface. The left ovary measures 2.5 X 2.0 x 1.5 cm. It has a smooth,
+glistening external surface and multi-cystic cut surface. The cysts measure 0.5 to
+1.5 cm in greatest diameter and all the cysts are thin-walled (<0.1 cm) and filled
+with clear fluid. Representative sections submitted.
+Ink Code: Anterior - blue, posterior - black.
+CASSETTE SUMMARY:
+Cassette 1A,1B:
+Anterior (12 o'clock) cervix through lower uterine segment,
+bisected, yellow ink indicating bisection site.
+CONTINUED ON NEXT PAGE
+Page: 4
+SPEC #:
+PATIENT:
+(Continued)
+GROSS DESCRIPTION: (continued)
+Cassette 1C,1D:
+Posterior (6 o'clock) cervix through lower uterine segment,
+bisected, yellow ink indicating bisection site.
+Cassette 1E:
+Anterior endocervix with surface nodule.
+Cassette 1G,1H:
+Full thickness of tumor at anterior wall, bisected, yellow ink
+indicating bisection site.
+Cassette 1J,1K:
+Full thickness of tumor at anterior wall, bisected, yellow ink
+indicating bisection site.
+Cassette LL-1N:
+Full thickness of tumor at posterior wall.
+Cassette 1P:
+Full thickness of tumor uninvolved anterior wall.
+Cassette 1Q:
+Full thickness of tumor uninvolved posterior wall.
+Cassette 1R:
+Right ovary and fallopian tube.
+Cassette 1S:
+Left ovary and fallopian tube.
+2)
+Received labeled with the patient's name and "right para-aortic" is a
+3.7 x 2.0 x 1.0 cm specimen. The specimen is dissected for possible lymph nodes.
+Three possible lymph nodes identified ranging from 1.0 cm to 3.5 cm in greatest
+dimension and submitted as follows:
+CASSETTE SUMMARY
+Cassette 2A:
+One possible lymph node.
+Cassette 2B:
+One lymph node trisected.
+Cassettes 2C-2D:
+One lymph node serially sectioned and entirely submitted.
+3)
+Received labeled with the patient's name and "left common iliac" are two portions of
+yellow gold to pink tan fibroadipose tissue ranging from 1.3 cm to 1.6 cm in greatest
+dimension and dissected for possible lymph nodes. Two possible lymph nodes identified
+ranging from 0.8 cm to 1.4 cm in greatest dimension and submitted as follows:
+CASSETTE SUMMARY
+Cassette 3A:
+One lymph node bisected.
+Cassette 3B:
+One lymph node bisected.
+4)
+Received labeled with the patient's name and "left para-aortic" is a
+3.0 x 2.0 x 1.0 cm aggregate of yellow gold to pink tan fibroadipose tissue dissected
+for possible lymph nodes. Four possible lymph nodes identified ranging from 0.2 cm to
+1.5 cm in greatest dimension and submitted as follows:
+CASSETTE SUMMARY
+Cassette 4A:
+Two possible lymph nodes.
+Cassette 4B:
+One lymph node bisected.
+Cassette 4C:
+One lymph node bisected.
+5)
+Received labeled with the patient's name and "right pelvic lymph nodes" is a
+6.0 x 3.7 x 2.4 cm aggregate of yellow gold to pink tan fibroadipose tissue dissected
+for possible lymph nodes. Seven possible lymph nodes identified ranging from 0.5 cm
+to 2.4 cm in greatest dimension and submitted as follows:
+CASSETTE SUMMARY
+Cassette 5A:
+One lymph node bisected.
+Cassette 5B:
+One lymph node bisected.
+CONTINUED ON NEXT PAGE
+pager 5
+SPEC #:
+PATIENT:
+(Continued)
+GROSS DESCRIPTION: (continued)
+Cassette 5C:
+One lymph node bisected.
+Cassette 5D:
+One lymph node bisected.
+Cassette 5E:
+One lymph node bisected.
+Cassette 5G:
+One lymph node bisected.
+Cassette 5H:
+One lymph node bisected.
+6)
+Received labeled with the patient's name and "left pelvic lymph nodes" is a
+4.5 x 3.5 x 1.7 cm aggregate of yellow gold to pink tan portion of fibroadipose tissue
+dissected for possible lymph nodes. Five possible lymph nodes identified ranging from
+0.9 cm to 2.6 cm in greatest dimension and submitted as follows:
+CASSETTE SUMMARY
+Cassette 6A:
+Two possible lymph nodes.
+Cassette 6B:
+One lymph node bisected.
+Cassette 6C:
+One lymph node bisected.
+Cassette 6D:
+One lymph node bisected.
+7)
+Received labeled with the patient's name and "right common iliac" are two portions of
+yellow gold to pink tan fibroadipose tissue ranging from 0.9 cm to 1.0 cm in greatest
+dimension. NO lymph nodes are grossly identifiable. The specimen is entirely
+submitted in cassette #7.
+Dictated by:
+Entered:
+COPIES TO:
+No PCP/Family Physician
+CPT Codes:
+ESTROGEN-
+CEA-
+LYMPH NODE, REGIONAL RESECT/
+SOFT TISSUE, LIPOMA/ADIPOSE
+UTERUS W/WO ADNEXAE, TUMOR-
+IHC P53
+", IHC P16.
+ICD9 Codes:
+Resident Physician:
+I have personally reviewed the material
+(specimen/slide) and approve this final report.
+Electronically Signed by:
+** END OF REPORT

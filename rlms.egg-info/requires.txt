@@ -21,6 +21,10 @@ dill>=0.3.7
 
 [ocr]
 pymupdf>=1.24.0
+paddlepaddle>=2.6.0
+paddleocr>=2.8.0
+opencv-python>=4.8.0
+pdf2image>=1.16.0
 
 [prime]
 prime-sandboxes>=0.2.0

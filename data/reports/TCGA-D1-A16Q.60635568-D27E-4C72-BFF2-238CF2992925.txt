@@ -1,0 +1,224 @@
+adeno carcinoma Endometrioid, NUS
+838013
+12/9/10
+w
+Site Code: Endometrum
+C54.1
+Surgical Pathology
+SLIDE DISPOSITION:
+DIAGNOSIS:
+A. Uterus, bilateral ovaries and fallopian tubes;
+hysterectomy and
+bilateral salpingo-oophorectomy: FIGO grade 2 (of 3)
+endometrial
+adenocarcinoma, endometrioid type, is identified forming
+an 8.2 X
+4.5 X 1. 4 cm mass, involving the entire endometrial
+cavity. The
+tumor superficially invades the myometrium but deeply
+invades 1.4 cm
+into the endocervix (total endocervical thickness 1.8 cm).
+Lymphovascular space invasion is identified. There are
+multiple (1
+cellular intramural, 5.0 X 4.3 X 3.8 cm; 5 intramural,
+ranging in
+size from 0.4 cm to 4.0 cm in greatest dimension; 9
+subserosal,
+ranging in size from 0.6 cm to 3.2 cm in greatest
+dimension; 2
+submucosal, 0.3 cm and 1.3 cm in greatest dimension)
+leiomyomata in
+the myometrium. The vaginal cuff margin and right and
+left
+parametrium are negative for tumor. The bilateral ovaries
+and
+fallopian tubes are not involved.
+B. Lymph nodes, left pelvic, lymphadenectomy: Multiple
+(37) left
+pelvic lymph nodes are negative for tumor.
+C. Lymph nodes, right pelvic, lymphadenectomy: Multiple
+(37) right
+pelvic lymph nodes are negative for tumor.
+D. Lymph nodes, right para-aortic above the inferior
+mesenterio
+artery, lymphadenectomy: Multiple (16) right para-aortic
+lymph
+UUID:60635568-D27E-4C72-BFF2-238CF2992925
+TCGA-D1-A16Q-@1A-PR
+Redacted
+nodes above the inferior mesenteric artery are negative
+for tumor.
+E. Lymph nodes, right para-aortic below the inferior
+mesenteric
+artery, lymphadenectomy: Multiple (3) right para-aortic
+lymph nodes
+below the inferior mesenteric artery are negative for
+tumor.
+F. Gonadal vessel, right, excision: The right gonadal
+vessel is
+negative for tumor.
+G. Gonadal vessel, left, excision: The left gonadal
+vessel is
+negative for tumor.
+H. Lymph nodes, left para-aortic above the inferior
+mesenteric
+artery, lymphadenectomy: Multiple (5) left para-aortic
+lymph nodes
+above the inferior mesenteric artery are negative for
+tumor.
+I. Lymph nodes, left para-aortic below the inferior
+mesenteric
+artery, lymphadenectomy: Multiple (6) left para-aortic
+lymph nodes
+below the inferior mesenteric artery are negative for
+tumor.
+With available surgical materials, [AJCC pT2N0] (7th
+edition, 2010). .
+PRELIMINARY FROZEN SECTION CONSULTATION:
+A. Uterus, bilateral ovaries and fallopian tubes;
+hysterectomy and
+bilateral salpingo-oophorectomy: Endometrial
+adenocarcinoma. The
+tumor superficially invades the myometrium but deeply
+invades the
+endocervix. Multiple leiomyomata The vaginal cuff margin
+and right
+and left parametrium are negative for tumor. The
+bilateral ovaries
+and fallopian tubes are not involved. HOLD to confirm.
+B. Lymph nodes, left pelvic, lymphadenectomy: Multiple
+lymph nodes
+are negative for tumor. HOLD to confirm.
+C. Lymph nodes, right pelvic, lymphadenectomy: Multiple
+lymph
+nodes are negative for tumor. HOLD to confirm.
+D. Lymph nodes, right para-aortic above the inferior
+mesenteric
+artery, lymphadenectomy: Multiple lymph nodes are
+negative for
+tumor. HOLD to confirm.
+E. Lymph nodes, right para-aortic below the inferior
+mesenteric
+artery, lymphadenectomy: Multiple lymph nodes are
+negative for
+tumor. HOLD to confirm.
+F. Gonadal vessel, right, excision: The right gonadal
+vessel is
+negative for tumor.
+G. Gonadal vessel, left, excision: The left gonadal
+vessel is
+negative for tumor.
+H. Lymph nodes, left para-aortic above the inferior
+mesenteric
+artery, lymphadenectomy: Multiple lymph nodes are
+negative for
+tumor. HOLD to confirm.
+I. Lymph nodes, left para-aortic below the inferior
+mesenteric
+artery, lymphadenectomy: Multiple lymph nodes are
+negative for
+tumor. HOLD to confirm.
+GROSS DESCRIPTION:
+A. Received fresh labeled "uterus, bilateral fallopian
+tubes and
+ovaries" is a 390.0 gram uterus with attached bilateral
+fallopian
+tubes and ovaries. The uterine serosa is smooth. There
+is an 8.2 X
+4.5 X 1.4 cm polypoid mass involving the entire
+endometrial cavity,
+lower uterine segment, and endocervix with the deepest
+invasion in
+the endocervix (1.4 cm invasion into a 1.8 cm endocervical
+thickness) . There are multiple (1 cellular intramural,
+5.0 X 4.3 X
+3.8 cm; 5 intramural, ranging in size from 0.4 cm to 4.0
+cm in
+greatest dimension; 9 subserosal, ranging in size from 0.6
+cm to 3.2
+cm in greatest dimension; 2 submucosal, 0.3 cm and 1.3 cm
+in
+greatest dimension) leiomyomata in the myometrium. There
+is a 3.7 X
+2.0 X 1.9 cm right ovary with a smooth outer surface and a
+solid cut
+surface with an 11.2 X 0.6 cm right fallopian tube, which
+is
+unremarkable. There is a 2.7 X 2.3 X 1.6 cm left ovary
+with a
+smooth outer surface and a solid cut surface with a 9.7 X
+0.5 cm
+left fallopian tube, which is unremarkable.
+Representative sections
+are submitted.
+B. Received fresh labeled "left pelvic lymph nodes" is a
+10.3 X 7.4
+X 2.5 cm aggregate of adipose and lymphatic tissue.
+Multiple (40)
+lymph nodes are identified. All lymph nodes submitted.
+C. Received fresh labeled "right pelvic lymph nodes" is a
+9.4 X 6.3
+X 2.7 cm aggregate of adipose and lymphatic tissue and
+lymph nodes.
+Multiple (31) lymph nodes are identified. All lymph nodes
+submitted.
+D. Received fresh labeled "right para-aortic lymph nodes
+above IMA"
+is a 9.7 X 3.8 X 1. 4 cm aggregate of adipose and lymphatic
+tissue.
+All lymph nodes submitted.
+E. Received fresh labeled "right para-aortic lymph nodes
+below IMA"
+is a 4.2 X 2.1 X 1. 0 cm aggregate of adipose and lymphatic
+tissue.
+All lymph nodes submitted.
+F. Received fresh labeled "right gonadal vessels" is a
+7.5 cm in
+length by 0.3 cm in diameter portion of unremarkable blood
+vessel.
+A representative section is submitted.
+G. Received fresh labeled "left gonadal vessels" is a 1.8
+cm in
+length by 0.3 3 cm in diameter portion of blood vessel. A
+representative section is submitted.
+H. Received fresh labeled "left para-aortic lymph nodes
+above IMA"
+is a 4.9 X 3.1 X 2.0 cm aggregate of adipose and lymphatic
+tissue.
+All lymph nodes submitted.
+I. Received fresh labeled "left para-aortic lymph nodes
+below IMA"
+is a 6.2 X 2.8 X 1.2 cm aggregate of adipose and lymphatic
+tissue.
+All lymph nodes submitted.
+BLOCK SUMMARY:
+Part A: Uterus, bilateral fallopian tubes and ovaries
+1 Vaginal cuff margin 6:00
+2 Right parametrium
+3 Left parametrium
+4 Right fallopian tube
+5 Right ovary
+6 Left fallopian tube
+7 Left ovary
+8 Myometrium (leiomyoma)
+9 Cervix 6:00
+10 Endometrium- - 1
+3 Lt PA above IMA LN 1 (H3)
+Part I : Left Para - aortic Below Inferior Mesenteric Artery
+Lymph
+Nodes
+1 Lt PA below IMA LN 3 (Il)
+2 Lt PA below IMA LN 3 (I2)
+3 Lt PA below IMA LN 1of2 (I3)
+4 Lt PA below IMA LN 2of2 (I3)
+5 Lt PA below IMA LN 1 (I4)
+6 Lt PA below IMA LN 1of2 (I5)
+7 Lt PA below IMA LN 2of2 (I5)
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor >ite Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Tynchronous Primary Noted

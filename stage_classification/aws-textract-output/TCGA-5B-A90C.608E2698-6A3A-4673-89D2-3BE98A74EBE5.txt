@@ -1,0 +1,373 @@
+ID:608E2698-6A3A-4673-89D2-3BE98A74EBE5
+TCGA-5B-A90C-01A-PR
+Redacted
+Results
+SURG PATH FINAL REPORT
+Service Location
+Name
+Address
+Phone
+Patient Information
+Patient Name
+Sex
+DOB
+Phone
+Female
+Result Notes
+Notes Recorded by
+RN on
+ICD -0.3
+Forwarded to
+for review.
+Adenocarecroma, ndometrioid
+8380/3
+Notes Recorded by
+RN on
+Site: Endometrum C54.1
+Patient Release Status:
+In 1/21/14
+This result is not viewable by the patient.
+Collection Information
+Resulting Agency
+Entry Date
+Component Results
+SURG PATH FINAL REPORT
+Accession #:
+Specimen:
+Date of Procedure:
+Performing Physician:
+M.D.
+A. Right pelvic lymph node
+B. Right periaortic lymph node
+C. Left pelvic lymph node
+D. Left periaortic lymph node
+E. Uterus, cervix, tubes, ovaries
+Clinical Notes:
+Endometrial cancer. Specimen E: Tissue to be sent for
+Diagnosis:
+A. Right pelvic lymph node, excision:
+- Negative for malignancy (0/13) .
+B. Right periaortic lymph nodes, excision:
+Printed by
+Encounter Date:
+- Negative for malignancy (0/10).
+C. Left pelvic lymph nodes, excision:
+- Negative for malignancy (0/11).
+D. Left periaortic lymph nodes, excision:
+- Negative for malignancy (0/8).
+E. Uterus, cervix, bilateral fallopian tubes, and ovaries,
+hysterectomy with bilateral
+salpingo-oophorectomy:
+- Endometrial adenocarcinoma, endometrioid type
+FIGO grade 2 with focal mucinous
+differentiation.
+- Please see Tumor Characteristics.
+- AJCC stage: pTla NO.
+Note: Immunohistochemical stain for MSI is sent out (block
+E8).
+MD
+(Electronically signed by)
+Verified:
+Tumor Characteristics:
+E: Endometrium, Hysterectomy (AJCC 7th,2010)
+Accession #:
+MACROSCOPIC
+SPECIMEN TYPE:
+Uterine corpus
+Cervix
+Right ovary
+Left ovary
+Right fallopian tube
+Left fallopian tube
+Weight, uterus: 226 gm
+PROCEDURE:
+Simple hysterectomy
+Bilateral salpingo-oophorectomy
+SPECIMEN INTEGRITY:
+Intact hysterectomy specimen
+TUMOR SITE:
+Anterior endometrium
+Posterior endometrium
+The tumor is exophytic as well as diffusely involving the
+anterior lower uterine segment and extends along the right
+lateral endometrial cavity to involve the majority of the
+posterior surface of the endometrial cavity.
+Printed by
+Encounter Date:
+TUMOR SIZE:
+Greatest dimension: 7.0 X 6.0 X 2.5 cm
+MICROSCOPIC
+HISTOLOGIC TYPE:
+Endometrioid adenocarcinoma
+HISTOLOGIC GRADE [FIGO] (Grading system applies to
+endometrioid / mucinous carcinoma) :
+FIGO II
+MYOMETRIAL INVASION:
+Invasion present
+Specify depth of invasion: 0.4 cm
+Specify myometrial thickness: 1.5 cm
+VENOUS/LYMPHATIC (LARGE/SMALL VESSEL) INVASION:
+Absent
+PERINEURAL INVOLVEMENT:
+Absent
+CERVICAL EXTENSION:
+Absent
+Sections (3) of the anterior cervix show tumor aggregates
+on
+the serosal surface and within cracks in the stroma. These
+are presumed to be contaminants as there is no stromal
+reaction to them
+OVARIAN INVOLVEMENT:
+Absent
+SURGICAL MARGINS:
+Uninvolved by invasive carcinoma
+REGIONAL LYMPH NODES:
+Right Pelvic
+Number involved: 0
+Accession #:
+Number examined:
+13
+Left Pelvic
+Number involved:
+0
+Number examined: 11
+Right Periaortic
+Number involved: 0
+Number examined: 10
+Left Periaortic
+Number involved: 0
+Number examined: 8
+ADDITIONAL PATHOLOGIC FINDINGS:
+Hyperplasia: Complex ((adenomatous)
+Leiomyoma with calcifications
+PRIMARY TUMOR (pT) TNM [FIGO] :
+pT1a [IA]: Tumor limited to endometrium or invades less
+than one-half of the myometrium
+REGIONAL LYMPH NODES (pN) TNM [FIGO] :
+pNO [--]: No regional lymph node metastasis
+Printed by
+Encounter Date:
+PERITONEAL WASHINGS/ASCITIC FLUID:
+Negative
+Gross:
+A. The specimen is labeled "right pelvic lymph node."
+Received in formalin is a 6.0 x 5.0 X 1.0 cm aggregate of
+yellow-brown fibrofatty tissue. The specimen is examined
+for lymph nodes. Twelve lymph node candidates are
+identified ranging from 0.5 to 4.1 cm in greatest
+dimension.
+The largest is sectioned to reveal a solid, tan-white cut
+surface. The nodal tissue is submitted entirely as
+follows:
+Cassette Designation:
+A1
+Six lymph node candidates
+A2
+Four lymph node candidates
+A3
+One lymph node candidate,
+bisected
+A4-6
+One lymph node candidate,
+trisected
+B. The specimen is labeled "right periaortic lymph node."
+Received in formalin is a 4.5 X 4.0 x 1.0 cm portion of
+yellow-brown fibroadipose tissue. The specimen is examined
+for lymph nodes. Five lymph node candidates are identified
+ranging from 0.2 to 3.0 cm in greatest dimension. The
+nodal
+tissue is submitted entirely as follows:
+Cassette Designation:
+B1
+One lymph node candidate
+B2
+Three lymph node candidates
+B3-4
+One lymph node candidate,
+trisected
+Accession #:
+C. The specimen is labeled "left pelvic lymph node. "
+Received in formalin is a 5.5 x 4.0 x 0.5 cm aggregate of
+yellow-tan, lobulated fibroadipose tissue. The specimen is
+examined for lymph nodes. Eleven lymph node candidates are
+identified ranging from 0.2 to 1.5 cm in greatest
+dimension.
+The nodal tissue is submitted entirely as follows:
+Cassette Designation:
+C1
+One lymph node candidate,
+bisected
+Printed by
+Encounter Date:
+C2
+Five lymph node candidates
+C3
+Five lymph node candidates
+D. The specimen is labeled "left periaortic lymph node. "
+Received in formalin is a 6.0 x 3.0 X 1.0 cm portion of
+lobulated, yellow fibroadipose tissue. The specimen is
+examined for lymph nodes. Eight lymph node candidates are
+identified ranging from 0.5 to 3.0 cm in greatest
+dimension.
+The nodal tissue is submitted entirely as follows:
+Cassette Designation:
+D1
+Six nodal candidates
+D2
+One lymph node candidate, bisected
+D3
+One lymph node candidate, bisected
+E. The specimen is labeled "uterus, cervix, tubes and
+ovaries." Received fresh for is a 226 gram uterus with
+attached left tube and right tube and ovary. The left
+ovary
+is received separately within the container. The uterus is
+composed of a 7.5 cm long by 7.5 cm cornu to cornu by 6.0
+cm
+anterior to posterior uterine body with an attached 5.0 cm
+long and 2.5 cm in diameter 3 to 9 o'clock by 2.0 cm in
+diameter 12 to 6 o'clock cervix. The uterine serosa is
+smooth, tan-gray to purple. The cervix is somewhat
+disrupted and fragmented resulting in an incomplete
+endocervical canal on the anterior aspect. A small amount
+of ectocervix is present which is smooth and tan-gray.
+The 7.0 cm wide by 8.0 cm long triangular endometrial
+cavity
+exhibits an exophytic, soft, friable, tan-gray mass. The
+mass is present within the anterior lower uterine aspect
+extending along the right lateral endometrial cavity to
+involve the majority of the posterior superior endometrial
+cavity. The mass is 6.0 X 6.0 X 2.5 cm in overall
+dimension. The mass does not involve the posterior lower
+uterine segment. The mass exhibits a polypoid component at
+the right cornu. The anterior superior endometrial cavity
+exhibits a flat, tan endometrial covering with a thickness
+of 0.1 cm. The mass is sectioned to reveal only grossly
+superficial mucosal involvement with no gross extension
+into
+Accession #:
+the underlying myometrium. The myometrium is pink-tan with
+a thickness ranging from 2.0 to 3.0 cm. The myometrium
+contains three well-circumscribed, white-gray, whorled
+Printed by
+Encounter Date:
+intramural nodules ranging from 0.5 to 4.0 cm in greatest
+dimension.
+The left ovary is detached and is 3.5 X 3.0 X 0.6 cm. The
+outer surface is intact with a smooth, purple-tan capsule.
+Sectioning reveals a mottled, tan-gray unremarkable ovarian
+stroma. The attached 6.0 cm long fimbriated fallopian tube
+has a diameter of 0.5 cm and is sectioned to reveal a
+stellate patent lumen.
+The right ovary is 4.5 x 2.5 X 1.0 cm and is intact with a
+tan-brown capsule. Sectioning reveals a homogeneous,
+mottled, gray-tan unremarkable ovarian stroma. The 5.0 cm
+long by 0.5 cm in diameter fimbriated fallopian tube is
+sectioned to reveal a stellate patent lumen.
+Representative
+sections are submitted as follows:
+Cassette Designation:
+E1
+Left parametrial tissue
+E2
+Right parametrial tissue
+E3
+Anterior cervix
+E4
+Anterior lower uterine segment
+E5-7
+Anterior endomyometrium, including
+mass, from inferior to superior
+E8-9
+Polypoid portion of mass, bisected
+E10
+Posterior cervix
+E11
+Posterior lower uterine segment
+E12-14
+Posterior endomyometrium, with mass,
+from inferior to superior
+E15
+Additional myometrial nodule
+E16
+Left ovary
+E17
+Left fimbriated end of fallopian
+tube, bisected longitudinally
+E18
+Left fallopian tube cross sections
+E19
+Right ovary
+E20
+Fimbriated end of right fallopian
+tube, bisected longitudinally
+E21
+Cross sections of right fallopian
+tube
+E22-23
+Additional sections of anterior
+cervix
+Gross photos are taken of the specimen.
+Accession #:
+Printed by
+Encounter Date:
+Microscopic:
+Histological examinations have been performed on specimens
+A-E.
+Deeper sections X 2 are obtained on E3 and deeper sections
+1 are obtained on E12 and E13.
+Administrative Notes:
+CPT:
+No charge codes are associated with this case.
+Results
+Report. Other - Scan on 1
+by
+Result History
+SURG PATH FINAL REPORT
+on
+Order Result History Report.
+Lab Information
+Resulting Agency
+Lab Collection Information
+Collection Date and Time
+IDs
+Order #
+Specimen #
+Reviewed by List
+MD on
+RN on
+RN on
+RN or
+RN on
+Order
+SURG PATH FINAL REPORT
+Service Location
+Name
+Address
+Phone
+Patient Information
+Patient Name
+Sex
+DOB
+Phone
+Female
+Unit
+Room
+Encounter
+Orients
+he
+12/15/13
+Yes
+No
+Printed by
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronouse Manury Noted
+Case is (circle):
+QUALIFIED
+/
+Date Reviewed:
+PDB
+Reviewer Initials

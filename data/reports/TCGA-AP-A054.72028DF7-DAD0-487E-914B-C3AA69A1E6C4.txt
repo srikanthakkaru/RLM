@@ -1,0 +1,57 @@
+UUID:72028DF7-DAD0-487E-914B-C3AA69A1E6C4
+TCGA-AP-A054-01A-PR
+Redacted
+ICD-0-3
+Specimens Submitted:
+adeno carcinoma indometrind Nos 8380/3
+1: SP: Uterus, cervix, left tube and ovary
+2: SP: Sigmoid nodule
+Site: indometrium C54.1
+3: SP: Right tube and ovary
+he 5/2/11
+4 : SP: Posterior cul-de-sac nodule
+5: SP: Right external iliac lymph nodes
+6: SP: Right hypogastric lymph nodes
+7: SP: Right obturator lymph nodes
+8: SP: Right common iliac lymph nodes
+9: SP: Left external iliac lymph nodes
+10: SP: Left obrturator lymph nodes
+11: SP: Left common iliac lymph nodes
+12: SP: Left para-aortic lymph nodes
+13: SP: Omentum
+14: SP: Right para-aortic lymph nodes
+DIAGNOSIS:
+1)
+UTERUS, CERVIX, LEFT OVARY AND FALLOPIAN TUBE; TOTAL HYSTERECTOMY AND
+SALPINGO- OOPHORECTOMY:
+- ADENOCARCINOMA OF ENDOMETRIUM, ENDOMETRIOID TYPE, NOS, FIGO GRADE III
+(> 50% SOLID GROWTH)
+(SEE NOTE) NUCLEAR GRADE 2.
+-
+THE TUMOR INVADES THROUGH THE ENTIRE THICKNESS OF THE MYOMETRIUM AND
+INVADES
+FIBROADIPOSE TISSUE ATTACHED TO THE UTERUS AND THE UTERINE
+SEROSA.
+- NO ENDOCERVICAL INVASION IS IDENTIFIED.
+- TUMOR INVOLVES THE POSTERIOR LOWER UTERINE SEGMENT.
+- VASCULAR INVASION IS PRESENT.
+- THE MYOMETRIUM IS UNREMARKABLE.
+- THE LEFT OVARY SHOWS A FIBROTHECOMA.
+- THE LEFT FALLOPIAN TUBE IS UNREMARKABLE.
+NOTE: PORTIONS OF THE TUMOR APPEAR UNDIFFERENTIATED
+2)
+SOFT TISSUE, SIGMOID NODULE; EXCISION:
+- METASTATIC CARCINOMA, SIMILAR TO THAT SEEN IN PART 1.
+** Continued on next page **
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary lumor Site Discrepancy
+HIPAA Discremancy
+Prior Malignaticy History
+Dual/Syscheonous Primary Noted
+Case's ;circle): QUALIFIED
+Reviewer Initials Dat. Reviewed 521
+MS / DISQUALIFIED
+too 5/4/19

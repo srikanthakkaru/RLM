@@ -1,0 +1,89 @@
+ICD-0-3
+Carcinoma, Serous, NOS
+8441/3
+12/9/10
+Surgical Pathology
+In
+Site Endometrium C54.1
+TISSUE DESCRIPTION:
+A1 A2 A3 A4 A5 A6 B1 B2 B3 B4 C1 C2 C3 C4 C5 C6
+C7 C8 D1
+D2 D3 D4 D5 D6 D7 D8 E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11
+E12 F1 F2 F3
+Uterus, right ovary (2.2 X 1.2 X 1.0 cm) with 9.2 cm
+segment of
+right fallopian tube, and left ovary (2.7 X 1.4 X 1.2 cm)
+with 9.8
+cm segment of left fallopian tube together weighing 150.0
+grams,
+portion of omentum (24.0 X 4.2 X 1.9 cm), , separately
+submitted
+bilateral para-aortic above the inferior mesenteric
+artery,
+bilateral para-aortic lymph nodes below the inferior
+mesenteric
+artery, laparoscopic right pelvic lymph nodes, and
+laparoscopic left
+pelvic lymph nodes,
+UUID: :3D30B053-444A-4F4D-B451-EB8746A157A2
+TCGA-D1-A16I-01A-PR
+Redacted
+DIAGNOSIS:
+Uterus, bilateral ovaries, and fallopian tubes; abdominal
+hysterectomy and bilateral salpingo-oophorectomy:
+Invasive high
+grade papillary serous carcinoma forming a main exophytic
+mass (2.9
+x 2.1 x X 1.1 cm) involving the left lateral wall of lower
+uterine
+segment. A separate non-invasive, high grade papillary
+serous
+carcinoma forming a mass (1.3 X 1.0 X 0.8 cm) arising
+within in an
+endometrial polyp is also identified. The invasive tumor
+extends 0.8
+cm into the myometrium (1.2 cm total myometrial thickness)
+within
+the lower uterine segment. Multiple (2) benign leiomyomata
+(4
+intramural, 1.2 to 3.4 cm) are identified. The left tube
+and
+bilateral ovaries are uninvolved. The right tube shows a
+paratubal
+cyst. Multiple (2) calcified nodules are identified
+within the left
+and right adnexa.
+Omentum, omentectomy: Mature adipose tissue, negative for
+tumor.
+Lymph nodes, bilateral para-aortic above and below the
+inferior
+mesenterio artery, excisions: Multiple bilateral para-
+aortic lymph
+nodes (11 above and 11 below the inferior mesenteric
+artery) are
+negative for tumor.
+Lymph nodes, laparoscopic right pelvic, excision:
+Multiple (10)
+right pelvic lymph nodes are negative for tumor.
+Lymph nodes, laparoscopic left pelvic, excision: Multiple
+(19) left
+pelvic lymph nodes are negative for tumor.
+This final pathology report is based on the
+gross/macroscopic
+examination and frozen section histologic evaluation of
+the
+specimen (s) .
+Yes
+No
+Criteria
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/Synchronous Purpary Noted
+Case is (circle):
+Reviewer Initrals
+Height
+QUALIFIED
+DISQUADEIED
+Reviewed:

@@ -1,0 +1,328 @@
+1
+ICD-0-3
+Adenocarcinoma, Endometrioid, NOS
+8380/3
+be
+Site:indometrusm c54.1
+11/22/10
+UUID: 236A4F391-2F46-4896-8E53-223202E42A38
+TCGA-A5-A0GA-01A-PR
+Redacted
+Ordering M.D.:
+Copies To:
+Age/Se
+Assistant:
+Location:
+Date of Procedure:
+Date Received:
+SURGICAL PATHOLOGY REPORT
+AMENDED REPORT
+*****
+Reason for Amendment/Correction #1: Additional findings
+DIAGNOSIS:
+A. LEFT ADNEXA:
+-
+Ovary and fallopian tube with no pathologic diagnosis
+B. RIGHT ADNEXA:
+-
+Ovary and fallopian tube with no pathologic diagnosis
+C. UTERUS AND CERVIX:
+-
+Endometrial adenocarcinoma, endometrioid type, grade 3, invasive, depth 12.0 of 26.0
+mm
+-
+Extensive lymphatic invasion present
+-
+Lower uterine segment and cervix: No tumor seen
+- Leiomyomas
+D. RIGHT PARAAORTIC LYMPH NODE:
+-
+Metastatic endometrioid carcinoma in one lymph node
+E. RIGHT PELVIC LYMPH NODE:
+-
+Metastatic endometrioid carcinoma in one node
+-
+Four lymph nodes, no tumor seen
+F. LEFT PELVIC LYMPH NODE:
+-
+Metastatic endometrioid carcinoma in the largest lymph node
+-
+One small lymph node, no tumor seen
+G. SACRAL LYMPH NODE:
+-
+Lymph node, no tumor seen
+H. IMA NODE:
+-
+Metastatic endometrioid carcinoma in lymph node
+I. APPENDIX:
+-
+Mucinous neoplasm of borderline malignancy
+J. CEPHALAD IMA NODE:
+-
+Metastatic endometrioid carcinoma in lymph node extending to perinodal soft tissue
+K. LEFT PA LYMPH NODE:
+-
+Metastatic endometrioid carcinoma in two of two lymph nodes
+L. LEFT RENAL LYMPH NODE:
+Patient Case(s):
+Page 1 of 6
+DP
+11\11
+D REPORT
+PATH #:
+-
+Metastatic endometrioid carcinoma in the largest node with extension into perinodal soft
+tissue
+-
+Three smaller lymph nodes, no tumor seen
+M. RENAL NODE:
+-
+Lymph node, no tumor present
+N. RIGHT RENAL NODE:
+Metastatic endometrioid carcinoma in lymph node with extension into perinodal soft
+tissue
+O. OMENTUM:
+Adipose tissue, no tumor seen
+P. RIGHT COLON, DISTAL ILEUM:
+-
+Tubular adenoma in right colon
+-
+Eighteen lymph nodes, no tumor seen
+COMMENT: The endometrioid carcinoma is a grade 3 tumor in the endometrium. Some of the
+metastases in the lymph nodes appear to be grade 2; however, it is difficult to grade the tumor
+because there is extensive squamous metaplasia in the primary tumor as well as in the metastases
+and there are clear cell changes.
+Consultant: Dr.
+I
+reviewed the sections from the appendix.
+HISTORY: Endometrial cancer
+MICROSCOPIC:
+See diagnosis.
+GROSS:
+A. LEFT ADNEXA
+Labeled with the patient's name, labeled "left adnexa", and received in formalin is a salpingo-oophorectomy
+specimen weighing 13 grams. The ovary measures 3.0 X 1.4 X 1.5 cm and has a pink-tan undulating serosal surface.
+The ovary has been previously incised revealing multiple corpora albicantia and a thin tan-yellow rim of cortical
+stroma. No tumor involvement is identified. The attached fallopian tube is fimbriated at one end and measures 5.3
+cm in length and 0.5 cm in diameter. The serosal surface is pink-tan and smooth. Sectioning reveals a stellate
+patent lumen up to 0.3 cm in diameter. Representative sections are submitted.
+A1. Ovary
+A2. Fallopian tube - 3
+B. RIGHT ADNEXA
+Labeled with the patient's name, labeled "right adnexa", and received in formalin is a salpingo-oophorectomy
+specimen weighing 16 grams. The ovary measures 3.3 X 1.6 X 1.5 cm and has a tan-yellow undulating serosal
+surface. The ovary has been previously incised revealing multiple corpora albicantia and a thin tan-yellow rim of
+cortical stroma. No tumor involvement is grossly identified. The attached fallopian tube is fimbriated at one end
+and measures 5.5 cm in length and 0.5 cm in diameter. The serosal surface is pink-tan and smooth. Sectioning
+reveals a stellate patent lumen up to 0.3 cm in diameter. Representative sections are submitted.
+B1. Ovary - 1
+B2. Fallopian tube - 3
+C. UTERUS AND CERVIX
+SURGICAL PATHOLOGY REPORT
+Page 2 of 6
+D REPORT
+PATH #:
+Labeled with the patient's name, labeled "uterus and cervix", and received fresh for gross consultation and
+subsequently fixed in formalin is a total hysterectomy specimen weighing 340 grams. The uterus is symmetric in
+shape. The uterus measures 12.0 cm from the fundus to the ectocervix, 7.0 cm from cornu to cornu, and
+maximum of 6.0 cm from the anterior surface to the posterior surface. The serosal surfaces are pink-tan and a
+smooth. The parauterine and paracervical soft tissues are inked black. The cervix is 3.7 cm in length and up to 4.0
+The external cervical os is 0.8 cm in length and ovoid. The specimen has been previously incised along both sides.
+cm in diameter in the ectocervical region. The ectocervix is gray-white and smooth with focal pinpoint hemorrhage.
+The endocervical canal is 2.5 cm in length and lined by pink-tan rugose mucosa, The transformation zone is
+distinct. One soft sessile polypoid lesion is note don the posterior surface of the lower uterine segment measuring
+0.7 X 0.3 X 0.2 cm. The polyp is 2.0 cm superior to the transformation zone, Sectioning of the cervix reveals no
+gross abnormalities. No vaginal cuff is present. The endometrial cavity is 6.5 cm in length and up to 7.0 cm in
+width. Within the uterus is a friable, polypoid pink-tan tumor mass that measures 10.7 X 9.5 cm in total surface area
+and involves the anterior and posterior corpus and fundus as well as possible extension into the lower uterine
+segment on the posterior aspect. The exophytic portions of the tumor have a maximum thickness of 2.0 cm. The
+uterus has been previously sectioned revealing invasion of the wall to approximately 50% depth. No normal-
+appearing endometrial lining is identified except in the lower uterine segment, where the thickness ranges from 0.2
+to 0.3 cm. The muscular uterine wall has a maximum thickness of 2,9 cm. The uninvolved myometrium is pink-tan
+and firm. Four well-circumscribed intramural leiomyomas are identified measuring 2.0 to 3.7 cm in greatest
+dimension. The cut surfaces of each leiomyoma are gray-white firm and whorled without gross evidence of
+hemorrhage, necrosis or calcification. The parametrial and paracervical soft tissues appear grossly free of tumor.
+Representative sections are submitted.
+C1. Anterior cervix - 1
+C2. Anterior lower uterine segment - 1
+C3. Posterior cervix - 1
+C4. Posterior lower uterine segment with small polyp and possible invasion of larger tumor - 1
+C5, C6. Anterior uterine corpus, bisected - 1 each
+C7, C8. Anterior uterine fundus, bisected - 1 each
+C9, C10. Anterior uterine fundus, bisected - 1 each
+C11, C12. Posterior uterine corpus, bisected - 1 each
+C13, C14. Posterior uterine fundus, bisected - 1 each
+C15. Posterior uterine fundus - 1
+C16. Right parametrial soft tissue - 2
+C17. Left parametrial soft tissue - 2
+C18. Three leiomyomas - 3
+C19. Largest leiomyoma - 2
+D. RIGHT PARAAORTIC LYMPH NODE
+Labeled with the patient's name, labeled "right paraaortic lymph node", and received in formalin is a portion of tan-
+X X 0.8 cm. The lymph node is sectioned and submitted entirely.
+yellow 1.4 soft adipose tissue measuring 3.0 X 1.8 X 1.5 cm. Within the adipose tissue is one lymph node measuring 2.4
+D1. 3
+E. RIGHT PELVIC LYMPH NODE
+Labeled with the patient's name, labeled "right pelvic lymph node", and received in formalin is an aggregate of tan-
+yellow 1.0 3.1 soft adipose tissue measuring 4.0 X 3.2 X 3.0 cm. Within the adipose tissue are five lymph nodes measuring
+to cm in greatest dimension. The largest lymph node has a gray-white firm gritty cut surface which is
+lymph node is submitted.
+grossly positive. The four smaller lymph nodes are entirely submitted. A representative section of the largest
+E1. Four smaller lymph nodes - 4
+E2. Portion of largest lymph node - 1
+F. LEFT PELVIC LYMPH NODE
+SURGICAL PATHOLOGY REPORT
+Page 3 of 6
+DICAL CENTER
+REPORT
+PATH #:
+Labeled with the patient's name, labeled "left pelvic lymph node", and received in formalin is a portion of tan-
+yellow soft adipose tissue measuring 4.0 X 3.2 X 2.5 cm. Within the fatty tissue are two lymph nodes measuring 1.3
+to 3.5 cm in greatest dimension. The cut surface of the larger lymph node is gray-white firm gritty and grossly
+positive. Representative sections are submitted.
+F1. Smaller lymph node (entire) - 1
+F1. Portion of larger lymph node - 1
+G. SACRAL LYMPH NODE
+Labeled with the patient's name, labeled "sacral lymph node", and received in formalin is a portion of tan-yellow
+soft adipose tissue measuring 2.0 X 1.5 X 1.4 cm. Within the adipose tissue is one lymph node measuring 1.4 x 0.8 X
+0.4 cm. The lymph node is bisected and submitted entirely.
+G1. 2
+H. IMA NODE
+Labeled with the patient's name, labeled "IMA node", and received in formalin is one lymph node measuring 1.1 X
+H1. 2
+1.0 X 0.9 cm with a scant amount of attached tan-yellow soft adipose tissue. Bisected and submitted entirely.
+I. APPENDIX
+Labeled with the patient's name, labeled "appendix", and received fresh for frozen section evaluation and
+subsequently fixed in formalin is a previously opened appendix measuring 4.3 cm in length and 3.0 cm in diameter.
+The appendix is grossly distorted. The serosal surface is pink-tan and smooth with focal hemorrhage and one
+transmural defect measuring 0.5 X 0.5 cm. The resection margin is inked green. Periappendiceal fat measures 1.0
+cm in width and up to 1.2 cm in thickness. The wall thickness ranges from 0.2 to 0.5 cm. The luminal surface is
+lined by an adherent layer of tan-yellow mucus up to 1.7 cm in thickness, Admixed with the mucus is scattered tan-
+yellow soft substance that appears to be necrotic tissue. The mucosa appears almost entirely denuded/replaced.
+Some adherent tan-yellow soft necrotic tissue is present. Entirely submitted.
+Il. Frozen section control for FS 1 - 1
+12. 2
+13. 3
+I4. 4
+15. 3
+I6. 2
+I7. 4
+I8. 3
+19. 3
+I10. 3
+I11. 4
+I12. 4
+I13. 3
+114. 3
+115. 3
+J. CEPHALAD IMA NODE
+Labeled with the patient's name, labeled "cephalad IMA node", and received in formalin is a 3.5x1.7x 1.5 cm
+portion of tan-yellow soft adipose tissue. Within the adipose tissue is one lymph node measuring 2.2 X 1.4 X 1.4
+cm. The lymph node is sectioned and submitted entirely.
+J1, J2. 2 each
+K. LEFT PA LYMPH NODE
+Labeled with the patient's name, labeled "left PA lymph node", and received in formalin is a portion of tan-yellow
+soft adípose tissue measuring 3.5 X 2.2 X 1.7 cm. Within the fatty tissue are two lymph nodes measuring 0.9 and 2.5
+SURGICAL PATHOLOGY REPORT
+Page 4 of 6
+REPORT
+TH #:
+cm in greatest dimension. The larger lymph node has a gray-white firm gritty cut surface which is grossly positive.
+Representative sections are submitted.
+K1. Entire smaller lymph node - 1
+K2. Portion of larger lymph node - 1
+L. LEFT RENAL LYMPH NODE
+Labeled with the patient's name, labeled "left renal lymph node", and received in formalin is a portion of tan-yellow
+soft adipose tissue measuring 3.0 X 2.0 X 1.3 cm. Within the adipose tissue are four lymph nodes measuring 0.3 to
+2.0 cm in greatest dimension. The largest lymph node has a gray-white firm gritty cut surface which is grossly
+positive. Representative sections are submitted.
+L1. Three smaller lymph nodes (submitted entirely) - 3
+L2. Portion of larger lymph node - 1
+M. RENAL NODE #2
+Labeled with the patient's name, labeled "renal node #2", and received in formalin is a portion of tan-yellow soft
+adipose tissue measuring 2.2 X 1.7 X 0.4 cm. Within the adipose tissue are three lymph nodes measuring 0.3 to 0.5
+cm in greatest dimension. The lymph nodes are trimmed and submitted entirely.
+M1. 3
+N. RIGHT RENAL NODE
+Labeled with the patient's name, labeled "right renal node", and received in formalin is a portion of tan-yellow soft
+adipose tissue measuring 2.1 X 1.7 X 0.6 cm. Within the adipose tissue is one lymph node measuring 1.2 X 1.0 X 0.4
+cm. The lymph node is bisected and submitted entirely.
+N1. 2
+O. OMENTUM
+Labeled with the patient's name, labeled "omentum", and received in formalin is a portion of tan-yellow soft adipose
+tissue measuring 66.0 X 22.3 X 2.0 cm. Sectioning reveals a tan-yellow lobular cut surface with no gross evidence
+of tumor involvement. Representative sections are submitted.
+O1. 2
+P. RIGHT COLON, DISTAL ILEUM
+Labeled with the patient's name, labeled "right colon, distal ileum", and received in formalin is an ileocolon
+specimen including 6.0 cm in length portion of distal ileum with an open circumference of 5.0 cm. The mucosa is
+pink-tan, plicated and grossly unremarkable. The ileocecal valve is 5.0 cm in length and pink-tan and soft. The
+portion of large bowel is 15.4 cm in length and 6.6 cm in open circumference. There is abundant attached tan-
+yellow soft adipose tissue extending up to 5.0 cm from the bowel wall. The serosal surface is pink-tan and smooth.
+The mucosa is pink-tan soft with the usual folds. One polypoid lesion is noted measuring 0,5 X 0.4 X 0.4 cm which
+is 14.5 cm from the distal margin. The polyp does not appear to invade past the mucosa. Examination of the
+attached fatty tissue reveals 18 lymph nodes measuring 0.2 to 1.2 cm in greatest dimension. Representative sections
+are submitted.
+P1. Proximal margin - 2
+P2. Ileocecal valve - 1
+P3. Polyp, bisected - 2
+P4. Mucosa - 2
+P5. Distal margin - 2
+P6. Five lymph nodes - 5
+P7. Five lymph nodes - 5
+P8. Five lymph nodes - 5
+P9. Three lymph nodes - 3
+Gross dictated by ;
+SURGICAL PATHOLOGY REPORT
+Page 5 of 6
+ED REPORT
+PATH #:
+OPERATIVE CALL
+OPERATIVE CONSULT (FROZEN):
+FS1 (SPECIMEN I):
+-
+Mucinous neoplasm (adenomatous on section sampled). Cannot rule out malignancy (Drs.
+and
+rev
+ewed slides and concur).
+OPERATIVE CALL
+OPERATIVE CONSULT (GROSS):
+SPECIMEN C:
+Uterus with extensive carcinoma involvement. Both exophytic and endophytic/invasive component
+(deep half myometrium). Carcinoma may extend to LUS.
+**AMENDMENT (
+***
+I. APPENDIX:
+-
+Mucinous neoplasm of borderline malignancy
+-
+A small focus of metastatic endometrioid adenocarcinoma measuring 1.5 mm in the serosa
+of the appendix
+COMMENT: This amendment report is issued to include in the diagnosis of the appendix a small
+focus of metastatic endometrioid adenocarcinoma. The rest of the report remains the same.
+I, the pathologist of record on the above amendment, personally examined the material described in the amendment,
+interpreted the results, reviewed this amended report and signed it electronically.
+If this report includes immunohistochemical test results, please note the following:
+Numerous immunohistochemical tes"
+-7d their performance characteristics determined by
+Those immunohistochemical tests have not been cleared or approved by the
+U.S. Food and Drug Administration (FDA), and FDA approval is not required.
+I have personally examined the specimen, interpreted the results, reviewed the report and signed it electronically.
+: Electronically signed
+). Electronically signed
+Criteria
+Yes
+No
+Diagrosis Discrepancy
+Primary Tumor Cite Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+SURGICAL PATHOLOGY REPORT
+Dual/Synchionous Primary Noted
+Case is (circle):
+QUALIFIED
+/
+QUALIFIED
+Page 6 of 6
+Reviewer Initials
+Date Reviewer

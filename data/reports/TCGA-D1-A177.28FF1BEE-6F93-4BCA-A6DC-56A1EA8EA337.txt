@@ -1,0 +1,188 @@
+ICD-0-3
+adenocarcinoma, Endometrioid, NOS
+8380/3
+12/9/10
+Site Code Endometreim 054.1
+in
+Surgical Pathology
+REVISED REPORT (Addendum/Procedure included)
+SLIDE DISPOSITION:
+DIAGNOSIS:
+A. Uterus, bilateral ovaries, and fallopian tubes;
+hysterectomy
+and bilateral salpingo-oophorectomy: FIGO grade II (of
+III)
+endometrial adenocarcinoma, endometrioid type, is
+identified forming
+a mass (5.0 X 3.8 X 3.2 cm), , located in the dome uterine
+wall. The
+tumor invades 1.3 cm into the myometrium (total wall
+thickness 1.4
+cm). . The tumor does not involve the endocervix.
+Lymphovascular
+space invasion is not identified. The margins are
+negative for
+tumor. The bilateral ovaries and fallopian tubes are not
+involved.
+B. Lymph nodes, right pelvic, lymphadenectomy: Multiple
+(28) right
+pelvic lymph nodes are negative for tumor.
+(17) left
+C. Lymph nodes, left pelvic, lymphadenectomy: Multiple
+pelvic lymph nodes are negative for tumor.
+D. Lymph nodes, right peri-aortic below inferior
+mesenteric artery,
+lymphadenectomy : Multiple (7) right peri-aortic lymph
+nodes below
+inferior mesenteric artery are negative for tumor.
+E. Lymph nodes, right peri-aortic above inferior
+mesenteric artery,
+nodes above
+lymphadenectomy: Multiple (3) right peri-aortic lymph
+inferior mesenteric artery are negative for tumor.
+ID:28FF1BEE-6F93-4BCA-A6DC-56A1EA8EA337
+TCGA-D1-A177-01A-PR
+Redacted
+F. Lymph nodes, left peri-aortic below inferior
+mesenteric artery,
+lymphadenectomy: Multiple (3) right peri-aortic lymph
+nodes above
+inferior mesenteric artery are negative for tumor.
+G. Lymph nodes, left peri-aortic above inferior
+mesenterio artery,
+lymphadenectomy: Multiple (2) left peri-aortic lymph
+nodes above
+inferior mesenteric artery are negative for tumor.
+With available surgical material [AJCC pT1bN0]
+This final pathology report is based on the
+gross/macroscopic
+examination and the frozen section histologic evaluation
+of the
+specimen (s) . Hematoxylin and Eosin (H&E) permanent
+sections are
+reviewed to confirm these findings. Any substantive
+changes
+identified on permanent section review will be reflected
+in a
+revised report.
+ADDENDUM:
+Source: Uterus, bilateral ovaries and fallopian tubes,
+block A2
+Estrogen: Positive, 51-75% tumor nuclei staining.
+Progesterone: Positive, 26-50% tumor nuclei staining.
+Estrogen Receptor (ER) and Progesterone Receptor (PR)
+immunohistochemical (IHC) test results are only valid for
+non-decalcified paraffin embedded specimens fixed in
+formalin.
+Testing is performed using monoclonal ER clone SP1 and PR
+clone PgR
+636 and a polymer-based detection system. All controls
+show
+IHC is
+appropriate reactivity. Reporting criteria for ER and PR
+cells is
+based on 0% reactive cells is negative, 1-10% reactive
+focal positive, and greater than 10% is positive.
+GROSS DESCRIPTION:
+oophorectomy"
+A. Received fresh labeled "uterus, bilateral salpingo- -
+ovaries and
+is a 99.8 gram uterus with attached bilateral tubes and
+is a 5.0 X
+an unremarkable cervix. The uterine serosa smooth There
+which 3.8 X 3.2 cm mass in the dome of the endometrial cavity
+grossly appears to invade 1. 4 cm into the 1.5 cm thick
+myometrium.
+There is a 1.6 X 0.8 X 0.7 cm right ovary with smooth
+outer surface
+fallopian tube.
+and a solid cut surface with a 5.5 X 0.6 cm right
+There is a 2.0 X 0.8 X 0.6 cm left ovary with a smooth
+outer surface
+tube. and a solid cut surface with a 4.2 X 0.7 cm left fallopian
+Representative sections are submitted.
+6.3 X 5.0
+B. Received fresh labeled "right pelvic lymph nodes" is a
+lymph X 2.0 cm aggregate of adipose tissue and lymph nodes. All
+nodes submitted.
+6.0 X 6.0
+C. Received fresh labeled "left pelvic lymph nodes" is a
+Lymph nodes
+X 2.3 cm aggregate of adipose tissue and lymph nodes.
+submitted.
+below IMA"
+D. Received fresh labeled "right peri-aortic lymph nodes
+is a 4.5 X 2.5 X 1.0 cm aggregate of adipose tissue and
+lymph nodes.
+Lymph nodes submitted.
+E. Received fresh labeled "right peri-aortic lymph nodes
+above IMA"
+is a 2.5 X 2.5 X 1.0 cm aggregate of adipose tissue and
+lymph nodes.
+Lymph nodes submitted.
+F. Received fresh labeled "left peri-aortic lymph nodes
+below IMA"
+is a 3.0 X 3.0 X 1.0 cm aggregate of adipose tissue and
+lymph nodes.
+Lymph nodes submitted.
+G. Received fresh labeled "left peri-aortic lymph nodes
+above IMA"
+is a 2.0 X 0.5 X 0.5 cm aggregate of adipose tissue and
+lymph nodes.
+Lymph nodes submitted.
+BLOCK SUMMARY:
+Part A: Uterus, bilateral salpingo-oophorectomy
+1 Cervix 6:00
+2 Mass at deep
+3 Mass 1
+4 Mass 2
+5 Right ovary & tube
+6 Left ovary & tube
+Part B : Right Pelvic Lymph Nodes
+1 Right pelvic LN 4 (B1)
+2 Right pelvic LN 1 (B2)
+3 Right pelvic LN 2 (B3)
+4 Right pelvic LN 5 (B4)
+5 Right pelvic LN 2 (B5)
+6 Right pelvic LN 4 (B6)
+7 Rt pelvic ln 1 (B7)
+8 Rt pelvic ln 5 (B8)
+9 Rt pelvic ln 3 (B9)
+10 Rt pelvic ln 1 (B10)
+Part C: Left Pelvic Lymph Nodes
+1 Lt pelvic lns-5 (C1)
+2 Lt pelvic lns-1 (C2)
+3 Lt pelvic lns-1 (C3)
+4 Lt pelvic lns 1/2 (C4)
+5 Lt pelvic lns 2/2 (C4)
+6 Lt pelvic lns-2 (C5)
+7 Lt pelvic ln-3 (C6)
+8 Lt pelvic ln-1 (C7)
+9 Lt pelvic ln-1 (C8)
+10 Lt pelvic ln-4 (C9)
+11 Lt pelvic In-1 (C10)
+Part D: Right below IMA Para-aortic Lymph Nodes
+1 Rtparaaortic below IMA3 (D1)
+2 Rt paraaortic below IMA2 (D2)
+3 Rt paraaortic below IMA3 (D3)
+Part E : Right above IMA Para-aortic Lymph Nodes
+1 Rt paraaortic above IMA3 (E1)
+2 Rt paraaortic above IMA2 (E2)
+Part F : Left below IMA Para-aortic Lymph Nodes
+1 Lt paraaortic below IMA4 (F1)
+2 Lt paraaortic below IMA3 (F2)
+Part G: Left above IMAPara-aortic Lymph Nodes
+1 Lt paraaortic above IMA2 (G1)
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+Primary Tumor Site Discrepancy
+HIPAA Discrepancy
+Prior Malignancy History
+Dual/SynchronpysPtireary Noted
+Case is (circle):
+QUALIFIED
+/ DISQUALIFIED
+Reviewer Initials
+Date Reviewed:

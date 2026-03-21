@@ -1,0 +1,63 @@
+ICS-0-3
+Adenocarcinoma, Endometrioid, NOS
+8380/3 12/9/10
+In
+Surgical Pathology Site Code Endometruim C54.1
+TISSUE DESCRIPTION:
+A1 A2 A3 A4 A5 A6 B1 C1 C2 D1 D2 E1 F1 G1 G2 G3
+G4
+Uterus (45.0 grams) , right ovary (3.0 X 0.9 X 0.8 cm) with
+7.4 cm
+segment of right fallopian tube, left ovary (2.8 X 0.7 X
+0.5 cm)
+with 7.7 cm segment of left fallopian tube, left pelvic
+lymph nodes,
+right pelvic lymph nodes, and bilateral para-aortic lymph
+nodes
+(above and below the inferior mesenteric artery) .
+DIAGNOSIS:
+Uterus, hysterectomy: FIGO grade I (of III) endometrioid
+adenocarcinoma forming a mass (3.4 X 2.4 X 1.0 cm). . The
+tumor
+invades into the myometrium at a depth of 1.0 cm (total
+myometrium
+thickness is 1.4 cm). The tumor involves the lower
+uterine segment.
+The cervix is unremarkable. The myometrium contains a
+single
+intramural leiomyoma (0.9 cm in greatest dimension).
+Ovaries and fallopian tubes, right and left, bilateral
+salpingo-oophorectomy: No diagnostic abnormality,
+bilaterally.
+Lymph nodes, left pelvic, excision: Multiple (9) left
+pelvic lymph
+nodes are negative for tumor.
+Lymph nodes, right pelvic, excision: Multiple (12) right
+pelvic
+lymph nodes are negative for tumor.
+Lymph nodes, bilateral para-aortic, excision: Multiple
+(9)
+bilateral para-aortic lymph nodes below the inferior
+mesenteric
+artery are negative for tumor. Tissue submitted as
+"bilateral
+UUID:E68A0ED2-CBE3-40A9-8DBF-A3BBC49204DD
+TCGA-D1-A161-01A-PR
+Redacted
+para-aortic lymph nodes above the inferior mesenteric
+artery" shows
+adipose tissue only; no lymph nodes present.
+Criteria
+Yes
+No
+Diagnosis Discrepancy
+'rimary Tumor Site Discrepancy
+HPAA Discrepency
+prior Malignancy History
+Dual/Synchronous Pri,mary Noted
+Case is (circle):
+QUALIFIED
+DISQUARMED
+0
+Reviewer Initials
+Date/reviewed

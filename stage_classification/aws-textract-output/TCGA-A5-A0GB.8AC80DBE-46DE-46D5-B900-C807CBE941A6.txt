@@ -1,0 +1,241 @@
+ICD 0-3
+Carcinoma Endometriand NOS
+838013
+Site indometrium C54.1
+11/22/10
+UID:8AC80DBE-46DE-4605-8900-C807CBE941A6
+TCGA-A5-A0GB-01A-PR
+Redacted
+Ordering M.D.:
+Copies To:
+Age/Sex
+Assistant:
+Location:
+Date of Procedure
+Date Received
+SURGICAL PATHOLOGY REPORT
+Addendum - Please See End of Report
+Reason for Addendum #1:
+Additional sections or studies
+DIAGNOSIS:
+A. RIGHT OVARY AND FALLOPIAN TUBE (SALPINGO-OOPHORECTOMY):
+-Benign ovary with corpora albicantia, rare calcification, and rare multinucleated giant cell
+-Benign fallopian tube with hydrosalpinx, small focus suggestive of endometriosis, and serosal
+adhesions with reactive mesothelial cells
+B. UTERUS AND CERVIX (TOTAL HYSTERECTOMY):
+-Endometrial carcinoma with endometrioid (adenosquamous) and undifferentiated features
+(see comment)
+-Tumor measures approximately 14.0 x 7.7 cm in surface area and replaces almost all of
+the anterior and posterior endometrium
+-Tumor is exophytic and invasive
+-Tumor invades >50% of the myometrial thickness
+-Invasive tumor extends into the lower uterine segment and upper endocervix
+-Lymphvascular invasion present (contraction artefact around tumor nests also noted)
+-Tumor associated necrosis with acute inflammatory cells
+-Tumor associated lymphoplasmacytic infiltrate
+-Rare tumor associated calcification
+-Bilateral parametrial soft tissue with detached tumor fragments interpreted as floaters
+-Uninvolved endometrium with deciduoid stromal change consistent with history of progestin
+therapy
+-Adenomyosis
+-Additional findings in the cervix include nabothian cysts, squamous metaplasia, cervicitis,
+and reactive cellular changes
+C. RIGHT PELVIC LYMPH NODES (EXCISION):
+-Four lymph nodes; no tumor seen (0/4)
+D. RIGHT PA LYMPH NODE (EXCISION):
+-One lymph node; no tumor seen (0/1)
+E. LEFT PELVIC LYMPH NODE (EXCISION):
+-One lymph node; no tumor seen (0/1)
+F. LEFT OBTURATOR LYMPH NODES (EXCISION):
+-Eight lymph nodes; no tumor seen (0/8)
+G. LEFT PA LYMPH NODES (EXCISION):
+Patient Case(s)
+Page 1 of 5
+End of Report
+ATH #:
+-Nine lymph nodes; no tumor seen (0/9)
+H. LEFT COMMON ILIAC LYMPH NODES (EXCISION):
+-Four lymph nodes; no tumor seen (0/4)
+I. OMENTUM #1 (PARTIAL OMENTECTOMY):
+-Omental adipose tissue with tiny fibrous adhesions and few crushed cells
+-No tumor identified
+J. OMENTUM #2 (PARTIAL OMENTECTOMY):
+-Omental adipose tissue with tiny fibrous adhesions and few reactive mesothelial cells
+-Focal calcified fat necrosis
+-No tumor identified
+K. OMENTUM #3 (PARTIAL OMENTECTOMY):
+-Omental adipose tissue with tiny fibrous adhesions and few reactive mesothelial cells
+-No tumor identified
+COMMENT: The tumor exhibits glandular/poorly differentiated glandular, squamous
+(nonkeratinizing), and undifferentiated features. The poorly differentiated endometrioid
+component shows glandular, trabecular/cord-like, and nested growth patterns and is considered
+architectural grade 3. The undifferentiated component shows solid sheets of monotonous, small to
+intermediate size cells with scant cytoplasm, open chromatin, and frequent mitoses. In an effort to
+further characterize the tumor, several immunostains were performed on blocks B4 and B14. Only
+rare cells in the undifferentiated component stain positive for keratin AE 1/3, MOC 31, or BER-
+EP4 (in contrast to the staining seen in the endometrioid component). Stains for cytokeratin 7,
+CAM 5.2, vimentin, WT1, ER, PR, chromogranin, and synaptophysin are negative in the
+undifferentiated tumor component. Some undifferentiated tumor cells stain for p53 and a few stain
+for p16. The lymph node profiles show prominent sinus histiocytosis (virtually negative
+immunostaining for epithelial markers in the undifferentiated tumor component precludes
+application of these antibodies to search for occult tumor cells in the lymph nodes). Based on these
+specimens, pathologic staging is assigned as pT2b NO.
+Reference: Altrabulsi B, Malpica A, Deavers MT, et al. Unidfferentiated carcinoma of the
+endometrium. Am j Surg Pathol 2005;29(10):1316-1321
+Findings were discussed with
+HISTORY: "Clear cell endometrial cancer"
+MICROSCOPIC:
+Stain for WT1 is also negative in the endometrioid component of the tumor. Additional immunostains will be
+reported in an addendum.
+SPECIAL STUDIES: Decalcification (J2)
+IMMUNOSTAINS:
+B4: keratin AE 1/3. cytokeratin 7, p53, ER, PR, MOC31, BER-EP4, chromogranin, synaptophysin
+B14: keratin AE 1/3, cytokeratin 7, CAM 5.2, vimentin, WT1, p16
+GROSS:
+SURGICAL PATHOLOGY REPORT
+Page 2 of 5
+: See End of Report
+PATH #:
+A. RIGHT TUBE AND OVARY
+Labeled with the patient's name, labeled "right tube and ovary", and received fresh for gross consultation and
+subsequently fixed in formalin is a 14 gram salpingo-oophorectomy specimen. The ovary measures 2.8 X 2.0 X 1.6
+cm. The fallopian tube is 4.0 cm in length and 0.7 cm in diameter.
+The serosal surface of the ovary is mostly smooth with focal adhesions to the tube. The cut surface of the ovary is
+pink-tan to tan-yellow and grossly unremarkable without evidence of tumor involvement. The tube has an inner
+luminal diameter of 0.5 cm with hydrosalpinx noted. No gross tumor involvement is seen. The entire fallopian tube
+and representative sections of the ovary are submitted.
+A1. Ovary - 1
+A2. Proximal tube - 4
+A3. Mid tube - 4
+A4. Distal tube - 3
+B. UTERUS WITH CERVIX
+Labeled with the patient's name, labeled "uterus with cervix", and received fresh for gross consultation and
+subsequently fixed in formalin is a 520 gram total hysterectomy specimen. The uterus measures 7.5 X 9.2 X 11.4
+cm. The cervical portion is 5.0 cm in length and up to 3.2 cm in diameter in the ectocervical region. The
+ectocervical os is 1.4 cm in diameter. The endocervical canal is 4.0 cm in length. The endometrial cavity measures
+8.0 cm in length and up to 7.7 cm in width. The myometrium measures up to 3.6 cm in thickness.
+The anterior and posterior endometrium is almost entirely replaced by friable red-tan fungating tumor that measures
+14.0 X 7.7 cm in surface area and almost fills the endometrial cavity. The tumor extends into the lower uterine
+segment and cervical canal in the posterior aspect and is within 1.0 cm in the transformation zone. The tumor
+invades into the superficial half of the lower uterine segment/cervix (to within 0.7 cm of the serosal surface). The
+main volume of the tumor is in the endometrial cavity and shows maximum invasion of approximately two-thirds of
+the uterine wall (within 1.9 cm of the serosa at the superior most aspect of the uterus).
+Within the uterus there is one well-circumscribed intramural leiomyoma measuring 2.5 X 2.2 X 1.8 cm. The cut
+surface is gray-white firm and whorled without evidence of hemorrhage, necrosis, or calcification. The external
+cervical os, the transformation zone, and the anterior endocervical canal are grossly unremarkable. The uninvolved
+mucosa is pink-tan and soft with focal pinpoint hemorrhage. The serosa is pink-tan and smooth without adhesions.
+The bilateral parametrial soft tissues are grossly unremarkable.
+Ink key: Parametrial soft tissues - black.
+Representative sections are submitted.
+Slide key:
+B1. Anterior cervix - I
+B2. Anterior lower uterine segment - 1
+B3. Posterior cervix - 1
+B4, B5. Posterior lower uterine segment/endocervical canal/tumor - 1 each
+B6, B7. Deepest invasion of tumor (superior aspect of uterus), bisected - 1 each
+B8, B9. Anterior uterine corpus, bisected - 1 each
+B10, Posterior uterine corpus with tumor, full-thickness - 1
+B11, B12. Uninvolved appearing area of posterior uterine fundus, bisected - I each
+B13, B14. Anterior fundus, bisected - 1 each
+B15. Right parametrial soft tissue - 1
+B16. Left parametrial soft tissue - 1
+C. RIGHT PELVIC LYMPH NODE
+SURGICAL PATHOLOGY REPORT
+Page 3 of 5
+se See End of Report
+PATH #:
+Labeled with the patient's name, labeled "right pelvic lymph node", and received in formalin is a 4.3 X 3.5 X 2.0 cm
+aggregate of tan-yellow soft fatty tissues. Examination of the fatty tissue reveals pink-tan soft lymph nodes
+measuring 1.4 X 0.7 X 0.5 to 1.7 X 1.4 X 0.6 cm. The lymph nodes are trimmed and entirely submitted.
+C1. Two lymph nodes - 2
+C2. One lymph node, bisected - 2
+C3. One lymph node, bisected - 2
+D. RIGHT PA
+Labeled with the patient's name, labeled "right PA", and received in formalin is a 3.2 X 2.5 X 1.5 cm aggregate of
+tan-yellow soft fatty tissue. Examination of the fatty tissue reveals one pink-tan soft lymph node measuring 1.5 X
+0.7 X 0.3 cm. The lymph node is trimmed and entirely submitted.
+D1. 1
+E. LEFT PELVIC LYMPH NODE
+Labeled with the patient's name, labeled "left pelvic lymph node", and received in formalin is a 4.7 X 4.2 X 1.7 cm
+aggregate of tan-yellow soft fatty tissue. Within the fatty tissue is one pink-tan soft ovoid lymph node measuring
+2.5 X 1.7 X 0.8 cm. The lymph node is trisected and entirely submitted.
+E1-E3. 1 each
+F. LEFT OBTURATOR
+Labeled with the patient's name, labeled "left obturator", and received in formalin is a 10.2 X 3.2 X 2.0 cm portion of
+tan-yellow soft fatty tissue. Examination of the fatty tissue reveals eight pink-tan soft lymph nodes measuring 0.8 to
+2.7 cm in greatest dimension. The lymph nodes are trimmed and entirely submitted.
+F1. Three lymph nodes - 3
+F2. Three lymph nodes - 3
+F3. One lymph node, bisected - 2
+F4. One lymph node, bisected - 2
+G. LEFT PA
+Labeled with the patient's name, labeled "left PA", and received in formalin is a 5.0 X 4.5 X 1.7 cm aggregate of tan-
+yellow soft fatty tissues. Examination of the fatty tissue reveals ten pink-tan soft lymph nodes measuring 0.5 to 2.0
+cm in greatest dimension. The lymph nodes are trimmed and entirely submitted.
+G1. Three lymph nodes - 3
+G2. Three lymph nodes - 3
+G3. Two lymph nodes - 2
+G4. Two lymph nodes - 2
+H. LEFT COMMON ILIAC
+Labeled with the patient's name, labeled "left common iliac", and received in formalin is a 6.0 X 3.3 X 1.8 cm
+portion of tan-yellow soft fatty tissue. Examination of the fatty tissue reveals four pink-tan soft lymph nodes
+measuring 0.5 to 3.5 cm in greatest dimension. The lymph nodes are trimmed and entirely submitted.
+H1. Two lymph nodes - 2
+H2. One lymph node, bisected - 2
+H3. One lymph node, bisected - 2
+I. OMENTUM #1
+Labeled with the patient's name, labeled "omentum #1", and received in formalin is a 15,0 X 4.2 X 1.8 cm portion of
+tan-yellow soft adipose tissue. The cut surfaces show tan-yellow soft adipose tissue without evidence of tumor.
+Representative sections are submitted.
+11. 2
+J. OMENTUM #2
+SURGICAL PATHOLOGY REPORT
+Page 4 of 5
+se See End of Report
+PATH #:
+Labeled with the patient's name, labeled "omentum #2", and received in formalin is a 15.7 X 11.0 X 1.2 cm portion
+of tan-yellow soft fatty tissue. Cut sections show one gray-white firm calcific nodule measuring 0.7 X 0.5 X 0.5 cm.
+The remaining cut surfaces consist of soft adipose tissue without lesions. The entire calcific nodule and
+representative sections of the fatty tissue are submitted.
+J1. Omentum - 2
+J2. Calcific nodule, bisected, entirely submitted - 2
+K. OMENTUM #3
+Labeled with the patient's name, labeled "omentum #3", and received in formalin is a 13.1 x 9.3 X 1.5 cm portion of
+tan-yellow soft fatty tissue. The cut surfaces show tan-yellow soft grossly unremarkable adipose tissue No tumor is
+seen. Representative sections are submitted.
+K1. 2
+Gross dictated by
+OPERATIVE CALL
+OPERATIVE CONSULT (GROSS):
+SPECIMEN A: RIGHT TUBE AND OVARY:
+Bisected ovary, grossly unremarkable.
+SPECIMEN B: UTERUS AND CERVIX:
+Endometrial cavity filled with soft friable tumor masses.
+M.D.)
+If this report includes immunohistochemical test results, please note the following:
+Numerous immunohistochemical tests were developed and their performance characteristics determined by
+Those immunohistochemical tests have not been cleared or approved by the
+U.S. Food and Drug Administration (FDA). and FDA approval is not required.
+I have personally examined the specimen, interpreted the results, reviewed the report and signed it electronically.
+..D. Electronically signed
+Addendum
+There is heterogeneous staining for ER, less staining for PR, and rare cells that stain positive for
+CK5/6 in the endometrioid component.
+I have personally examined the specimen, interpreted the results, reviewed the report and signed it electronically.
+Electronically signed
+riteria
+Yes
+No
+Diagnosis Discrepancy
+'rimary Turnor Site Discrepancy
+SURGICAL PATHOLOGY REPORT
+IIPAA Discrepancy
+rior Malignancy History
+Page 5 of 5
+Dual/Synchronous Primary Noted
+ase is (circle):
+QUALIFIED
+/
+DEQUARTEER
+:eviewer Initials
+Date Reviewed:
