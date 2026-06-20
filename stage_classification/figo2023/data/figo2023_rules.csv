@@ -1,0 +1,51 @@
+rule_id,stage,priority,condition_key,operator,value,source,description
+IVC_DISTANT,IVC,1000,distant_metastasis,eq,true,FIGO 2023 Table 1,Distant metastasis
+IVB_EXTRAPELVIC_PERITONEAL,IVB,990,extrapelvic_peritoneal_metastasis,eq,true,FIGO 2023 Table 1,Abdominal peritoneal metastasis beyond the pelvis
+IVA_MUCOSA,IVA,980,bladder_or_bowel_mucosa_invasion,eq,true,FIGO 2023 Table 1,Bladder or bowel mucosal invasion
+IIIC2I_PARA_MICRO,IIIC2i,900,para_aortic_nodes_positive,eq,true,FIGO 2023 Table 1,Para-aortic nodal micrometastasis
+IIIC2I_PARA_MICRO,IIIC2i,900,nodal_metastasis_size,eq,micrometastasis,FIGO 2023 Table 1,Para-aortic nodal micrometastasis
+IIIC2II_PARA_MACRO,IIIC2ii,895,para_aortic_nodes_positive,eq,true,FIGO 2023 Table 1,Para-aortic nodal macrometastasis
+IIIC2II_PARA_MACRO,IIIC2ii,895,nodal_metastasis_size,eq,macrometastasis,FIGO 2023 Table 1,Para-aortic nodal macrometastasis
+IIIC2_PARA_UNKNOWN,IIIC2,890,para_aortic_nodes_positive,eq,true,FIGO 2023 Table 1,Para-aortic nodal metastasis with unknown metastasis size
+IIIC2_PARA_UNKNOWN,IIIC2,890,nodal_metastasis_size,eq,positive_unknown,FIGO 2023 Table 1,Para-aortic nodal metastasis with unknown metastasis size
+IIIC1I_PELVIC_MICRO,IIIC1i,880,pelvic_nodes_positive,eq,true,FIGO 2023 Table 1,Pelvic nodal micrometastasis
+IIIC1I_PELVIC_MICRO,IIIC1i,880,para_aortic_nodes_positive,eq,false,FIGO 2023 Table 1,Pelvic nodal micrometastasis
+IIIC1I_PELVIC_MICRO,IIIC1i,880,nodal_metastasis_size,eq,micrometastasis,FIGO 2023 Table 1,Pelvic nodal micrometastasis
+IIIC1II_PELVIC_MACRO,IIIC1ii,875,pelvic_nodes_positive,eq,true,FIGO 2023 Table 1,Pelvic nodal macrometastasis
+IIIC1II_PELVIC_MACRO,IIIC1ii,875,para_aortic_nodes_positive,eq,false,FIGO 2023 Table 1,Pelvic nodal macrometastasis
+IIIC1II_PELVIC_MACRO,IIIC1ii,875,nodal_metastasis_size,eq,macrometastasis,FIGO 2023 Table 1,Pelvic nodal macrometastasis
+IIIC1_PELVIC_UNKNOWN,IIIC1,870,pelvic_nodes_positive,eq,true,FIGO 2023 Table 1,Pelvic nodal metastasis with unknown metastasis size
+IIIC1_PELVIC_UNKNOWN,IIIC1,870,para_aortic_nodes_positive,eq,false,FIGO 2023 Table 1,Pelvic nodal metastasis with unknown metastasis size
+IIIC1_PELVIC_UNKNOWN,IIIC1,870,nodal_metastasis_size,eq,positive_unknown,FIGO 2023 Table 1,Pelvic nodal metastasis with unknown metastasis size
+IIIC_NODES_UNKNOWN,IIIC,860,regional_nodes_positive,eq,true,FIGO 2023 Table 1,Regional nodal metastasis with unknown pelvic or para-aortic station
+IIIB2_PELVIC_PERITONEAL,IIIB2,820,pelvic_peritoneal_metastasis,eq,true,FIGO 2023 Table 1,Pelvic peritoneal metastasis
+IIIB1_VAGINA_PARAMETRIA,IIIB1,810,vaginal_or_parametrial_involvement,eq,true,FIGO 2023 Table 1,Vaginal or parametrial involvement
+IIIA2_SEROSA,IIIA2,800,serosal_involvement,eq,true,FIGO 2023 Table 1,Uterine subserosa or serosal involvement
+IIIA1_ADNEXA,IIIA1,790,adnexal_or_fallopian_tube_involvement,eq,true,FIGO 2023 Table 1,Adnexal or fallopian tube involvement not meeting IA3 exception
+IIIA1_ADNEXA,IIIA1,790,ia3_exception_met,eq,false,FIGO 2023 Table 1,Adnexal or fallopian tube involvement not meeting IA3 exception
+IIC_AGGRESSIVE_INVASION,IIC,700,histology_aggressiveness,eq,aggressive,FIGO 2023 Table 1,Aggressive histological type with any myometrial invasion
+IIC_AGGRESSIVE_INVASION,IIC,700,myometrial_invasion_present,eq,true,FIGO 2023 Table 1,Aggressive histological type with any myometrial invasion
+IIB_SUBSTANTIAL_LVSI,IIB,690,histology_aggressiveness,eq,non_aggressive,FIGO 2023 Table 1,Non-aggressive histological type with substantial LVSI
+IIB_SUBSTANTIAL_LVSI,IIB,690,lvsi_extent,eq,substantial,FIGO 2023 Table 1,Non-aggressive histological type with substantial LVSI
+IIA_CERVIX,IIA,680,histology_aggressiveness,eq,non_aggressive,FIGO 2023 Table 1,Non-aggressive histological type with cervical stromal invasion
+IIA_CERVIX,IIA,680,cervical_stromal_involvement,eq,true,FIGO 2023 Table 1,Non-aggressive histological type with cervical stromal invasion
+IC_AGGRESSIVE_POLYP,IC,600,histology_aggressiveness,eq,aggressive,FIGO 2023 Table 1,Aggressive histological type limited to a polyp
+IC_AGGRESSIVE_POLYP,IC,600,myometrial_invasion_present,eq,false,FIGO 2023 Table 1,Aggressive histological type limited to a polyp
+IC_AGGRESSIVE_POLYP,IC,600,limited_to_polyp,eq,true,FIGO 2023 Table 1,Aggressive histological type limited to a polyp
+IC_AGGRESSIVE_ENDOMETRIUM,IC,595,histology_aggressiveness,eq,aggressive,FIGO 2023 Table 1,Aggressive histological type confined to the endometrium
+IC_AGGRESSIVE_ENDOMETRIUM,IC,595,myometrial_invasion_present,eq,false,FIGO 2023 Table 1,Aggressive histological type confined to the endometrium
+IC_AGGRESSIVE_ENDOMETRIUM,IC,595,confined_to_endometrium,eq,true,FIGO 2023 Table 1,Aggressive histological type confined to the endometrium
+IB_DEEP,IB,560,histology_aggressiveness,eq,non_aggressive,FIGO 2023 Table 1,Non-aggressive histological type with at least half myometrial invasion and no or focal LVSI
+IB_DEEP,IB,560,myometrial_invasion_percent,gte,50,FIGO 2023 Table 1,Non-aggressive histological type with at least half myometrial invasion and no or focal LVSI
+IB_DEEP,IB,560,lvsi_extent,in,none|focal,FIGO 2023 Table 1,Non-aggressive histological type with at least half myometrial invasion and no or focal LVSI
+IA3_OVARY_EXCEPTION,IA3,550,ia3_exception_met,eq,true,FIGO 2023 Table 1 footnote c,Low-grade endometrioid carcinoma limited to uterus and ovary meeting IA3 criteria
+IA2_SUPERFICIAL,IA2,540,histology_aggressiveness,eq,non_aggressive,FIGO 2023 Table 1,Non-aggressive histological type with less than half myometrial invasion and no or focal LVSI
+IA2_SUPERFICIAL,IA2,540,myometrial_invasion_present,eq,true,FIGO 2023 Table 1,Non-aggressive histological type with less than half myometrial invasion and no or focal LVSI
+IA2_SUPERFICIAL,IA2,540,myometrial_invasion_percent,lt,50,FIGO 2023 Table 1,Non-aggressive histological type with less than half myometrial invasion and no or focal LVSI
+IA2_SUPERFICIAL,IA2,540,lvsi_extent,in,none|focal,FIGO 2023 Table 1,Non-aggressive histological type with less than half myometrial invasion and no or focal LVSI
+IA1_POLYP,IA1,520,histology_aggressiveness,eq,non_aggressive,FIGO 2023 Table 1,Non-aggressive histological type limited to an endometrial polyp
+IA1_POLYP,IA1,520,myometrial_invasion_present,eq,false,FIGO 2023 Table 1,Non-aggressive histological type limited to an endometrial polyp
+IA1_POLYP,IA1,520,limited_to_polyp,eq,true,FIGO 2023 Table 1,Non-aggressive histological type limited to an endometrial polyp
+IA1_ENDOMETRIUM,IA1,515,histology_aggressiveness,eq,non_aggressive,FIGO 2023 Table 1,Non-aggressive histological type confined to the endometrium
+IA1_ENDOMETRIUM,IA1,515,myometrial_invasion_present,eq,false,FIGO 2023 Table 1,Non-aggressive histological type confined to the endometrium
+IA1_ENDOMETRIUM,IA1,515,confined_to_endometrium,eq,true,FIGO 2023 Table 1,Non-aggressive histological type confined to the endometrium

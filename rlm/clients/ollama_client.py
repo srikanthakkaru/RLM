@@ -21,6 +21,7 @@ class OllamaClient(BaseLM):
         base_url: str = "http://localhost:11434",
         timeout: int = 1800,
         ollama_options: dict[str, Any] | None = None,
+        ollama_format: str | dict[str, Any] | None = None,
         **kwargs,
     ):
         super().__init__(model_name, **kwargs)
@@ -28,6 +29,9 @@ class OllamaClient(BaseLM):
         self.timeout = timeout  # seconds (default 30 min for local models)
         # Ollama runtime options: num_ctx, num_predict, temperature, etc.
         self.ollama_options = ollama_options or {}
+        # Top-level structured-output constraint: "json" or a JSON schema dict. When set, Ollama
+        # constrains decoding so the response is always valid JSON (or schema-conformant).
+        self.ollama_format = ollama_format
         self.total_calls = 0
         self.total_input_tokens = 0
         self.total_output_tokens = 0
@@ -63,6 +67,8 @@ class OllamaClient(BaseLM):
             }
             if self.ollama_options:
                 payload["options"] = self.ollama_options
+            if self.ollama_format is not None:
+                payload["format"] = self.ollama_format
             response = requests.post(
                 f"{self.base_url}/api/chat",
                 json=payload,

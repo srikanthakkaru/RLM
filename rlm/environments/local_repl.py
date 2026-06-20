@@ -15,6 +15,12 @@ from rlm.core.comms_utils import LMRequest, send_lm_request, send_lm_request_bat
 from rlm.core.types import REPLResult, RLMChatCompletion
 from rlm.environments.base_env import NonIsolatedEnv
 
+
+def _final_repl_shim(value: Any) -> str:
+    """Models sometimes call FINAL(x) inside ```repl```; str() avoids NameError."""
+    return str(value)
+
+
 # =============================================================================
 # Safe Builtins
 # =============================================================================
@@ -160,6 +166,7 @@ class LocalREPL(NonIsolatedEnv):
         self._pending_llm_calls: list[RLMChatCompletion] = []
 
         # Add helper functions
+        self.globals["FINAL"] = _final_repl_shim
         self.globals["FINAL_VAR"] = self._final_var
         self.globals["SHOW_VARS"] = self._show_vars
         self.globals["llm_query"] = self._llm_query

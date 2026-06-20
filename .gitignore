@@ -1,0 +1,7 @@
+/data/
+research paper/
+__pycache__/
+*.pyc
+.DS_Store
+.cursor/
+rlms.egg-info/
