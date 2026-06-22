@@ -14,6 +14,7 @@ from vlmextraction import (  # noqa: E402
     ValidationResult,
     _apply_equivocal_backstop,
     _apply_nodal_station_detection,
+    _apply_peritoneal_metastasis_backstop,
     _canonicalize_myometrial_invasion_category,
     _coerce_confidence,
     _derive_field_status,
@@ -60,6 +61,65 @@ def test_apply_nodal_station_detection_notes_positive_group() -> None:
     )
     assert data["lymph_node_stations"]
     assert any("para-aortic" in note for note in notes)
+
+
+def test_peritoneal_backstop_downgrades_washings_only() -> None:
+    # Positive peritoneal WASHINGS/cytology alone is not IIIB2 (mirrors the A0G2 false positive):
+    # a positive call with no implant in the source must be downgraded so staging stays IIIB1.
+    data = {"pelvic_peritoneal_metastasis": "identified"}
+    status: dict = {}
+    evidence: dict = {}
+    report = "Pelvic peritoneal washings: positive for malignant cells (cytology)."
+    notes = _apply_peritoneal_metastasis_backstop(data, status, evidence, report)
+    assert data["pelvic_peritoneal_metastasis"] == "not identified"
+    assert notes
+
+
+def test_peritoneal_backstop_keeps_genuine_implant() -> None:
+    # A true peritoneal implant/deposit is IIIB2 and must be preserved.
+    data = {"pelvic_peritoneal_metastasis": "identified"}
+    status: dict = {}
+    evidence: dict = {}
+    report = "Cul-de-sac biopsy: metastatic adenocarcinoma forming a peritoneal implant."
+    notes = _apply_peritoneal_metastasis_backstop(data, status, evidence, report)
+    assert data["pelvic_peritoneal_metastasis"] == "identified"
+    assert not notes
+    assert evidence["pelvic_peritoneal_metastasis"]
+
+
+def test_peritoneal_backstop_downgrades_benign_adhesion() -> None:
+    # Benign/reactive peritoneal findings do not qualify for IIIB2.
+    data = {"pelvic_peritoneal_metastasis": "identified"}
+    notes = _apply_peritoneal_metastasis_backstop(
+        data, {}, {}, "Pelvic peritoneal surface with benign fibrous adhesions, reactive mesothelium."
+    )
+    assert data["pelvic_peritoneal_metastasis"] == "not identified"
+    assert notes
+
+
+def test_peritoneal_backstop_ignores_node_met_on_other_line() -> None:
+    # Reproduces the A0G2 false positive: a metastatic-node verdict sits on a different specimen
+    # line from the peritoneum, so it must NOT be read as peritoneal disease (IIIB2). Stays IIIB1.
+    data = {"pelvic_peritoneal_metastasis": "identified"}
+    report = (
+        "B. PELVIC LYMPH NODES, EXCISION:\n"
+        "- Metastatic adenocarcinoma in two of five lymph nodes\n"
+        "C. PELVIC PERITONEUM, BIOPSY:\n"
+        "- Benign mesothelium; no tumor identified\n"
+    )
+    notes = _apply_peritoneal_metastasis_backstop(data, {}, {}, report)
+    assert data["pelvic_peritoneal_metastasis"] == "not identified"
+    assert notes
+
+
+def test_peritoneal_backstop_leaves_negative_untouched() -> None:
+    # Never invents a positive: an already-negative call is left exactly as-is.
+    data = {"pelvic_peritoneal_metastasis": "not identified"}
+    notes = _apply_peritoneal_metastasis_backstop(
+        data, {}, {}, "Peritoneal implant of metastatic carcinoma noted."
+    )
+    assert data["pelvic_peritoneal_metastasis"] == "not identified"
+    assert not notes
 
 # Mirrors the garbled microscopic section of TCGA-A5-A0G1: serous histology stated, but LVSI
 # only ambiguously addressed ("cannot absolutely exclude"). A capable model returns this JSON.
