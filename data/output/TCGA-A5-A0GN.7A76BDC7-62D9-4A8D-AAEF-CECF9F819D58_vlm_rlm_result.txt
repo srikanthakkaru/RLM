@@ -1,14 +1,15 @@
-Report: data\report\TCGA-A5-A0GN.7A76BDC7-62D9-4A8D-AAEF-CECF9F819D58.txt
+Report: C:\Users\mokku\RLM\data\report\TCGA-A5-A0GN.7A76BDC7-62D9-4A8D-AAEF-CECF9F819D58.txt
 Pipeline: vlm_rlm
 VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
 Max Iterations: 3
-Execution Time: 164.82s
-Extraction Time: 18.62s
+Execution Time: 181.15s
+Extraction Time: 15.54s
 Extraction Retries: 0
-Extraction Valid: False
+Extraction Valid: True
 Normalizations Applied:
+  - cervical_stromal_involvement: 'uncertain' -> 'not reported'
   - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
   - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
   - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
@@ -26,7 +27,7 @@ Stage Audit Missing Facts:
   - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IB (IB_DEEP))
   - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate: passed (no violations)
-Date: 2026-06-22 14:26:57
+Date: 2026-06-22 17:44:03
 ================================================================================
 
 Diagnosis
@@ -35,29 +36,29 @@ The diagnosis is primary endometrial adenocarcinoma, endometrioid type, FIGO gra
 
 Staging
 
-The computed FIGO stage is indeterminate (provisional IIB), requiring further information regarding the extent of lymphovascular invasion (LVSI). The reported FIGO stage is A.
+The computed FIGO stage is indeterminate (requires pathologist verification). This is due to missing information regarding the extent of lymphovascular invasion (LVSI), specifically whether it is focal or substantial, which is needed for definitive staging according to FIGO 2023 rules. The reported FIGO stage is A. The AJCC stage is pT1c pN0 pMx.
 
 Key Findings
 
 - Histologic Type: Endometrioid adenocarcinoma
-- FIGO Grade: 1
+- FIGO Grade: 1 (Nuclear Grade 2)
 - Tumor Size: 5.2 cm
-- Myometrial Invasion: 56% (derived from reported depth/thickness)
+- Myometrial Invasion: 56% (derived from reported depth of 56% and thickness of 8.6 cm)
 - Lymphovascular Invasion (LVI): Present
-- Cervical Stromal Involvement: Uncertain
+- Cervical Stromal Involvement: Not reported
 - Margin Status: Uninvolved
-- Lymph Nodes Examined: 2 total (Left Pelvic, Right Pelvic x2)
+- Lymph Nodes Examined: 2 total (Left Periaortic, Right Pelvic x3, Left Pelvic x2)
 - Lymph Nodes Positive: 0/2
-- TNM Classification: pTlc, pN0, pMx
+- Additional Findings: Calcified leiomyoma, papillary projections confined to the superficial half of the myometrium.
 
 Expert Summary
 
-The patient underwent a hysterectomy for endometrial adenocarcinoma. The tumor is endometrioid type, grade 1, measuring 5.2 cm. It demonstrates deep myometrial invasion (56% derived from reported depth/thickness measurements) and lymphovascular invasion. Cervical stromal involvement is uncertain. Lymph nodes examined were negative for metastasis. Distant metastasis status is not assessed pathologically (pMx). The computed stage is indeterminate, potentially IIB pending LVSI extent information, while the reported stage is A.
+The patient underwent a hysterectomy for endometrial cancer. The pathology reveals a grade 1 endometrioid adenocarcinoma with extensive myometrial invasion (56% depth) and lymphovascular invasion. The cervix is clear of tumor, and surgical margins are negative. Lymph node examination was negative. Staging is complex due to the need for LVSI extent information under FIGO 2023 guidelines, resulting in a provisional stage IIB pending further clarification.
 
 Patient-Friendly Explanation
 
-The surgery showed cancer in the lining of the uterus (endometrium). It's a type called endometrioid adenocarcinoma, which is usually slow-growing (grade 1). The tumor was 5.2 cm in size and grew deeply into the muscle wall of the uterus (56% invasion). There were also signs that cancer cells might have entered small blood vessels or lymphatics (lymphovascular invasion). The cancer did not spread to the cervix, nearby tissues like the vagina or bladder, or the surgical margins. Two lymph nodes were removed and checked, and neither contained cancer cells. We don't know if the cancer has spread further outside the pelvis based on this pathology report alone.
+The surgery showed that you have endometrial cancer, specifically a type called endometrioid adenocarcinoma. It's considered low grade (Grade 1). The tumor was 5.2 cm in size and grew deeply into the muscle wall of the uterus (56% invasion). There were also signs of cancer cells potentially spreading through blood vessels or lymphatics (lymphovascular invasion). The cancer did not spread to the cervix, and the edges removed during surgery were clear of cancer cells. Lymph nodes that were checked did not show any cancer. Because we need more information about the extent of the lymph/blood vessel involvement, the exact stage is currently being determined but could be Stage IIB.
 
 Next-Step Considerations
 
-The FIGO stage is reported as A but computed as indeterminate (provisional IIB). The provisional stage depends on the extent of lymphovascular invasion (LVSI), which is currently unknown (requires pathologist verification).
+The FIGO stage is reported as A, but the computed stage is indeterminate and provisional (requires pathologist verification). Specifically, the extent of lymphovascular invasion (LVSI) is needed for definitive staging under FIGO 2023 rules. The report also notes "uncertain" status for cervical stromal involvement based on normalization applied during extraction. These findings require clarification from the pathologist.

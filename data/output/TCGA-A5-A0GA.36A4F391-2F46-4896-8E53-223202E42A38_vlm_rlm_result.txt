@@ -4,8 +4,8 @@ VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
 Max Iterations: 3
-Execution Time: 173.79s
-Extraction Time: 15.98s
+Execution Time: 185.07s
+Extraction Time: 15.94s
 Extraction Retries: 0
 Extraction Valid: False
 Normalizations Applied:
@@ -15,64 +15,52 @@ Normalizations Applied:
   - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
   - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
   - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
 Missing Fields (absent from report):
   - nuclear_grade
   - closest_margin_distance_cm
   - closest_margin_location
   - specimen_integrity
 Stage Audit Status: supported
-Computed FIGO Stage: IIIC
+Computed FIGO Stage: IIIC2
 Reported FIGO Stage: III
 Stage Audit Missing Facts:
-  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2i (IIIC2I_PARA_MICRO))
   - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
-  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2ii (IIIC2II_PARA_MACRO))
   - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
-  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2 (IIIC2_PARA_UNKNOWN))
-  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1i (IIIC1I_PELVIC_MICRO))
-  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1i (IIIC1I_PELVIC_MICRO))
-  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1i (IIIC1I_PELVIC_MICRO))
-  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1ii (IIIC1II_PELVIC_MACRO))
-  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1ii (IIIC1II_PELVIC_MACRO))
-  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1ii (IIIC1II_PELVIC_MACRO))
-  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1 (IIIC1_PELVIC_UNKNOWN))
-  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1 (IIIC1_PELVIC_UNKNOWN))
-  - nodal_station: Positive regional nodes are present, but station is unknown (IIIC1 vs IIIC2)
   - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
   - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate: passed (no violations)
-Date: 2026-06-22 14:01:52
+Date: 2026-06-22 15:55:37
 ================================================================================
 
 Diagnosis
 
-The patient underwent a hysterectomy with bilateral salpingo-oophorectomy. The diagnosis is endometrioid adenocarcinoma of the uterus, FIGO grade 3. The tumor measures 10.7 x 9.5 cm and invades approximately half (12.0 cm depth) of the myometrium (total thickness 26.0 cm). Lymphovascular invasion is present. There is also a mucinous neoplasm of borderline malignancy in the appendix with a small focus of metastatic endometrioid adenocarcinoma.
+The patient underwent a hysterectomy with bilateral salpingo-oophorectomy for endometrial adenocarcinoma, endometrioid type, FIGO grade 3. The tumor measured 10.7 x 9.5 cm and invaded approximately half (12.0 cm depth) of the myometrium (total thickness 26.0 cm). Lymphovascular invasion is present. The margins are uninvolved. There was also a mucinous neoplasm of borderline malignancy identified in the appendix, with a small focus of metastatic endometrioid adenocarcinoma noted on the serosa of the appendix.
 
 Staging
 
-The computed FIGO stage is IIIC, based on regional nodal metastasis. The reported FIGO stage is III. This discrepancy reflects the difference between the less specific reported stage and the more detailed computed stage derived from the presence of positive lymph nodes.
+The computed FIGO stage is IIIC2, based on positive para-aortic lymph nodes and positive pelvic lymph nodes. The reported FIGO stage is III. There is a discrepancy between the reported and computed stages; the computed stage is more specific (IIIC2) than the reported stage (III). The audit status is supported by deterministic rules.
 
 Key Findings
 
-- Histologic type: Endometrioid adenocarcinoma
-- FIGO grade: 3 (High grade)
-- Tumor size: 10.7 x 9.5 cm
-- Myometrial invasion: Deep, approximately 50% (derived from reported measurements of 12.0 cm depth / 26.0 cm thickness ≈ 46.2%)
-- Lymphovascular invasion (LVI): Present
-- Cervical stromal involvement: Uncertain
-- Lymph node metastasis: Positive (5 out of 19 nodes positive, including right paraaortic, right pelvic, left pelvic, sacral, and IMA nodes)
-- Extracapsular extension: Present in lymph nodes
-- Margin status: Uninvolved
-- Additional findings: Leiomyomas, mucinous neoplasm of borderline malignancy in the appendix with metastasis.
+*   Histologic Type: Adenocarcinoma, endometrioid
+*   FIGO Grade: 3
+*   Tumor Size: 10.7 x 9.5 cm
+*   Myometrial Invasion: Deep invasion (12.0 cm depth out of 26.0 cm thickness), calculated as ≥50% (derived from reported measurements)
+*   Lymphovascular Invasion (LVI): Present
+*   Cervical Stromal Involvement: Uncertain
+*   Lymph Nodes Involved: Yes, multiple nodes including para-aortic and pelvic stations (right paraaortic, right pelvic, left pelvic, sacral, IMA, left PA, right renal). Total 19 nodes examined, 5 positive.
+*   Extracapsular Extension (ECE): Present
+*   Distant Metastasis: Not reported in the pathology specimen.
 
 Expert Summary
 
-The pathology report details a high-grade (Grade 3) endometrioid adenocarcinoma measuring 10.7 x 9.5 cm, invading approximately half of the myometrium. The tumor exhibits lymphovascular invasion and has metastasized to multiple pelvic and paraaortic lymph nodes, with extracapsular extension noted in some involved nodes. There is also a separate finding of a mucinous neoplasm of borderline malignancy in the appendix, which contains metastatic endometrioid carcinoma. The surgical margins are negative for tumor.
+The surgical pathology report details a high-grade (Grade 3) endometrial adenocarcinoma with deep myometrial invasion (≥50%) and lymphovascular invasion. The tumor is large (10.7 x 9.5 cm). There is evidence of metastatic spread to multiple pelvic and para-aortic lymph nodes, along with extracapsular extension in some involved nodes. A small focus of metastasis was also found on the appendix serosa. Based on FIGO 2023 criteria, this represents stage IIIC2 disease due to positive para-aortic lymph node involvement.
 
 Patient-Friendly Explanation
 
-The surgery showed cancer in the lining of the uterus (endometrium). It was a type called endometrioid adenocarcinoma and was high grade (Grade 3). The cancer was quite large (10.7 x 9.5 cm) and grew deeply into the muscle wall of the uterus (about half way through). Cancer cells were found in nearby lymph nodes, including some higher up near major blood vessels, and there was spread outside the capsule of some of these nodes. There was also cancer found in the appendix, which had a separate borderline tumor. The edges of the removed tissue did not show any cancer cells.
+The surgery showed that you have endometrial cancer, a type called endometrioid adenocarcinoma. It is a high grade (Grade 3). The cancer grew deeply into the muscle wall of your uterus and spread to several lymph nodes in your pelvis and near the aorta. There was also some spread outside the lymph node capsules. Additionally, there was a small area of cancer found on the appendix.
 
 Next-Step Considerations
 
-The final stage is computed as IIIC, requiring pathologist verification due to the presence of regional nodal metastasis. The status of cervical stromal involvement is uncertain and requires clarification.
+The computed FIGO stage is IIIC2 (provisional requires pathologist verification). The reported stage is III. The nodal metastasis size is unknown, which impacts the substage classification (IIIC1 vs IIIC2). Cervical stromal involvement is uncertain. These findings require pathologist verification.

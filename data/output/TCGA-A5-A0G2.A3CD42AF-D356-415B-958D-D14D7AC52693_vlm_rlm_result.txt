@@ -4,8 +4,8 @@ VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
 Max Iterations: 3
-Execution Time: 164.57s
-Extraction Time: 15.14s
+Execution Time: 171.95s
+Extraction Time: 15.85s
 Extraction Retries: 0
 Extraction Valid: False
 Normalizations Applied:
@@ -33,7 +33,7 @@ Stage Audit Missing Facts:
   - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IB (IB_DEEP))
   - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate: passed (no violations)
-Date: 2026-06-22 13:41:24
+Date: 2026-06-22 15:22:33
 ================================================================================
 
 Diagnosis
