@@ -573,18 +573,29 @@ def _generate_rlm_narrative(
     of the chosen narrative).
 
     Each attempt is checked for structural problems (empty / refusal / missing headers) and
-    grounding violations (ungrounded numbers, invented stage). When an attempt is not clean, the
-    next attempt re-runs the RLM with a correction note naming the exact problem. The best-scored
-    RLM candidate is always kept — the RLM itself produces the narrative.
+    grounding violations (ungrounded numbers, invented stage). Only a *blocking* (error-severity)
+    violation triggers a correction retry; non-blocking warnings are accepted as-is so a benign
+    warning never burns the retry budget.
+
+    The first ``samples`` attempts honor the requested mode (agentic or single-pass) and form the
+    self-consistency pool. Any further correction retry runs in the fast single-pass path — re-
+    running the whole agentic REPL loop just to fix a named grounding issue is what makes a failing
+    report take tens of minutes — and the loop stops as soon as a retry stops reducing the blocking
+    count (no-progress guard). The best-scored RLM candidate is always kept.
     """
     samples = max(1, samples)
     max_attempts = max(samples, max_retries + 1)
     candidates: list[tuple[str, float, list[grounding.Violation]]] = []
     correction = ""
+    best_blocking: int | None = None  # fewest blocking violations seen so far
 
     for attempt in range(max_attempts):
         bk = _sample_backend_kwargs(backend, backend_kwargs, attempt)
-        if single_pass:
+        # Sample attempts (index < samples) honor the requested mode; correction retries beyond the
+        # sample pool always use the cheap single-pass path so a failing report can't spend the
+        # retry budget on full agentic re-runs.
+        attempt_single_pass = single_pass or attempt >= samples
+        if attempt_single_pass:
             prompt = (
                 single_pass_prompt if not correction else f"{single_pass_prompt}\n\n{correction}"
             )
@@ -600,13 +611,29 @@ def _generate_rlm_narrative(
             text, grounding_context, report_text
         )
         candidates.append((text, exec_time, violations))
-        if not violations:
-            break  # a fully clean candidate is good enough; stop early
+
+        blocking = sum(1 for v in violations if v.severity == "error")
+        # Accept once no blocking violation remains (non-blocking warnings are fine), but always
+        # finish the requested self-consistency samples first.
+        produced_requested_samples = attempt + 1 >= samples
+        if produced_requested_samples and blocking == 0:
+            break
+        # No-progress guard: a correction retry that fails to beat the best blocking count so far is
+        # unlikely to improve, so stop and keep the best candidate.
+        in_retry_phase = attempt >= samples
+        if in_retry_phase and best_blocking is not None and blocking >= best_blocking:
+            print(
+                f"  RLM correction retry {attempt + 1} did not reduce blocking issues "
+                f"({blocking} remaining); stopping and keeping the best candidate."
+            )
+            break
+        best_blocking = blocking if best_blocking is None else min(best_blocking, blocking)
         correction = _build_correction(violations)
         if attempt + 1 < max_attempts:
+            next_mode = "single-pass correction" if attempt + 1 >= samples else "regeneration"
             print(
-                f"  RLM attempt {attempt + 1} had {len(violations)} issue(s); "
-                "regenerating with a correction note."
+                f"  RLM attempt {attempt + 1} had {blocking} blocking issue(s); "
+                f"running a {next_mode} with a correction note."
             )
 
     def _severity_score(item: tuple[str, float, list[grounding.Violation]]) -> tuple[int, int]:
