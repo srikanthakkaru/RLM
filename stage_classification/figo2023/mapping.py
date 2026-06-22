@@ -455,6 +455,21 @@ def map_distant_metastasis(tnm_pm: str | None) -> bool | None:
     return None
 
 
+def _node_group_state(stations: Any, group: str) -> bool | None:
+    """True if any station in ``group`` is positive, False if all present are negative, else None."""
+    if not isinstance(stations, list):
+        return None
+    state: bool | None = None
+    for station in stations:
+        if not isinstance(station, dict) or station.get("group") != group:
+            continue
+        if station.get("positive") is True:
+            return True
+        if station.get("positive") is False:
+            state = False
+    return state
+
+
 def map_nodes(
     data: dict[str, Any],
     tnm_pn: str | None,
@@ -462,8 +477,17 @@ def map_nodes(
     examined = data.get("lymph_nodes_total_examined")
     positive = data.get("lymph_nodes_total_positive")
 
-    if isinstance(positive, int) and positive > 0:
-        return True, None, None, NodalMetastasisSize.POSITIVE_UNKNOWN.value
+    # Pelvic vs para-aortic station, recovered deterministically from the narrative, separates
+    # IIIC1 from IIIC2. None for a group means its station was not documented (stays unknown).
+    stations = data.get("lymph_node_stations")
+    para_state = _node_group_state(stations, "para_aortic")
+    pelvic_state = _node_group_state(stations, "pelvic")
+    station_positive = para_state is True or pelvic_state is True
+
+    if (isinstance(positive, int) and positive > 0) or station_positive:
+        para = True if para_state is True else (False if para_state is False else None)
+        pelvic = True if pelvic_state is True else (False if pelvic_state is False else None)
+        return True, pelvic, para, NodalMetastasisSize.POSITIVE_UNKNOWN.value
 
     if isinstance(positive, int) and positive == 0:
         return False, False, False, None

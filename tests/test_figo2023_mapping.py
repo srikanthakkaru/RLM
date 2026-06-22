@@ -27,6 +27,35 @@ def extraction_base(**overrides):
     return data
 
 
+def test_para_aortic_station_drives_iiic2() -> None:
+    data = extraction_base(
+        lymph_nodes_total_positive=2,
+        tnm_pN="pN2",
+        lymph_node_stations=[
+            {"site": "right paraaortic lymph node", "group": "para_aortic", "positive": True},
+            {"site": "right pelvic lymph node", "group": "pelvic", "positive": True},
+        ],
+    )
+    facts = facts_from_extraction(data)
+    assert facts.para_aortic_nodes_positive is True
+    assert audit_extraction(data).computed_stage == "IIIC2"
+
+
+def test_pelvic_only_station_drives_iiic1() -> None:
+    data = extraction_base(
+        lymph_nodes_total_positive=1,
+        tnm_pN="pN1",
+        lymph_node_stations=[
+            {"site": "left pelvic lymph node", "group": "pelvic", "positive": True},
+            {"site": "para-aortic lymph node", "group": "para_aortic", "positive": False},
+        ],
+    )
+    facts = facts_from_extraction(data)
+    assert facts.pelvic_nodes_positive is True
+    assert facts.para_aortic_nodes_positive is False
+    assert audit_extraction(data).computed_stage == "IIIC1"
+
+
 def test_fallopian_tube_derived_from_evidence_blocks_ia3() -> None:
     data = extraction_base(adnexal_involvement="identified")
     evidence = {"adnexal_involvement": "Left fallopian tube involved by carcinoma."}

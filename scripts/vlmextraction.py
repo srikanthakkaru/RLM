@@ -1441,6 +1441,97 @@ def _run_staging_pass(
     )
 
 
+_PARA_AORTIC_NODE_KEYWORDS = (
+    "paraaortic", "para-aortic", "para aortic", "paraaottic", "para-aottic", "paraaotic",
+    "periaortic", "peri-aortic", "peri aortic", "aortic", "renal", "suprapelvic",
+)
+_PELVIC_NODE_KEYWORDS = (
+    "pelvic", "iliac", "obturator", "presacral", "sacral", "parametrial", "hypogastric",
+    "paracervical", "para-cervical",
+)
+
+
+def _node_station_group(line_low: str) -> str | None:
+    """Classify a node-station line as para-aortic vs pelvic (para-aortic wins ties)."""
+    if any(kw in line_low for kw in _PARA_AORTIC_NODE_KEYWORDS):
+        return "para_aortic"
+    if re.search(r"\bpa\b", line_low) and "node" in line_low:
+        return "para_aortic"
+    if any(kw in line_low for kw in _PELVIC_NODE_KEYWORDS):
+        return "pelvic"
+    return None
+
+
+def _window_has_positive_node(window: str) -> bool:
+    if re.search(r"\(\s*[1-9]\d*\s*/\s*\d+\s*\)", window):
+        return True
+    if re.search(r"\b[1-9]\d*\s+(?:out\s+of|of)\s+\d+\s+(?:lymph\s+)?nodes?", window):
+        return True
+    # A non-negated "metastatic / positive for / involved by" verdict. Negated forms such as
+    # "no metastatic carcinoma identified" are excluded by inspecting the preceding text.
+    for match in re.finditer(r"metastatic|positive for|involved by", window):
+        preceding = window[max(0, match.start() - 9):match.start()]
+        if not re.search(r"(?:\bno\b|negative|free of|without)\s*$", preceding):
+            return True
+    return False
+
+
+def _window_has_negative_node(window: str) -> bool:
+    return bool(
+        re.search(r"\(\s*0\s*/\s*\d+\s*\)", window)
+        or re.search(r"\bno\b\s+(?:tumou?r|metasta|malignan|carcinoma|evidence|lymph node)", window)
+        or "negative for" in window
+    )
+
+
+def detect_nodal_stations(report_text: str) -> list[dict]:
+    """Deterministically recover pelvic vs para-aortic node positivity from the narrative.
+
+    Field-level extraction reports only total examined/positive counts, which cannot separate
+    IIIC1 (pelvic-only) from IIIC2 (para-aortic) disease. This scans specimen-style node blocks
+    in the raw report, classifies each by station group, and marks it positive/negative — entirely
+    from the source text, so the IIIC1-vs-IIIC2 call stays auditable and never depends on the model.
+    """
+    lines = report_text.splitlines()
+    headers = [
+        (i, line)
+        for i, line in enumerate(lines)
+        if "node" in line.lower() and _node_station_group(line.lower()) is not None
+    ]
+    stations: list[dict] = []
+    for position, (line_no, header) in enumerate(headers):
+        group = _node_station_group(header.lower())
+        next_header = headers[position + 1][0] if position + 1 < len(headers) else len(lines)
+        end = min(next_header, line_no + 6, len(lines))
+        window = " ".join(lines[line_no:end]).lower()
+        if _window_has_positive_node(window):
+            positive = True
+        elif _window_has_negative_node(window):
+            positive = False
+        else:
+            continue
+        stations.append(
+            {"site": re.sub(r"\s+", " ", header.strip()), "group": group, "positive": positive}
+        )
+    return stations
+
+
+def _apply_nodal_station_detection(data: dict, report_text: str) -> list[str]:
+    """Merge deterministically-detected node stations into ``data`` and note any refinement."""
+    detected = detect_nodal_stations(report_text)
+    if not detected:
+        return []
+    existing = data.get("lymph_node_stations")
+    data["lymph_node_stations"] = (existing if isinstance(existing, list) else []) + detected
+    positive_groups = sorted(
+        {s["group"] for s in detected if s["positive"]}
+    )
+    if not positive_groups:
+        return []
+    label = ", ".join(g.replace("_", "-") for g in positive_groups)
+    return [f"lymph_node_stations: detected positive {label} node(s) (deterministic source scan)"]
+
+
 def extract_report(
     report_text: str,
     client: OllamaClient | None = None,
@@ -1562,6 +1653,14 @@ def extract_report(
             data, normalizations = canonicalize_extraction(data)
             normalizations.extend(staging_notes)
             validation = validate_extraction(data)
+
+    # Deterministic nodal-station detection: field-level extraction collapses every node into a
+    # single positive count, losing the pelvic (IIIC1) vs para-aortic (IIIC2) distinction. Recover
+    # station positivity straight from the source narrative (never the model) so staging can reach
+    # IIIC2 when the report documents para-aortic involvement.
+    station_notes = _apply_nodal_station_detection(data, report_text)
+    if station_notes:
+        normalizations.extend(station_notes)
 
     t_end = time.perf_counter()
     return ExtractionResult(

@@ -13,14 +13,53 @@ from vlmextraction import (  # noqa: E402
     ExtractionResult,
     ValidationResult,
     _apply_equivocal_backstop,
+    _apply_nodal_station_detection,
     _canonicalize_myometrial_invasion_category,
     _coerce_confidence,
     _derive_field_status,
     _parse_json_response,
     _parse_structured_json_response,
     canonicalize_extraction,
+    detect_nodal_stations,
     validate_extraction,
 )
+
+
+def test_detect_nodal_stations_para_aortic_positive() -> None:
+    # Para-aortic verdict via explicit count; pelvic verdict via prose; one negative para station.
+    report = (
+        "C. RIGHT PARAAORTIC LYMPH NODES:\n"
+        "- Two lymph nodes positive for metastatic adenocarcinoma (2/2)\n"
+        "D. RIGHT PELVIC LYMPH NODE:\n"
+        "- Metastatic carcinoma in one lymph node\n"
+        "E. LEFT PARA-AORTIC LYMPH NODE:\n"
+        "- No tumor identified (0/3)\n"
+    )
+    stations = detect_nodal_stations(report)
+    groups = {(s["group"], s["positive"]) for s in stations}
+    assert ("para_aortic", True) in groups
+    assert ("pelvic", True) in groups
+    assert ("para_aortic", False) in groups
+
+
+def test_detect_nodal_stations_ignores_negated_metastatic() -> None:
+    # "No metastatic carcinoma identified" must not register as a positive node.
+    report = (
+        "A. LEFT PERIAORTIC LYMPH NODE:\n"
+        "- No metastatic carcinoma identified in two lymph nodes (0/2)\n"
+    )
+    stations = detect_nodal_stations(report)
+    assert all(s["positive"] is False for s in stations)
+    assert any(s["group"] == "para_aortic" for s in stations)
+
+
+def test_apply_nodal_station_detection_notes_positive_group() -> None:
+    data: dict = {}
+    notes = _apply_nodal_station_detection(
+        data, "B. PARAAORTIC LYMPH NODE:\n- Metastatic carcinoma in one node\n"
+    )
+    assert data["lymph_node_stations"]
+    assert any("para-aortic" in note for note in notes)
 
 # Mirrors the garbled microscopic section of TCGA-A5-A0G1: serous histology stated, but LVSI
 # only ambiguously addressed ("cannot absolutely exclude"). A capable model returns this JSON.
