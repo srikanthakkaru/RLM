@@ -1,13 +1,20 @@
-Report: data\reports\TCGA-A5-A0GA.36A4F391-2F46-4896-8E53-223202E42A38.txt
+Report: C:\Users\mokku\RLM\data\report\TCGA-A5-A0GA.36A4F391-2F46-4896-8E53-223202E42A38.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
+VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
-Max Iterations: 5
-Execution Time: 599.41s
-Extraction Time: 12.35s
+Max Iterations: 3
+Execution Time: 173.79s
+Extraction Time: 15.98s
 Extraction Retries: 0
-Extraction Valid: True
+Extraction Valid: False
+Normalizations Applied:
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - serosal_involvement: 'identified' -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'identified' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
 Missing Fields (absent from report):
   - nuclear_grade
   - closest_margin_distance_cm
@@ -34,48 +41,38 @@ Stage Audit Missing Facts:
   - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
   - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate: passed (no violations)
-Date: 2026-06-20 18:06:55
+Date: 2026-06-22 14:01:52
 ================================================================================
 
-Here's a plain-language interpretation of the pathology report, broken down into sections:
+Diagnosis
 
-**Diagnosis**
+The patient underwent a hysterectomy with bilateral salpingo-oophorectomy. The diagnosis is endometrioid adenocarcinoma of the uterus, FIGO grade 3. The tumor measures 10.7 x 9.5 cm and invades approximately half (12.0 cm depth) of the myometrium (total thickness 26.0 cm). Lymphovascular invasion is present. There is also a mucinous neoplasm of borderline malignancy in the appendix with a small focus of metastatic endometrioid adenocarcinoma.
 
-The primary diagnosis is invasive endometrial adenocarcinoma, endometrioid type, grade 3. This means cancer cells originating in the lining of the uterus (endometrium) have invaded the muscular wall (myometrium). The tumor is described as grade 3, indicating it appears relatively aggressive under the microscope. Additionally, there was a mucinous neoplasm of borderline malignancy found in the appendix.
+Staging
 
-**Staging**
+The computed FIGO stage is IIIC, based on regional nodal metastasis. The reported FIGO stage is III. This discrepancy reflects the difference between the less specific reported stage and the more detailed computed stage derived from the presence of positive lymph nodes.
 
-The report indicates the cancer has spread beyond the uterus:
--   It invaded deeply into the myometrium (12.0 mm out of 26.0 mm total depth).
--   There is extensive lymphatic invasion within the primary tumor.
--   Metastatic cancer cells were found in multiple lymph nodes, including:
-    -   Right paraaortic lymph node
-    -   Right pelvic lymph node
-    -   Left pelvic lymph node (largest one)
-    -   IMA (Inferior Mesenteric Artery) node
-    -   Cephalad IMA node
-    -   Left PA (Para-Aortic) lymph nodes
-    -   Left renal lymph node
-    -   Right renal lymph node
+Key Findings
 
-The presence of metastases in paraaortic and pelvic lymph nodes, as well as the deep myometrial invasion and extensive lymphatic invasion, indicates advanced disease. The specific stage would require further clinical information not provided in this report (e.g., imaging results). However, based on lymph node involvement alone, it is at least Stage IIIc.
+- Histologic type: Endometrioid adenocarcinoma
+- FIGO grade: 3 (High grade)
+- Tumor size: 10.7 x 9.5 cm
+- Myometrial invasion: Deep, approximately 50% (derived from reported measurements of 12.0 cm depth / 26.0 cm thickness ≈ 46.2%)
+- Lymphovascular invasion (LVI): Present
+- Cervical stromal involvement: Uncertain
+- Lymph node metastasis: Positive (5 out of 19 nodes positive, including right paraaortic, right pelvic, left pelvic, sacral, and IMA nodes)
+- Extracapsular extension: Present in lymph nodes
+- Margin status: Uninvolved
+- Additional findings: Leiomyomas, mucinous neoplasm of borderline malignancy in the appendix with metastasis.
 
-**Key Findings**
+Expert Summary
 
-1.  **Primary Tumor:** Invasive endometrioid adenocarcinoma, grade 3, located in the uterus. It invaded deeply into the uterine wall (myometrium) and showed extensive lymphatic invasion.
-2.  **Lymph Node Metastasis:** Cancer cells were found in multiple lymph nodes throughout the pelvis and paraaortic region (nodes near major abdominal arteries). Some metastases also showed extension into the tissue surrounding the lymph nodes (perinodal soft tissue).
-3.  **Adnexa:** Both ovaries and fallopian tubes were removed (salpingo-oophorectomy) but showed no signs of cancer involvement.
-4.  **Appendix:** A mucinous neoplasm of borderline malignancy was found in the appendix, along with a small focus of metastatic endometrioid adenocarcinoma (the same type as the primary uterine cancer).
-5.  **Other Findings:** Leiomyomas (benign fibroids) were present in the uterus. A tubular adenoma (a benign polyp) was found in the right colon. The omentum (fatty tissue covering abdominal organs) was clear of tumor.
+The pathology report details a high-grade (Grade 3) endometrioid adenocarcinoma measuring 10.7 x 9.5 cm, invading approximately half of the myometrium. The tumor exhibits lymphovascular invasion and has metastasized to multiple pelvic and paraaortic lymph nodes, with extracapsular extension noted in some involved nodes. There is also a separate finding of a mucinous neoplasm of borderline malignancy in the appendix, which contains metastatic endometrioid carcinoma. The surgical margins are negative for tumor.
 
-**Expert Summary**
+Patient-Friendly Explanation
 
-The pathologist identified a high-grade endometrial cancer with deep invasion and significant spread to multiple lymph nodes, indicating advanced disease. There were also findings in the appendix (borderline mucinous neoplasm and metastasis) and colon (benign adenoma). The grading of some metastases was difficult due to cellular changes (squamous metaplasia, clear cell changes) within the tumor cells.
+The surgery showed cancer in the lining of the uterus (endometrium). It was a type called endometrioid adenocarcinoma and was high grade (Grade 3). The cancer was quite large (10.7 x 9.5 cm) and grew deeply into the muscle wall of the uterus (about half way through). Cancer cells were found in nearby lymph nodes, including some higher up near major blood vessels, and there was spread outside the capsule of some of these nodes. There was also cancer found in the appendix, which had a separate borderline tumor. The edges of the removed tissue did not show any cancer cells.
 
-**Patient-Friendly Explanation**
+Next-Step Considerations
 
-The pathology report confirms you have endometrial cancer (cancer of the uterine lining). It is an aggressive type (grade 3) and has spread deeply into the muscle wall of your uterus. More importantly, it has spread to several lymph nodes in your pelvis and abdomen. The surgery removed the uterus, cervix, both ovaries, and fallopian tubes. Additionally, a borderline tumor was found in your appendix, and there was also a small amount of cancer spread to the appendix itself. A benign polyp was also found in your colon.
-
-**Next-Step Considerations**
-
-Based on this report, further treatment is likely needed beyond surgery due to the advanced stage (spread to lymph nodes). This typically involves chemotherapy and possibly radiation therapy or hormone therapy. The specific treatment plan will depend on the final staging, your overall health, and discussions with your oncologist. Further imaging might be done to assess for any other potential spread not detected by the pathology exam.
+The final stage is computed as IIIC, requiring pathologist verification due to the presence of regional nodal metastasis. The status of cervical stromal involvement is uncertain and requires clarification.

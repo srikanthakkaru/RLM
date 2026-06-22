@@ -1,17 +1,24 @@
-Report: data\reports\TCGA-A5-A0G3.66DEDB33-CA2C-4967-8074-1EFC1FC3CF29.txt
+Report: C:\Users\mokku\RLM\data\report\TCGA-A5-A0G3.66DEDB33-CA2C-4967-8074-1EFC1FC3CF29.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
+VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
-Max Iterations: 5
-Execution Time: 506.38s
-Extraction Time: 11.56s
+Max Iterations: 3
+Execution Time: 155.24s
+Extraction Time: 15.37s
 Extraction Retries: 0
-Extraction Valid: True
+Extraction Valid: False
+Normalizations Applied:
+  - cervical_stromal_involvement: 'identified' -> 'uncertain' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
 Missing Fields (absent from report):
   - nuclear_grade
   - closest_margin_distance_cm
   - closest_margin_location
+  - extracapsular_extension
   - specimen_integrity
 Stage Audit Status: supported
 Computed FIGO Stage: IIIC
@@ -34,46 +41,38 @@ Stage Audit Missing Facts:
   - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
   - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate: passed (no violations)
-Date: 2026-06-20 17:24:06
+Date: 2026-06-22 13:46:43
 ================================================================================
 
-**Diagnosis**
+Diagnosis
 
-The patient has uterine papillary serous adenocarcinoma. The tumor measures 4.5 cm in size and invades the inner half of the myometrium. It also involves the cervix, invading into the endocervical stroma. There is invasion of a submucosal leiomyoma by the adenocarcinoma. The vaginal cuff is not involved. Surgical margins and parametrial tissue are also clear of tumor.
+The diagnosis is uterine papillary serous adenocarcinoma (FIGO Grade 3) with tumor size of 4.5 cm. The report documents invasion into the inner half of the myometrium, involvement of the endocervical stroma, and possible bilateral paraovarian lymphovascular invasion. Additional findings include foci of tumor necrosis with associated calcifications and invasion of a submucosal leiomyoma by adenocarcinoma.
 
-**Staging**
+Staging
 
-Based on the AJCC 2002 staging system, the clinical stage is IIIC. The pathological stage (pTNM) is pT2b N1 Mx.
--   pT2b: Tumor invades inner half of myometrium.
--   N1: Metastasis in one or more pelvic lymph nodes.
--   Mx: Distant metastasis cannot be assessed.
+The computed FIGO stage is IIIC, supported by the presence of regional nodal metastasis (positive pelvic and para-aortic lymph nodes). The reported FIGO stage is also IIIC. The report documents positive lymph nodes in the right common iliac, right pelvic, left pelvic, right para-aortic, and right common iliac stations.
 
-**Key Findings**
+Key Findings
 
-*   **Primary Tumor:** Uterine papillary serous adenocarcinoma, 4.5 cm, invading the inner half of the myometrium (pT2b).
-*   **Cervical Involvement:** Adenocarcinoma invades endocervical stroma.
-*   **Lymph Node Metastasis:** Positive pelvic lymph nodes (right paraaortic, right common iliac, right pelvic, and left pelvic) indicating N1 disease. Specifically:
-    *   Right Paraaortic: 2/2 positive nodes with focal extracapsular extension in one node.
-    *   Right Common Iliac: 2/2 positive nodes.
-    *   Right Pelvic: 1/1 positive node.
-    *   Left Pelvic: 1/2 positive nodes, with endosalpingiosis noted in the metastatic node.
-*   **Other Findings:**
-    *   Adenomyosis present.
-    *   Four leiomyomas (fibroids) of varying types and sizes (1.0 to 3.5 cm), one of which is involved by the tumor.
-    *   Small endometrial polyp partially involved by adenocarcinoma.
-    *   Non-neoplastic endometrium is atrophic.
-    *   Omentum shows microadhesions but no evidence of malignancy.
-    *   Bilateral ovaries and fallopian tubes were removed (bilateral salpingo-oophorectomy) and show no evidence of metastatic adenocarcinoma, although the report notes "possible metastatic adenocarcinoma" in the bilateral ovaries which seems contradictory to "no evidence". The fallopian tubes showed focal mucosal hyperplasia but no tumor.
-    *   Surgical margins/parametrial tissue are negative for tumor.
+*   Histologic Type: Serous carcinoma (non-endometrioid)
+*   FIGO Grade: 3
+*   Tumor Size: 4.5 cm
+*   Myometrial Invasion: Inner half (depth 0.5 cm, thickness 8.0 cm; derived from reported measurements, myometrial invasion is classified as <50%)
+*   Lymphovascular Invasion (LVI): Identified
+*   Cervical Stromal Involvement: Uncertain
+*   Serosal Involvement: Identified
+*   Lymph Node Metastasis: Positive (4/4 nodes positive, including pelvic and para-aortic stations)
+*   Extracapsular Extension: Focal
+*   Margins: Uninvolved
 
-**Expert Summary**
+Expert Summary
 
-The pathology report describes a moderately advanced uterine papillary serous adenocarcinoma (Stage IIIC, pT2b N1 Mx). The cancer has invaded the myometrium and spread to multiple pelvic and paraaortic lymph nodes. There is also cervical involvement and invasion of a leiomyoma. The omentum was negative for tumor.
+This is a high-risk endometrial carcinoma characterized by serous histology, high grade (Grade 3), deep myometrial invasion (inner half), lymphovascular invasion, cervical stromal involvement uncertainty, positive pelvic and para-aortic lymph nodes, and focal extracapsular extension. The patient underwent a hysterectomy with bilateral salpingo-oophorectomy.
 
-**Patient-Friendly Explanation**
+Patient-Friendly Explanation
 
-The pathology report confirms you have uterine cancer, specifically a type called papillary serous adenocarcinoma. The tumor is 4.5 cm in size and has grown into the muscle wall of your uterus (inner half). It has also spread to several lymph nodes in your pelvis and near the aorta. Additionally, the cancer has involved the cervix and one of your fibroids. The surgical removal included your uterus, fallopian tubes, ovaries, and part of the omentum. The margins of the surgery were clear, meaning no cancer was found at the edges of the removed tissue or in the surrounding parametrial tissue. The omentum did not show any signs of cancer spread.
+The pathology report shows you have an aggressive type of uterine cancer called serous adenocarcinoma. It is high grade (Grade 3) and has grown deeply into the muscle wall of the uterus (inner half). Cancer cells were found in several lymph nodes in your pelvis and near your aorta, indicating that the cancer has spread regionally. There was also evidence of cancer cells in blood vessels within the uterus (lymphovascular invasion), involvement of the cervix, and some tumor features like necrosis and calcifications. The edges of the removed tissue did not show any cancer cells.
 
-**Next-Step Considerations**
+Next-Step Considerations
 
-Based on this report (Stage IIIC, pT2b N1 Mx), further treatment is likely required beyond surgery. This typically involves adjuvant chemotherapy and possibly radiation therapy, depending on specific factors and institutional protocols. A discussion with your oncologist regarding the optimal treatment plan based on the stage and grade of the cancer is essential.
+The following fields are uncertain or low confidence according to the provided data: cervical stromal involvement. The computed FIGO stage is provisional (requires pathologist verification). These aspects should be confirmed by a pathologist.

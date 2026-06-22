@@ -1,74 +1,68 @@
-Report: data\reports\TCGA-A5-A0G9.32FB682E-B73F-4525-A845-7F240F9F40CE.txt
+Report: C:\Users\mokku\RLM\data\report\TCGA-A5-A0G9.32FB682E-B73F-4525-A845-7F240F9F40CE.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
+VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
-Max Iterations: 5
-Execution Time: 684.44s
-Extraction Time: 15.62s
-Extraction Retries: 1
-Extraction Valid: True
-Uncertain Fields (addressed but ambiguous in report):
-  - cervical_stromal_involvement (0.50) — "Representative sections. L. Posterior cervix with two tiny endocervical polyps - 1 M. Anterior cervix - 1 N. Posterior lower uterine segment with tumor and adjac"
+Max Iterations: 3
+Execution Time: 325.36s
+Extraction Time: 16.85s
+Extraction Retries: 0
+Extraction Valid: False
+Normalizations Applied:
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
 Missing Fields (absent from report):
-  - myometrial_thickness_cm
-  - serosal_involvement
   - closest_margin_distance_cm
   - closest_margin_location
-  - tnm_pT
-  - tnm_pN
-  - tnm_pM
-  - figo_stage
+  - extracapsular_extension
   - specimen_integrity
 Stage Audit Status: indeterminate
-Computed FIGO Stage: IIC
-Reported FIGO Stage: not reported
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIC
+Reported FIGO Stage: III
 Stage Audit Missing Facts:
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IIB (IIB_SUBSTANTIAL_LVSI))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IIB (IIB_SUBSTANTIAL_LVSI))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IB (IB_DEEP))
   - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate Violations:
   - [error:ungrounded_number] '70%' not found in extraction or report
-  - [error:ungrounded_number] '70%' not found in extraction or report
-  - [warning:invented_stage] Staging cites FIGO 'III' which is not among reported/computed/provisional stages ['IIC']
-Date: 2026-06-20 17:52:19
+Date: 2026-06-22 13:58:32
 ================================================================================
 
-Here is a plain-language interpretation of the pathology report, broken down into sections as requested.
+Diagnosis
 
-**Diagnosis**
+The patient underwent a total abdominal hysterectomy with bilateral salpingo-oophorectomy. The diagnosis is primary uterine adenocarcinoma, predominantly endometrioid type with associated secretory, eosinophilic, and squamoid changes, focal mucinous type, and possible minor component of tumor with clear cell features. The tumor is FIGO grade 3.
 
-The patient underwent a total abdominal hysterectomy (removal of the uterus, cervix, and upper vagina) and unilateral salpingo-oophorectomy (removal of one fallopian tube and ovary). The primary diagnosis is uterine adenocarcinoma, specifically an endometrioid type with several associated features (secretory, eosinophilic, squamoid changes, focal mucinous type, possible minor clear cell component). The tumor is graded as FIGO grade III.
+Staging
 
-**Staging**
+The clinical stage is reported as FIGO Stage III. Based on the pathology findings, the computed stage is indeterminate due to missing information required by the FIGO 2023 rules (specifically histology aggressiveness and LVSI extent). A provisional stage of IIC has been assigned by the staging engine, pending pathologist verification.
 
-The report provides information relevant to staging but does not explicitly state the final stage. Key findings related to staging include:
-*   Myometrial invasion: Tumor invades more than 50% (65-70%) of the uterine wall thickness.
-*   Extension: Tumor extends into the posterior lower uterine segment, with superficial invasion there.
-*   Lymphovascular invasion: Present.
-*   Cervical involvement: No extension into the endocervix or ectocervix.
-*   Parametrial involvement: No involvement of parametrial soft tissues identified grossly.
-*   Lymph nodes: 13 pelvic and para-aortic lymph nodes were examined, and all were negative for cancer spread (0/13).
+Key Findings
 
-**Key Findings**
+- Histologic Type: Adenocarcinoma, predominantly endometrioid with mixed features.
+- FIGO Grade: 3
+- Tumor Size: 7.4 x 3.8 x 4.1 cm
+- Myometrial Invasion: The tumor involves greater than 50% (about 65-70%) of the uterine wall thickness in the deepest area of invasion. This corresponds to a calculated myometrial invasion percentage of 65.0%, classified as ≥50%.
+- Lymphovascular Invasion (LVSI): Identified.
+- Cervical Stromal Involvement: Uncertain.
+- Margin Status: Uninvolved.
+- Lymph Nodes: 10 pelvic and paraortic lymph nodes were examined, and none were positive for metastatic carcinoma (0/10).
+- Additional Findings: Adenomyosis, leiomyomas, endocervical polyps, inflammation, and a paraovarian cyst were also noted.
 
-*   **Tumor Type & Grade:** Primary uterine adenocarcinoma, predominantly endometrioid type with mixed features, FIGO grade III.
-*   **Tumor Extent within Uterus:** Extensive involvement of the uterine fundus, anterior and posterior corpus. Invasion into the posterior lower uterine segment.
-*   **Myometrial Invasion Depth:** Greater than 50% (65-70%) invasion depth.
-*   **Lymphovascular Invasion:** Present.
-*   **Cervical Involvement:** No extension into endocervix or ectocervix.
-*   **Parametrial Involvement:** Not identified grossly.
-*   **Lymph Node Status:** All 13 examined lymph nodes (pelvic and para-aortic) are negative for metastatic carcinoma.
-*   **Other Uterine Findings:** Adenomyosis (endometrial tissue within the myometrium), with some areas involved by cancer. Five benign leiomyomas (fibroids). Non-neoplastic endometrium shows various changes, including simple and complex hyperplasia with atypia.
-*   **Adnexal Findings (Right):** Ovary shows senescent changes, cortical stromal hyperplasia/hyperthecosis, cysts. Fallopian tube shows chronic inflammation and mild epithelial hyperplasia without significant atypia. No evidence of metastatic carcinoma.
-*   **Adnexal Findings (Left):** Ovary shows atrophic changes, cortical stromal hyperplasia/hyperthecosis, cysts. Fallopian tube shows chronic inflammation. No evidence of metastatic carcinoma.
+Expert Summary
 
-**Expert Summary**
+The patient has a high-risk endometrial adenocarcinoma based on FIGO grade 3 histology, deep myometrial invasion (>50%), and the presence of lymphovascular invasion. While cervical stromal involvement is uncertain and lymph nodes are negative, the high grade and depth of invasion indicate a significant risk profile. The reported clinical stage III may be related to factors not fully captured in the pathology report (e.g., peritoneal cytology or imaging findings), as the computed stage based solely on pathological criteria is indeterminate.
 
-The pathology report describes a high-grade (Grade III) uterine cancer that has deeply invaded the myometrium (>50%) and extends into the lower uterine segment. Lymphovascular invasion is present. Importantly, the cancer has not spread to the examined lymph nodes or grossly to the parametria, cervix, fallopian tubes, or ovaries. There were also benign fibroids and adenomyosis found in the uterus.
+Patient-Friendly Explanation
 
-**Patient-Friendly Explanation**
+The surgery showed cancer in the uterus, fallopian tubes, and ovaries. The cancer cells are grade 3, which means they look quite abnormal under the microscope. The cancer has grown deeply into the muscle wall of the uterus (more than half the way through). Cancer cells were found in the small vessels within the tumor, and there is uncertainty about whether the cancer reached the cervix's supporting tissue. The edges of the removed tissue did not show any cancer cells. Importantly, no cancer was found in the lymph nodes that were checked. There were also some other non-cancerous findings like adenomyosis (endometrial tissue within the muscle wall), fibroids, and polyps.
 
-The surgery removed your uterus, cervix, both fallopian tubes, and one ovary. The pathology report confirms you have uterine cancer. It's a type called endometrioid adenocarcinoma, which is common. The cancer cells look aggressive under the microscope (Grade III). The tumor has grown deeply into the muscle wall of your uterus (more than halfway through) and extends down into the lower part of the uterus. There are signs that the cancer might have access to blood vessels or lymphatics (lymphovascular invasion), which increases the risk of spread, but the good news is that none of the nearby lymph nodes that were removed showed any sign of cancer cells. The cancer also did not appear to have spread to the fallopian tubes, ovaries, cervix, or surrounding tissues outside the uterus based on this examination. There were also benign fibroids and adenomyosis found in your uterus.
+Next-Step Considerations
 
-**Next-Step Considerations**
-
-Based on the findings (deep myometrial invasion, lymphovascular invasion, negative lymph nodes), further treatment beyond surgery is likely needed. The specific stage will be determined by a gynecologic oncologist based on these findings (especially the depth of myometrial invasion and presence of lymphovascular invasion). Staging typically involves imaging studies as well. Treatment options often include adjuvant therapy such as radiation or chemotherapy, depending on the final stage and risk factors. Consultation with a gynecologic oncologist is crucial to discuss the stage, prognosis, and appropriate treatment plan.
+The pathology report includes uncertain findings regarding cervical stromal involvement. The computed FIGO stage is indeterminate, and a provisional stage of IIC has been assigned. These aspects require pathologist verification.

@@ -1,81 +1,72 @@
-Report: data\reports\TCGA-A5-A0G2.A3CD42AF-D356-415B-958D-D14D7AC52693.txt
+Report: C:\Users\mokku\RLM\data\report\TCGA-A5-A0G2.A3CD42AF-D356-415B-958D-D14D7AC52693.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
+VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
-Max Iterations: 5
-Execution Time: 693.09s
-Extraction Time: 38.61s
-Extraction Retries: 1
-Extraction Valid: True
+Max Iterations: 3
+Execution Time: 164.57s
+Extraction Time: 15.14s
+Extraction Retries: 0
+Extraction Valid: False
+Normalizations Applied:
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - adnexal_involvement: 'identified' -> 'not identified' (staging re-read)
+  - lymphovascular_invasion: 'not identified' -> 'identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not identified' -> 'identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
 Missing Fields (absent from report):
   - nuclear_grade
   - closest_margin_distance_cm
   - closest_margin_location
-Stage Audit Status: indeterminate
-Computed FIGO Stage: IIIA2
-Reported FIGO Stage: not reported
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: discrepant
+Computed FIGO Stage: IIIB2
+Reported FIGO Stage: IIIA
 Stage Audit Missing Facts:
-  - extrapelvic_peritoneal_metastasis: No extracted or mapped value is available (IVB (IVB_EXTRAPELVIC_PERITONEAL))
-  - bladder_or_bowel_mucosa_invasion: No extracted or mapped value is available (IVA (IVA_MUCOSA))
-  - pelvic_peritoneal_metastasis: No extracted or mapped value is available (IIIB2 (IIIB2_PELVIC_PERITONEAL))
-  - vaginal_or_parametrial_involvement: No extracted or mapped value is available (IIIB1 (IIIB1_VAGINA_PARAMETRIA))
   - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IIB (IIB_SUBSTANTIAL_LVSI))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IIB (IIB_SUBSTANTIAL_LVSI))
   - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
-  - vaginal_or_parametrial_involvement: Rules out or supports vaginal/parametrial spread (IIIB1)
-  - pelvic_peritoneal_metastasis: Rules out or supports pelvic peritoneal metastasis (IIIB2)
-  - bladder_or_bowel_mucosa_invasion: Rules out or supports bladder/bowel mucosal invasion (IVA)
-  - extrapelvic_peritoneal_metastasis: Rules out or supports extrapelvic peritoneal metastasis (IVB)
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IB (IB_DEEP))
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate: passed (no violations)
-Date: 2026-06-20 17:12:52
+Date: 2026-06-22 13:41:24
 ================================================================================
 
-Here's an interpretation of the pathology report, broken down into sections as requested:
+Diagnosis
 
-**Diagnosis**
+The diagnosis is high-grade serous papillary adenocarcinoma of the endometrium, invading the myometrium, with involvement of the cervical stroma (uncertain), uterine serosa, parametrium, pelvic peritoneum, and cul-de-sac. Lymph nodes were examined but are negative for metastasis. The tumor size is 3.5 cm.
 
-*   The primary diagnosis is **Adenocarcinoma** of the endometrium (lining of the uterus).
-*   The specific type is **Serous papillary adenocarcinoma**.
-*   It is classified as **High grade/Invasive**.
-*   The tumor has spread beyond the uterus. Specifically, it involves:
-    *   The uterine serosa (outer layer)
-    *   The peritoneum of the cul-de-sac (pouch at the end of the vagina)
-    *   The right parametrium (tissue next to the uterus)
-    *   The right uterosacral ligament
-    *   The cervix/endocervix shows squamous metaplasia, follicular cervicitis, and metastatic adenocarcinoma.
-*   The tumor involves the omentum (fatty tissue in the abdomen).
-*   The ovaries and fallopian tubes were removed (bilateral salpingo-oophorectomy) as part of the hysterectomy but show atrophy and small cysts; they are not reported to contain tumor.
-*   The appendix is unremarkable.
+Staging
 
-**Staging**
+The computed FIGO stage is IIIB2 based on the presence of pelvic peritoneal metastasis. This differs from the reported stage of IIIA.
 
-*   Based on the information provided, the clinical stage is **IIIA**. This is determined by the T3a classification (tumor extending through the uterine wall into the serosa or adjacent structures) and N0 (no lymph node involvement reported). M status is not explicitly stated but implied as no distant metastasis was found in examined tissues.
+Key Findings
 
-**Key Findings**
+*   **Histologic Type:** Serous papillary adenocarcinoma (a non-endometrioid type).
+*   **FIGO Grade:** 3 (high grade).
+*   **Tumor Size:** 3.5 cm.
+*   **Myometrial Invasion:** The report states the tumor is 0.5 cm from the serosa, and the anterior myometrium averages 1.4 cm thick. Based on these measurements, derived from reported values (0.5 cm depth / 1.4 cm thickness ≈ 35.7%), myometrial invasion is classified as <50%.
+*   **Lymphovascular Invasion (LVSI):** Identified.
+*   **Cervical Stromal Involvement:** Uncertain.
+*   **Serosal Involvement:** Identified.
+*   **Adnexal Involvement:** Not identified.
+*   **Vaginal/Parametrial Involvement:** Identified.
+*   **Pelvic Peritoneal Metastasis:** Identified.
+*   **Lymph Nodes:** 11 nodes examined, 0 positive (N0).
+*   **Margins:** Uninvolved.
 
-*   **Tumor Characteristics:** High-grade serous papillary adenocarcinoma with solid areas, clear cell features in some parts, significant cellular atypia (anisokaryosis, poikilokaryosis), and numerous mitoses (indicating rapid growth).
-*   **Local Invasion:** The tumor invades deeply into the myometrium (uterine muscle wall) and extends to the uterine serosa. There is direct extension/invasion into the right parametrium, cul-de-sac peritoneum, and right uterosacral ligament.
-*   **Lymph Nodes:** Eleven pelvic and periaortic lymph nodes were examined, and **none** showed evidence of tumor involvement (N0).
-*   **Omentum:** Biopsies from the omentum show adhesions but no tumor on gross or microscopic examination.
-*   **Other Sites:** The left parametrium, lower uterus/endocervix, appendix, and background endometrium are free of tumor. The cervix shows inflammation (follicular cervicitis) and metaplasia. Ovaries and tubes show atrophy.
-*   **Gross Findings:** The uterus with the tumor mass was removed. The tumor is described as a large polypoid mass in the posterior superior uterine wall and left cornu, measuring 3.5 x 3.0 x 2.5 cm, with necrosis and hemorrhage.
+Expert Summary
 
-**Expert Summary**
+This is a high-risk endometrial carcinoma characterized by non-endometrioid histology (serous papillary), high FIGO grade (Grade 3), deep myometrial invasion (<50% calculated from reported depth/thickness, but note the discrepancy in the validation warnings), positive lymphovascular invasion, and extensive extrauterine spread including pelvic peritoneal metastasis. The computed stage is IIIB2 due to pelvic peritoneal metastasis, which differs from the reported stage of IIIA.
 
-*   The patient has a high-grade invasive serous papillary endometrial adenocarcinoma.
-*   The tumor is locally advanced, invading through the uterine wall to the serosa and spreading to nearby pelvic structures (parametrium, uterosacral ligament, cul-de-sac peritoneum).
-*   There is no evidence of spread to the examined lymph nodes or omentum.
-*   The ovaries and fallopian tubes were removed but do not appear involved by tumor based on this report.
+Patient-Friendly Explanation
 
-**Patient-Friendly Explanation**
+The patient has an aggressive type of uterine cancer (serous papillary adenocarcinoma) that is high grade. It has grown deeply into the muscle wall of the uterus (<50% based on calculated depth/thickness), and it has spread to the surface of the uterus, the parametrium (tissue next to the uterus), the pelvic peritoneum (lining of the pelvis), and the cul-de-sac (space behind the uterus). The cancer has not spread to the lymph nodes that were checked. Based on this spread, the stage is IIIB2.
 
-*   You have been diagnosed with an aggressive type of uterine cancer called high-grade serous papillary adenocarcinoma.
-*   This cancer has grown deeply into the wall of your uterus and spread to nearby tissues in the pelvis, including the outer lining of the uterus (serosa), the space behind the vagina (cul-de-sac), and a ligament supporting the uterus (uterosacral ligament).
-*   The good news is that the cancer does not appear to have spread to the lymph nodes that were checked or to the omentum.
-*   Your ovaries and fallopian tubes were also removed, but they did not show signs of cancer in this report.
+Next-Step Considerations
 
-**Next-Step Considerations**
-
-*   Further treatment will likely be needed due to the advanced stage (Stage IIIA) and local spread of the tumor. This often includes chemotherapy and possibly radiation therapy, depending on specific factors and institutional protocols.
-*   The exact treatment plan should be discussed with your oncologist based on this pathology report and other clinical information.
-*   Follow-up imaging and monitoring will be necessary.
+The computed FIGO stage is IIIB2, which differs from the reported stage of IIIA. The presence of pelvic peritoneal metastasis drives the higher computed stage. Additionally, cervical stromal involvement is listed as uncertain and lymphovascular invasion is identified. These findings require pathologist verification.

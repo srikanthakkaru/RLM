@@ -1,13 +1,18 @@
-Report: data\reports\TCGA-A5-A0GG.6867E576-1020-41D7-BC18-25160FE17F81.txt
+Report: C:\Users\mokku\RLM\data\report\TCGA-A5-A0GG.6867E576-1020-41D7-BC18-25160FE17F81.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
+VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
-Max Iterations: 5
-Execution Time: 632.42s
-Extraction Time: 12.72s
+Max Iterations: 3
+Execution Time: 216.16s
+Extraction Time: 37.51s
 Extraction Retries: 0
-Extraction Valid: True
+Extraction Valid: False
+Normalizations Applied:
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
 Missing Fields (absent from report):
   - closest_margin_distance_cm
   - closest_margin_location
@@ -19,52 +24,39 @@ Reported FIGO Stage: II
 Stage Audit Missing Facts:
   - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
   - histology_aggressiveness: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
-Grounding Gate Violations:
-  - [warning:invented_stage] Staging cites FIGO 'IA' which is not among reported/computed/provisional stages ['II', 'IIC']
-Date: 2026-06-20 18:57:46
+Grounding Gate: passed (no violations)
+Date: 2026-06-22 14:08:47
 ================================================================================
 
-Here is a plain-language interpretation of the pathology report, broken down into sections as requested.
+Diagnosis
 
-**Diagnosis**
+The diagnosis is primary endometrial adenocarcinoma, endometrioid type, with villoglandular features, focal superimposed secretory changes, and possible minor neuroendocrine component, FIGO grade II, nuclear grade 2. The tumor extensively involves the endometrium of the uterine fundus, anterior corpus, and posterior corpus. Minimal (focal) superficial myometrial invasion is present, involving less than 10% of the uterine wall thickness. There is no lymphatic or blood vessel invasion identified. No extension into the lower uterine segment or cervix is noted. Parametrial tissues are free of tumor. No metastatic carcinoma is evident in the ovaries or fallopian tubes. The procedure performed was a total abdominal hysterectomy and bilateral salpingo-oophorectomy.
 
-The primary diagnosis is endometrial adenocarcinoma, specifically endometrioid type with villoglandular features and possible minor neuroendocrine component. The tumor is FIGO grade II (which corresponds to nuclear grade 2 based on the comment). This cancer was found in the uterus. Additional findings include:
--   Non-neoplastic endometrium showing simple and complex glandular hyperplasia with varying degrees of cytologic atypia.
--   Four uterine leiomyomas (fibroids), one microscopic.
--   Adhesions and cysts related to the fallopian tubes and ovaries.
--   Atrophic changes in both ovaries.
+Staging
 
-**Staging**
+The computed FIGO stage is indeterminate, requiring further information for accurate staging according to FIGO 2023 rules. Specifically, histology aggressiveness data is needed. The reported FIGO stage is II.
 
-The report provides information relevant to staging but does not explicitly state a final TNM stage or FIGO stage. Key findings for staging include:
--   Tumor grade (FIGO Grade II / Nuclear Grade 2).
--   Myometrial invasion: Minimal (focal) superficial invasion, involving less than 10% of the uterine wall thickness.
--   No extension into the lower uterine segment or cervix.
--   Parametria are free of tumor.
--   No evidence of metastatic carcinoma in the ovaries or fallopian tubes.
--   Lymph nodes: Multiple pelvic and periaortic lymph nodes were examined (a total of 23 nodes), and none showed evidence of cancer metastasis (0/23).
--   No evidence of metastatic carcinoma in biopsies from soft tissues in the pelvis or omentum.
+Key Findings
 
-**Key Findings**
+*   Histologic type: Adenocarcinoma, endometrioid type with villoglandular features
+*   FIGO Grade: 2
+*   Tumor Size: 4.5 cm (greatest dimension)
+*   Myometrial Invasion: Minimal (focal), superficial, involving <10% of the uterine wall thickness. Computed as <50%.
+*   Lymphovascular Invasion (LVI): Not identified
+*   Cervical Stromal Involvement: Uncertain
+*   Lymph Nodes Examined: 8 pelvic nodes, 1 precaval/common node, 2 periaortic nodes, 1 common iliac node, 5 left pelvic nodes, 3 right pelvic nodes. Total of 24 lymph nodes examined.
+*   Lymph Nodes Positive: 0 out of 24 (N0)
+*   Margins: Uninvolved
+*   Additional Findings: Endometrial hyperplasia with atypia, uterine leiomyomas, serosal adhesions, cysts on ovaries and fallopian tubes, positive staining for synaptophysin and chromogranin in some tumor cells.
 
-*   **Primary Tumor:** Endometrial adenocarcinoma, endometrioid type, FIGO Grade II, with focal superficial myometrial invasion (<10%).
-*   **Lymph Nodes:** 23 lymph nodes examined were negative for cancer (0/23).
-*   **Other Organs:** No evidence of spread to ovaries, fallopian tubes, parametria, pelvic soft tissues, or omentum.
-*   **Additional Findings:** Uterine leiomyomas, endometrial hyperplasia, peritubal cysts, ovarian atrophy, and adhesions were also noted.
-*   **Neuroendocrine Component:** Immunohistochemical stains confirmed a few neoplastic cells staining positive for synaptophysin and rare cells positive for chromogranin, suggesting a minor neuroendocrine component.
+Expert Summary
 
-**Expert Summary**
+The patient has a FIGO Grade 2 endometrioid adenocarcinoma of the endometrium with villoglandular features and possible minor neuroendocrine component. The tumor is relatively large (4.5 cm) but shows only minimal superficial myometrial invasion (<10%). Lymphovascular invasion is absent, and lymph nodes are negative for metastasis (N0). Cervical stromal involvement is uncertain. Based on the reported FIGO stage II and the available data, further assessment might be needed to refine the stage according to FIGO 2023 criteria, particularly regarding histology aggressiveness.
 
-The patient underwent a total abdominal hysterectomy with bilateral salpingo-oophorectomy. The pathology confirms endometrial cancer (adenocarcinoma, endometrioid type) confined to the uterus with minimal invasion into the myometrium. There is no evidence of spread to the regional lymph nodes or distant sites examined (ovaries, fallopian tubes, parametria, pelvic soft tissues, omentum). Additional findings include benign leiomyomas and endometrial hyperplasia. The tumor has features suggesting a minor neuroendocrine component.
+Patient-Friendly Explanation
 
-**Patient-Friendly Explanation**
+You have been diagnosed with a type of uterine cancer called endometrial adenocarcinoma. It's classified as Grade 2, which means it has some abnormal features but is not the most aggressive type. The tumor grew quite large (4.5 cm) and invaded slightly into the muscle wall of the uterus (<10% thickness). However, the cancer did not spread to nearby lymph nodes or other organs that were removed during surgery (ovaries, fallopian tubes, omentum). There was no sign of cancer spreading through blood vessels or lymphatic channels in the uterus. The involvement of the cervix is uncertain.
 
-The pathology report confirms you have cancer of the uterine lining (endometrium). It's a type called endometrioid adenocarcinoma. The cancer is graded as FIGO Grade II, indicating it is moderately aggressive. The good news is that the cancer appears to be localized. It has grown minimally into the muscle wall of the uterus (<10%), and importantly, it has not spread to the lymph nodes removed during surgery or to the ovaries, fallopian tubes, surrounding tissues (parametria), pelvic soft tissue biopsies, or omentum. The report also notes some benign fibroids (leiomyomas) and changes in the uterine lining (hyperplasia).
+Next-Step Considerations
 
-**Next-Step Considerations**
-
-Based on this pathology report, the next steps typically involve:
-*   **Final Staging:** Determining the overall stage of the cancer based on the findings (e.g., FIGO Stage IA, Grade II, based on minimal myometrial invasion and negative nodes).
-*   **Adjuvant Therapy Discussion:** Discussing potential need for additional treatment after surgery (like radiation or chemotherapy) depending on the final stage and grade, although with minimal invasion and negative nodes, observation might be an option.
-*   **Follow-up Plan:** Establishing a plan for regular follow-up appointments and monitoring.
-*   **Genetic Counseling/Testing:** Consideration of genetic testing based on cancer type and personal/family history.
+The computed FIGO stage is indeterminate and requires pathologist verification, specifically regarding histology aggressiveness. The reported FIGO stage is II.

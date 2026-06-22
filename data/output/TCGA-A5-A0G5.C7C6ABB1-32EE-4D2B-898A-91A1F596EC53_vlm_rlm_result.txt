@@ -1,16 +1,20 @@
-Report: data\reports\TCGA-A5-A0G5.C7C6ABB1-32EE-4D2B-898A-91A1F596EC53.txt
+Report: C:\Users\mokku\RLM\data\report\TCGA-A5-A0G5.C7C6ABB1-32EE-4D2B-898A-91A1F596EC53.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
+VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
-Max Iterations: 5
-Execution Time: 341.98s
-Extraction Time: 13.04s
+Max Iterations: 3
+Execution Time: 178.54s
+Extraction Time: 17.70s
 Extraction Retries: 0
-Extraction Valid: True
+Extraction Valid: False
+Normalizations Applied:
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
 Missing Fields (absent from report):
-  - closest_margin_distance_cm
-  - closest_margin_location
   - specimen_integrity
 Stage Audit Status: supported
 Computed FIGO Stage: IIC
@@ -18,40 +22,36 @@ Reported FIGO Stage: IIC
 Stage Audit Missing Facts:
   - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate: passed (no violations)
-Date: 2026-06-20 17:33:04
+Date: 2026-06-22 13:51:30
 ================================================================================
 
-**Diagnosis**
+Diagnosis
 
-The primary diagnosis is a uterine carcinoma involving the endometrium. The tumor exhibits features of serous, clear cell, and undifferentiated/anaplastic types, with a high nuclear grade (Grade 3). The cancer has invaded more than 80% of the myometrial wall (pT1b stage based on AJCC 2002 criteria). Lymphovascular invasion is present. There was no evidence of metastatic carcinoma found in the omentum, pelvic lymph nodes, obturator lymph nodes, common iliac lymph nodes, periaortic lymph nodes, or fallopian tubes.
+The patient underwent a total abdominal hysterectomy with bilateral salpingo-oophorectomy and omentectomy for endometrial carcinoma. The tumor is identified as serous carcinoma, FIGO grade 3, with nuclear grade 3. The tumor measures 13.0 x 9.0 cm and involves the fundus, corpus, and posterior lower uterine segment, extending close to the endocervical-lower uterine segment junction. Myometrial invasion is present, involving greater than 80% of the uterine wall thickness (depth of 19 cm in an area where thickness is 23 cm). Lymphovascular invasion is identified. The cervix shows squamous epithelial defects/erosions, inflammation, and metaplasia. Seven leiomyomas are noted, one showing secondary involvement by carcinoma. Omentum, adnexa, parametria, pelvic peritoneum, bladder, and bowel mucosa are free of tumor. Lymph nodes examined (21 total) show no metastatic carcinoma; all were reactive. Margins are uninvolved.
 
-**Staging**
+Staging
 
-Based on the pathology findings and AJCC 2002 criteria, the preliminary pathologic stage is pT1b, N0, MX (where M is not assessed in this report). This indicates a tumor invading more than half of the myometrium but not extending to the serosa or beyond the uterus, with no evidence of lymph node metastasis.
+The computed FIGO stage is IIC, based on aggressive histology (serous carcinoma) with any myometrial invasion. The reported FIGO stage is also IIC.
 
-**Key Findings**
+Key Findings
 
-*   **Uterine Carcinoma:** Primary tumor located in the endometrium, involving the fundus, corpus, and lower uterine segment, nearly replacing these areas.
-*   **Tumor Features:** Mixed histology (serous, clear cell, undifferentiated/anaplastic), high nuclear grade (Grade 3).
-*   **Myometrial Invasion:** Deep invasion into the myometrium (>80% of wall thickness).
-*   **Lymphovascular Invasion:** Present.
-*   **Cervical Involvement:** Tumor extends close to the endocervical-lower uterine segment junction, but no cervical tissue involvement is identified. Free-floating neoplastic fragments are present in the endocervical canal.
-*   **Lymph Nodes:** Multiple lymph nodes were examined from pelvic, obturator, iliac, and periaortic regions; all were reactive, with no evidence of metastatic carcinoma (0/46 total nodes examined).
-*   **Omentum:** Examined in three parts, showing only mild inflammation, adhesions, and reactive changes. No metastatic carcinoma was found.
-*   **Adnexa (Fallopian Tubes & Ovaries):** Both ovaries showed atrophic changes and adhesions. The fallopian tubes showed chronic inflammation. The right fallopian tube showed focal epithelial hyperplasia with atypia/dysplasia, confirmed by p53 immunostaining. No evidence of metastatic carcinoma was found in either adnexa.
-*   **Other Uterine Findings:** Seven leiomyomas were present, one showing secondary involvement by the carcinoma. Scant non-neoplastic endometrium was noted. Cervical changes including erosions, inflammation, metaplasia, and hyperplasia were also described.
+- Histologic type: Serous carcinoma
+- FIGO grade: 3
+- Tumor size: 13.0 x 9.0 cm
+- Myometrial invasion: >80% (derived from reported measurements of 19 cm depth / 23 cm thickness)
+- Lymphovascular invasion: Present
+- Cervical stromal involvement: Uncertain
+- Lymph nodes: Negative (0/21)
+- Margins: Uninvolved
 
-**Expert Summary**
+Expert Summary
 
-The patient underwent a total abdominal hysterectomy with bilateral salpingo-oophorectomy. The pathology revealed a high-grade (Grade 3) mixed histology uterine carcinoma (serous, clear cell, undifferentiated) with deep myometrial invasion (pT1b) and lymphovascular invasion. Extensive lymph node dissection was negative for metastasis (N0). The omentum was also free of tumor. There were associated findings in the fallopian tubes (atypia/dysplasia on the right) and leiomyomas (one with secondary involvement).
+The patient has a high-risk endometrial carcinoma, specifically a FIGO grade 3 serous carcinoma with deep myometrial invasion (>80%) and lymphovascular invasion. The tumor is large (13.0 x 9.0 cm). While the cervix was examined, cervical stromal involvement is reported as uncertain. Lymph nodes are negative for metastasis. The surgical margins are uninvolved. The procedure involved a total hysterectomy with bilateral salpingo-oophorectomy and omentectomy.
 
-**Patient-Friendly Explanation**
+Patient-Friendly Explanation
 
-The surgery removed your uterus, cervix, both ovaries, and both fallopian tubes. The main finding is a cancer that started in the lining of your uterus (endometrium). It's an aggressive type, described as high grade and having features of different cell types (serous, clear cell, undifferentiated). The cancer grew deeply into the muscle wall of the uterus but did not spread to the nearby lymph nodes that were removed or to the omentum. There was also some abnormal activity found in one of your fallopian tubes.
+The surgery showed that you have an aggressive type of endometrial cancer (serous carcinoma, grade 3). The tumor was large and had grown deeply into the muscular wall of the uterus (>80% thickness) and also contained areas with lymphovascular invasion. There were no signs of cancer spread to the nearby lymph nodes or other organs examined during surgery (omentum, fallopian tubes, ovaries). The edges removed during surgery did not contain any cancer cells.
 
-**Next-Step Considerations**
+Next-Step Considerations
 
-Based on this report, further management decisions will likely involve:
-*   Consultation with a gynecologic oncologist for discussion of adjuvant therapy options (e.g., chemotherapy, radiation) given the high grade and deep myometrial invasion.
-*   Further evaluation or follow-up related to the findings in the right fallopian tube may be considered.
-*   Discussion regarding potential genetic testing based on tumor characteristics.
+The final pathology report includes a provisional FIGO stage (IIC) derived by the staging engine, which is supported by the reported stage. There are no uncertain fields listed that require pathologist verification.

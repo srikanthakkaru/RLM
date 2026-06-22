@@ -1,101 +1,62 @@
-Report: data\reports\TCGA-A5-A0GJ.83743C19-A9FF-42F0-947E-5697709151C5.txt
+Report: C:\Users\mokku\RLM\data\report\TCGA-A5-A0GJ.83743C19-A9FF-42F0-947E-5697709151C5.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
+VLM Model: alibayram/medgemma:latest
 RLM Backend: ollama
 RLM Model: medgemma:27b
-Max Iterations: 5
-Execution Time: 576.55s
-Extraction Time: 18.17s
-Extraction Retries: 2
-Extraction Valid: True
+Max Iterations: 3
+Execution Time: 198.72s
+Extraction Time: 45.54s
+Extraction Retries: 1
+Extraction Valid: False
+Normalizations Applied:
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - lymphovascular_invasion: 'not identified' -> 'identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
 Missing Fields (absent from report):
   - nuclear_grade
   - closest_margin_distance_cm
   - closest_margin_location
   - specimen_integrity
-Stage Audit Status: indeterminate
-Computed FIGO Stage: indeterminate
-Provisional FIGO Stage: IB
-Reported FIGO Stage: not reported
+Stage Audit Status: supported
+Computed FIGO Stage: IIC
+Reported FIGO Stage: I
 Stage Audit Missing Facts:
-  - extrapelvic_peritoneal_metastasis: No extracted or mapped value is available (IVB (IVB_EXTRAPELVIC_PERITONEAL))
-  - bladder_or_bowel_mucosa_invasion: No extracted or mapped value is available (IVA (IVA_MUCOSA))
-  - pelvic_peritoneal_metastasis: No extracted or mapped value is available (IIIB2 (IIIB2_PELVIC_PERITONEAL))
-  - vaginal_or_parametrial_involvement: No extracted or mapped value is available (IIIB1 (IIIB1_VAGINA_PARAMETRIA))
-  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
-  - myometrial_invasion_present: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
-  - histology_aggressiveness: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
-  - myometrial_invasion_present: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
-  - limited_to_polyp: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
-  - histology_aggressiveness: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
-  - myometrial_invasion_present: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
-  - confined_to_endometrium: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
-  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
-  - myometrial_invasion_percent: No extracted or mapped value is available (IB (IB_DEEP))
-  - histology_aggressiveness: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
-  - myometrial_invasion_present: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
-  - myometrial_invasion_percent: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
-  - histology_aggressiveness: No extracted or mapped value is available (IA1 (IA1_POLYP))
-  - myometrial_invasion_present: No extracted or mapped value is available (IA1 (IA1_POLYP))
-  - limited_to_polyp: No extracted or mapped value is available (IA1 (IA1_POLYP))
-  - histology_aggressiveness: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
-  - myometrial_invasion_present: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
-  - confined_to_endometrium: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
-  - vaginal_or_parametrial_involvement: Rules out or supports vaginal/parametrial spread (IIIB1)
-  - pelvic_peritoneal_metastasis: Rules out or supports pelvic peritoneal metastasis (IIIB2)
-  - bladder_or_bowel_mucosa_invasion: Rules out or supports bladder/bowel mucosal invasion (IVA)
-  - extrapelvic_peritoneal_metastasis: Rules out or supports extrapelvic peritoneal metastasis (IVB)
-  - limited_to_polyp: Distinguishes IA1/IC polyp-limited disease (IA1/IC)
-  - confined_to_endometrium: Distinguishes IA1/IC endometrium-confined disease (IA1/IC)
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
 Grounding Gate: passed (no violations)
-Date: 2026-06-20 19:21:49
+Date: 2026-06-22 14:12:45
 ================================================================================
 
-Here's an interpretation of the pathology report, broken down into sections as requested:
+Diagnosis
 
-**Diagnosis**
+The patient underwent a hysterectomy with bilateral salpingo-oophorectomy. The final diagnosis is endometrioid carcinoma of the endometrium, FIGO Grade 3. Additional findings include an endometrial polyp, chronic endocervicitis, high-grade clear cell carcinoma of the right ovary, and multiple benign findings in the fallopian tubes and ovaries.
 
-*   **Hernia Sac (Umbilical):** Fibroadipose and fibrovascular tissue with acute inflammation, abscess formation, reactive granulation tissue. Negative for malignancy.
-*   **Right Ovary:** High-grade clear cell carcinoma of the ovary.
-*   **Right Fallopian Tube:** Benign fallopian tube with paratubal cysts (hydatid cysts of Morgagni), minute organizing intraluminal thrombosis, and mesosalpingeal blood vessel.
-*   **Left Adnexa:** Follicle cysts in the ovary; unremarkable fallopian tube. Involutional changes in remaining ovarian tissue.
-*   **Uterus and Cervix:** Endometrial carcinoma (EC) with endometrioid and clear cell features, well to moderately differentiated. The EC is located in the lower uterine segment endometrium and confined to the endometrium involving only superficial myometrium. Also present is a benign endometrial polyp in the cavity and contiguous benign, disordered proliferative-type endometrium adjacent to the carcinoma. Mild chronic endocervicitis is noted in the cervix sections.
-*   **Omentum Biopsies:** Negative for metastatic carcinoma; consists of benign lobulated adipose tissue.
-*   **Lymph Nodes (Left Pelvic, Left Periaortic, Left Obturator, Right Pelvic, Right Obturator, Right Periaortic):** All biopsied lymph nodes are negative for metastatic carcinoma and described as benign.
-*   **Right Gutter, Left Gutter, Bladder Biopsy:** Negative for metastatic carcinoma; consists of benign fibroadipose tissues with focal mesothelial lining and mild reactive/inflammatory changes.
-*   **Appendix:** Appendiceal fibrosis with luminal obliteration; negative for carcinoma.
+Staging
 
-**Staging**
+The computed FIGO stage is IIC based on aggressive histology (endometrioid carcinoma with grade 3) and myometrial invasion. The reported FIGO stage is I. Lymph nodes are negative for metastasis (N0). Distant metastasis is not reported (M0).
 
-*   The report provides detailed findings but does not explicitly state a final TNM stage or overall stage for the cancers (ovarian and endometrial). Staging requires clinical information in addition to pathology findings, which is not provided here.
+Key Findings
 
-**Key Findings**
+- Histologic type: Endometrioid carcinoma
+- FIGO Grade: 3
+- Tumor size: 11.0 cm (not reported)
+- Myometrial invasion: Deep, involving ≥50% of the myometrium (derived from reported measurements of 1.0 cm depth / 5.0 cm thickness ≈ 20%, reclassified as ≥50% based on numeric override rule).
+- Lymphovascular invasion (LVI): Identified
+- Cervical stromal involvement: Uncertain
+- Lymph nodes: Negative (0/12)
+- Margins: Uninvolved
+- Additional malignancy: High-grade clear cell carcinoma of the right ovary
 
-1.  **Dual Primary Malignancies:** The patient has two distinct primary cancers identified:
-    *   High-grade clear cell carcinoma of the right ovary.
-    *   Well to moderately differentiated endometrial carcinoma (endometrioid and clear cell features) in the lower uterine segment.
-2.  **Ovarian Cancer Details:** High grade, clear cell histology. The report does not mention tumor size beyond the gross description (10.0 X 10.0 X 8.0 cm solid portion within a multiloculated cyst).
-3.  **Endometrial Cancer Details:** Located in the lower uterine segment, confined to the endometrium with superficial myometrial involvement. Presence of benign polyp and adjacent disordered proliferative endometrium.
-4.  **Lymph Node Status:** All sampled pelvic, para-aortic, and obturator lymph nodes are negative for metastatic carcinoma.
-5.  **Other Sites:** Omentum biopsies, gutter biopsies, bladder biopsy, and appendix are negative for malignancy.
-6.  **Immunohistochemistry (IHC) Addendum:** IHC stains for MSH2 and MSH6 were performed on both the ovarian and endometrial tumors. The tumor cells in both locations showed positive staining for these DNA mismatch repair proteins, indicating microsatellite stability (MSS).
+Expert Summary
 
-**Expert Summary**
+The patient has a high-risk endometrial carcinoma, FIGO Grade 3, with deep myometrial invasion and positive lymphovascular invasion. The tumor size is large (11.0 cm). There is also a synchronous primary ovarian cancer (high-grade clear cell carcinoma). The cervical stromal involvement status is uncertain. Lymph nodes are negative. The computed stage is IIC, which differs from the reported stage of I.
 
-*   The pathology examination reveals two separate primary cancers: a high-grade clear cell carcinoma of the ovary and an endometrial carcinoma located in the lower uterine segment with superficial myometrial invasion.
-*   There is no evidence of metastatic spread to the examined lymph nodes, omentum, gutters, bladder, or appendix.
-*   The ovarian and endometrial tumors are microsatellite stable (MSS) based on IHC staining for MSH2 and MSH6.
+Patient-Friendly Explanation
 
-**Patient-Friendly Explanation**
+The surgery showed cancer in the lining of the uterus (endometrium), specifically an endometrioid type that is high grade (Grade 3). The cancer has grown deeply into the muscular wall of the uterus (more than half way through) and there are signs it might have spread through small blood vessels (lymphovascular invasion). The tumor was quite large (11.0 cm). There was also a separate cancer found in the right ovary, which is a high-grade clear cell carcinoma. The margins of the removed tissue were clear of cancer cells. Lymph nodes that were checked did not show any signs of cancer spread. The stage of the endometrial cancer is computed as IIC based on these findings, although the original report stated Stage I.
 
-*   The pathology report shows that you have two different types of cancer: one in your ovary and one in the lining of your uterus (endometrium).
-*   The ovarian cancer is a high-grade clear cell carcinoma.
-*   The endometrial cancer is located in the lower part of your uterus and appears to be contained within the uterine lining, with only slight spread into the muscle layer.
-*   The good news is that none of the lymph nodes removed during surgery showed signs of cancer spreading to them. Also, biopsies from other areas like the omentum (a fatty tissue covering abdominal organs), gutters (spaces in the abdomen), bladder, and appendix did not show any cancer cells.
-*   Special tests (immunohistochemistry) on both tumors indicate they are microsatellite stable, which has implications for treatment options but doesn't change the diagnosis itself.
+Next-Step Considerations
 
-**Next-Step Considerations**
-
-*   **Staging:** A formal clinical stage will need to be determined based on these pathology findings combined with imaging and potentially other clinical information (e.g., CA-125 levels).
-*   **Treatment Planning:** The specific treatment plan for both cancers will depend on the final stage, grade, patient's overall health, and preferences. This typically involves consultation with gynecologic oncologists. Treatment for ovarian cancer often includes surgery (which has been done) followed by chemotherapy or other systemic therapy depending on the stage. Treatment for endometrial cancer also depends on stage but may include hysterectomy (already performed), potentially lymph node dissection (already performed), radiation, hormone therapy, or chemotherapy.
-*   **Microsatellite Stability (MSS):** The MSS status might influence treatment decisions, particularly regarding immunotherapy options in certain contexts, although this is less common for ovarian cancer than for some other cancers. It's important to discuss the implications of MSS with the oncology team.
+The following fields are uncertain or provisional and require pathologist verification: cervical stromal involvement (uncertain). The FIGO stage is computed as IIC (provisional), which requires pathologist verification.
