@@ -551,6 +551,17 @@ def canonicalize_extraction(data: dict) -> tuple[dict, list[str]]:
             updated_value = _canonicalize_myometrial_invasion_category(value)
         elif field_name == "figo_grade":
             updated_value = _canonicalize_figo_grade(value)
+        # Safety net: any value the rules above could not resolve to the controlled vocabulary
+        # (e.g. "yes", "suspicious", a free-text grade) is coerced to "not reported" rather than
+        # left to hard-fail validation and burn the retry budget. "not reported" is a valid member
+        # of every categorical and is the fail-safe reading — an unmappable / equivocal finding must
+        # not silently drive an upstage. Genuine non-categorical problems (out-of-range numbers,
+        # positive-nodes > examined) are untouched here and still gate validity.
+        valid_values = EXTRACTION_FIELDS[field_name].get("valid_values")
+        if valid_values and updated_value.strip().lower() not in {
+            v.lower() for v in valid_values
+        }:
+            updated_value = "not reported"
         canonicalized[field_name] = updated_value
         if updated_value != value:
             normalizations.append(f"{field_name}: {value!r} -> {updated_value!r}")
@@ -1441,7 +1452,7 @@ def _run_staging_pass(
     )
 
 
-# Anchors that locate peritoneal discussion in the raw narrative.
+# Anchors that locate PELVIC peritoneal discussion in the raw narrative (drives IIIB2).
 _PELVIC_PERITONEAL_ANCHORS = (
     "pelvic peritone",
     "peritoneal",
@@ -1450,6 +1461,20 @@ _PELVIC_PERITONEAL_ANCHORS = (
     "cul de sac",
     "pouch of douglas",
 )
+# Anchors specific to EXTRApelvic / upper-abdominal peritoneal disease (drives IVB). Kept distinct
+# from the pelvic set so a bare "peritoneum" mention is not read as upper-abdominal spread.
+_EXTRAPELVIC_PERITONEAL_ANCHORS = (
+    "omentum",
+    "omental",
+    "diaphragm",
+    "upper abdomen",
+    "upper-abdominal",
+    "abdominal peritone",
+    "extrapelvic",
+    "extra-pelvic",
+    "paracolic",
+    "para-colic",
+)
 
 # A malignant verdict negated within the local window ("no metastatic", "negative for metastatic
 # carcinoma", "free of tumor", "benign", "not involved", "uninvolved").
@@ -1457,7 +1482,7 @@ _PERITONEAL_NEGATION_RE = re.compile(
     r"\bno\b|\bnot\b|negative|free of|without|absent|uninvolved|benign|reactive|unremarkable"
 )
 # A malignant-verdict token (deposit phrase or positive-biopsy verdict) that, when it sits beside a
-# peritoneal anchor on the SAME line and is not negated, denotes a genuine pelvic peritoneal implant.
+# peritoneal anchor on the SAME line and is not negated, denotes a genuine peritoneal implant.
 _PERITONEAL_VERDICT_RE = re.compile(
     r"implant|deposit|carcinomatosis|studding|metasta|positive for|involved by"
 )
@@ -1465,19 +1490,19 @@ _PERITONEAL_VERDICT_RE = re.compile(
 _PERITONEAL_PROXIMITY = 60
 
 
-def _peritoneal_metastasis_evidence(report_text: str) -> str | None:
-    """Return the source snippet documenting a genuine pelvic peritoneal implant (IIIB2), else None.
+def _peritoneal_implant_evidence(report_text: str, anchors: tuple[str, ...]) -> str | None:
+    """Return a source snippet documenting a genuine peritoneal implant for ``anchors``, else None.
 
-    A positive call is affirmed only when a malignant verdict sits beside a peritoneal anchor on the
+    A positive call is affirmed only when a malignant verdict sits beside one of ``anchors`` on the
     anchor's OWN line (within ``_PERITONEAL_PROXIMITY`` chars) and nothing local negates it or marks
     it as washings/cytology. Scoping to the anchor's line is what stops a metastatic lymph-node
-    verdict on an adjacent line — different specimen — from being read as peritoneal disease: the
+    verdict on an adjacent line — a different specimen — from being read as peritoneal disease: the
     exact false positive that upstaged A0G2 from IIIB1 to IIIB2.
     """
     if not report_text:
         return None
     low = report_text.lower()
-    for anchor in _PELVIC_PERITONEAL_ANCHORS:
+    for anchor in anchors:
         for am in re.finditer(re.escape(anchor), low):
             # Confine to the anchor's own line so verdicts on other lines (other specimens) can't
             # bleed in, then cap to a tight proximity window for long single-line paragraphs.
@@ -1492,12 +1517,51 @@ def _peritoneal_metastasis_evidence(report_text: str) -> str | None:
                 re.search(r"washing|lavage|cytolog|\bfluid\b|smear", window)
                 and not has_structural
             ):
-                continue  # washings/cytology positivity alone is not IIIB2
+                continue  # washings/cytology positivity alone does not qualify
             if _PERITONEAL_NEGATION_RE.search(window):
                 continue  # locally negated / benign / reactive — not a positive implant
             if _PERITONEAL_VERDICT_RE.search(window):
                 return " ".join(report_text[lo:hi].split())
     return None
+
+
+def _apply_peritoneal_backstop(
+    data: dict,
+    field_status: dict[str, str],
+    field_evidence: dict[str, str],
+    report_text: str,
+    field: str,
+    anchors: tuple[str, ...],
+    stage_label: str,
+) -> list[str]:
+    """Source-ground a positive peritoneal-metastasis ``field`` (a stage switch) against the report.
+
+    The targeted staging re-read occasionally flattens positive peritoneal washings/cytology, a
+    benign adhesion, or a metastatic node on an adjacent line into a positive peritoneal call,
+    upstaging the case. The matching FIGO stage requires an actual implant/deposit (or a positive
+    biopsy) at the relevant site, so this deterministically downgrades the call to "not identified"
+    unless the raw report documents a genuine implant — keeping the staging decision auditable and
+    off the model. It only ever touches a *positive* call (never invents one) and runs after the
+    staging pass so it corrects, rather than feeds, that re-read.
+    """
+    value = data.get(field)
+    normalized = value.strip().lower() if isinstance(value, str) else ""
+    if normalized not in _POSITIVE_VALUE_TOKENS:
+        return []
+    evidence = _peritoneal_implant_evidence(report_text, anchors)
+    if evidence is not None:
+        field_evidence[field] = evidence  # genuine implant — strengthen provenance, keep positive
+        return []
+    data[field] = "not identified"
+    field_status[field] = STATUS_PRESENT
+    field_evidence[field] = (
+        f"no qualifying peritoneal implant/deposit in source; washings/cytology or adhesions do not "
+        f"qualify for {stage_label} (deterministic backstop)"
+    )
+    return [
+        f"{field}: {value!r} -> 'not identified' "
+        "(no peritoneal implant in source; deterministic backstop)"
+    ]
 
 
 def _apply_peritoneal_metastasis_backstop(
@@ -1506,35 +1570,34 @@ def _apply_peritoneal_metastasis_backstop(
     field_evidence: dict[str, str],
     report_text: str,
 ) -> list[str]:
-    """Source-ground a positive ``pelvic_peritoneal_metastasis`` call (the IIIB1-vs-IIIB2 switch).
-
-    The targeted staging re-read occasionally flattens positive peritoneal washings/cytology or a
-    benign adhesion into a positive peritoneal-metastasis call, upstaging IIIB1 -> IIIB2. IIIB2
-    requires an actual implant/deposit on the pelvic peritoneum (or a positive peritoneal biopsy),
-    so this deterministically downgrades the call to "not identified" unless the raw report
-    documents a genuine implant — keeping the staging decision auditable and off the model. It only
-    ever touches a *positive* call (never invents one) and runs after the staging pass so it
-    corrects, rather than feeds, that re-read.
-    """
-    field = "pelvic_peritoneal_metastasis"
-    value = data.get(field)
-    normalized = value.strip().lower() if isinstance(value, str) else ""
-    if normalized not in _POSITIVE_VALUE_TOKENS:
-        return []
-    evidence = _peritoneal_metastasis_evidence(report_text)
-    if evidence is not None:
-        field_evidence[field] = evidence  # genuine implant — strengthen provenance, keep positive
-        return []
-    data[field] = "not identified"
-    field_status[field] = STATUS_PRESENT
-    field_evidence[field] = (
-        "no pelvic peritoneal implant/deposit in source; washings/cytology or adhesions do not "
-        "qualify for IIIB2 (deterministic backstop)"
+    """Guard the pelvic peritoneal-metastasis call (the IIIB1-vs-IIIB2 switch)."""
+    return _apply_peritoneal_backstop(
+        data,
+        field_status,
+        field_evidence,
+        report_text,
+        "pelvic_peritoneal_metastasis",
+        _PELVIC_PERITONEAL_ANCHORS,
+        "IIIB2",
     )
-    return [
-        f"{field}: {value!r} -> 'not identified' "
-        "(no peritoneal implant in source; deterministic backstop)"
-    ]
+
+
+def _apply_extrapelvic_peritoneal_metastasis_backstop(
+    data: dict,
+    field_status: dict[str, str],
+    field_evidence: dict[str, str],
+    report_text: str,
+) -> list[str]:
+    """Guard the extrapelvic peritoneal-metastasis call (the IVB switch)."""
+    return _apply_peritoneal_backstop(
+        data,
+        field_status,
+        field_evidence,
+        report_text,
+        "extrapelvic_peritoneal_metastasis",
+        _EXTRAPELVIC_PERITONEAL_ANCHORS,
+        "IVB",
+    )
 
 
 _PARA_AORTIC_NODE_KEYWORDS = (
@@ -1756,6 +1819,11 @@ def extract_report(
     # documents a genuine peritoneal implant/deposit — never inventing a positive, only removing an
     # unsupported one. Runs after the staging pass so it corrects that re-read.
     peritoneal_notes = _apply_peritoneal_metastasis_backstop(
+        data, field_status, field_evidence, report_text
+    )
+    # Same guard for the extrapelvic (upper-abdominal) peritoneal call, which is the IVB switch and
+    # shares the washings/node-bleed false-positive mode.
+    peritoneal_notes += _apply_extrapelvic_peritoneal_metastasis_backstop(
         data, field_status, field_evidence, report_text
     )
     if peritoneal_notes:

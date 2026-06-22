@@ -13,6 +13,7 @@ from vlmextraction import (  # noqa: E402
     ExtractionResult,
     ValidationResult,
     _apply_equivocal_backstop,
+    _apply_extrapelvic_peritoneal_metastasis_backstop,
     _apply_nodal_station_detection,
     _apply_peritoneal_metastasis_backstop,
     _canonicalize_myometrial_invasion_category,
@@ -120,6 +121,41 @@ def test_peritoneal_backstop_leaves_negative_untouched() -> None:
     )
     assert data["pelvic_peritoneal_metastasis"] == "not identified"
     assert not notes
+
+
+def test_extrapelvic_backstop_keeps_genuine_omental_implant() -> None:
+    # A true omental/upper-abdominal implant is IVB and must be preserved.
+    data = {"extrapelvic_peritoneal_metastasis": "identified"}
+    evidence: dict = {}
+    report = "Omentum, biopsy: metastatic adenocarcinoma forming an implant."
+    notes = _apply_extrapelvic_peritoneal_metastasis_backstop(data, {}, evidence, report)
+    assert data["extrapelvic_peritoneal_metastasis"] == "identified"
+    assert not notes
+    assert evidence["extrapelvic_peritoneal_metastasis"]
+
+
+def test_extrapelvic_backstop_downgrades_washings_only() -> None:
+    # Positive abdominal washings/cytology alone is not IVB.
+    data = {"extrapelvic_peritoneal_metastasis": "identified"}
+    notes = _apply_extrapelvic_peritoneal_metastasis_backstop(
+        data, {}, {}, "Abdominal peritoneal washings: positive for malignant cells (cytology)."
+    )
+    assert data["extrapelvic_peritoneal_metastasis"] == "not identified"
+    assert notes
+
+
+def test_extrapelvic_backstop_ignores_node_met_on_other_line() -> None:
+    # A metastatic node on a different specimen line must not be read as omental disease (IVB).
+    data = {"extrapelvic_peritoneal_metastasis": "identified"}
+    report = (
+        "D. PARA-AORTIC LYMPH NODES:\n"
+        "- Metastatic adenocarcinoma in one of three lymph nodes\n"
+        "E. OMENTUM, BIOPSY:\n"
+        "- Benign adipose tissue; no tumor identified\n"
+    )
+    notes = _apply_extrapelvic_peritoneal_metastasis_backstop(data, {}, {}, report)
+    assert data["extrapelvic_peritoneal_metastasis"] == "not identified"
+    assert notes
 
 # Mirrors the garbled microscopic section of TCGA-A5-A0G1: serous histology stated, but LVSI
 # only ambiguously addressed ("cannot absolutely exclude"). A capable model returns this JSON.
@@ -272,6 +308,25 @@ def test_malformed_value_still_fails_validation() -> None:
     assert result.is_valid is False
     assert any("not in allowed values" in e for e in result.errors)
     assert any("exceeds total examined" in e for e in result.errors)
+
+
+def test_unmappable_categorical_coerced_to_not_reported() -> None:
+    # The "failed validation after retries" class: a categorical the model never formatted into its
+    # vocabulary ("yes", "suspicious", a bare "high grade") must canonicalize to "not reported"
+    # instead of hard-failing validation. Valid values and non-categoricals are left untouched.
+    data = {
+        "lymphovascular_invasion": "suspicious for involvement",
+        "figo_grade": "high grade",
+        "margin_status": "negative margin",   # maps to "uninvolved" via the canonicalizer
+        "serosal_involvement": "identified",   # already valid, untouched
+    }
+    canon, notes = canonicalize_extraction(data)
+    assert canon["lymphovascular_invasion"] == "not reported"
+    assert canon["figo_grade"] == "not reported"
+    assert canon["margin_status"] == "uninvolved"
+    assert canon["serosal_involvement"] == "identified"
+    result = validate_extraction(canon)
+    assert not any("not in allowed values" in e for e in result.errors)
 
 
 def test_myometrial_invasion_category_normalization() -> None:
