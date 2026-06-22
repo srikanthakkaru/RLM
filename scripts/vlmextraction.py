@@ -5,8 +5,10 @@ import os
 import re
 import sys
 import time
+from collections import Counter
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Any
 
 import typer
 from rich.console import Console
@@ -35,6 +37,12 @@ MAX_EXTRACTION_RETRIES = 2
 # Confidence at or above this is treated as reliable; below it a populated field is flagged
 # as low-confidence / uncertain rather than trusted silently.
 MEDGEMMA_CONFIDENCE_THRESHOLD = float(os.environ.get("MEDGEMMA_CONFIDENCE_THRESHOLD", "0.5"))
+
+# Self-consistency: how many times to sample the staging re-read and majority-vote per field.
+# 1 (default) = off, single pass — the proven path. k>1 samples k times; fields where the samples
+# disagree are marked uncertain (conservative) rather than forced. Only applied to narrative reports
+# (where hallucination risk is highest) to bound cost. Requires a live backend to exercise.
+MEDGEMMA_SELF_CONSISTENCY = max(1, int(os.environ.get("MEDGEMMA_SELF_CONSISTENCY", "1")))
 
 # "json" (default): structured JSON with per-field value/confidence/status/evidence. The model
 #   normalizes garbled OCR and flags ambiguous fields instead of dropping them.
@@ -1309,6 +1317,7 @@ class ExtractionResult:
     field_confidence: dict[str, float] = field(default_factory=dict)
     field_status: dict[str, str] = field(default_factory=dict)
     field_evidence: dict[str, str] = field(default_factory=dict)
+    report_structure: str = "unknown"  # "synoptic" | "narrative" — see classify_report_structure
 
     @property
     def uncertain_fields(self) -> list[str]:
@@ -1430,6 +1439,61 @@ def _merge_staging_extraction(
     return notes
 
 
+def _vote_key(value: Any) -> Any:
+    """Hashable key for majority voting (lists/dicts -> canonical JSON)."""
+    if isinstance(value, (dict, list)):
+        return json.dumps(value, sort_keys=True)
+    return value
+
+
+def _majority_vote_fields(
+    samples: list[dict], fields: tuple[str, ...]
+) -> dict[str, tuple[Any, int, int]]:
+    """Per-field majority vote across extraction samples.
+
+    Returns ``{field: (winning_value, votes, total)}`` for each field present (non-None) in at least
+    one sample. The winning value is the most common; the caller decides how to treat weak majorities.
+    """
+    out: dict[str, tuple[Any, int, int]] = {}
+    for name in fields:
+        present = [s[name] for s in samples if s.get(name) is not None]
+        if not present:
+            continue
+        counts = Counter(_vote_key(v) for v in present)
+        top_key, votes = counts.most_common(1)[0]
+        value = next(v for v in present if _vote_key(v) == top_key)
+        out[name] = (value, votes, len(present))
+    return out
+
+
+def _self_consistent_staging_parse(
+    parses: list[tuple[dict, dict, dict[str, str], dict[str, str]]],
+) -> tuple[dict, dict[str, float], dict[str, str], dict[str, str]]:
+    """Collapse k parsed staging samples into one majority-voted staging_parse tuple.
+
+    A staging field is taken at its majority value; provenance is reused from a representative
+    sample. A field WITHOUT a strict majority is marked ``uncertain`` so self-consistency never
+    forces a contested (potentially hallucinated) positive — it can only firm up agreement.
+    """
+    datas = [p[0] for p in parses]
+    voted = _majority_vote_fields(datas, STAGING_FIELDS)
+    s_data: dict = {}
+    s_conf: dict[str, float] = {}
+    s_status: dict[str, str] = {}
+    s_evidence: dict[str, str] = {}
+    for name, (value, votes, total) in voted.items():
+        rep = next((p for p in parses if _vote_key(p[0].get(name)) == _vote_key(value)), None)
+        s_data[name] = value
+        s_conf[name] = round(votes / total, 3)
+        s_status[name] = (
+            (rep[2].get(name, STATUS_PRESENT) if rep else STATUS_PRESENT)
+            if votes * 2 > total
+            else STATUS_UNCERTAIN
+        )
+        s_evidence[name] = rep[3].get(name, "") if rep else ""
+    return s_data, s_conf, s_status, s_evidence
+
+
 def _run_staging_pass(
     client: OllamaClient,
     report_text: str,
@@ -1437,16 +1501,24 @@ def _run_staging_pass(
     field_confidence: dict[str, float],
     field_status: dict[str, str],
     field_evidence: dict[str, str],
+    samples: int = 1,
 ) -> list[str]:
     """Re-read the raw narrative for the staging-critical fields and merge the result in place.
 
-    Returns the merge notes (empty if the re-read did not parse or changed nothing). Caller is
-    responsible for re-canonicalizing / re-validating afterward.
+    With ``samples == 1`` this is a single re-read (the proven path). With ``samples > 1`` the
+    re-read is sampled k times and majority-voted per field (self-consistency), so disagreement
+    surfaces as ``uncertain`` instead of a coin-flip verdict. Returns the merge notes (empty if no
+    sample parsed or nothing changed). Caller re-canonicalizes / re-validates afterward.
     """
-    raw = client.completion(STAGING_EXTRACTION_PROMPT.format(report_text=report_text))
-    staging_parse = _parse_structured_json_response(raw)
-    if staging_parse is None:
+    parses = []
+    for _ in range(max(1, samples)):
+        raw = client.completion(STAGING_EXTRACTION_PROMPT.format(report_text=report_text))
+        parsed = _parse_structured_json_response(raw)
+        if parsed is not None:
+            parses.append(parsed)
+    if not parses:
         return []
+    staging_parse = parses[0] if len(parses) == 1 else _self_consistent_staging_parse(parses)
     return _merge_staging_extraction(
         data, field_confidence, field_status, field_evidence, staging_parse
     )
@@ -1691,6 +1763,154 @@ def _apply_nodal_station_detection(data: dict, report_text: str) -> list[str]:
     return [f"lymph_node_stations: detected positive {label} node(s) (deterministic source scan)"]
 
 
+# Aggressive endometrial histologies, in priority order (most specific first). Mirrors the
+# `histology_keyword` rows of stage_classification/figo2023/data/figo2023_definitions.csv, kept
+# local so extraction does not import the staging package; `test_aggressive_histology_keywords_match_csv`
+# asserts parity. Each canonical value deliberately OMITS "endometrioid" so a mixed aggressive type
+# is not misread by `classify_histology` as a grade-dependent endometrioid case.
+_HISTOLOGY_CANONICAL: tuple[tuple[str, str], ...] = (
+    ("carcinosarcoma", "carcinosarcoma"),
+    ("serous", "serous carcinoma"),
+    ("clear cell", "clear cell carcinoma"),
+    ("undifferentiated", "undifferentiated carcinoma"),
+    ("mesonephric", "mesonephric carcinoma"),
+    ("gastrointestinal", "gastrointestinal-type mucinous carcinoma"),
+    ("mixed", "mixed carcinoma"),
+    ("endometrioid", "endometrioid adenocarcinoma"),
+)
+
+# FIGO-grade cues, precision-first. "grade N of 3" is the definitive overall-grade form. The
+# qualified form requires a FIGO / histologic qualifier (NOT "nuclear"/"architectural", which are
+# sub-grades that legitimately differ from each other) and rejects "grade 1, 2, or 3" scale text via
+# the trailing negative lookahead. "GN" is the capitalized short form.
+_FIGO_GRADE_OF_THREE_RE = re.compile(r"\bgrade\s*[:\-]?\s*([1-3])\s*(?:of|/)\s*3\b", re.IGNORECASE)
+_FIGO_GRADE_QUALIFIED_RE = re.compile(
+    r"\b(?:figo|histolog\w*)\s+grade\s*[:\-]?\s*([1-3])\b"
+    r"(?!\s*[,/]|\s*-\s*[1-3]|\s+(?:or|to|and|through)\b)",
+    re.IGNORECASE,
+)
+_GRADE_G_RE = re.compile(r"\bG([1-3])\b")  # capitalized G-grade, e.g. "G3"
+
+
+def _detect_figo_grade(report_text: str) -> str | None:
+    """Recover the overall FIGO grade, only when the source is unambiguous.
+
+    A definitive "grade N of 3" wins outright. Otherwise the weaker qualified / "GN" cues must
+    AGREE on a single value — a report that lists multiple differing grades (e.g. the A0GN sub-grade
+    listing "grade 1 ... grade 2 ...") is left unresolved rather than guessed.
+    """
+    definitive = {m.group(1) for m in _FIGO_GRADE_OF_THREE_RE.finditer(report_text)}
+    if len(definitive) == 1:
+        return next(iter(definitive))
+    if definitive:
+        return None  # conflicting definitive grades — ambiguous
+    weak = {m.group(1) for m in _FIGO_GRADE_QUALIFIED_RE.finditer(report_text)}
+    weak |= {m.group(1) for m in _GRADE_G_RE.finditer(report_text)}
+    return next(iter(weak)) if len(weak) == 1 else None
+
+
+def detect_histology_grade(report_text: str) -> dict:
+    """Deterministically recover ``histologic_type`` and FIGO ``figo_grade`` from the narrative.
+
+    ``classify_histology`` (figo2023) needs both to reach an aggressive type -> IIC. Narrative /
+    OCR-garbled reports routinely leave them unextracted; this scans the raw source (never the model)
+    so the histology call stays auditable. Returns only the fields it can confidently ground. Grade
+    detection is high-precision by design: it under-detects rather than risk assigning a wrong grade.
+    """
+    if not report_text:
+        return {}
+    low = report_text.lower()
+    found: dict = {}
+    for keyword, canonical in _HISTOLOGY_CANONICAL:
+        if keyword in low:
+            found["histologic_type"] = canonical
+            break
+    grade = _detect_figo_grade(report_text)
+    if grade is not None:
+        found["figo_grade"] = grade
+    return found
+
+
+def _apply_histology_grade_detection(
+    data: dict, field_status: dict[str, str], field_evidence: dict[str, str], report_text: str
+) -> list[str]:
+    """Fill histologic_type / figo_grade from a source scan only when the model left them absent."""
+    detected = detect_histology_grade(report_text)
+    notes: list[str] = []
+    for field in ("histologic_type", "figo_grade"):
+        if field not in detected:
+            continue
+        if not _is_absent_value(field, data.get(field)):
+            continue  # the model already resolved it — never override a model value
+        data[field] = detected[field]
+        field_status[field] = STATUS_PRESENT
+        field_evidence[field] = f"deterministic source scan -> {detected[field]!r}"
+        notes.append(f"{field}: detected {detected[field]!r} (deterministic source scan)")
+    return notes
+
+
+@dataclass
+class ReportSection:
+    """A specimen / section block of a pathology report, with its source line span."""
+
+    header: str  # the header line ("" for the pre-header preamble)
+    text: str  # full block text, including the header line
+    start: int  # first source line index (inclusive)
+    end: int  # last source line index (exclusive)
+
+
+# A section boundary: a lettered/numbered specimen label ("A.", "3)", "12.") or an ALL-CAPS header
+# line ending in a colon ("FINAL DIAGNOSIS:", "MICROSCOPIC DESCRIPTION:"). Synoptic field lines
+# ("FIGO Grade: ...") are also caught by the ALL-CAPS-with-colon arm.
+_SECTION_HEADER_RE = re.compile(r"^\s*(?:[A-Z]\.|\d+[.)]|[A-Z][A-Z0-9 \-,/&]{3,}:)")
+
+
+def segment_report(report_text: str) -> list[ReportSection]:
+    """Split a report into specimen / section blocks at header lines.
+
+    Generalizes the line/specimen scoping used by the peritoneal and nodal detectors so that
+    per-field extraction and grounding stay confined to a single specimen — a verdict from one
+    block cannot bleed into another (the A0G2 cross-specimen failure mode). A report with no
+    detectable headers (free prose) is returned as a single section.
+    """
+    lines = report_text.splitlines()
+    headers = [i for i, line in enumerate(lines) if _SECTION_HEADER_RE.match(line)]
+    if not headers:
+        return [ReportSection(header="", text=report_text, start=0, end=len(lines))]
+    sections: list[ReportSection] = []
+    if headers[0] > 0:
+        sections.append(ReportSection("", "\n".join(lines[: headers[0]]), 0, headers[0]))
+    for k, start in enumerate(headers):
+        end = headers[k + 1] if k + 1 < len(headers) else len(lines)
+        sections.append(
+            ReportSection(lines[start].strip(), "\n".join(lines[start:end]), start, end)
+        )
+    return sections
+
+
+# A short "Field: value" synoptic line (CAP-checklist style), e.g. "Histologic Grade: FIGO 3".
+_SYNOPTIC_FIELD_RE = re.compile(r"^\s*[A-Za-z][\w ()/+,-]{2,45}:\s*\S")
+
+
+def classify_report_structure(report_text: str) -> str:
+    """Label a report ``"synoptic"`` (CAP-checklist / header-dense) or ``"narrative"`` (prose).
+
+    Synoptic reports are dominated by short specimen-header and ``Field: value`` lines; narrative
+    reports are mostly running prose. Used to route extraction and to decide when the extra
+    source-grounding / self-consistency effort is worth spending (narrative is where the strict
+    single-shot JSON ask underperforms).
+    """
+    lines = [line for line in report_text.splitlines() if line.strip()]
+    if not lines:
+        return "narrative"
+    structured = sum(
+        1
+        for line in lines
+        if _SECTION_HEADER_RE.match(line) or _SYNOPTIC_FIELD_RE.match(line)
+    )
+    return "synoptic" if structured / len(lines) >= 0.5 else "narrative"
+
+
 def extract_report(
     report_text: str,
     client: OllamaClient | None = None,
@@ -1803,8 +2023,21 @@ def extract_report(
     # disambiguation and let those verdicts win. Runs last so it overrides the backstop, and only
     # in structured/JSON mode (where per-field provenance exists).
     if field_status and _needs_staging_pass(field_status, data):
+        # Self-consistency is reserved for narrative reports (highest hallucination risk) and is
+        # off by default (MEDGEMMA_SELF_CONSISTENCY == 1). Synoptic reports keep the single pass.
+        staging_samples = (
+            MEDGEMMA_SELF_CONSISTENCY
+            if classify_report_structure(report_text) == "narrative"
+            else 1
+        )
         staging_notes = _run_staging_pass(
-            client, report_text, data, field_confidence, field_status, field_evidence
+            client,
+            report_text,
+            data,
+            field_confidence,
+            field_status,
+            field_evidence,
+            samples=staging_samples,
         )
         total_input += client.last_input_tokens
         total_output += client.last_output_tokens
@@ -1839,6 +2072,17 @@ def extract_report(
     if station_notes:
         normalizations.extend(station_notes)
 
+    # Deterministic histology / grade recovery: classify_histology (figo2023) needs histologic_type
+    # and figo_grade to reach an aggressive type -> IIC, but narrative / OCR-garbled reports often
+    # leave them unextracted. Recover them from the source (never the model) when the model missed
+    # them, so the aggressive-histology call stays auditable.
+    histology_notes = _apply_histology_grade_detection(
+        data, field_status, field_evidence, report_text
+    )
+    if histology_notes:
+        normalizations.extend(histology_notes)
+        validation = validate_extraction(data)  # detected values are already canonical
+
     t_end = time.perf_counter()
     return ExtractionResult(
         data=data,
@@ -1853,6 +2097,7 @@ def extract_report(
         field_confidence=field_confidence,
         field_status=field_status,
         field_evidence=field_evidence,
+        report_structure=classify_report_structure(report_text),
     )
 
 

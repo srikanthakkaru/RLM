@@ -12,17 +12,24 @@ from vlmextraction import (  # noqa: E402
     MEDGEMMA_CONFIDENCE_THRESHOLD,
     ExtractionResult,
     ValidationResult,
+    _HISTOLOGY_CANONICAL,
     _apply_equivocal_backstop,
     _apply_extrapelvic_peritoneal_metastasis_backstop,
+    _apply_histology_grade_detection,
     _apply_nodal_station_detection,
     _apply_peritoneal_metastasis_backstop,
+    _majority_vote_fields,
+    _self_consistent_staging_parse,
+    detect_histology_grade,
     _canonicalize_myometrial_invasion_category,
     _coerce_confidence,
     _derive_field_status,
     _parse_json_response,
     _parse_structured_json_response,
     canonicalize_extraction,
+    classify_report_structure,
     detect_nodal_stations,
+    segment_report,
     validate_extraction,
 )
 
@@ -62,6 +69,139 @@ def test_apply_nodal_station_detection_notes_positive_group() -> None:
     )
     assert data["lymph_node_stations"]
     assert any("para-aortic" in note for note in notes)
+
+
+def test_detect_histology_grade_recovers_aggressive_type() -> None:
+    # Serous histology + an explicit FIGO grade must be recovered from prose.
+    found = detect_histology_grade(
+        "Sections show high-grade serous carcinoma of the endometrium, FIGO grade 3."
+    )
+    assert "serous" in found["histologic_type"]
+    assert found["figo_grade"] == "3"
+
+
+def test_detect_histology_grade_endometrioid_grade_of_three() -> None:
+    found = detect_histology_grade("Endometrioid adenocarcinoma, grade 3 of 3.")
+    assert found["histologic_type"] == "endometrioid adenocarcinoma"
+    assert found["figo_grade"] == "3"
+
+
+def test_detect_histology_grade_ignores_grade_scale_enumeration() -> None:
+    # "FIGO grade 1, 2, 3" template/scale text must NOT set a grade (the A0GN false-positive guard).
+    found = detect_histology_grade("Tumors are assigned FIGO grade 1, 2, or 3 by architecture.")
+    assert "figo_grade" not in found
+
+
+def test_apply_histology_grade_detection_does_not_override_model() -> None:
+    # Never override a value the model already extracted; only fill absent fields.
+    data = {"histologic_type": "clear cell carcinoma", "figo_grade": "not reported"}
+    notes = _apply_histology_grade_detection(
+        data, {}, {}, "Endometrioid adenocarcinoma, FIGO grade 2."
+    )
+    assert data["histologic_type"] == "clear cell carcinoma"  # model value preserved
+    assert data["figo_grade"] == "2"  # absent field filled
+    assert any("figo_grade" in n for n in notes)
+
+
+def test_aggressive_histology_keywords_match_csv() -> None:
+    # Guard against drift between the local histology vocabulary and the figo2023 definitions CSV.
+    from stage_classification.figo2023.mapping import load_definitions
+
+    csv_aggressive = {
+        row["match"]
+        for row in load_definitions()
+        if row["definition_type"] == "histology_keyword" and row["value"] == "aggressive"
+    }
+    local_aggressive = {kw for kw, _ in _HISTOLOGY_CANONICAL if kw != "endometrioid"}
+    assert local_aggressive == csv_aggressive
+
+
+def test_segment_report_splits_at_specimen_headers() -> None:
+    report = (
+        "CLINICAL HISTORY: endometrial mass.\n"
+        "A. UTERUS, HYSTERECTOMY:\n"
+        "- Endometrioid adenocarcinoma\n"
+        "B. PELVIC LYMPH NODES:\n"
+        "- Metastatic carcinoma in one node\n"
+    )
+    sections = segment_report(report)
+    headers = [s.header for s in sections]
+    assert any(h.startswith("A.") for h in headers)
+    assert any(h.startswith("B.") for h in headers)
+    # the node verdict is confined to the B section — no cross-specimen bleed
+    b = next(s for s in sections if s.header.startswith("B."))
+    assert "Metastatic" in b.text and "Endometrioid" not in b.text
+
+
+def test_segment_report_free_prose_single_section() -> None:
+    prose = "The specimen shows tumor invading less than half the myometrium without LVSI."
+    sections = segment_report(prose)
+    assert len(sections) == 1
+    assert sections[0].text == prose
+
+
+def test_segment_report_captures_preamble() -> None:
+    sections = segment_report("Patient prose line.\nA. SPECIMEN:\n- finding\n")
+    assert sections[0].header == ""
+    assert "Patient prose line." in sections[0].text
+
+
+def test_classify_report_structure_synoptic() -> None:
+    synoptic = (
+        "Specimen: Uterus\n"
+        "Procedure: Total hysterectomy\n"
+        "Histologic Type: Endometrioid adenocarcinoma\n"
+        "Histologic Grade: FIGO 2\n"
+        "Myometrial Invasion: Less than half\n"
+        "Lymphovascular Invasion: Not identified\n"
+    )
+    assert classify_report_structure(synoptic) == "synoptic"
+
+
+def test_classify_report_structure_narrative() -> None:
+    prose = (
+        "The uterus is received and shows an endometrial mass.\n"
+        "On sectioning it invades the inner half of the myometrium.\n"
+        "No definite lymphovascular invasion is identified.\n"
+        "The cervix and adnexa are unremarkable.\n"
+    )
+    assert classify_report_structure(prose) == "narrative"
+
+
+def test_majority_vote_fields_picks_winner_and_counts() -> None:
+    samples = [
+        {"serosal_involvement": "identified", "adnexal_involvement": "not identified"},
+        {"serosal_involvement": "identified", "adnexal_involvement": "identified"},
+        {"serosal_involvement": "not identified", "adnexal_involvement": "identified"},
+    ]
+    voted = _majority_vote_fields(samples, ("serosal_involvement", "adnexal_involvement"))
+    assert voted["serosal_involvement"] == ("identified", 2, 3)
+    assert voted["adnexal_involvement"] == ("identified", 2, 3)
+
+
+def test_self_consistent_staging_marks_disagreement_uncertain() -> None:
+    # A 3-way / split vote with no strict majority must yield status "uncertain", never a forced
+    # positive — self-consistency only firms up agreement, it never invents a contested call.
+    parses = [
+        ({"pelvic_peritoneal_metastasis": "identified"}, {}, {"pelvic_peritoneal_metastasis": "present"}, {}),
+        ({"pelvic_peritoneal_metastasis": "not identified"}, {}, {"pelvic_peritoneal_metastasis": "present"}, {}),
+    ]
+    s_data, s_conf, s_status, _ = _self_consistent_staging_parse(parses)
+    # 1 vs 1 tie -> no strict majority -> uncertain
+    assert s_status["pelvic_peritoneal_metastasis"] == "uncertain"
+    assert s_conf["pelvic_peritoneal_metastasis"] == 0.5
+
+
+def test_self_consistent_staging_keeps_majority_present() -> None:
+    parses = [
+        ({"serosal_involvement": "identified"}, {}, {"serosal_involvement": "present"}, {"serosal_involvement": "q"}),
+        ({"serosal_involvement": "identified"}, {}, {"serosal_involvement": "present"}, {"serosal_involvement": "q"}),
+        ({"serosal_involvement": "not identified"}, {}, {"serosal_involvement": "present"}, {}),
+    ]
+    s_data, s_conf, s_status, s_evidence = _self_consistent_staging_parse(parses)
+    assert s_data["serosal_involvement"] == "identified"
+    assert s_status["serosal_involvement"] == "present"  # 2/3 strict majority
+    assert s_evidence["serosal_involvement"] == "q"
 
 
 def test_peritoneal_backstop_downgrades_washings_only() -> None:
