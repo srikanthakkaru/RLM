@@ -115,6 +115,26 @@ EXTRACTION_FIELDS: dict[str, dict] = {
         "required": True,
         "valid_values": ["identified", "not identified", "not reported"],
     },
+    "vaginal_or_parametrial_involvement": {
+        "type": "string",
+        "required": False,
+        "valid_values": ["identified", "not identified", "not reported"],
+    },
+    "pelvic_peritoneal_metastasis": {
+        "type": "string",
+        "required": False,
+        "valid_values": ["identified", "not identified", "not reported"],
+    },
+    "bladder_or_bowel_mucosa_invasion": {
+        "type": "string",
+        "required": False,
+        "valid_values": ["identified", "not identified", "not reported"],
+    },
+    "extrapelvic_peritoneal_metastasis": {
+        "type": "string",
+        "required": False,
+        "valid_values": ["identified", "not identified", "not reported"],
+    },
     "margin_status": {
         "type": "string",
         "required": True,
@@ -190,6 +210,14 @@ QUESTIONS:
 
 23. Any additional significant findings?
 
+24. Is there vaginal or parametrial involvement by tumor? (Identified, Not identified, or Not found) — tumor invading the vaginal wall or parametrial soft tissue; do NOT count a clear vaginal cuff margin or absent extrauterine spread.
+
+25. Is there pelvic peritoneal metastasis? (Identified, Not identified, or Not found) — tumor implants on pelvic peritoneum or a positive pelvic peritoneal biopsy; do NOT count positive peritoneal washings/cytology alone or benign adhesions.
+
+26. Is there bladder or bowel mucosal invasion by tumor? (Identified, Not identified, or Not found) — tumor invading the bladder or rectal/bowel MUCOSA; serosal-only contact or adhesions do NOT qualify.
+
+27. Is there extrapelvic (upper-abdominal) peritoneal metastasis? (Identified, Not identified, or Not found) — tumor implants on abdominal peritoneum beyond the pelvis (e.g. omental, diaphragmatic); positive washings alone do NOT qualify.
+
 PATHOLOGY REPORT:
 {report_text}
 
@@ -197,7 +225,7 @@ ANSWERS:"""
 
 EXTRACTION_PROMPT_CONVERSATIONAL = """You are reviewing a surgical pathology report for endometrial carcinoma. Summarize the key pathologic findings in clear prose.
 
-Address, when present in the report: histologic type and FIGO/nuclear grade; tumor size; depth and thickness of myometrial invasion; lymphovascular invasion; cervical, serosal, and adnexal involvement; margin status and distance to closest margin; lymph nodes examined and positive; extracapsular extension; pathologic TNM (pT, pN, pM) and overall stage; procedure performed; specimen integrity; and any notable additional findings.
+Address, when present in the report: histologic type and FIGO/nuclear grade; tumor size; depth and thickness of myometrial invasion; lymphovascular invasion; cervical, serosal, and adnexal involvement; vaginal/parametrial involvement; pelvic or extrapelvic peritoneal metastasis; bladder or bowel mucosal invasion; margin status and distance to closest margin; lymph nodes examined and positive; extracapsular extension; pathologic TNM (pT, pN, pM) and overall stage; procedure performed; specimen integrity; and any notable additional findings.
 
 If something is not stated in the report, say it is not reported rather than inventing values.
 
@@ -275,13 +303,17 @@ CORRECTION_PROMPT = """You are an expert clinical data verifier, acting as the f
    - cervical_stromal_involvement
    - serosal_involvement
    - adnexal_involvement
+   - vaginal_or_parametrial_involvement
+   - pelvic_peritoneal_metastasis
+   - bladder_or_bowel_mucosa_invasion
+   - extrapelvic_peritoneal_metastasis
    - extracapsular_extension
    - margin_status
    - myometrial_invasion_category
    - figo_grade
 
 2. If the extraction says "not reported" but the report contains a clear negative phrase (e.g., "not identified", "no evidence", "absent", "negative", "none", "not seen", "no involvement"), change it to the appropriate negative value:
-   - For lymphovascular_invasion, cervical_stromal_involvement, serosal_involvement, adnexal_involvement → use "not identified"
+   - For lymphovascular_invasion, cervical_stromal_involvement, serosal_involvement, adnexal_involvement, vaginal_or_parametrial_involvement, pelvic_peritoneal_metastasis, bladder_or_bowel_mucosa_invasion, extrapelvic_peritoneal_metastasis → use "not identified"
    - For extracapsular_extension → use "absent"
    - For margin_status → if negative, use "uninvolved"
 
@@ -312,11 +344,15 @@ STAGING_FIELDS = (
     "serosal_involvement",
     "adnexal_involvement",
     "lymphovascular_invasion",
+    "vaginal_or_parametrial_involvement",
+    "pelvic_peritoneal_metastasis",
+    "bladder_or_bowel_mucosa_invasion",
+    "extrapelvic_peritoneal_metastasis",
 )
 
 STAGING_EXTRACTION_PROMPT = """You are re-reading a surgical pathology report for endometrial carcinoma to resolve ONLY the FIGO staging-critical findings listed below. The report is narrative prose and may be OCR-garbled — reconstruct the intended meaning, but never invent findings.
 
-Return a SINGLE JSON object with EXACTLY these four keys, each an object of the form:
+Return a SINGLE JSON object with EXACTLY these eight keys, each an object of the form:
   {{"value": <value>, "confidence": <number 0.0-1.0>, "status": "present|uncertain|missing", "evidence": "<verbatim phrase copied from the report>"}}
 
 Keys and allowed values (all: "identified", "not identified", or "not reported"):
@@ -324,12 +360,20 @@ Keys and allowed values (all: "identified", "not identified", or "not reported")
 - "serosal_involvement"
 - "adnexal_involvement"
 - "lymphovascular_invasion"
+- "vaginal_or_parametrial_involvement"
+- "pelvic_peritoneal_metastasis"
+- "bladder_or_bowel_mucosa_invasion"
+- "extrapelvic_peritoneal_metastasis"
 
 CRITICAL — distinguish MALIGNANT involvement (raises stage) from BENIGN / incidental findings (do NOT raise stage):
 - serosal_involvement = TUMOR reaching/penetrating the uterine or organ serosa. NOT serosal involvement: "serosal adhesions", "reactive mesothelial cells", "fibrous adhesions", "hydrosalpinx", "endometriosis", a serosa described as "smooth"/"unremarkable", or tumor only "within X cm of the serosa" (close but not reaching). If only such benign findings are present, answer "not identified".
 - adnexal_involvement = TUMOR in the ovary or fallopian tube. Benign adnexal findings (corpora albicantia, cysts, hydrosalpinx, endometriosis, calcification, "no tumor identified", "benign ovary/tube") are NOT adnexal involvement -> "not identified".
 - cervical_stromal_involvement = tumor invading the cervical STROMA (explicit cervical stromal invasion, or pT2). Tumor merely in the endocervical canal/mucosa or that "extends to the upper endocervix" WITHOUT stated stromal invasion is "uncertain" (give the phrase as evidence) unless stromal invasion or pT2 is explicit, in which case "identified".
 - lymphovascular_invasion = "identified" only when the report affirmatively states lymphvascular/lymphovascular invasion is present; "not identified" when it states absent/negative; otherwise "not reported". "Contraction artefact" alone is NOT lymphovascular invasion.
+- vaginal_or_parametrial_involvement = TUMOR invading the vaginal wall or the parametrial soft tissue (drives IIIB1). A clear/uninvolved vaginal cuff margin, or a vaginal cuff merely "close to" tumor without invasion, is NOT involvement. Benign parametrial findings (adhesion, endometriosis) are NOT involvement.
+- pelvic_peritoneal_metastasis = TUMOR implants on pelvic peritoneum or a positive pelvic peritoneal biopsy (drives IIIB2). Positive peritoneal WASHINGS or cytology ALONE are NOT pelvic peritoneal metastasis. Adhesions / reactive mesothelial cells / endometriosis are NOT metastasis.
+- bladder_or_bowel_mucosa_invasion = TUMOR invading the bladder or rectal/bowel MUCOSA (drives IVA). Serosal-only contact, adhesions, or "abuts" without mucosal invasion is NOT IVA.
+- extrapelvic_peritoneal_metastasis = TUMOR implants on abdominal peritoneum BEYOND the pelvis — e.g. omental, diaphragmatic, upper-abdominal peritoneal deposits (drives IVB). Positive washings alone are NOT extrapelvic metastasis. Benign omental fat / adhesions are NOT metastasis.
 
 Status rules: "present" (confidence >= 0.7) when clearly stated; "uncertain" (confidence < 0.5) only when the report is genuinely ambiguous; "missing" with value "not reported", confidence 0.0 when the finding is not addressed at all. Copy a verbatim supporting phrase into "evidence" for every non-missing value.
 
@@ -360,6 +404,10 @@ _CATEGORICAL_FIELDS = {
     "cervical_stromal_involvement",
     "serosal_involvement",
     "adnexal_involvement",
+    "vaginal_or_parametrial_involvement",
+    "pelvic_peritoneal_metastasis",
+    "bladder_or_bowel_mucosa_invasion",
+    "extrapelvic_peritoneal_metastasis",
     "margin_status",
     "extracapsular_extension",
     "myometrial_invasion_category",
@@ -491,6 +539,10 @@ def canonicalize_extraction(data: dict) -> tuple[dict, list[str]]:
             "cervical_stromal_involvement",
             "serosal_involvement",
             "adnexal_involvement",
+            "vaginal_or_parametrial_involvement",
+            "pelvic_peritoneal_metastasis",
+            "bladder_or_bowel_mucosa_invasion",
+            "extrapelvic_peritoneal_metastasis",
         }:
             updated_value = _canonicalize_identified_field(value)
         elif field_name == "extracapsular_extension":
@@ -908,6 +960,38 @@ _EQUIVOCAL_TOPIC_KEYWORDS: dict[str, tuple[str, ...]] = {
     ),
     "serosal_involvement": ("serosa", "serosal"),
     "adnexal_involvement": ("adnexa", "adnexal", "ovary", "ovarian", "fallopian", "tube"),
+    "vaginal_or_parametrial_involvement": (
+        "vagina",
+        "vaginal",
+        "parametri",
+        "paracerv",
+    ),
+    "pelvic_peritoneal_metastasis": (
+        "pelvic peritone",
+        "peritoneal implant",
+        "peritoneal nodule",
+        "peritoneal metasta",
+        "cul-de-sac",
+        "pouch of douglas",
+    ),
+    "bladder_or_bowel_mucosa_invasion": (
+        "bladder",
+        "urinary bladder",
+        "rectum",
+        "rectal",
+        "bowel",
+        "colon",
+        "sigmoid",
+        "mucosal invasion",
+    ),
+    "extrapelvic_peritoneal_metastasis": (
+        "omentum",
+        "omental",
+        "diaphragm",
+        "upper abdomen",
+        "abdominal peritone",
+        "extrapelvic",
+    ),
     "margin_status": ("margin",),
 }
 
@@ -1532,6 +1616,10 @@ _MEDGEMMA_ANSWER_KEY_BY_NUM: dict[int, str] = {
     21: "procedure_type",
     22: "specimen_integrity",
     23: "additional_findings",
+    24: "vaginal_or_parametrial_involvement",
+    25: "pelvic_peritoneal_metastasis",
+    26: "bladder_or_bowel_mucosa_invasion",
+    27: "extrapelvic_peritoneal_metastasis",
 }
 
 

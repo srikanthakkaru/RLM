@@ -187,3 +187,63 @@ def test_uncertain_lvsi_reset_to_unknown() -> None:
     status = {"lymphovascular_invasion": "uncertain"}
     facts = facts_from_extraction(data, field_status=status)
     assert facts.lvsi_extent is None
+
+
+def test_serosa_plus_vaginal_parametrial_computes_iiib1() -> None:
+    # Tumor reaching the serosa AND extending to the vagina/parametrium must compute IIIB1
+    # (priority 810), not be capped at IIIA2 (priority 800). This is the bug the new spread
+    # extraction fields fix.
+    audit = audit_extraction(
+        extraction_base(
+            serosal_involvement="identified",
+            vaginal_or_parametrial_involvement="identified",
+            procedure_type="hysterectomy with bilateral salpingo-oophorectomy",
+        )
+    )
+    assert audit.computed_stage == "IIIB1"
+
+
+def test_serosa_plus_pelvic_peritoneal_computes_iiib2() -> None:
+    # Serosal involvement + pelvic peritoneal metastasis -> IIIB2, not IIIA2.
+    audit = audit_extraction(
+        extraction_base(
+            serosal_involvement="identified",
+            pelvic_peritoneal_metastasis="identified",
+            procedure_type="hysterectomy with bilateral salpingo-oophorectomy",
+        )
+    )
+    assert audit.computed_stage == "IIIB2"
+
+
+def test_bladder_or_bowel_mucosa_invasion_computes_iva() -> None:
+    audit = audit_extraction(
+        extraction_base(
+            serosal_involvement="identified",
+            bladder_or_bowel_mucosa_invasion="identified",
+            procedure_type="hysterectomy with bilateral salpingo-oophorectomy",
+        )
+    )
+    assert audit.computed_stage == "IVA"
+
+
+def test_extrapelvic_peritoneal_metastasis_computes_ivb() -> None:
+    audit = audit_extraction(
+        extraction_base(
+            serosal_involvement="identified",
+            extrapelvic_peritoneal_metastasis="identified",
+            procedure_type="hysterectomy with bilateral salpingo-oophorectomy",
+        )
+    )
+    assert audit.computed_stage == "IVB"
+
+
+def test_uncertain_vaginal_parametrial_reset_to_unknown() -> None:
+    # Per-field status "uncertain" must reset the new spread fact to None instead of trusting
+    # the extracted value or letting closed-world inference overwrite it.
+    data = extraction_base(
+        vaginal_or_parametrial_involvement="not identified",
+        procedure_type="hysterectomy with bilateral salpingo-oophorectomy",
+    )
+    status = {"vaginal_or_parametrial_involvement": "uncertain"}
+    facts = facts_from_extraction(data, field_status=status)
+    assert facts.vaginal_or_parametrial_involvement is None

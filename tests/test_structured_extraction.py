@@ -8,8 +8,8 @@ _ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_ROOT / "scripts"))
 
 from vlmextraction import (  # noqa: E402
-    MEDGEMMA_CONFIDENCE_THRESHOLD,
     EXTRACTION_PROMPT_STRUCTURED_JSON,
+    MEDGEMMA_CONFIDENCE_THRESHOLD,
     ExtractionResult,
     ValidationResult,
     _apply_equivocal_backstop,

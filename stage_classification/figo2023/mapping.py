@@ -47,6 +47,10 @@ _FACT_TO_EXTRACTION_FIELD = {
     "serosal_involvement": "serosal_involvement",
     "adnexal_or_fallopian_tube_involvement": "adnexal_involvement",
     "cervical_stromal_involvement": "cervical_stromal_involvement",
+    "vaginal_or_parametrial_involvement": "vaginal_or_parametrial_involvement",
+    "pelvic_peritoneal_metastasis": "pelvic_peritoneal_metastasis",
+    "bladder_or_bowel_mucosa_invasion": "bladder_or_bowel_mucosa_invasion",
+    "extrapelvic_peritoneal_metastasis": "extrapelvic_peritoneal_metastasis",
 }
 
 # Extraction fields whose mapped fact must NOT be trusted as a confident value when the extractor
@@ -56,6 +60,10 @@ _UNCERTAIN_RESET_FIELDS = {
     "cervical_stromal_involvement": "cervical_stromal_involvement",
     "serosal_involvement": "serosal_involvement",
     "adnexal_involvement": "adnexal_or_fallopian_tube_involvement",
+    "vaginal_or_parametrial_involvement": "vaginal_or_parametrial_involvement",
+    "pelvic_peritoneal_metastasis": "pelvic_peritoneal_metastasis",
+    "bladder_or_bowel_mucosa_invasion": "bladder_or_bowel_mucosa_invasion",
+    "extrapelvic_peritoneal_metastasis": "extrapelvic_peritoneal_metastasis",
 }
 
 # A TNM-derived staging inference (pT2 -> cervix, pN -> nodes, pM -> distant) is only trusted when
@@ -113,6 +121,10 @@ def facts_from_extraction(
     cervical = map_identified(data.get("cervical_stromal_involvement"))
     serosal = map_identified(data.get("serosal_involvement"))
     adnexal = map_identified(data.get("adnexal_involvement"))
+    vaginal_parametrial = map_identified(data.get("vaginal_or_parametrial_involvement"))
+    pelvic_peritoneal = map_identified(data.get("pelvic_peritoneal_metastasis"))
+    bladder_or_bowel = map_identified(data.get("bladder_or_bowel_mucosa_invasion"))
+    extrapelvic_peritoneal = map_identified(data.get("extrapelvic_peritoneal_metastasis"))
     distant = map_distant_metastasis(tnm_pm) if pm_trusted else None
     regional_nodes, pelvic_nodes, para_aortic_nodes, nodal_size = map_nodes(
         data, tnm_pn if pn_trusted else None
@@ -149,6 +161,10 @@ def facts_from_extraction(
         cervical_stromal_involvement=cervical,
         serosal_involvement=serosal,
         adnexal_or_fallopian_tube_involvement=adnexal,
+        vaginal_or_parametrial_involvement=vaginal_parametrial,
+        pelvic_peritoneal_metastasis=pelvic_peritoneal,
+        bladder_or_bowel_mucosa_invasion=bladder_or_bowel,
+        extrapelvic_peritoneal_metastasis=extrapelvic_peritoneal,
         distant_metastasis=distant,
         regional_nodes_positive=regional_nodes,
         pelvic_nodes_positive=pelvic_nodes,
@@ -489,6 +505,10 @@ def build_evidence(data: dict[str, Any]) -> dict[str, str]:
         "cervical_stromal_involvement",
         "serosal_involvement",
         "adnexal_involvement",
+        "vaginal_or_parametrial_involvement",
+        "pelvic_peritoneal_metastasis",
+        "bladder_or_bowel_mucosa_invasion",
+        "extrapelvic_peritoneal_metastasis",
         "lymph_nodes_total_positive",
         "tnm_pT",
         "tnm_pN",
