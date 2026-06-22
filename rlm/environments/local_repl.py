@@ -1,3 +1,4 @@
+import ast
 import copy
 import io
 import json
@@ -360,6 +361,33 @@ class LocalREPL(NonIsolatedEnv):
         finally:
             os.chdir(old_cwd)
 
+    def _exec_with_echo(self, code: str, namespace: dict[str, Any]) -> None:
+        """Execute code and echo the value of a trailing bare expression, like an interactive
+        REPL/Jupyter cell.
+
+        Plain ``exec`` discards expression results, so a model that writes ``context.keys()`` (no
+        ``print``) gets empty output and cannot make progress. Mirroring REPL semantics — echo the
+        repr of the last statement when it is a bare expression evaluating to non-None — removes
+        that failure mode.
+        """
+        try:
+            tree = ast.parse(code, mode="exec")
+        except SyntaxError:
+            # Let the SyntaxError surface through the normal exec path / error handling.
+            exec(compile(code, "<repl>", "exec"), namespace, namespace)
+            return
+
+        if tree.body and isinstance(tree.body[-1], ast.Expr):
+            last_expr = tree.body.pop()
+            if tree.body:
+                exec(compile(tree, "<repl>", "exec"), namespace, namespace)
+            expr = ast.Expression(last_expr.value)
+            value = eval(compile(expr, "<repl>", "eval"), namespace, namespace)
+            if value is not None:
+                print(repr(value))
+        else:
+            exec(compile(tree, "<repl>", "exec"), namespace, namespace)
+
     def execute_code(self, code: str) -> REPLResult:
         """Execute code in the persistent namespace and return result."""
         start_time = time.perf_counter()
@@ -370,7 +398,7 @@ class LocalREPL(NonIsolatedEnv):
         with self._capture_output() as (stdout_buf, stderr_buf), self._temp_cwd():
             try:
                 combined = {**self.globals, **self.locals}
-                exec(code, combined, combined)
+                self._exec_with_echo(code, combined)
 
                 # Update locals with new variables
                 for key, value in combined.items():
