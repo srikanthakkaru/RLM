@@ -1,0 +1,67 @@
+Report: C:\Users\mokku\RLM\data\output\TCGA-A5-A0GN.7A76BDC7-62D9-4A8D-AAEF-CECF9F819D58_vlm_rlm_result.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 3
+Execution Time: 156.33s
+Extraction Time: 16.95s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'uncertain' -> 'not reported'
+  - cervical_stromal_involvement: 'not reported' -> 'uncertain' (staging re-read)
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+Uncertain Fields (addressed but ambiguous in report):
+  - margin_status (0.50) — "g re-read) Missing Fields (absent from report): - closest_margin_distance_cm - closest_margin_location - specimen_integrity Stage Audit Status: indete"
+Missing Fields (absent from report):
+  - myometrial_invasion_depth_cm
+  - myometrial_thickness_cm
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIB
+Reported FIGO Stage: A
+Stage Audit Missing Facts:
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IIB (IIB_SUBSTANTIAL_LVSI))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IB (IB_DEEP))
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-06-22 16:15:30
+================================================================================
+
+Diagnosis
+
+The diagnosis is primary endometrial adenocarcinoma, endometrioid type, FIGO grade 1 (nuclear grade 2), measuring 5.2 cm in size. The report states there is myometrial invasion present, estimated at 56% based on reported measurements. Lymphovascular invasion is identified. The cervix is not involved by tumor. Surgical margins are uninvolved. A calcified leiomyoma was also found.
+
+Staging
+
+The computed FIGO stage is indeterminate (provisional IIB), requiring further information regarding the extent of lymphovascular invasion (LVSI). The reported FIGO stage is A.
+
+Key Findings
+
+- Histologic Type: Endometrioid adenocarcinoma
+- FIGO Grade: 1
+- Tumor Size: 5.2 cm
+- Myometrial Invasion: ≥50% (derived from reported measurements, 56%)
+- Lymphovascular Invasion (LVI): Present
+- Cervical Stromal Involvement: Not reported
+- Margin Status: Uninvolved
+- Lymph Nodes Examined: 2 total (Left Pelvic, Right Pelvic x2)
+- Lymph Nodes Positive: 0/2
+- TNM Classification: pTlc, pN0, pMx
+
+Expert Summary
+
+The patient underwent a hysterectomy for endometrial adenocarcinoma. The tumor is endometrioid type, grade 1, measuring 5.2 cm. It demonstrates deep myometrial invasion (≥50%, derived from reported depth/thickness measurements) and lymphovascular invasion. Cervical stromal involvement is not reported. Lymph nodes examined were negative for metastasis. Distant metastasis status is not assessed pathologically (pMx). The computed stage is indeterminate, potentially IIB pending LVSI extent information, while the reported stage is A.
+
+Patient-Friendly Explanation
+
+The surgery showed cancer in the lining of the uterus (endometrium). It's a type called endometrioid adenocarcinoma, which is usually slow-growing (grade 1). The tumor was 5.2 cm in size and grew deeply into the muscle wall of the uterus (≥50% invasion). There were also signs that cancer cells might have entered small blood vessels or lymphatics (lymphovascular invasion). The cancer did not spread to the cervix, nearby tissues like the vagina or bladder, or the surgical margins. Two lymph nodes were removed and checked, and neither contained cancer cells. We don't know if the cancer has spread further outside the pelvis based on this pathology report alone.
+
+Next-Step Considerations
+
+The FIGO stage is reported as A but computed as indeterminate (provisional IIB). The provisional stage depends on the extent of lymphovascular invasion (LVSI), which is currently unknown (requires pathologist verification).
