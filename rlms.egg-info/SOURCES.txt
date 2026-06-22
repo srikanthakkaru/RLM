@@ -37,9 +37,13 @@ rlms.egg-info/SOURCES.txt
 rlms.egg-info/dependency_links.txt
 rlms.egg-info/requires.txt
 rlms.egg-info/top_level.txt
+tests/test_figo2023_mapping.py
+tests/test_figo2023_rules.py
 tests/test_imports.py
 tests/test_local_repl.py
 tests/test_local_repl_persistent.py
 tests/test_multi_turn_integration.py
 tests/test_parsing.py
+tests/test_structured_extraction.py
 tests/test_types.py
+tests/test_vlm_freetext.py

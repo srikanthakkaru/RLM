@@ -162,6 +162,6 @@ You'll have the option to select saved `.jsonl` files
 
 <p># 3) VLM -> RLM pipeline for one report
 python scripts/pathologyrlm.py data/reports/TCGA-2E-A9G8.921E6140-A03E-4FBD-9FB8-554AE96FD16C.txt \
-  --vlm-model alibayram/medgemma:latest \
-  --rlm-model qordmlwls/llama3.1-medical \
+  --vlm-model medgemma:27b \
+  --rlm-model medgemma:27b \
   --max-iterations 10</p>
