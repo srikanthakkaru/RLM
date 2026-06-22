@@ -25,6 +25,7 @@ UNKNOWN_VALUES = {"positive_unknown", "unknown"}
 # IIC), not an audit failure.
 RECLASSIFYING_RULE_IDS = {
     "IIC_AGGRESSIVE_INVASION",
+    "IIC_AGGRESSIVE_CERVIX",
     "IIB_SUBSTANTIAL_LVSI",
     "MOLECULAR_POLEMUT",
     "MOLECULAR_P53ABN",

@@ -25,6 +25,8 @@ IIIA1_ADNEXA,IIIA1,790,adnexal_or_fallopian_tube_involvement,eq,true,FIGO 2023 T
 IIIA1_ADNEXA,IIIA1,790,ia3_exception_met,eq,false,FIGO 2023 Table 1,Adnexal or fallopian tube involvement not meeting IA3 exception
 IIC_AGGRESSIVE_INVASION,IIC,700,histology_aggressiveness,eq,aggressive,FIGO 2023 Table 1,Aggressive histological type with any myometrial invasion
 IIC_AGGRESSIVE_INVASION,IIC,700,myometrial_invasion_present,eq,true,FIGO 2023 Table 1,Aggressive histological type with any myometrial invasion
+IIC_AGGRESSIVE_CERVIX,IIC,695,histology_aggressiveness,eq,aggressive,FIGO 2023 Stage II text,Aggressive histological type with cervical stromal invasion
+IIC_AGGRESSIVE_CERVIX,IIC,695,cervical_stromal_involvement,eq,true,FIGO 2023 Stage II text,Aggressive histological type with cervical stromal invasion
 IIB_SUBSTANTIAL_LVSI,IIB,690,histology_aggressiveness,eq,non_aggressive,FIGO 2023 Table 1,Non-aggressive histological type with substantial LVSI
 IIB_SUBSTANTIAL_LVSI,IIB,690,lvsi_extent,eq,substantial,FIGO 2023 Table 1,Non-aggressive histological type with substantial LVSI
 IIA_CERVIX,IIA,680,histology_aggressiveness,eq,non_aggressive,FIGO 2023 Table 1,Non-aggressive histological type with cervical stromal invasion

@@ -121,6 +121,11 @@ def facts_from_extraction(
     cervical = map_identified(data.get("cervical_stromal_involvement"))
     serosal = map_identified(data.get("serosal_involvement"))
     adnexal = map_identified(data.get("adnexal_involvement"))
+    fallopian_tube = detect_fallopian_tube_involvement(
+        adnexal,
+        data.get("adnexal_involvement"),
+        (field_evidence or {}).get("adnexal_involvement"),
+    )
     vaginal_parametrial = map_identified(data.get("vaginal_or_parametrial_involvement"))
     pelvic_peritoneal = map_identified(data.get("pelvic_peritoneal_metastasis"))
     bladder_or_bowel = map_identified(data.get("bladder_or_bowel_mucosa_invasion"))
@@ -161,6 +166,7 @@ def facts_from_extraction(
         cervical_stromal_involvement=cervical,
         serosal_involvement=serosal,
         adnexal_or_fallopian_tube_involvement=adnexal,
+        fallopian_tube_involvement=fallopian_tube,
         vaginal_or_parametrial_involvement=vaginal_parametrial,
         pelvic_peritoneal_metastasis=pelvic_peritoneal,
         bladder_or_bowel_mucosa_invasion=bladder_or_bowel,
@@ -201,6 +207,9 @@ def _reset_uncertain_findings(
             facts.evidence[fact_attr] = (
                 "Reset to unknown: report addresses this ambiguously (flagged uncertain)"
             )
+    # The tube-vs-ovary split is derived from the adnexal finding, so it inherits its uncertainty.
+    if field_status.get("adnexal_involvement") == "uncertain":
+        facts.fallopian_tube_involvement = None
 
 
 def is_complete_resection(data: dict[str, Any]) -> bool:
@@ -390,6 +399,31 @@ def map_identified(value: Any) -> bool | None:
     if normalized in {"not identified", "absent", "negative", "none"}:
         return False
     if normalized in {"identified", "present", "positive", "involved"}:
+        return True
+    return None
+
+
+def detect_fallopian_tube_involvement(
+    adnexal_present: bool | None,
+    value: Any,
+    evidence_quote: str | None,
+) -> bool | None:
+    """Whether positive adnexal involvement is fallopian-tube (vs ovarian) disease.
+
+    The extraction schema lumps ovary and tube into a single ``adnexal_involvement`` field, so
+    tube-vs-ovary is recovered from the verbatim evidence. Fallopian tube tumours are always
+    Stage IIIA1 and never meet the IA3 ovarian exception, so a True here blocks IA3. Detection is
+    deliberately conservative: it fires only when the evidence names the tube WITHOUT the ovary,
+    leaving an ovary-positive (potential IA3) case untouched. Returns None when adnexal is not a
+    confident positive or the site is ambiguous.
+    """
+    if adnexal_present is not True:
+        return None
+    fragments = [str(value or ""), str(evidence_quote or "")]
+    text = " ".join(fragments).lower()
+    has_tube = "fallopian" in text or "salping" in text or re.search(r"\btube", text) is not None
+    has_ovary = "ovar" in text
+    if has_tube and not has_ovary:
         return True
     return None
 

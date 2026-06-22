@@ -76,6 +76,19 @@ def test_stage_ia3_ovarian_exception_beats_iiia1() -> None:
     )
 
 
+def test_fallopian_tube_involvement_is_always_iiia1() -> None:
+    # Fallopian tube involvement never meets the IA3 ovarian exception, even when every ovarian
+    # criterion is otherwise satisfied — it is always Stage IIIA1.
+    assert_stage(
+        "IIIA1",
+        adnexal_or_fallopian_tube_involvement=True,
+        fallopian_tube_involvement=True,
+        additional_metastases_absent=True,
+        ovarian_tumor_unilateral=True,
+        ovarian_capsule_intact=True,
+    )
+
+
 def test_stage_ii_substages() -> None:
     assert_stage("IIA", cervical_stromal_involvement=True)
     assert_stage("IIB", lvsi_extent=LvsiExtent.SUBSTANTIAL.value)
@@ -84,6 +97,17 @@ def test_stage_ii_substages() -> None:
         histology_aggressiveness=HistologyAggressiveness.AGGRESSIVE.value,
         low_grade_endometrioid=False,
         myometrial_invasion_percent=10.0,
+    )
+    # Aggressive histology invading cervical stroma without myometrial invasion is still IIC
+    # ("IIC is reserved for aggressive histological types with myometrial and/or cervical
+    # stroma invasion"), not indeterminate.
+    assert_stage(
+        "IIC",
+        histology_aggressiveness=HistologyAggressiveness.AGGRESSIVE.value,
+        low_grade_endometrioid=False,
+        myometrial_invasion_percent=0.0,
+        myometrial_invasion_present=False,
+        cervical_stromal_involvement=True,
     )
 
 

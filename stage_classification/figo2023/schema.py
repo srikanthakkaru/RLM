@@ -88,6 +88,7 @@ class FigoCaseFacts:
     cervical_stromal_involvement: bool | None = None
     serosal_involvement: bool | None = None
     adnexal_or_fallopian_tube_involvement: bool | None = None
+    fallopian_tube_involvement: bool | None = None
     vaginal_or_parametrial_involvement: bool | None = None
     pelvic_peritoneal_metastasis: bool | None = None
     bladder_or_bowel_mucosa_invasion: bool | None = None
@@ -122,6 +123,7 @@ class FigoCaseFacts:
             "adnexal_or_fallopian_tube_involvement": (
                 self.adnexal_or_fallopian_tube_involvement
             ),
+            "fallopian_tube_involvement": self.fallopian_tube_involvement,
             "vaginal_or_parametrial_involvement": self.vaginal_or_parametrial_involvement,
             "pelvic_peritoneal_metastasis": self.pelvic_peritoneal_metastasis,
             "bladder_or_bowel_mucosa_invasion": self.bladder_or_bowel_mucosa_invasion,
@@ -165,6 +167,10 @@ class FigoCaseFacts:
         return None
 
     def ia3_exception_met(self) -> bool | None:
+        # Fallopian tube involvement is always Stage IIIA1 and can never meet the IA3 ovarian
+        # exception, which is reserved for synchronous endometrial + ovarian low-grade disease.
+        if self.fallopian_tube_involvement is True:
+            return False
         criteria = [
             self.low_grade_endometrioid,
             self.adnexal_or_fallopian_tube_involvement,

@@ -27,6 +27,23 @@ def extraction_base(**overrides):
     return data
 
 
+def test_fallopian_tube_derived_from_evidence_blocks_ia3() -> None:
+    data = extraction_base(adnexal_involvement="identified")
+    evidence = {"adnexal_involvement": "Left fallopian tube involved by carcinoma."}
+    facts = facts_from_extraction(data, field_evidence=evidence)
+    assert facts.adnexal_or_fallopian_tube_involvement is True
+    assert facts.fallopian_tube_involvement is True
+    assert facts.ia3_exception_met() is False
+
+
+def test_ovary_only_evidence_does_not_set_fallopian_tube() -> None:
+    data = extraction_base(adnexal_involvement="identified")
+    evidence = {"adnexal_involvement": "Right ovary involved by endometrioid carcinoma."}
+    facts = facts_from_extraction(data, field_evidence=evidence)
+    assert facts.adnexal_or_fallopian_tube_involvement is True
+    assert facts.fallopian_tube_involvement is None
+
+
 def test_mapping_current_extraction_to_ia2_audit() -> None:
     facts = facts_from_extraction(extraction_base())
     assert facts.histology_aggressiveness == HistologyAggressiveness.NON_AGGRESSIVE.value
