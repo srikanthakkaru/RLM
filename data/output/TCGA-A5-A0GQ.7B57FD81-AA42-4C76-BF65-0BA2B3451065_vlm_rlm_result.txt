@@ -1,0 +1,99 @@
+Report: data\reports\TCGA-A5-A0GQ.7B57FD81-AA42-4C76-BF65-0BA2B3451065.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 170.62s
+Extraction Time: 16.98s
+Extraction Retries: 2
+Extraction Valid: True
+Missing Fields (absent from report):
+  - nuclear_grade
+  - lymphovascular_invasion
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - lymph_node_stations
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IB
+Reported FIGO Stage: not reported
+Stage Audit Missing Facts:
+  - extrapelvic_peritoneal_metastasis: No extracted or mapped value is available (IVB (IVB_EXTRAPELVIC_PERITONEAL))
+  - bladder_or_bowel_mucosa_invasion: No extracted or mapped value is available (IVA (IVA_MUCOSA))
+  - pelvic_peritoneal_metastasis: No extracted or mapped value is available (IIIB2 (IIIB2_PELVIC_PERITONEAL))
+  - vaginal_or_parametrial_involvement: No extracted or mapped value is available (IIIB1 (IIIB1_VAGINA_PARAMETRIA))
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - myometrial_invasion_present: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - myometrial_invasion_present: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - limited_to_polyp: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - histology_aggressiveness: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - myometrial_invasion_present: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - confined_to_endometrium: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IB (IB_DEEP))
+  - histology_aggressiveness: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - histology_aggressiveness: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - limited_to_polyp: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - histology_aggressiveness: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - confined_to_endometrium: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - vaginal_or_parametrial_involvement: Rules out or supports vaginal/parametrial spread (IIIB1)
+  - pelvic_peritoneal_metastasis: Rules out or supports pelvic peritoneal metastasis (IIIB2)
+  - bladder_or_bowel_mucosa_invasion: Rules out or supports bladder/bowel mucosal invasion (IVA)
+  - extrapelvic_peritoneal_metastasis: Rules out or supports extrapelvic peritoneal metastasis (IVB)
+  - limited_to_polyp: Distinguishes IA1/IC polyp-limited disease (IA1/IC)
+  - confined_to_endometrium: Distinguishes IA1/IC endometrium-confined disease (IA1/IC)
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'I' which is not among reported/computed/provisional stages ['IB']
+Date: 2026-06-20 19:54:36
+================================================================================
+
+**Diagnosis**
+
+The patient has endometrial adenocarcinoma, endometrioid type, FIGO grade I. This cancer is located in the uterus (endometrium) and has invaded approximately one-half (50%) of the myometrium (the muscular wall of the uterus). The tumor arose in an area of complex atypical endometrial hyperplasia. There was no angiolymphatic invasion identified.
+
+The patient also had bilateral salpingo-oophorectomies (removal of both fallopian tubes and ovaries). The ovaries showed no significant pathology or mild cystadenofibromatous changes, respectively, and were negative for malignancy. Both fallopian tubes contained paratubal cysts but were otherwise negative for malignancy.
+
+The cervix was negative for malignancy but showed tunnel clusters and lobular endocervical hyperplasia. Adenomyosis (endometrial tissue within the myometrium) was also present in the uterus.
+
+**Staging**
+
+Based on the 2002 AJCC (American Joint Committee on Cancer) staging system, the pathologic stage is pT1c/pN0. This indicates:
+- pT1c: The tumor invades less than 50% of the myometrium. (Note: The report states invasion to approximately one-half or 50%, which technically falls at the boundary between T1a (<1/2) and T1b (>1/2). However, the stage reported is pT1c, implying <50% invasion based on the AJCC 6th edition criteria used.)
+- pN0: No regional lymph node metastasis was found. Two pelvic lymph nodes were examined (one right, one left), and both were negative for malignancy.
+
+**Key Findings**
+
+-   Endometrial adenocarcinoma, endometrioid type, FIGO grade I.
+-   Tumor invasion into approximately 50% of the myometrium.
+-   No angiolymphatic invasion.
+-   Complex atypical endometrial hyperplasia present in the background tissue.
+-   Adenomyosis present.
+-   Cervical endocervical hyperplasia (tunnel clusters and lobular type).
+-   Bilateral salpingo-oophorectomy performed; ovaries negative for malignancy.
+-   Fallopian tubes negative for malignancy, both with paratubal cysts.
+-   Two examined pelvic lymph nodes are negative for cancer (pN0).
+-   Pathologic stage: pT1c/pN0 (AJCC 6th Ed).
+
+**Expert Summary**
+
+The pathology report describes a Stage I endometrial adenocarcinoma that has invaded the uterine muscle wall to a depth of approximately one-half. The tumor is low grade (FIGO Grade I) and did not spread to the examined lymph nodes or blood vessels/lymphatic channels (no angiolymphatic invasion). Associated findings include complex atypical hyperplasia, adenomyosis, and cervical endocervical hyperplasia. Both ovaries and fallopian tubes were removed and found to be free of cancer, although paratubal cysts were present on both tubes.
+
+**Patient-Friendly Explanation**
+
+The pathology report confirms you have endometrial cancer (cancer of the uterine lining). It's a type called endometrioid adenocarcinoma, which is generally considered less aggressive. The cancer has grown into the muscle wall of your uterus about halfway through. Importantly, it hasn't spread to the lymph nodes that were removed or invaded blood/lymphatic vessels. You also had bilateral salpingo-oophorectomies (removal of tubes and ovaries), and these organs did not show any signs of cancer. The report also mentions some other findings like complex atypical hyperplasia (pre-cancerous changes in the uterine lining), adenomyosis (endometrial tissue growing into the muscle wall), and some benign changes in your cervix.
+
+**Next-Step Considerations**
+
+Based on this pathology report, further management decisions will be made by your gynecologic oncologist. These may include:
+-   Discussion of adjuvant therapy options (e.g., radiation therapy, chemotherapy, hormone therapy) depending on risk factors not fully captured in the stage (like grade, presence of hyperplasia, specific molecular markers if tested).
+-   Follow-up surveillance plan.
+-   Further imaging or testing might be considered based on clinical judgment and institutional protocols.
+
+The report explicitly states that the pathologic stage is pT1c/pN0 according to the AJCC 6th Edition criteria. This information is crucial for determining prognosis and treatment options.

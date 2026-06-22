@@ -1,0 +1,72 @@
+Report: data\reports\TCGA-A5-A0GE.7686A445-554F-43EF-BE79-6EA5E5C4DB21.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 768.58s
+Extraction Time: 11.42s
+Extraction Retries: 0
+Extraction Valid: True
+Missing Fields (absent from report):
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - procedure_type
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IB
+Reported FIGO Stage: I
+Stage Audit Missing Facts:
+  - extrapelvic_peritoneal_metastasis: No extracted or mapped value is available (IVB (IVB_EXTRAPELVIC_PERITONEAL))
+  - bladder_or_bowel_mucosa_invasion: No extracted or mapped value is available (IVA (IVA_MUCOSA))
+  - pelvic_peritoneal_metastasis: No extracted or mapped value is available (IIIB2 (IIIB2_PELVIC_PERITONEAL))
+  - vaginal_or_parametrial_involvement: No extracted or mapped value is available (IIIB1 (IIIB1_VAGINA_PARAMETRIA))
+  - vaginal_or_parametrial_involvement: Rules out or supports vaginal/parametrial spread (IIIB1)
+  - pelvic_peritoneal_metastasis: Rules out or supports pelvic peritoneal metastasis (IIIB2)
+  - bladder_or_bowel_mucosa_invasion: Rules out or supports bladder/bowel mucosal invasion (IVA)
+  - extrapelvic_peritoneal_metastasis: Rules out or supports extrapelvic peritoneal metastasis (IVB)
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'IA' which is not among reported/computed/provisional stages ['I', 'IB']
+Date: 2026-06-20 18:43:10
+================================================================================
+
+Here's an interpretation of the pathology report, broken down into sections as requested:
+
+**Diagnosis**
+
+1.  **Uterus, Bilateral Tubes and Ovaries:** Endometrial adenocarcinoma, endometrioid type, FIGO grade 2 (nuclear grade 2-3). The tumor measures 3.4 x 2.9 cm and extends 0.7 cm into the posterior myometrium. The myometrium thickness is 2.2 cm. A rare microscopic focus of possible early myometrial invasion is noted. There is no extension into the endocervical tissue, and the parametria are negative for tumor. The background endometrium shows proliferative changes. A small intramural leiomyoma (fibroid) was also found. The cervix shows squamous metaplasia associated with chronic cervicitis. Both fallopian tubes were unremarkable without tumor involvement. The right ovary has multiple hemorrhagic follicle cysts; the left ovary has multiple follicle cysts.
+2.  **Right Pelvic Lymph Node:** No metastatic carcinoma identified.
+3.  **Right Periaortic Lymph Nodes:** No metastatic carcinoma identified in four lymph nodes examined.
+4.  **Left Pelvic Lymph Nodes:** No metastatic carcinoma identified in two lymph nodes examined.
+5.  **Left Periaortic Lymph Node:** No metastatic carcinoma identified.
+6.  **Appendix:** No significant histopathologic changes.
+
+**Staging**
+
+*   The pathologic stage is T1b (tumor invades less than half of the myometrium). This is based on the tumor extending 0.7 cm into a total myometrial thickness of 2.2 cm.
+*   Lymph node status: N0 (no regional lymph node metastasis) as no cancer was found in the examined pelvic or periaortic lymph nodes.
+*   The report does not provide information for distant metastasis (M stage), so overall staging (e.g., Stage IA) cannot be determined from this report alone.
+
+**Key Findings**
+
+*   Type of Cancer: Endometrial adenocarcinoma, endometrioid type.
+*   Grade: FIGO grade 2 (nuclear grade 2-3).
+*   Tumor Size: 3.4 x 2.9 cm.
+*   Myometrial Invasion: Tumor invades 0.7 cm into the myometrium (total thickness 2.2 cm), consistent with T1b stage. A rare microscopic focus of possible early invasion is also noted.
+*   Lymph Nodes: All examined pelvic and periaortic lymph nodes are negative for cancer (N0).
+*   Other Findings: Small leiomyoma, cervical squamous metaplasia/chronic cervicitis, ovarian cysts.
+
+**Expert Summary**
+
+The patient has an endometrioid type endometrial adenocarcinoma, FIGO grade 2. The tumor is relatively small and localized to the uterus, invading less than half of the myometrium (T1b). Importantly, there is no evidence of spread to the examined lymph nodes (N0) or other organs like the fallopian tubes or ovaries.
+
+**Patient-Friendly Explanation**
+
+The pathology report confirms you have endometrial cancer, specifically a type called endometrioid adenocarcinoma. It's graded as FIGO grade 2. The tumor is about 3.4 cm in size and has grown into the muscle wall of your uterus (myometrium) to a depth of 0.7 cm out of a total thickness of 2.2 cm. This level of invasion classifies it as stage T1b. The good news is that cancer cells were not found in any of the lymph nodes that were removed from the pelvis and around the aorta, indicating no spread to these nearby areas (N0). The fallopian tubes and ovaries appear clear of cancer. A small fibroid was also present in the uterus.
+
+**Next-Step Considerations**
+
+Based on this report:
+*   Further staging might be considered depending on clinical findings and institutional protocols, although lymph nodes are negative. This might involve imaging to check for distant spread (M stage).
+*   Treatment options will depend on the full stage, grade, patient's overall health, and preferences, but typically include surgery (which has been done), radiation therapy, hormone therapy, chemotherapy, or targeted therapy.
+*   Discussion with an oncologist specializing in gynecologic cancers is crucial to determine the most appropriate treatment plan.

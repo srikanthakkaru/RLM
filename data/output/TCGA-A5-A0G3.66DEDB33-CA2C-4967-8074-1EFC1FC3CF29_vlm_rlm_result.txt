@@ -1,0 +1,79 @@
+Report: data\reports\TCGA-A5-A0G3.66DEDB33-CA2C-4967-8074-1EFC1FC3CF29.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 506.38s
+Extraction Time: 11.56s
+Extraction Retries: 0
+Extraction Valid: True
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIIC
+Reported FIGO Stage: IIIC
+Stage Audit Missing Facts:
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2 (IIIC2_PARA_UNKNOWN))
+  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1i (IIIC1I_PELVIC_MICRO))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1i (IIIC1I_PELVIC_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1i (IIIC1I_PELVIC_MICRO))
+  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1ii (IIIC1II_PELVIC_MACRO))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1ii (IIIC1II_PELVIC_MACRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1ii (IIIC1II_PELVIC_MACRO))
+  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1 (IIIC1_PELVIC_UNKNOWN))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1 (IIIC1_PELVIC_UNKNOWN))
+  - nodal_station: Positive regional nodes are present, but station is unknown (IIIC1 vs IIIC2)
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-06-20 17:24:06
+================================================================================
+
+**Diagnosis**
+
+The patient has uterine papillary serous adenocarcinoma. The tumor measures 4.5 cm in size and invades the inner half of the myometrium. It also involves the cervix, invading into the endocervical stroma. There is invasion of a submucosal leiomyoma by the adenocarcinoma. The vaginal cuff is not involved. Surgical margins and parametrial tissue are also clear of tumor.
+
+**Staging**
+
+Based on the AJCC 2002 staging system, the clinical stage is IIIC. The pathological stage (pTNM) is pT2b N1 Mx.
+-   pT2b: Tumor invades inner half of myometrium.
+-   N1: Metastasis in one or more pelvic lymph nodes.
+-   Mx: Distant metastasis cannot be assessed.
+
+**Key Findings**
+
+*   **Primary Tumor:** Uterine papillary serous adenocarcinoma, 4.5 cm, invading the inner half of the myometrium (pT2b).
+*   **Cervical Involvement:** Adenocarcinoma invades endocervical stroma.
+*   **Lymph Node Metastasis:** Positive pelvic lymph nodes (right paraaortic, right common iliac, right pelvic, and left pelvic) indicating N1 disease. Specifically:
+    *   Right Paraaortic: 2/2 positive nodes with focal extracapsular extension in one node.
+    *   Right Common Iliac: 2/2 positive nodes.
+    *   Right Pelvic: 1/1 positive node.
+    *   Left Pelvic: 1/2 positive nodes, with endosalpingiosis noted in the metastatic node.
+*   **Other Findings:**
+    *   Adenomyosis present.
+    *   Four leiomyomas (fibroids) of varying types and sizes (1.0 to 3.5 cm), one of which is involved by the tumor.
+    *   Small endometrial polyp partially involved by adenocarcinoma.
+    *   Non-neoplastic endometrium is atrophic.
+    *   Omentum shows microadhesions but no evidence of malignancy.
+    *   Bilateral ovaries and fallopian tubes were removed (bilateral salpingo-oophorectomy) and show no evidence of metastatic adenocarcinoma, although the report notes "possible metastatic adenocarcinoma" in the bilateral ovaries which seems contradictory to "no evidence". The fallopian tubes showed focal mucosal hyperplasia but no tumor.
+    *   Surgical margins/parametrial tissue are negative for tumor.
+
+**Expert Summary**
+
+The pathology report describes a moderately advanced uterine papillary serous adenocarcinoma (Stage IIIC, pT2b N1 Mx). The cancer has invaded the myometrium and spread to multiple pelvic and paraaortic lymph nodes. There is also cervical involvement and invasion of a leiomyoma. The omentum was negative for tumor.
+
+**Patient-Friendly Explanation**
+
+The pathology report confirms you have uterine cancer, specifically a type called papillary serous adenocarcinoma. The tumor is 4.5 cm in size and has grown into the muscle wall of your uterus (inner half). It has also spread to several lymph nodes in your pelvis and near the aorta. Additionally, the cancer has involved the cervix and one of your fibroids. The surgical removal included your uterus, fallopian tubes, ovaries, and part of the omentum. The margins of the surgery were clear, meaning no cancer was found at the edges of the removed tissue or in the surrounding parametrial tissue. The omentum did not show any signs of cancer spread.
+
+**Next-Step Considerations**
+
+Based on this report (Stage IIIC, pT2b N1 Mx), further treatment is likely required beyond surgery. This typically involves adjuvant chemotherapy and possibly radiation therapy, depending on specific factors and institutional protocols. A discussion with your oncologist regarding the optimal treatment plan based on the stage and grade of the cancer is essential.

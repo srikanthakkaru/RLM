@@ -1,0 +1,92 @@
+Report: data\reports\TCGA-AJ-A23O.4D477218-A4D1-4940-AEF5-D8F46931594C.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 367.13s
+Extraction Time: 18.40s
+Extraction Retries: 2
+Extraction Valid: False
+Missing Fields (absent from report):
+  - nuclear_grade
+  - adnexal_involvement
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IB
+Reported FIGO Stage: not reported
+Stage Audit Missing Facts:
+  - extrapelvic_peritoneal_metastasis: No extracted or mapped value is available (IVB (IVB_EXTRAPELVIC_PERITONEAL))
+  - bladder_or_bowel_mucosa_invasion: No extracted or mapped value is available (IVA (IVA_MUCOSA))
+  - pelvic_peritoneal_metastasis: No extracted or mapped value is available (IIIB2 (IIIB2_PELVIC_PERITONEAL))
+  - vaginal_or_parametrial_involvement: No extracted or mapped value is available (IIIB1 (IIIB1_VAGINA_PARAMETRIA))
+  - serosal_involvement: No extracted or mapped value is available (IIIA2 (IIIA2_SEROSA))
+  - adnexal_or_fallopian_tube_involvement: No extracted or mapped value is available (IIIA1 (IIIA1_ADNEXA))
+  - ia3_exception_met: No extracted or mapped value is available (IIIA1 (IIIA1_ADNEXA))
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - myometrial_invasion_present: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - myometrial_invasion_present: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - limited_to_polyp: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - histology_aggressiveness: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - myometrial_invasion_present: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - confined_to_endometrium: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IB (IB_DEEP))
+  - ia3_exception_met: No extracted or mapped value is available (IA3 (IA3_OVARY_EXCEPTION))
+  - histology_aggressiveness: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - histology_aggressiveness: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - limited_to_polyp: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - histology_aggressiveness: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - confined_to_endometrium: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - vaginal_or_parametrial_involvement: Rules out or supports vaginal/parametrial spread (IIIB1)
+  - pelvic_peritoneal_metastasis: Rules out or supports pelvic peritoneal metastasis (IIIB2)
+  - bladder_or_bowel_mucosa_invasion: Rules out or supports bladder/bowel mucosal invasion (IVA)
+  - extrapelvic_peritoneal_metastasis: Rules out or supports extrapelvic peritoneal metastasis (IVB)
+  - limited_to_polyp: Distinguishes IA1/IC polyp-limited disease (IA1/IC)
+  - confined_to_endometrium: Distinguishes IA1/IC endometrium-confined disease (IA1/IC)
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'III' which is not among reported/computed/provisional stages ['IB']
+Date: 2026-06-20 20:08:44
+================================================================================
+
+**Diagnosis**
+
+The patient has endometrioid carcinoma of the uterus (endometrial cancer). The tumor is poorly differentiated (WHO Grade III) and invades more than half of the myometrium (specifically, 13 mm into a total thickness of 16 mm). The tumor does not involve the cervix or cervical stroma. Lymphovascular space invasion is present. There was also complex hyperplasia with atypia found in the endometrium.
+
+**Staging**
+
+The pathological stage is pT1b, N0.
+- pT1b indicates the tumor invades more than half of the myometrium.
+- N0 indicates no regional lymph node metastasis (0 out of 19 lymph nodes examined were positive for cancer).
+
+**Key Findings**
+
+*   **Tumor Type:** Endometrioid carcinoma, poorly differentiated (Grade III).
+*   **Location:** Uterine fundus.
+*   **Myometrial Invasion:** Invades more than half the myometrium (13 mm out of 16 mm total thickness).
+*   **Cervical Involvement:** Does not involve endocervix or cervical stroma.
+*   **Lymphovascular Invasion:** Present.
+*   **Surgical Margins:** Negative for cervix, left parametrium, and right parametrium.
+*   **Lymph Nodes:** 19 lymph nodes were examined (9 from the left pelvis, 6 from the right pelvis, and 4 from the right aortic region). None of the examined lymph nodes contained metastatic carcinoma (0/19 positive).
+*   **Other Findings:** Complex hyperplasia with atypia was present in the endometrium. Adhesions were noted on the uterine serosa, bilateral fallopian tubes, and ovaries.
+
+**Expert Summary**
+
+The pathology report describes a poorly differentiated endometrioid adenocarcinoma of the uterus that has deeply invaded the myometrium (Stage pT1b). While lymphovascular invasion is present, there was no evidence of cancer spread to the examined pelvic or aortic lymph nodes (N0). The surgical margins appear clear. There was also complex hyperplasia with atypia in the endometrium.
+
+**Patient-Friendly Explanation**
+
+The pathology report confirms you have endometrial cancer, specifically a type called endometrioid carcinoma. It's considered poorly differentiated, meaning the cells look less like normal cells under the microscope. The cancer has grown deeply into the muscle wall of your uterus (myometrium), more than halfway through its thickness. However, it hasn't spread to the cervix. Importantly, tests on removed lymph nodes from your pelvis and near the aorta show no signs of the cancer spreading there. There was also some abnormal cell growth (complex hyperplasia with atypia) in the lining of your uterus. The edges of the tissue removed during surgery are clear of cancer cells.
+
+**Next-Step Considerations**
+
+Based on this report, further treatment decisions will likely be made by your oncologist and gynecologic oncologist. The stage (pT1b N0) indicates a significant depth of myometrial invasion but no lymph node involvement. Factors like the tumor grade (poorly differentiated), presence of lymphovascular invasion, and complex hyperplasia with atypia will all be considered when determining appropriate adjuvant therapy (e.g., radiation, chemotherapy, hormone therapy) in addition to the surgery already performed (hysterectomy, bilateral salpingo-oophorectomy).

@@ -1,0 +1,57 @@
+Report: data\reports\TCGA-A5-A0G5.C7C6ABB1-32EE-4D2B-898A-91A1F596EC53.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 341.98s
+Extraction Time: 13.04s
+Extraction Retries: 0
+Extraction Valid: True
+Missing Fields (absent from report):
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIC
+Reported FIGO Stage: IIC
+Stage Audit Missing Facts:
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-06-20 17:33:04
+================================================================================
+
+**Diagnosis**
+
+The primary diagnosis is a uterine carcinoma involving the endometrium. The tumor exhibits features of serous, clear cell, and undifferentiated/anaplastic types, with a high nuclear grade (Grade 3). The cancer has invaded more than 80% of the myometrial wall (pT1b stage based on AJCC 2002 criteria). Lymphovascular invasion is present. There was no evidence of metastatic carcinoma found in the omentum, pelvic lymph nodes, obturator lymph nodes, common iliac lymph nodes, periaortic lymph nodes, or fallopian tubes.
+
+**Staging**
+
+Based on the pathology findings and AJCC 2002 criteria, the preliminary pathologic stage is pT1b, N0, MX (where M is not assessed in this report). This indicates a tumor invading more than half of the myometrium but not extending to the serosa or beyond the uterus, with no evidence of lymph node metastasis.
+
+**Key Findings**
+
+*   **Uterine Carcinoma:** Primary tumor located in the endometrium, involving the fundus, corpus, and lower uterine segment, nearly replacing these areas.
+*   **Tumor Features:** Mixed histology (serous, clear cell, undifferentiated/anaplastic), high nuclear grade (Grade 3).
+*   **Myometrial Invasion:** Deep invasion into the myometrium (>80% of wall thickness).
+*   **Lymphovascular Invasion:** Present.
+*   **Cervical Involvement:** Tumor extends close to the endocervical-lower uterine segment junction, but no cervical tissue involvement is identified. Free-floating neoplastic fragments are present in the endocervical canal.
+*   **Lymph Nodes:** Multiple lymph nodes were examined from pelvic, obturator, iliac, and periaortic regions; all were reactive, with no evidence of metastatic carcinoma (0/46 total nodes examined).
+*   **Omentum:** Examined in three parts, showing only mild inflammation, adhesions, and reactive changes. No metastatic carcinoma was found.
+*   **Adnexa (Fallopian Tubes & Ovaries):** Both ovaries showed atrophic changes and adhesions. The fallopian tubes showed chronic inflammation. The right fallopian tube showed focal epithelial hyperplasia with atypia/dysplasia, confirmed by p53 immunostaining. No evidence of metastatic carcinoma was found in either adnexa.
+*   **Other Uterine Findings:** Seven leiomyomas were present, one showing secondary involvement by the carcinoma. Scant non-neoplastic endometrium was noted. Cervical changes including erosions, inflammation, metaplasia, and hyperplasia were also described.
+
+**Expert Summary**
+
+The patient underwent a total abdominal hysterectomy with bilateral salpingo-oophorectomy. The pathology revealed a high-grade (Grade 3) mixed histology uterine carcinoma (serous, clear cell, undifferentiated) with deep myometrial invasion (pT1b) and lymphovascular invasion. Extensive lymph node dissection was negative for metastasis (N0). The omentum was also free of tumor. There were associated findings in the fallopian tubes (atypia/dysplasia on the right) and leiomyomas (one with secondary involvement).
+
+**Patient-Friendly Explanation**
+
+The surgery removed your uterus, cervix, both ovaries, and both fallopian tubes. The main finding is a cancer that started in the lining of your uterus (endometrium). It's an aggressive type, described as high grade and having features of different cell types (serous, clear cell, undifferentiated). The cancer grew deeply into the muscle wall of the uterus but did not spread to the nearby lymph nodes that were removed or to the omentum. There was also some abnormal activity found in one of your fallopian tubes.
+
+**Next-Step Considerations**
+
+Based on this report, further management decisions will likely involve:
+*   Consultation with a gynecologic oncologist for discussion of adjuvant therapy options (e.g., chemotherapy, radiation) given the high grade and deep myometrial invasion.
+*   Further evaluation or follow-up related to the findings in the right fallopian tube may be considered.
+*   Discussion regarding potential genetic testing based on tumor characteristics.

@@ -1,0 +1,66 @@
+Report: data\reports\TCGA-A5-A0G1.A2EB7E85-E836-462E-ABBA-65D5110CEB1C.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 238.79s
+Extraction Time: 41.00s
+Extraction Retries: 1
+Extraction Valid: True
+Uncertain Fields (addressed but ambiguous in report):
+  - lymphovascular_invasion (0.50) — "mphoid/lymphoplasmacytic some neither to absolutely exclude vascular/lymphatic invasion making difficult is intimately associated with the carcinoma it very invasion is"
+Missing Fields (absent from report):
+  - nuclear_grade
+  - serosal_involvement
+  - adnexal_involvement
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: reclassified
+Computed FIGO Stage: IIC
+Reported FIGO Stage: IIIC
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'IA' which is not among reported/computed/provisional stages ['IIC', 'IIIC']
+Date: 2026-06-20 16:43:56
+================================================================================
+
+Here is an interpretation of the pathology report, broken down into sections as requested:
+
+**Diagnosis**
+
+The patient has endometrial adenocarcinoma, specifically a high-grade type with serous features. The tumor was polypoid and showed focal invasion into the very superficial part of the myometrium (less than one-fourth of its thickness). The cervix was negative for cancer. Additionally, the patient had multiple uterine fibroids (myomas) and adenomyosis. Both ovaries were removed and contained benign findings: nodular thecosis, corpora albicantia, cysts, a small fibrothecoma in the right ovary, and a small dermoid cyst in the left ovary. The fallopian tubes showed no significant cancer-related changes. Biopsies from the omentum, pelvic lymph nodes, periaortic/precaval lymph nodes, and the right gutter were all negative for cancer spread (metastasis).
+
+**Staging**
+
+The report does not provide a formal TNM stage or an overall FIGO stage. However, based on the findings:
+*   **Tumor:** High-grade endometrial adenocarcinoma with serous features.
+*   **Myometrial Invasion:** Focal invasion into the very superficial myometrium (less than 1/4 thickness). This would typically correspond to Stage IA in the FIGO staging system for endometrial cancer.
+*   **Lymph Nodes:** Pelvic and periaortic/precaval lymph nodes are negative for metastasis.
+*   **Distant Metastasis:** Omentum, right gutter biopsies are negative.
+
+Therefore, based solely on the information provided regarding tumor depth and lack of nodal or distant spread, the cancer appears to be localized (Stage IA). However, a definitive stage requires clinical information not present in this report.
+
+**Key Findings**
+
+*   High-grade endometrial adenocarcinoma with serous features.
+*   Focal invasion into the very superficial myometrium (<1/4 thickness).
+*   Negative lymph nodes (pelvic and periaortic/precaval).
+*   Negative omentum, right gutter biopsies.
+*   Presence of multiple uterine fibroids (myomas) and adenomyosis.
+*   Benign findings in both ovaries (thecosis, fibrothecoma, dermoid cyst).
+
+**Expert Summary**
+
+The pathology examination confirms a high-grade endometrial cancer with serous features that has minimally invaded the uterine muscle wall. Importantly, there is no evidence of spread to the examined lymph nodes or other sites like the omentum or right gutter. The presence of benign ovarian findings and fibroids/adenomyosis in the uterus are also noted.
+
+**Patient-Friendly Explanation**
+
+The pathology report shows that you have a type of uterine cancer called endometrial adenocarcinoma. It's considered high grade and has some features of serous carcinoma. The cancer is located within the lining of the uterus (endometrium) and grew as a polypoid lesion. It has grown slightly into the muscle wall of the uterus, but not very deeply. The good news is that the cancer appears to be contained within the uterus based on this examination. Specifically, biopsies taken from nearby tissues like the omentum (a fatty apron in the abdomen), lymph nodes in the pelvis and near major blood vessels, and the right gutter (a space in the abdomen) did not show any signs of cancer spread. The report also mentions that you had fibroids (non-cancerous growths) in your uterus and some benign changes in your ovaries which were removed along with the uterus and tubes.
+
+**Next-Step Considerations**
+
+Based on this pathology report, the next steps would typically involve:
+*   Confirmation of the stage by the treating oncologist/gynecologist, integrating clinical findings (e.g., imaging results).
+*   Discussion of treatment options, which for Stage IA endometrial cancer often include adjuvant therapy (like radiation or chemotherapy) depending on specific risk factors identified during pathological review and clinical assessment.
+*   Follow-up care to monitor for recurrence.

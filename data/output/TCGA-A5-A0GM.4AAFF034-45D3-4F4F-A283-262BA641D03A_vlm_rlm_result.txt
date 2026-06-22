@@ -1,0 +1,100 @@
+Report: data\reports\TCGA-A5-A0GM.4AAFF034-45D3-4F4F-A283-262BA641D03A.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 185.59s
+Extraction Time: 16.70s
+Extraction Retries: 1
+Extraction Valid: True
+Uncertain Fields (addressed but ambiguous in report):
+  - cervical_stromal_involvement (0.50) — "urettage, squamous metaplasia, reactive epithelial changes, endocervical tunnel clusters and nabothian cysts - Vaginal cuff mucosa with chronic inflammation D. LY"
+  - serosal_involvement (0.50) — "x types with associated atypia - Single uterine leiomyoma - Serosal adhesions Patient Case(s): Local Page 1 of 4 PATH #: - Cervix with chronic and mild acut"
+Missing Fields (absent from report):
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IB
+Reported FIGO Stage: not reported
+Stage Audit Missing Facts:
+  - extrapelvic_peritoneal_metastasis: No extracted or mapped value is available (IVB (IVB_EXTRAPELVIC_PERITONEAL))
+  - bladder_or_bowel_mucosa_invasion: No extracted or mapped value is available (IVA (IVA_MUCOSA))
+  - pelvic_peritoneal_metastasis: No extracted or mapped value is available (IIIB2 (IIIB2_PELVIC_PERITONEAL))
+  - vaginal_or_parametrial_involvement: No extracted or mapped value is available (IIIB1 (IIIB1_VAGINA_PARAMETRIA))
+  - serosal_involvement: No extracted or mapped value is available (IIIA2 (IIIA2_SEROSA))
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - myometrial_invasion_present: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IIA (IIA_CERVIX))
+  - cervical_stromal_involvement: No extracted or mapped value is available (IIA (IIA_CERVIX))
+  - histology_aggressiveness: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - myometrial_invasion_present: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - limited_to_polyp: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - histology_aggressiveness: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - myometrial_invasion_present: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - confined_to_endometrium: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IB (IB_DEEP))
+  - histology_aggressiveness: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - histology_aggressiveness: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - limited_to_polyp: No extracted or mapped value is available (IA1 (IA1_POLYP))
+  - histology_aggressiveness: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - myometrial_invasion_present: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - confined_to_endometrium: No extracted or mapped value is available (IA1 (IA1_ENDOMETRIUM))
+  - vaginal_or_parametrial_involvement: Rules out or supports vaginal/parametrial spread (IIIB1)
+  - pelvic_peritoneal_metastasis: Rules out or supports pelvic peritoneal metastasis (IIIB2)
+  - bladder_or_bowel_mucosa_invasion: Rules out or supports bladder/bowel mucosal invasion (IVA)
+  - extrapelvic_peritoneal_metastasis: Rules out or supports extrapelvic peritoneal metastasis (IVB)
+  - limited_to_polyp: Distinguishes IA1/IC polyp-limited disease (IA1/IC)
+  - confined_to_endometrium: Distinguishes IA1/IC endometrium-confined disease (IA1/IC)
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'I' which is not among reported/computed/provisional stages ['IB']
+Date: 2026-06-20 19:28:36
+================================================================================
+
+Here's a plain-language interpretation of the pathology report, broken down into sections as requested.
+
+**Diagnosis**
+
+The patient underwent a total abdominal hysterectomy with bilateral salpingo-oophorectomy (removal of uterus, cervix, fallopian tubes, and ovaries). The primary diagnosis is endometrioid adenocarcinoma of the uterus, FIGO grade I. This cancer involves the entire endometrium (lining) of the uterine fundus and body, extending into the lower uterine segment. It also invades less than half the thickness of the myometrium (muscular wall of the uterus). There was no evidence of cancer spread to the fallopian tubes, ovaries, lymph nodes examined, or omentum.
+
+**Staging**
+
+The report provides information relevant to staging but does not explicitly state a final TNM stage. Key findings for staging include:
+*   **Tumor Grade:** FIGO grade I (low grade).
+*   **Myometrial Invasion:** Less than 50% (inner third of the muscular wall).
+*   **Lymph Nodes:** No cancer found in the examined pelvic and common iliac lymph nodes (0 out of 10 total nodes examined).
+*   **Cervical Involvement:** No extension into the cervix.
+*   **Other Sites:** No evidence of spread to fallopian tubes, ovaries, or omentum.
+
+Based on these findings, the cancer appears localized to the uterus with minimal invasion. Further staging might consider factors like lymphovascular space invasion (not reported here) and potentially imaging studies not included in this report.
+
+**Key Findings**
+
+*   **Uterus:** Endometrioid adenocarcinoma involving the entire endometrium, extending into the lower uterine segment. Tumor invades less than 50% of the myometrium. No cervical extension. A single leiomyoma (benign fibroid) was also present.
+*   **Fallopian Tubes:** Left tube unremarkable. Right tube had a benign paratubal cyst (hydatid of Morgagni). No cancer found in either tube.
+*   **Ovaries:** Left ovary had a hemorrhagic corpus luteum cyst and adhesions. Right ovary had cystic inclusions and an involuting corpus luteum/corpus albicans, also with adhesions. No cancer found in either ovary.
+*   **Lymph Nodes:** 10 regional lymph nodes were examined (Right common iliac x1, Right pelvic x1, Left common iliac x1, Left pelvic x4). All were reactive or contained only adipose/fibrous tissue; none showed evidence of metastatic carcinoma.
+*   **Omentum:** No cancer found in the three omental specimens examined.
+*   **Other Findings:** The left fallopian tube proximal portion showed inflammation, hyperplasia, and atypia of uncertain significance. Non-neoplastic endometrium showed hyperplastic features. The cervix had chronic inflammation and changes suggestive of prior curettage.
+
+**Expert Summary**
+
+The pathologist examined the removed uterus, tubes, ovaries, lymph nodes, and omentum following a hysterectomy. The main finding is an early-stage (Grade I) endometrioid adenocarcinoma confined to the uterus with limited myometrial invasion. There is no evidence of spread to the regional lymph nodes, fallopian tubes, ovaries, or omentum based on the specimens examined.
+
+**Patient-Friendly Explanation**
+
+The surgery removed your uterus, cervix, fallopian tubes, and ovaries. The main finding was cancer in the lining of the uterus (endometrium), specifically a type called endometrioid adenocarcinoma. It's considered a low grade (Grade I) and hasn't grown very deep into the muscle wall of the uterus (less than 50%). Importantly, the cancer does not appear to have spread to the tubes, ovaries, lymph nodes that were checked, or the omentum.
+
+**Next-Step Considerations**
+
+Based on this report, the next steps typically involve:
+*   **Further Staging:** While the pathology suggests early stage disease, additional imaging (like a chest CT scan) might be considered to rule out distant spread, although it's less common with Grade I tumors and no lymph node involvement.
+*   **Adjuvant Therapy:** Depending on the final stage determined by all available information (including potential lymphovascular space invasion findings not reported here), adjuvant therapy (like radiation or hormonal therapy) might be recommended to reduce the risk of recurrence, even though this appears to be early-stage disease.
+*   **Follow-up:** Regular follow-up appointments with an oncologist and gynecologist will be necessary to monitor for any signs of cancer recurrence.
+*   **Discussion with Oncologist:** The patient should discuss these results and treatment options (including potential adjuvant therapy) with their oncologist.

@@ -1,0 +1,81 @@
+Report: data\reports\TCGA-A5-A0G2.A3CD42AF-D356-415B-958D-D14D7AC52693.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 693.09s
+Extraction Time: 38.61s
+Extraction Retries: 1
+Extraction Valid: True
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+Stage Audit Status: indeterminate
+Computed FIGO Stage: IIIA2
+Reported FIGO Stage: not reported
+Stage Audit Missing Facts:
+  - extrapelvic_peritoneal_metastasis: No extracted or mapped value is available (IVB (IVB_EXTRAPELVIC_PERITONEAL))
+  - bladder_or_bowel_mucosa_invasion: No extracted or mapped value is available (IVA (IVA_MUCOSA))
+  - pelvic_peritoneal_metastasis: No extracted or mapped value is available (IIIB2 (IIIB2_PELVIC_PERITONEAL))
+  - vaginal_or_parametrial_involvement: No extracted or mapped value is available (IIIB1 (IIIB1_VAGINA_PARAMETRIA))
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+  - vaginal_or_parametrial_involvement: Rules out or supports vaginal/parametrial spread (IIIB1)
+  - pelvic_peritoneal_metastasis: Rules out or supports pelvic peritoneal metastasis (IIIB2)
+  - bladder_or_bowel_mucosa_invasion: Rules out or supports bladder/bowel mucosal invasion (IVA)
+  - extrapelvic_peritoneal_metastasis: Rules out or supports extrapelvic peritoneal metastasis (IVB)
+Grounding Gate: passed (no violations)
+Date: 2026-06-20 17:12:52
+================================================================================
+
+Here's an interpretation of the pathology report, broken down into sections as requested:
+
+**Diagnosis**
+
+*   The primary diagnosis is **Adenocarcinoma** of the endometrium (lining of the uterus).
+*   The specific type is **Serous papillary adenocarcinoma**.
+*   It is classified as **High grade/Invasive**.
+*   The tumor has spread beyond the uterus. Specifically, it involves:
+    *   The uterine serosa (outer layer)
+    *   The peritoneum of the cul-de-sac (pouch at the end of the vagina)
+    *   The right parametrium (tissue next to the uterus)
+    *   The right uterosacral ligament
+    *   The cervix/endocervix shows squamous metaplasia, follicular cervicitis, and metastatic adenocarcinoma.
+*   The tumor involves the omentum (fatty tissue in the abdomen).
+*   The ovaries and fallopian tubes were removed (bilateral salpingo-oophorectomy) as part of the hysterectomy but show atrophy and small cysts; they are not reported to contain tumor.
+*   The appendix is unremarkable.
+
+**Staging**
+
+*   Based on the information provided, the clinical stage is **IIIA**. This is determined by the T3a classification (tumor extending through the uterine wall into the serosa or adjacent structures) and N0 (no lymph node involvement reported). M status is not explicitly stated but implied as no distant metastasis was found in examined tissues.
+
+**Key Findings**
+
+*   **Tumor Characteristics:** High-grade serous papillary adenocarcinoma with solid areas, clear cell features in some parts, significant cellular atypia (anisokaryosis, poikilokaryosis), and numerous mitoses (indicating rapid growth).
+*   **Local Invasion:** The tumor invades deeply into the myometrium (uterine muscle wall) and extends to the uterine serosa. There is direct extension/invasion into the right parametrium, cul-de-sac peritoneum, and right uterosacral ligament.
+*   **Lymph Nodes:** Eleven pelvic and periaortic lymph nodes were examined, and **none** showed evidence of tumor involvement (N0).
+*   **Omentum:** Biopsies from the omentum show adhesions but no tumor on gross or microscopic examination.
+*   **Other Sites:** The left parametrium, lower uterus/endocervix, appendix, and background endometrium are free of tumor. The cervix shows inflammation (follicular cervicitis) and metaplasia. Ovaries and tubes show atrophy.
+*   **Gross Findings:** The uterus with the tumor mass was removed. The tumor is described as a large polypoid mass in the posterior superior uterine wall and left cornu, measuring 3.5 x 3.0 x 2.5 cm, with necrosis and hemorrhage.
+
+**Expert Summary**
+
+*   The patient has a high-grade invasive serous papillary endometrial adenocarcinoma.
+*   The tumor is locally advanced, invading through the uterine wall to the serosa and spreading to nearby pelvic structures (parametrium, uterosacral ligament, cul-de-sac peritoneum).
+*   There is no evidence of spread to the examined lymph nodes or omentum.
+*   The ovaries and fallopian tubes were removed but do not appear involved by tumor based on this report.
+
+**Patient-Friendly Explanation**
+
+*   You have been diagnosed with an aggressive type of uterine cancer called high-grade serous papillary adenocarcinoma.
+*   This cancer has grown deeply into the wall of your uterus and spread to nearby tissues in the pelvis, including the outer lining of the uterus (serosa), the space behind the vagina (cul-de-sac), and a ligament supporting the uterus (uterosacral ligament).
+*   The good news is that the cancer does not appear to have spread to the lymph nodes that were checked or to the omentum.
+*   Your ovaries and fallopian tubes were also removed, but they did not show signs of cancer in this report.
+
+**Next-Step Considerations**
+
+*   Further treatment will likely be needed due to the advanced stage (Stage IIIA) and local spread of the tumor. This often includes chemotherapy and possibly radiation therapy, depending on specific factors and institutional protocols.
+*   The exact treatment plan should be discussed with your oncologist based on this pathology report and other clinical information.
+*   Follow-up imaging and monitoring will be necessary.

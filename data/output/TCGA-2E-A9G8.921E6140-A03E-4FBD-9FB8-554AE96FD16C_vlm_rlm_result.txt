@@ -1,0 +1,66 @@
+Report: data\reports\TCGA-2E-A9G8.921E6140-A03E-4FBD-9FB8-554AE96FD16C.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 327.64s
+Extraction Time: 66.50s
+Extraction Retries: 0
+Extraction Valid: True
+Stage Audit Status: supported
+Computed FIGO Stage: IIC
+Reported FIGO Stage: I
+Grounding Gate: passed (no violations)
+Date: 2026-06-20 16:07:32
+================================================================================
+
+Here's an interpretation of the pathology report, broken down into sections as requested:
+
+**Diagnosis**
+
+*   The patient has invasive endometrial carcinoma, specifically endometrioid adenocarcinoma.
+*   The tumor is FIGO grade 3 and nuclear grade 3.
+*   The tumor was located in the endometrium, predominantly in the posterior part of the uterus.
+*   The tumor measures 5.2 cm in its greatest dimension.
+*   The tumor invades the myometrium to a depth of 0.5 cm (less than half of the total myometrial thickness of 1.4 cm).
+*   There is no evidence of involvement of the cervix, fallopian tubes, or ovaries examined.
+*   A leiomyoma (fibroid) was also present in the uterus.
+*   Nabothian cysts were found in the cervix.
+
+**Staging**
+
+*   The pathologic stage (pTNM) is pT1a, N0, M(not applicable).
+    *   pT1a: Tumor limited to the endometrium or invading less than half of the myometrium.
+    *   pN0: No metastasis found in the examined regional lymph nodes.
+    *   M(not applicable): Distant metastasis is not assessed in this surgical pathology report, but it's implied there was no clinical evidence for it.
+
+**Key Findings**
+
+*   **Tumor Type:** Invasive endometrial carcinoma, endometrioid type.
+*   **Grade:** FIGO Grade 3 / Nuclear Grade 3 (high grade).
+*   **Size & Location:** 5.2 cm mass in the posterior endometrium.
+*   **Myometrial Invasion:** 0.5 cm depth (consistent with T1a stage).
+*   **Margins:** Surgical margins were uninvolved by carcinoma, with the closest margin being 0.8 cm away from the tumor.
+*   **Lymph Nodes:** A total of 28 lymph nodes were examined (5 pelvic left, 14 pelvic right, 4 para-aortic left, 5 para-aortic right). None of the examined lymph nodes showed evidence of cancer metastasis (0/28).
+*   **Other Findings:** Leiomyoma present. Nabothian cysts in cervix. No lymphovascular invasion identified.
+
+**Expert Summary**
+
+*   The pathology report describes a high-grade (Grade 3) endometrial adenocarcinoma that is relatively small (5.2 cm) and has limited invasion into the myometrium (0.5 cm).
+*   Importantly, there was no spread to any of the examined lymph nodes (pelvic or para-aortic).
+*   The surgical margins were clear of cancer cells.
+
+**Patient-Friendly Explanation**
+
+*   The surgery removed your uterus, cervix, fallopian tubes, and ovaries.
+*   Pathology confirmed you have endometrial cancer, a type called endometrioid adenocarcinoma. It's considered a high grade (Grade 3).
+*   The cancer was found in the lining of the uterus (endometrium) and had grown into the muscle layer (myometrium) by about half an inch (0.5 cm).
+*   The good news is that the cancer appears to be contained within the uterus. It did not spread to the cervix, fallopian tubes, or ovaries that were removed.
+*   Also, tests on the lymph nodes removed from your pelvis and near your aorta showed no signs of cancer cells having spread there.
+*   The edges of the tissue removed during surgery (margins) were clear, meaning the surgeons got all the visible cancer.
+
+**Next-Step Considerations**
+
+*   The report mentions that prognostic markers were ordered but the results are in a separate addendum/Image Analysis report. These markers might provide additional information about the tumor's behavior and potential response to treatment.
+*   Based on the pathology findings (pT1a N0), further treatment decisions will likely be made by your oncologist, potentially including adjuvant therapy (like radiation or chemotherapy) depending on the grade, specific marker results, and overall clinical picture. The report notes the pathologic stage is provisional pending full clinical knowledge.  

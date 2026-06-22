@@ -1,0 +1,81 @@
+Report: data\reports\TCGA-A5-A0GA.36A4F391-2F46-4896-8E53-223202E42A38.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 599.41s
+Extraction Time: 12.35s
+Extraction Retries: 0
+Extraction Valid: True
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIIC
+Reported FIGO Stage: III
+Stage Audit Missing Facts:
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC2 (IIIC2_PARA_UNKNOWN))
+  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1i (IIIC1I_PELVIC_MICRO))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1i (IIIC1I_PELVIC_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1i (IIIC1I_PELVIC_MICRO))
+  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1ii (IIIC1II_PELVIC_MACRO))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1ii (IIIC1II_PELVIC_MACRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1ii (IIIC1II_PELVIC_MACRO))
+  - pelvic_nodes_positive: No extracted or mapped value is available (IIIC1 (IIIC1_PELVIC_UNKNOWN))
+  - para_aortic_nodes_positive: No extracted or mapped value is available (IIIC1 (IIIC1_PELVIC_UNKNOWN))
+  - nodal_station: Positive regional nodes are present, but station is unknown (IIIC1 vs IIIC2)
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-06-20 18:06:55
+================================================================================
+
+Here's a plain-language interpretation of the pathology report, broken down into sections:
+
+**Diagnosis**
+
+The primary diagnosis is invasive endometrial adenocarcinoma, endometrioid type, grade 3. This means cancer cells originating in the lining of the uterus (endometrium) have invaded the muscular wall (myometrium). The tumor is described as grade 3, indicating it appears relatively aggressive under the microscope. Additionally, there was a mucinous neoplasm of borderline malignancy found in the appendix.
+
+**Staging**
+
+The report indicates the cancer has spread beyond the uterus:
+-   It invaded deeply into the myometrium (12.0 mm out of 26.0 mm total depth).
+-   There is extensive lymphatic invasion within the primary tumor.
+-   Metastatic cancer cells were found in multiple lymph nodes, including:
+    -   Right paraaortic lymph node
+    -   Right pelvic lymph node
+    -   Left pelvic lymph node (largest one)
+    -   IMA (Inferior Mesenteric Artery) node
+    -   Cephalad IMA node
+    -   Left PA (Para-Aortic) lymph nodes
+    -   Left renal lymph node
+    -   Right renal lymph node
+
+The presence of metastases in paraaortic and pelvic lymph nodes, as well as the deep myometrial invasion and extensive lymphatic invasion, indicates advanced disease. The specific stage would require further clinical information not provided in this report (e.g., imaging results). However, based on lymph node involvement alone, it is at least Stage IIIc.
+
+**Key Findings**
+
+1.  **Primary Tumor:** Invasive endometrioid adenocarcinoma, grade 3, located in the uterus. It invaded deeply into the uterine wall (myometrium) and showed extensive lymphatic invasion.
+2.  **Lymph Node Metastasis:** Cancer cells were found in multiple lymph nodes throughout the pelvis and paraaortic region (nodes near major abdominal arteries). Some metastases also showed extension into the tissue surrounding the lymph nodes (perinodal soft tissue).
+3.  **Adnexa:** Both ovaries and fallopian tubes were removed (salpingo-oophorectomy) but showed no signs of cancer involvement.
+4.  **Appendix:** A mucinous neoplasm of borderline malignancy was found in the appendix, along with a small focus of metastatic endometrioid adenocarcinoma (the same type as the primary uterine cancer).
+5.  **Other Findings:** Leiomyomas (benign fibroids) were present in the uterus. A tubular adenoma (a benign polyp) was found in the right colon. The omentum (fatty tissue covering abdominal organs) was clear of tumor.
+
+**Expert Summary**
+
+The pathologist identified a high-grade endometrial cancer with deep invasion and significant spread to multiple lymph nodes, indicating advanced disease. There were also findings in the appendix (borderline mucinous neoplasm and metastasis) and colon (benign adenoma). The grading of some metastases was difficult due to cellular changes (squamous metaplasia, clear cell changes) within the tumor cells.
+
+**Patient-Friendly Explanation**
+
+The pathology report confirms you have endometrial cancer (cancer of the uterine lining). It is an aggressive type (grade 3) and has spread deeply into the muscle wall of your uterus. More importantly, it has spread to several lymph nodes in your pelvis and abdomen. The surgery removed the uterus, cervix, both ovaries, and fallopian tubes. Additionally, a borderline tumor was found in your appendix, and there was also a small amount of cancer spread to the appendix itself. A benign polyp was also found in your colon.
+
+**Next-Step Considerations**
+
+Based on this report, further treatment is likely needed beyond surgery due to the advanced stage (spread to lymph nodes). This typically involves chemotherapy and possibly radiation therapy or hormone therapy. The specific treatment plan will depend on the final staging, your overall health, and discussions with your oncologist. Further imaging might be done to assess for any other potential spread not detected by the pathology exam.

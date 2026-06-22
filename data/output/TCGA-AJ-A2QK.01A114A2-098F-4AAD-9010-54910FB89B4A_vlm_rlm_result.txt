@@ -1,0 +1,56 @@
+Report: data\reports\TCGA-AJ-A2QK.01A114A2-098F-4AAD-9010-54910FB89B4A.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 384.80s
+Extraction Time: 14.18s
+Extraction Retries: 1
+Extraction Valid: True
+Missing Fields (absent from report):
+  - nuclear_grade
+  - serosal_involvement
+  - adnexal_involvement
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - tnm_pM
+  - specimen_integrity
+Stage Audit Status: reclassified
+Computed FIGO Stage: IIC
+Reported FIGO Stage: IA
+Stage Audit Missing Facts:
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-06-20 20:18:52
+================================================================================
+
+**Diagnosis**
+
+The primary diagnosis is endometrioid adenocarcinoma of the endometrium (uterus). The tumor measures 5.0 x 2.7 cm and invades the myometrium by 0.7 cm out of a total thickness of 2.8 cm. Lymphovascular space invasion was focally present. Surgical margins were uninvolved.
+
+**Staging**
+
+The pathological stage (pTNM) is pT1aN0 (FIGO IA). This indicates the tumor is confined to the uterus, specifically invading less than half of the myometrium (T1a), and there is no evidence of spread to regional lymph nodes (N0).
+
+**Key Findings**
+
+*   **Primary Tumor:** Endometrioid adenocarcinoma located in the endometrium.
+*   **Tumor Size & Invasion:** 5.0 x 2.7 cm, invading 0.7 cm into a 2.8 cm thick myometrium.
+*   **Lymph Node Status:** All examined lymph nodes (from omentum, paraaortic regions, and pelvis) were negative for metastatic disease. A total of 34 lymph nodes were examined.
+*   **Margins:** Surgical margins (cervix, serosa, parametria) were uninvolved by the tumor.
+*   **Other Findings:** Myometrial leiomyomata (fibroids) were present. One ovary showed stromal hyperthecosis. The other ovary and both fallopian tubes showed no evidence of malignancy.
+*   **Immunohistochemistry:** Specific immunostains (P53, WT-1, Cytokeratin 7, Cytokeratin 20, CDX2, Inhibin) were performed on the tumor tissue to help confirm the diagnosis and rule out other possibilities. The results are consistent with endometrioid adenocarcinoma.
+
+**Expert Summary**
+
+The pathology report details a surgically removed uterus, cervix, fallopian tubes, and ovaries (hysterectomy with bilateral salpingo-oophorectomy). The primary finding is an endometrioid adenocarcinoma of the endometrium, classified as stage pT1aN0 (FIGO IA), indicating early-stage disease confined to the uterus without lymph node involvement. Lymph nodes from multiple locations were examined and found to be negative for cancer spread. Additional findings include benign fibroids in the myometrium and stromal hyperthecosis in one ovary.
+
+**Patient-Friendly Explanation**
+
+The surgery removed your uterus, cervix, fallopian tubes, and ovaries. The main finding is a type of uterine cancer called endometrioid adenocarcinoma. It was relatively small (5 cm) and had grown into the muscle layer of the uterus (myometrium) but did not reach the outer surface or spread to nearby lymph nodes that were removed during surgery. The edges of the tissue removed at surgery (margins) were clear of cancer cells. There were also some benign fibroids found in the uterine muscle, and one ovary showed a condition called stromal hyperthecosis. The fallopian tubes and the other ovary did not show any signs of cancer.
+
+**Next-Step Considerations**
+
+Based on the pathology report indicating pT1aN0 (FIGO IA) endometrioid adenocarcinoma, further treatment decisions will depend on various factors including the patient's overall health, age, and specific tumor characteristics (like grade and presence of lymphovascular invasion). Potential next steps might include observation, adjuvant therapy (like radiation or chemotherapy), or referral to a gynecologic oncologist for further management discussion. The report does not specify these recommendations; they would typically be determined by the treating physician(s) in consultation with the patient.

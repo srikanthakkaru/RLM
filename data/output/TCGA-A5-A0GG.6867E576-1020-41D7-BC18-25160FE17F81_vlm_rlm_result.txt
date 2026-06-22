@@ -1,0 +1,70 @@
+Report: data\reports\TCGA-A5-A0GG.6867E576-1020-41D7-BC18-25160FE17F81.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 5
+Execution Time: 632.42s
+Extraction Time: 12.72s
+Extraction Retries: 0
+Extraction Valid: True
+Missing Fields (absent from report):
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIC
+Reported FIGO Stage: II
+Stage Audit Missing Facts:
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'IA' which is not among reported/computed/provisional stages ['II', 'IIC']
+Date: 2026-06-20 18:57:46
+================================================================================
+
+Here is a plain-language interpretation of the pathology report, broken down into sections as requested.
+
+**Diagnosis**
+
+The primary diagnosis is endometrial adenocarcinoma, specifically endometrioid type with villoglandular features and possible minor neuroendocrine component. The tumor is FIGO grade II (which corresponds to nuclear grade 2 based on the comment). This cancer was found in the uterus. Additional findings include:
+-   Non-neoplastic endometrium showing simple and complex glandular hyperplasia with varying degrees of cytologic atypia.
+-   Four uterine leiomyomas (fibroids), one microscopic.
+-   Adhesions and cysts related to the fallopian tubes and ovaries.
+-   Atrophic changes in both ovaries.
+
+**Staging**
+
+The report provides information relevant to staging but does not explicitly state a final TNM stage or FIGO stage. Key findings for staging include:
+-   Tumor grade (FIGO Grade II / Nuclear Grade 2).
+-   Myometrial invasion: Minimal (focal) superficial invasion, involving less than 10% of the uterine wall thickness.
+-   No extension into the lower uterine segment or cervix.
+-   Parametria are free of tumor.
+-   No evidence of metastatic carcinoma in the ovaries or fallopian tubes.
+-   Lymph nodes: Multiple pelvic and periaortic lymph nodes were examined (a total of 23 nodes), and none showed evidence of cancer metastasis (0/23).
+-   No evidence of metastatic carcinoma in biopsies from soft tissues in the pelvis or omentum.
+
+**Key Findings**
+
+*   **Primary Tumor:** Endometrial adenocarcinoma, endometrioid type, FIGO Grade II, with focal superficial myometrial invasion (<10%).
+*   **Lymph Nodes:** 23 lymph nodes examined were negative for cancer (0/23).
+*   **Other Organs:** No evidence of spread to ovaries, fallopian tubes, parametria, pelvic soft tissues, or omentum.
+*   **Additional Findings:** Uterine leiomyomas, endometrial hyperplasia, peritubal cysts, ovarian atrophy, and adhesions were also noted.
+*   **Neuroendocrine Component:** Immunohistochemical stains confirmed a few neoplastic cells staining positive for synaptophysin and rare cells positive for chromogranin, suggesting a minor neuroendocrine component.
+
+**Expert Summary**
+
+The patient underwent a total abdominal hysterectomy with bilateral salpingo-oophorectomy. The pathology confirms endometrial cancer (adenocarcinoma, endometrioid type) confined to the uterus with minimal invasion into the myometrium. There is no evidence of spread to the regional lymph nodes or distant sites examined (ovaries, fallopian tubes, parametria, pelvic soft tissues, omentum). Additional findings include benign leiomyomas and endometrial hyperplasia. The tumor has features suggesting a minor neuroendocrine component.
+
+**Patient-Friendly Explanation**
+
+The pathology report confirms you have cancer of the uterine lining (endometrium). It's a type called endometrioid adenocarcinoma. The cancer is graded as FIGO Grade II, indicating it is moderately aggressive. The good news is that the cancer appears to be localized. It has grown minimally into the muscle wall of the uterus (<10%), and importantly, it has not spread to the lymph nodes removed during surgery or to the ovaries, fallopian tubes, surrounding tissues (parametria), pelvic soft tissue biopsies, or omentum. The report also notes some benign fibroids (leiomyomas) and changes in the uterine lining (hyperplasia).
+
+**Next-Step Considerations**
+
+Based on this pathology report, the next steps typically involve:
+*   **Final Staging:** Determining the overall stage of the cancer based on the findings (e.g., FIGO Stage IA, Grade II, based on minimal myometrial invasion and negative nodes).
+*   **Adjuvant Therapy Discussion:** Discussing potential need for additional treatment after surgery (like radiation or chemotherapy) depending on the final stage and grade, although with minimal invasion and negative nodes, observation might be an option.
+*   **Follow-up Plan:** Establishing a plan for regular follow-up appointments and monitoring.
+*   **Genetic Counseling/Testing:** Consideration of genetic testing based on cancer type and personal/family history.
