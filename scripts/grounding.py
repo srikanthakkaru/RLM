@@ -14,8 +14,9 @@ caller; this module only reports violations.
 from __future__ import annotations
 
 import re
+from collections.abc import Iterable
 from dataclasses import dataclass
-from typing import Any, Iterable
+from typing import Any
 
 # Matching tolerances (absolute, in the measured unit). Percentages allow rounding slack
 # (35.7 vs 36); lengths are matched near-exactly so a fabricated measurement cannot hide behind
@@ -149,8 +150,11 @@ def check_narrative(
             continue  # "<50%" / "≥50%" category boundary, not measured data
         if not _is_supported(number, allowed, _PCT_TOLERANCE):
             violations.append(
-                Violation("error", "ungrounded_number",
-                          f"'{m.group(0).strip()}' not found in extraction or report")
+                Violation(
+                    "error",
+                    "ungrounded_number",
+                    f"'{m.group(0).strip()}' not found in extraction or report",
+                )
             )
 
     for label, regex in (("cm", _CM_RE), ("mm", _MM_RE)):
@@ -165,13 +169,19 @@ def check_narrative(
                 or _is_supported(probe, allowed, _LEN_TOLERANCE)
             ):
                 violations.append(
-                    Violation("error", "ungrounded_number",
-                              f"'{m.group(0).strip()}' not found in extraction or report")
+                    Violation(
+                        "error",
+                        "ungrounded_number",
+                        f"'{m.group(0).strip()}' not found in extraction or report",
+                    )
                 )
 
     # 2. Attribution: do not call a computed/provisional stage "reported".
     reported = context.get("reported_figo_stage")
-    has_reported = isinstance(reported, str) and reported.strip().lower() not in ("", "not reported")
+    has_reported = isinstance(reported, str) and reported.strip().lower() not in (
+        "",
+        "not reported",
+    )
     if not has_reported and _REPORTED_ATTRIBUTION_RE.search(narrative):
         violations.append(
             Violation(

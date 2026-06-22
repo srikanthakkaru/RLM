@@ -18,9 +18,8 @@ Usage:
     # Custom models
     python scripts/batchprocess.py --vlm-model alibayram/medgemma:latest --rlm-model gemma4:latest
 
-Environment:
-    RLM_USE_OLLAMA_FALLBACK=1  — if RLM yields no usable text, call Ollama once with
-                                 FALLBACK_NARRATIVE_PROMPT (default: off).
+When the RLM yields unusable output it is re-run with a correction note (--max-retries); there
+is no non-RLM fallback narrative.
 """
 
 from __future__ import annotations
@@ -39,7 +38,6 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from vlmextraction import ExtractionResult, extract_report
 
 from rlm import RLM
-from rlm.clients.ollama_client import OllamaClient
 from rlm.core.types import RLMChatCompletion, RLMIteration
 from rlm.utils.parsing import find_final_answer
 from rlm.utils.prompts import RLM_SYSTEM_PROMPT
@@ -55,14 +53,9 @@ OLLAMA_URL = "http://localhost:11434"
 VLM_MODEL = os.environ.get("MEDGEMMA_MODEL", "alibayram/medgemma:latest")
 RLM_MODEL = os.environ.get("RLM_MODEL", "gemma4:latest")
 MAX_ITERATIONS = 10
-
-USE_OLLAMA_FALLBACK = os.environ.get("RLM_USE_OLLAMA_FALLBACK", "").strip() in (
-    "1",
-    "true",
-    "True",
-    "yes",
-    "YES",
-)
+# Extra RLM regeneration attempts when the narrative is unusable/non-compliant. The RLM is
+# re-run with a correction note; there is no non-RLM fallback.
+MAX_RETRIES = 2
 
 # ── Prompts: Structured Input (VLM→RLM mode) ────────────────────────────────
 
@@ -216,17 +209,14 @@ DIRECT_ROOT_PROMPT = (
     "`final_answer` in the REPL."
 )
 
-FALLBACK_NARRATIVE_PROMPT = """Write a natural-language pathology interpretation of the report below.
-
-Requirements:
-- Do not return JSON.
-- Use short section headers: Diagnosis, Staging, Key Findings, Expert Summary, Patient-Friendly Explanation, Next-Step Considerations.
-- State uncertainty explicitly when something is not reported.
-- Keep all claims grounded in the report text.
-- Do not mention fertility preservation when the report documents hysterectomy with bilateral salpingo-oophorectomy.
-
-PATHOLOGY REPORT:
-{report_text}"""
+# Correction note appended to the root prompt when an RLM attempt is unusable/non-compliant.
+RLM_CORRECTION_NOTE = (
+    "YOUR PREVIOUS ATTEMPT WAS UNUSABLE. Regenerate the COMPLETE clinical narrative as plain "
+    "text using every required section header (Diagnosis, Staging, Key Findings, Expert Summary, "
+    "Patient-Friendly Explanation, Next-Step Considerations). Do not refuse and do not return only "
+    "code. Finish with FINAL(<full narrative>) or FINAL_VAR(final_answer) after assigning it in a "
+    "```repl``` block."
+)
 
 # ── Extraction helpers (carried forward from original) ────────────────────────
 
@@ -401,21 +391,66 @@ def is_medical_output_compliant(text: str) -> bool:
     return all(section in normalized for section in required_sections)
 
 
-def generate_final_fallback(report_text: str) -> str:
-    return (
-        "Diagnosis\n"
-        "Unable to produce a reliable model-generated diagnosis from this report.\n\n"
-        "Staging\n"
-        "Staging could not be derived automatically from the model output.\n\n"
-        "Key Findings\n"
-        f"Report text was loaded ({len(report_text)} characters), but the model returned empty output.\n\n"
-        "Expert Summary\n"
-        "Manual clinical review is recommended due to failed automated narrative generation.\n\n"
-        "Patient-Friendly Explanation\n"
-        "The automatic report reader could not generate a complete explanation this time.\n\n"
-        "Next-Step Considerations\n"
-        "Please rerun the analysis and verify local model health (Ollama) and prompt configuration."
+def _is_unusable_response(final_response: str) -> bool:
+    """True when an RLM response cannot serve as a clinical narrative (empty or too short and
+    not pathology-like)."""
+    return not final_response or (
+        len(_strip_model_artifacts(final_response)) < _MIN_USABLE_CHARS
+        and not looks_like_pathology_narrative(final_response)
     )
+
+
+def _usage_tokens(result: RLMChatCompletion) -> tuple[int, int]:
+    usage = result.usage_summary.to_dict()
+    total_input = sum(
+        m.get("total_input_tokens", 0) for m in usage.get("model_usage_summaries", {}).values()
+    )
+    total_output = sum(
+        m.get("total_output_tokens", 0) for m in usage.get("model_usage_summaries", {}).values()
+    )
+    return total_input, total_output
+
+
+def complete_with_retry(
+    rlm: RLM,
+    prompt: str,
+    root_prompt: str,
+    max_retries: int,
+) -> tuple[str, float, int, int, int]:
+    """Run the RLM, re-running it with a correction note while the output is unusable or
+    non-compliant. The RLM itself always produces the narrative — there is no fallback. Returns
+    (final_response, exec_time_total, iterations_total, input_tokens_total, output_tokens_total).
+    """
+    final_response = ""
+    best = ""
+    exec_time = 0.0
+    iterations = 0
+    input_tokens = 0
+    output_tokens = 0
+    correction = ""
+
+    for _attempt in range(max_retries + 1):
+        capture = IterationCaptureLogger()
+        rlm.logger = capture
+        attempt_root = root_prompt if not correction else f"{root_prompt}\n\n{correction}"
+        result = rlm.completion(prompt=prompt, root_prompt=attempt_root)
+
+        exec_time += result.execution_time
+        iterations += len(capture.iterations)
+        ti, to = _usage_tokens(result)
+        input_tokens += ti
+        output_tokens += to
+
+        final_response = resolve_clinical_output_from_rlm(result, capture.iterations).strip()
+        if not _is_unusable_response(final_response) and is_medical_output_compliant(
+            final_response
+        ):
+            return final_response, exec_time, iterations, input_tokens, output_tokens
+        if final_response and not best:
+            best = final_response
+        correction = RLM_CORRECTION_NOTE
+
+    return best or final_response, exec_time, iterations, input_tokens, output_tokens
 
 
 # ── Logger ───────────────────────────────────────────────────────────────────
@@ -494,6 +529,7 @@ def process_report_vlm_rlm(
     rlm: RLM,
     vlm_model: str,
     ollama_url: str,
+    max_retries: int = MAX_RETRIES,
 ) -> tuple[str, ReportMetrics, ExtractionResult, StageAuditResult]:
     """VLM→Validation→Audit→RLM pipeline for a single report."""
     extraction = extract_report(report_text, model=vlm_model, base_url=ollama_url)
@@ -503,50 +539,27 @@ def process_report_vlm_rlm(
         field_evidence=extraction.field_evidence,
         field_confidence=extraction.field_confidence,
     )
-    context_str = f"{extraction.to_context_string()}\n\n{stage_audit.to_context_string()}"
-
-    capture = IterationCaptureLogger()
-    rlm.logger = capture
-
-    result = rlm.completion(prompt=context_str, root_prompt=STRUCTURED_ROOT_PROMPT)
-    final_response = resolve_clinical_output_from_rlm(result, capture.iterations).strip()
-
-    unusable = not final_response or (
-        len(_strip_model_artifacts(final_response)) < _MIN_USABLE_CHARS
-        and not looks_like_pathology_narrative(final_response)
+    # The structured extraction is authoritative; the raw report is appended for verification only
+    # so the RLM can ground statements and avoid hallucinating.
+    context_str = (
+        f"{extraction.to_context_string()}\n\n{stage_audit.to_context_string()}\n\n"
+        "SOURCE REPORT (verification only — do not re-extract or re-stage from this; the "
+        "structured extraction above is authoritative):\n"
+        f"{report_text}"
     )
 
-    if unusable and USE_OLLAMA_FALLBACK:
-        fallback_client = OllamaClient(
-            model_name=rlm.backend_kwargs["model_name"] if rlm.backend_kwargs else RLM_MODEL,
-            base_url=ollama_url,
-            timeout=1800,
-            ollama_options={"num_ctx": 8192, "num_predict": 4096, "temperature": 0},
-        )
-        final_response = fallback_client.completion(
-            FALLBACK_NARRATIVE_PROMPT.format(report_text=report_text)
-        ).strip()
-        if not final_response:
-            final_response = generate_final_fallback(report_text)
-    elif unusable:
-        final_response = generate_final_fallback(report_text)
-
-    usage = result.usage_summary.to_dict()
-    total_input = sum(
-        m.get("total_input_tokens", 0) for m in usage.get("model_usage_summaries", {}).values()
-    )
-    total_output = sum(
-        m.get("total_output_tokens", 0) for m in usage.get("model_usage_summaries", {}).values()
+    final_response, rlm_exec_time, rlm_iters, total_input, total_output = complete_with_retry(
+        rlm, context_str, STRUCTURED_ROOT_PROMPT, max_retries
     )
 
     metrics = ReportMetrics(
         report_name=os.path.basename(text_path),
         mode="vlm_rlm",
-        execution_time=extraction.extraction_time + result.execution_time,
+        execution_time=extraction.extraction_time + rlm_exec_time,
         extraction_time=extraction.extraction_time,
         extraction_retries=extraction.retries,
         extraction_valid=extraction.validation.is_valid,
-        rlm_iterations=len(capture.iterations),
+        rlm_iterations=rlm_iters,
         input_tokens=extraction.input_tokens + total_input,
         output_tokens=extraction.output_tokens + total_output,
         context_chars=len(context_str),
@@ -564,52 +577,18 @@ def process_report_direct(
     text_path: str,
     report_text: str,
     rlm: RLM,
+    max_retries: int = MAX_RETRIES,
 ) -> tuple[str, ReportMetrics]:
     """Direct RLM pipeline for a single report."""
-    capture = IterationCaptureLogger()
-    rlm.logger = capture
-
-    result = rlm.completion(prompt=report_text, root_prompt=DIRECT_ROOT_PROMPT)
-    final_response = resolve_clinical_output_from_rlm(result, capture.iterations).strip()
-
-    unusable = not final_response or (
-        len(_strip_model_artifacts(final_response)) < _MIN_USABLE_CHARS
-        and not looks_like_pathology_narrative(final_response)
-    )
-
-    if unusable and USE_OLLAMA_FALLBACK:
-        model_name = (
-            rlm.backend_kwargs.get("model_name", RLM_MODEL) if rlm.backend_kwargs else RLM_MODEL
-        )
-        fallback_client = OllamaClient(
-            model_name=model_name,
-            base_url=OLLAMA_URL,
-            timeout=1800,
-            ollama_options={"num_ctx": 8192, "num_predict": 4096, "temperature": 0},
-        )
-        final_response = fallback_client.completion(
-            FALLBACK_NARRATIVE_PROMPT.format(report_text=report_text)
-        ).strip()
-        if not final_response:
-            final_response = generate_final_fallback(report_text)
-    elif unusable:
-        final_response = generate_final_fallback(report_text)
-    elif not is_medical_output_compliant(final_response):
-        pass  # keep RLM output even with header differences
-
-    usage = result.usage_summary.to_dict()
-    total_input = sum(
-        m.get("total_input_tokens", 0) for m in usage.get("model_usage_summaries", {}).values()
-    )
-    total_output = sum(
-        m.get("total_output_tokens", 0) for m in usage.get("model_usage_summaries", {}).values()
+    final_response, exec_time, rlm_iters, total_input, total_output = complete_with_retry(
+        rlm, report_text, DIRECT_ROOT_PROMPT, max_retries
     )
 
     metrics = ReportMetrics(
         report_name=os.path.basename(text_path),
         mode="direct_rlm",
-        execution_time=result.execution_time,
-        rlm_iterations=len(capture.iterations),
+        execution_time=exec_time,
+        rlm_iterations=rlm_iters,
         input_tokens=total_input,
         output_tokens=total_output,
         context_chars=len(report_text),
@@ -814,9 +793,7 @@ def write_output(
                     f.write(f"  - {item}\n")
             if stage_audit:
                 f.write(f"Stage Audit Status: {stage_audit.status.value}\n")
-                f.write(
-                    f"Computed FIGO Stage: {stage_audit.computed_stage or 'indeterminate'}\n"
-                )
+                f.write(f"Computed FIGO Stage: {stage_audit.computed_stage or 'indeterminate'}\n")
                 f.write(f"Reported FIGO Stage: {stage_audit.reported_stage or 'not reported'}\n")
                 if stage_audit.missing_facts:
                     f.write("Stage Audit Missing Facts:\n")
@@ -855,6 +832,12 @@ def main():
     parser.add_argument("--rlm-model", default=RLM_MODEL, help="RLM model name")
     parser.add_argument("--ollama-url", default=OLLAMA_URL, help="Ollama base URL")
     parser.add_argument("--max-iterations", type=int, default=MAX_ITERATIONS)
+    parser.add_argument(
+        "--max-retries",
+        type=int,
+        default=MAX_RETRIES,
+        help="Extra RLM regeneration attempts when output is unusable (correction note re-run).",
+    )
     parser.add_argument("--max-reports", type=int, default=MAX_REPORTS)
     parser.add_argument("--report", default=None, help="Process a single report file")
     args = parser.parse_args()
@@ -878,8 +861,7 @@ def main():
     if not args.direct:
         print(f"VLM Model: {args.vlm_model}")
     print(f"Iters:     {args.max_iterations}")
-    if USE_OLLAMA_FALLBACK:
-        print("Fallback:  ON (RLM_USE_OLLAMA_FALLBACK)")
+    print(f"Retries:   {args.max_retries}")
     print()
 
     output_dir = os.path.join(os.path.dirname(__file__), "..", "data", "output")
@@ -933,6 +915,7 @@ def main():
                     text_path,
                     report_text,
                     rlm_direct,
+                    max_retries=args.max_retries,
                 )
                 comp.direct = direct_metrics
                 write_output(
@@ -955,6 +938,7 @@ def main():
                     rlm_structured,
                     vlm_model=args.vlm_model,
                     ollama_url=args.ollama_url,
+                    max_retries=args.max_retries,
                 )
                 comp.vlm_rlm = vlm_metrics
                 write_output(

@@ -5,23 +5,27 @@ import os
 import re
 import sys
 import time
-import typer
-from pathlib import Path
-from rich.console import Console
-from rich.progress import track
-from rich.panel import Panel
-from rich.table import Table
 from dataclasses import dataclass, field
+from pathlib import Path
+
+import typer
+from rich.console import Console
+from rich.panel import Panel
+from rich.progress import track
+from rich.table import Table
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from rlm.clients.ollama_client import OllamaClient
 
-
 MEDGEMMA_MODEL = os.environ.get("MEDGEMMA_MODEL", "alibayram/medgemma:latest")
 MEDGEMMA_URL = os.environ.get("MEDGEMMA_URL", "http://localhost:11434")
+# Context window for extraction. Narrative-heavy reports (long prose dictations / OCR'd scans)
+# overflow a small window and silently drop the staging-critical findings, so default high and
+# allow tuning down via MEDGEMMA_NUM_CTX for memory-constrained hosts.
+MEDGEMMA_NUM_CTX = int(os.environ.get("MEDGEMMA_NUM_CTX", "32768"))
 MEDGEMMA_OPTIONS = {
-    "num_ctx": 8192,
+    "num_ctx": MEDGEMMA_NUM_CTX,
     "num_predict": 4096,
     "temperature": 0,
 }
@@ -202,6 +206,7 @@ PATHOLOGY REPORT:
 
 Clinical summary:"""
 
+
 def _format_field_catalog() -> str:
     """Render EXTRACTION_FIELDS as a prompt-ready field list with types and allowed values."""
     lines: list[str] = []
@@ -298,6 +303,40 @@ CORRECTION_PROMPT = """You are an expert clinical data verifier, acting as the f
 {extraction_json}
 
 **Corrected fields (JSON only, no extra text):**"""
+
+# FIGO staging-critical findings that a narrative report most often gets mis-read on, because
+# benign incidental findings (adhesions, hydrosalpinx, endometriosis) sit near the same anatomy
+# as malignant spread. These get a dedicated, disambiguated re-read of the raw narrative.
+STAGING_FIELDS = (
+    "cervical_stromal_involvement",
+    "serosal_involvement",
+    "adnexal_involvement",
+    "lymphovascular_invasion",
+)
+
+STAGING_EXTRACTION_PROMPT = """You are re-reading a surgical pathology report for endometrial carcinoma to resolve ONLY the FIGO staging-critical findings listed below. The report is narrative prose and may be OCR-garbled — reconstruct the intended meaning, but never invent findings.
+
+Return a SINGLE JSON object with EXACTLY these four keys, each an object of the form:
+  {{"value": <value>, "confidence": <number 0.0-1.0>, "status": "present|uncertain|missing", "evidence": "<verbatim phrase copied from the report>"}}
+
+Keys and allowed values (all: "identified", "not identified", or "not reported"):
+- "cervical_stromal_involvement"
+- "serosal_involvement"
+- "adnexal_involvement"
+- "lymphovascular_invasion"
+
+CRITICAL — distinguish MALIGNANT involvement (raises stage) from BENIGN / incidental findings (do NOT raise stage):
+- serosal_involvement = TUMOR reaching/penetrating the uterine or organ serosa. NOT serosal involvement: "serosal adhesions", "reactive mesothelial cells", "fibrous adhesions", "hydrosalpinx", "endometriosis", a serosa described as "smooth"/"unremarkable", or tumor only "within X cm of the serosa" (close but not reaching). If only such benign findings are present, answer "not identified".
+- adnexal_involvement = TUMOR in the ovary or fallopian tube. Benign adnexal findings (corpora albicantia, cysts, hydrosalpinx, endometriosis, calcification, "no tumor identified", "benign ovary/tube") are NOT adnexal involvement -> "not identified".
+- cervical_stromal_involvement = tumor invading the cervical STROMA (explicit cervical stromal invasion, or pT2). Tumor merely in the endocervical canal/mucosa or that "extends to the upper endocervix" WITHOUT stated stromal invasion is "uncertain" (give the phrase as evidence) unless stromal invasion or pT2 is explicit, in which case "identified".
+- lymphovascular_invasion = "identified" only when the report affirmatively states lymphvascular/lymphovascular invasion is present; "not identified" when it states absent/negative; otherwise "not reported". "Contraction artefact" alone is NOT lymphovascular invasion.
+
+Status rules: "present" (confidence >= 0.7) when clearly stated; "uncertain" (confidence < 0.5) only when the report is genuinely ambiguous; "missing" with value "not reported", confidence 0.0 when the finding is not addressed at all. Copy a verbatim supporting phrase into "evidence" for every non-missing value.
+
+PATHOLOGY REPORT:
+{report_text}
+
+JSON:"""
 
 _NEGATIVE_FINDING_PATTERNS = (
     "not identified",
@@ -612,7 +651,11 @@ def _create_medgemma_client(
     # In the default JSON extraction mode, constrain decoding to valid JSON so malformed values
     # (e.g. an invalid FIGO stage like "IIIII") cannot escape the model. The legacy ANSWER and
     # conversational modes are free-text, so the constraint must not be applied to them.
-    ollama_format = "json" if _EXTRACTION_PROMPT_MODE not in ("structured", "answer", "legacy", "conversational") else None
+    ollama_format = (
+        "json"
+        if _EXTRACTION_PROMPT_MODE not in ("structured", "answer", "legacy", "conversational")
+        else None
+    )
     return OllamaClient(
         model_name=model or MEDGEMMA_MODEL,
         base_url=base_url or MEDGEMMA_URL,
@@ -938,7 +981,9 @@ def _is_nondefault_field_value(field_name: str, value) -> bool:
         return bool(value)
     if t in ("number", "integer"):
         return value != -1
-    return isinstance(value, str) and bool(value.strip()) and value.strip().lower() != "not reported"
+    return (
+        isinstance(value, str) and bool(value.strip()) and value.strip().lower() != "not reported"
+    )
 
 
 def _is_absent_value(field_name: str, value) -> bool:
@@ -955,9 +1000,7 @@ def _merge_nondefault_extraction(base: dict, overlay: dict) -> dict:
 
 
 def _extraction_has_signal(data: dict) -> bool:
-    return (
-        sum(1 for k in EXTRACTION_FIELDS if _is_nondefault_field_value(k, data.get(k))) >= 4
-    )
+    return sum(1 for k in EXTRACTION_FIELDS if _is_nondefault_field_value(k, data.get(k))) >= 4
 
 
 def _parse_freetext_response(text: str) -> dict:
@@ -1243,6 +1286,77 @@ class ExtractionResult:
         return "\n".join(lines)
 
 
+def _needs_staging_pass(field_status: dict[str, str], data: dict) -> bool:
+    """True when any staging-critical field is unresolved (uncertain, missing, or absent).
+
+    These are exactly the cases a narrative report mis-reads, so the targeted re-read only fires
+    when it can add value — confidently-extracted staging fields skip the extra model call.
+    """
+    for name in STAGING_FIELDS:
+        status = field_status.get(name)
+        if status in (STATUS_UNCERTAIN, STATUS_MISSING) or status is None:
+            return True
+        if _is_absent_value(name, data.get(name)):
+            return True
+    return False
+
+
+def _merge_staging_extraction(
+    data: dict,
+    field_confidence: dict[str, float],
+    field_status: dict[str, str],
+    field_evidence: dict[str, str],
+    staging_parse: tuple[dict, dict[str, float], dict[str, str], dict[str, str]],
+) -> list[str]:
+    """Override the staging-critical fields with the focused re-read's confident verdicts.
+
+    The disambiguated re-read is authoritative for these fields, except it never downgrades a
+    field the main extraction already resolved confidently (``present``) to merely ``uncertain``.
+    Returns human-readable notes for any value that changed.
+    """
+    s_data, s_conf, s_status, s_evidence = staging_parse
+    notes: list[str] = []
+    for name in STAGING_FIELDS:
+        if name not in s_status:
+            continue
+        new_status = s_status[name]
+        if new_status == STATUS_UNCERTAIN and field_status.get(name) == STATUS_PRESENT:
+            continue
+        old_value = data.get(name)
+        new_value = s_data.get(name)
+        if new_value is not None:
+            data[name] = new_value
+        field_confidence[name] = s_conf.get(name, field_confidence.get(name, 0.0))
+        field_status[name] = new_status
+        if name in s_evidence:
+            field_evidence[name] = s_evidence[name]
+        if new_value is not None and new_value != old_value:
+            notes.append(f"{name}: {old_value!r} -> {new_value!r} (staging re-read)")
+    return notes
+
+
+def _run_staging_pass(
+    client: OllamaClient,
+    report_text: str,
+    data: dict,
+    field_confidence: dict[str, float],
+    field_status: dict[str, str],
+    field_evidence: dict[str, str],
+) -> list[str]:
+    """Re-read the raw narrative for the staging-critical fields and merge the result in place.
+
+    Returns the merge notes (empty if the re-read did not parse or changed nothing). Caller is
+    responsible for re-canonicalizing / re-validating afterward.
+    """
+    raw = client.completion(STAGING_EXTRACTION_PROMPT.format(report_text=report_text))
+    staging_parse = _parse_structured_json_response(raw)
+    if staging_parse is None:
+        return []
+    return _merge_staging_extraction(
+        data, field_confidence, field_status, field_evidence, staging_parse
+    )
+
+
 def extract_report(
     report_text: str,
     client: OllamaClient | None = None,
@@ -1348,6 +1462,22 @@ def extract_report(
     # Deterministic safety net: re-read the source for hedging the extractor may have flattened
     # into a confident negative, and downgrade those fields to uncertain.
     _apply_equivocal_backstop(data, field_status, field_evidence, report_text)
+
+    # Targeted staging re-read: when a staging-critical finding is still unresolved (narrative
+    # reports routinely flatten benign serosal adhesions / adnexal endometriosis into a confident
+    # or uncertain malignant call), re-read the raw narrative with explicit benign-vs-malignant
+    # disambiguation and let those verdicts win. Runs last so it overrides the backstop, and only
+    # in structured/JSON mode (where per-field provenance exists).
+    if field_status and _needs_staging_pass(field_status, data):
+        staging_notes = _run_staging_pass(
+            client, report_text, data, field_confidence, field_status, field_evidence
+        )
+        total_input += client.last_input_tokens
+        total_output += client.last_output_tokens
+        if staging_notes:
+            data, normalizations = canonicalize_extraction(data)
+            normalizations.extend(staging_notes)
+            validation = validate_extraction(data)
 
     t_end = time.perf_counter()
     return ExtractionResult(
