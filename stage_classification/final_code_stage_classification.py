@@ -1,6 +1,8 @@
 import os
 import re
+
 import pandas as pd
+
 # Directories
 input_directory = "/content/drive/MyDrive/aws-textract-output"
 output_directory = "/content/drive/MyDrive/downstaged-output"
@@ -74,7 +76,7 @@ def process_reports_with_tracking():
     counts = {"Downstaged": 0, "Likely Downstaged": 0, "Ovary Exception": 0, "Upstaged": 0, "No Change": 0}
     for file_name in os.listdir(input_directory):
         if file_name.endswith(".txt"):
-            with open(os.path.join(input_directory, file_name), "r", encoding="utf-8") as f:
+            with open(os.path.join(input_directory, file_name), encoding="utf-8") as f:
                 text = f.read()
 
             clean_text = preprocess_text(text)
@@ -141,6 +143,7 @@ df = pd.DataFrame({
 })
 
 from IPython.display import display
+
 display(df)
 
 print("\n📊 STAGING SUMMARY")
@@ -159,7 +162,7 @@ def process_reports_with_dual_check():
 
     for file_name in os.listdir(input_directory):
         if file_name.endswith(".txt"):
-            with open(os.path.join(input_directory, file_name), "r", encoding="utf-8") as f:
+            with open(os.path.join(input_directory, file_name), encoding="utf-8") as f:
                 text = f.read()
 
             clean_text = preprocess_text(text)
@@ -237,6 +240,7 @@ df = pd.DataFrame({
     "Clinical Review": pd.Series(clinical_review_files)
 })
 from IPython.display import display
+
 display(df)
 # Create DataFrames for each category
 df_upstaged = pd.DataFrame({"Upstaged Files": upstage_only})
@@ -245,7 +249,7 @@ df_clinical_review = pd.DataFrame({"Clinical Review Files (Both)": both_staged})
 df_no_change = pd.DataFrame({"No Change Files": no_change})
 
 # Display each table in Colab
-from IPython.display import display, Markdown
+from IPython.display import Markdown, display
 
 display(Markdown("### ✅ Upstaged Cases"))
 display(df_upstaged)

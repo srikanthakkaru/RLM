@@ -18,7 +18,6 @@ import grounding
 from vlmextraction import ExtractionResult, extract_report
 
 from rlm import RLM
-from rlm.utils.prompts import RLM_SYSTEM_PROMPT
 from stage_classification.figo2023 import StageAuditResult, audit_extraction
 
 DEFAULT_REPORT = os.path.join(
@@ -41,7 +40,7 @@ RLM_MODEL = os.environ.get("RLM_MODEL", "qordmlwls/llama3.1-medical")
 RLM_BACKEND = os.environ.get("RLM_BACKEND", "ollama")
 RLM_BASE_URL = os.environ.get("RLM_BASE_URL")  # e.g. https://openrouter.ai/api/v1
 RLM_API_KEY = os.environ.get("RLM_API_KEY")
-MAX_ITERATIONS = 10
+MAX_ITERATIONS = 3
 # Extra RLM regeneration attempts when a narrative trips the grounding gate or is structurally
 # unusable. The RLM is always re-run with a correction note — there is no non-RLM fallback.
 MAX_RETRIES = 2
@@ -49,6 +48,22 @@ MAX_RETRIES = 2
 # Ollama runtime options for the RLM stage. temperature 0 for the deterministic single sample;
 # self-consistency sampling overrides temperature/seed per sample.
 _OLLAMA_RLM_OPTIONS: dict[str, Any] = {"num_ctx": 32768, "num_predict": 4096, "temperature": 0}
+
+PATHOLOGY_RLM_SYSTEM_PROMPT = """You are a concise pathology narrative generator.
+
+The upstream pipeline has already extracted, normalized, validated, and staged the report. Your job
+is not to perform open-ended research. Use the provided context as the source of truth and produce
+the final narrative quickly.
+
+Rules:
+- Do not call llm_query or llm_query_batched.
+- Use at most one ```repl``` block, only for simple deterministic inspection or arithmetic.
+- If the provided context is already sufficient, answer immediately with FINAL(<full narrative>).
+- Do not narrate your analysis process.
+- Do not keep asking yourself what to check next; unresolved or missing facts should be stated as
+  "not reported" or "requires pathologist verification".
+- Finish within two turns whenever possible: optional one REPL turn, then FINAL or FINAL_VAR.
+"""
 
 STRUCTURED_MEDICAL_PROMPT = """You are a clinical reasoning and validation engine working from a validated, structured extraction of a surgical pathology report for endometrial carcinoma.
 
@@ -191,13 +206,13 @@ Do not output FINAL(final_answer) as plain text
 Extracted data (validated):
 {context}"""
 
-STRUCTURED_COMBINED_PROMPT = f"{RLM_SYSTEM_PROMPT}\n\n{STRUCTURED_MEDICAL_PROMPT}"
+STRUCTURED_COMBINED_PROMPT = f"{PATHOLOGY_RLM_SYSTEM_PROMPT}\n\n{STRUCTURED_MEDICAL_PROMPT}"
 
 STRUCTURED_ROOT_PROMPT = """The ```repl``` variable `context` is a dict containing validated structured extraction fields (top-level keys such as `myometrial_invasion_depth_cm`), plus `normalizations`, `validation_warnings`, `field_confidence`, `stage_audit`, and `source_report` (the raw report text, for verification only).
 
 The structured extraction fields are authoritative. `context['source_report']` is available ONLY so you can verify wording and ground statements — read it to confirm or quote a detail, but never re-extract or re-stage from it or override the extraction's staging values.
 
-Use the REPL to inspect fields and recompute myometrial invasion percentage and category when both `context['myometrial_invasion_depth_cm']` and `context['myometrial_thickness_cm']` are numeric.
+Use at most one REPL block to inspect fields and recompute myometrial invasion percentage/category when both `context['myometrial_invasion_depth_cm']` and `context['myometrial_thickness_cm']` are numeric. Do not call llm_query or llm_query_batched.
 
 Numeric override applies only to myometrial invasion. All other fields (FIGO grade, histology, LVSI, margins, TNM, FIGO stage) must be used exactly as extracted.
 
@@ -223,7 +238,7 @@ Source of truth:
 Workflow:
 - Use the ```repl``` to inspect `context` and extract relevant findings
 - You may build a small internal `state` dictionary if helpful
-- You may call `llm_query` for focused subtasks
+- Do not call `llm_query` or `llm_query_batched`; use the provided report text directly
 - Do not invent or use undefined helper functions
 - Keep the process efficient within iteration limits
 
@@ -271,14 +286,14 @@ Termination rules:
 """
 
 DIRECT_COMBINED_PROMPT = (
-    f"{RLM_SYSTEM_PROMPT}\n\n"
+    f"{PATHOLOGY_RLM_SYSTEM_PROMPT}\n\n"
     "Additional domain-specific instructions for pathology report analysis:\n\n"
     f"{DIRECT_MEDICAL_PROMPT}"
 )
 
 DIRECT_ROOT_PROMPT = """Analyze the pathology report stored in the ```repl``` variable `context`.
 
-Use the REPL to extract findings and produce a clinically grounded narrative using the required section headers. Do not invent helper functions.
+Use at most one REPL block to extract findings and produce a clinically grounded narrative using the required section headers. Do not call llm_query or llm_query_batched. Do not invent helper functions.
 
 Finalization rules:
 - Do not call FINAL(...) inside ```repl``` blocks

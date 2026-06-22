@@ -24,6 +24,7 @@ Requires-Dist: pytest>=9.0.2
 Requires-Dist: python-dotenv>=1.2.1
 Requires-Dist: requests>=2.32.5
 Requires-Dist: rich>=13.0.0
+Requires-Dist: typer>=0.9.0
 Provides-Extra: modal
 Requires-Dist: modal>=0.73.0; extra == "modal"
 Requires-Dist: dill>=0.3.7; extra == "modal"

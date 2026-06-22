@@ -40,7 +40,6 @@ from vlmextraction import ExtractionResult, extract_report
 from rlm import RLM
 from rlm.core.types import RLMChatCompletion, RLMIteration
 from rlm.utils.parsing import find_final_answer
-from rlm.utils.prompts import RLM_SYSTEM_PROMPT
 from stage_classification.figo2023 import StageAuditResult, audit_extraction
 
 # ── Configuration ────────────────────────────────────────────────────────────
@@ -52,12 +51,28 @@ REPORTS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "reports")
 OLLAMA_URL = "http://localhost:11434"
 VLM_MODEL = os.environ.get("MEDGEMMA_MODEL", "alibayram/medgemma:latest")
 RLM_MODEL = os.environ.get("RLM_MODEL", "gemma4:latest")
-MAX_ITERATIONS = 10
+MAX_ITERATIONS = 3
 # Extra RLM regeneration attempts when the narrative is unusable/non-compliant. The RLM is
 # re-run with a correction note; there is no non-RLM fallback.
 MAX_RETRIES = 2
 
 # ── Prompts: Structured Input (VLM→RLM mode) ────────────────────────────────
+
+PATHOLOGY_RLM_SYSTEM_PROMPT = """You are a concise pathology narrative generator.
+
+The upstream pipeline has already extracted, normalized, validated, and staged the report. Your job
+is not to perform open-ended research. Use the provided context as the source of truth and produce
+the final narrative quickly.
+
+Rules:
+- Do not call llm_query or llm_query_batched.
+- Use at most one ```repl``` block, only for simple deterministic inspection or arithmetic.
+- If the provided context is already sufficient, answer immediately with FINAL(<full narrative>).
+- Do not narrate your analysis process.
+- Do not keep asking yourself what to check next; unresolved or missing facts should be stated as
+  "not reported" or "requires pathologist verification".
+- Finish within two turns whenever possible: optional one REPL turn, then FINAL or FINAL_VAR.
+"""
 
 STRUCTURED_MEDICAL_PROMPT = """You are a clinical reasoning and validation engine operating on a validated structured extraction from a surgical pathology report for endometrial carcinoma.
 
@@ -131,16 +146,17 @@ Termination (critical):
 - Do NOT write `FINAL(final_answer)` as plain text — that returns the literal identifier, not the narrative. Use `FINAL_VAR(final_answer)`."""
 
 STRUCTURED_COMBINED_PROMPT = (
-    f"{RLM_SYSTEM_PROMPT}\n\n"
+    f"{PATHOLOGY_RLM_SYSTEM_PROMPT}\n\n"
     "Additional domain-specific instructions for structured pathology data interpretation:\n\n"
     f"{STRUCTURED_MEDICAL_PROMPT}"
 )
 
 STRUCTURED_ROOT_PROMPT = (
     "The REPL variable `context` contains a validated structured extraction, plus any "
-    "NORMALIZATIONS APPLIED and VALIDATION WARNINGS blocks. Use the REPL to inspect "
+    "NORMALIZATIONS APPLIED and VALIDATION WARNINGS blocks. Use at most one REPL block to inspect "
     "fields and to recompute myometrial invasion percentage / category from "
     "`myometrial_invasion_depth_cm` and `myometrial_thickness_cm` when both are numeric. "
+    "Do not call llm_query or llm_query_batched. "
     "Numeric override applies ONLY to myometrial invasion — all other fields use the "
     "extracted values verbatim. Resolve any remaining contradictions before writing the "
     "narrative; record overrides in a trailing `Corrections Applied` section (omit if none). "
@@ -160,7 +176,8 @@ Source of truth:
 
 Working approach:
 - Use the REPL to inspect `context`, extract features, and build a small internal `state` dictionary if helpful.
-- You may call `llm_query` for narrow sub-analyses, but do not invent placeholder helper functions such as FEATURE_EXTRACTOR(...).
+- Do not call `llm_query` or `llm_query_batched`; use the provided report text directly.
+- Do not invent placeholder helper functions such as FEATURE_EXTRACTOR(...).
 - Keep the workflow compact enough to finish within the available iterations.
 
 Track these clinical elements:
@@ -196,15 +213,15 @@ Final response requirements:
 - Do not place the final answer inside a ```repl``` block."""
 
 DIRECT_COMBINED_PROMPT = (
-    f"{RLM_SYSTEM_PROMPT}\n\n"
+    f"{PATHOLOGY_RLM_SYSTEM_PROMPT}\n\n"
     "Additional domain-specific instructions for pathology report analysis:\n\n"
     f"{DIRECT_MEDICAL_PROMPT}"
 )
 
 DIRECT_ROOT_PROMPT = (
-    "Analyze the pathology report stored in `context`. Use the REPL to inspect the report "
+    "Analyze the pathology report stored in `context`. Use at most one REPL block to inspect the report "
     "and assemble a clinically grounded narrative with the required section headers. "
-    "Do not invent helper functions. When finished, end with either only "
+    "Do not call llm_query or llm_query_batched. Do not invent helper functions. When finished, end with either only "
     "`FINAL(<full narrative>)` or only `FINAL_VAR(final_answer)` after defining "
     "`final_answer` in the REPL."
 )
