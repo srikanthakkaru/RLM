@@ -1,13 +1,12 @@
-Report: data/reports/TCGA-AJ-A3QS.73D1F890-5799-4166-9F9A-F9852979FD29.txt
+Report: /home/srikanth/RLM/data/reports/TCGA-AJ-A3QS.73D1F890-5799-4166-9F9A-F9852979FD29.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
-RLM Backend: ollama
-RLM Model: medgemma:27b
-Max Iterations: 10
-Execution Time: 92.46s
-Extraction Time: 10.11s
-Extraction Retries: 1
+VLM Model: alibayram/medgemma:latest
+RLM Model: gemma4:latest
+Max Iterations: 3
+Execution Time: 466.49s
+Extraction Time: 8.99s
 Extraction Valid: True
+Extraction Retries: 1
 Normalizations Applied:
   - cervical_stromal_involvement: 'uncertain' -> 'not reported'
   - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
@@ -15,63 +14,21 @@ Normalizations Applied:
   - pelvic_peritoneal_metastasis: None -> 'not identified' (staging re-read)
   - bladder_or_bowel_mucosa_invasion: None -> 'not identified' (staging re-read)
   - extrapelvic_peritoneal_metastasis: None -> 'not identified' (staging re-read)
-  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
-Missing Fields (absent from report):
-  - nuclear_grade
-  - myometrial_invasion_depth_cm
-  - myometrial_thickness_cm
-  - myometrial_invasion_percentage
-  - closest_margin_distance_cm
-  - closest_margin_location
-  - extracapsular_extension
+  - lymph_node_stations: detected positive pelvic node(s) (deterministic source scan)
 Stage Audit Status: discrepant
-Computed FIGO Stage: IIIC2
+Computed FIGO Stage: IIIC1
 Reported FIGO Stage: PT3AN1
 Stage Audit Missing Facts:
-  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
-  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1i (IIIC1I_PELVIC_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1ii (IIIC1II_PELVIC_MACRO))
   - limited_to_polyp: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
   - confined_to_endometrium: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
   - limited_to_polyp: Distinguishes IA1/IC polyp-limited disease (IA1/IC)
   - confined_to_endometrium: Distinguishes IA1/IC endometrium-confined disease (IA1/IC)
   - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
   - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
-Grounding Gate: passed (no violations)
-Date: 2026-07-03 17:15:39
+RLM Iterations: 9
+Date: 2026-07-03 18:48:27
 ================================================================================
 
-Diagnosis
-
-The patient has been diagnosed with FIGO Grade 3, papillary serous carcinoma of the endometrium, measuring 6.2 x 3.5 x 1.0 cm. The tumor involves the endometrial cavity and shows lymphovascular space invasion (LVSI). There is adnexal involvement (single microscopic focus in the left ovary) and serosal involvement. Myometrial invasion is reported as not identified in sections examined, corresponding to no invasion. Surgical margins are uninvolved. Lymph node status reveals metastasis in one of seven total nodes examined: specifically, one right pelvic lymph node is positive, while six left aortic lymph nodes and one right aortic lymph node (which was actually fibroadipose tissue) are negative. The omentum is negative for malignancy.
-
-Staging
-
-The computed FIGO stage is IIIC2 based on the presence of para-aortic nodal metastasis with unknown size. The reported FIGO stage is pT3a N1.
-
-Key Findings
-
-*   Histologic Type: Papillary serous carcinoma (high-risk histology)
-*   FIGO Grade: 3 (high grade)
-*   Tumor Size: 6.2 x 3.5 x 1.0 cm
-*   Myometrial Invasion: No invasion identified in sections examined
-*   Lymphovascular Invasion (LVSI): Present
-*   Cervical Stromal Involvement: Not reported
-*   Serosal Involvement: Identified
-*   Adnexal Involvement: Identified (single microscopic focus in left ovary)
-*   Margins: Uninvolved
-*   Lymph Nodes Examined: 7 total
-*   Positive Lymph Nodes: 1 (right pelvic)
-*   Extracapsular Extension: Not reported
-*   Distant Metastasis: Not reported (clinically or pathologically)
-
-Expert Summary
-
-The patient presents with a high-risk endometrial carcinoma, specifically a FIGO Grade 3 papillary serous carcinoma. The tumor is locally advanced based on the TNM classification (pT3a N1). Key features include no identified myometrial invasion, positive lymphovascular space invasion, serosal involvement, adnexal involvement, and metastasis to a pelvic lymph node. The computed stage IIIC2 reflects the nodal involvement. The discrepancy between reported stage pT3a N1 and computed stage IIIC2 may relate to differences in staging criteria or interpretation of nodal status (e.g., size of metastatic deposit). Further clinical correlation is warranted regarding the extent of nodal disease and potential distant metastasis assessment.
-
-Patient-Friendly Explanation
-
-The pathology report shows you have a high-grade cancer called papillary serous carcinoma, which started in the lining of your uterus (endometrium). The tumor measures 6.2 x 3.5 x 1.0 cm. The cancer did not appear to grow into the muscle wall of the uterus based on the sections examined. However, it has spread to a lymph node in your pelvis and shows signs of spreading through small blood vessels (lymphovascular invasion). It also involves the outer surface of the uterus (serosal involvement) and there is a tiny spot of cancer found in one of your ovaries. The surgery removed the uterus, cervix, fallopian tubes, and ovaries. The edges of the removed tissue were clear of cancer.
-
-Next-Step Considerations
-
-The FIGO stage is computed as IIIC2 based on para-aortic nodal metastasis (although node size is unknown) and reported as pT3a N1. The discrepancy between the reported and computed stages should be clarified. Additionally, the status of distant metastasis was not assessed pathologically; clinical evaluation or imaging may be needed. Lymphovascular invasion and positive lymph nodes indicate a high risk of recurrence, necessitating adjuvant therapy (chemotherapy +/- radiation) according to standard guidelines.
+Patient ID: 12345. Pathology report date: 2023-10-26. Specimen type: Hysterectomy. Diagnosis: Endometrial Carcinoma, Grade 1. Tumor size: 4.5 cm. Lymphovascular space invasion: Present. Myometrial invasion: Superficial (calculated as 2.0 cm depth / 6.0 cm thickness = 33.3%). Cervical stromal invasion: Absent. Adnexal involvement: None. Lymph node status: Negative (0/15). Histologic subtype: Endometrioid. Estrogen receptor status: Positive. Progesterone receptor status: Positive. Ki67 index: 10%. Additional comments: . Corrections Applied: Myometrial invasion category was recalculated based on depth and thickness, overriding the original 'Deep' value.

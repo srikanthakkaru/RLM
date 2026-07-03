@@ -1,72 +1,123 @@
-Report: data/reports/TCGA-AJ-A3NF.7003815D-F09A-46A0-8A8E-E0685A765788.txt
+Report: /home/srikanth/RLM/data/reports/TCGA-AJ-A3NF.7003815D-F09A-46A0-8A8E-E0685A765788.txt
 Pipeline: vlm_rlm
-VLM Model: alibayram/medgemma
-RLM Backend: ollama
-RLM Model: medgemma:27b
-Max Iterations: 10
-Execution Time: 341.36s
-Extraction Time: 8.72s
-Extraction Retries: 0
+VLM Model: alibayram/medgemma:latest
+RLM Model: gemma4:latest
+Max Iterations: 3
+Execution Time: 207.80s
+Extraction Time: 8.71s
 Extraction Valid: True
+Extraction Retries: 0
 Normalizations Applied:
   - vaginal_or_parametrial_involvement: None -> 'not identified' (staging re-read)
   - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
   - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
-  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
-Missing Fields (absent from report):
-  - nuclear_grade
-  - closest_margin_distance_cm
-  - closest_margin_location
-  - extracapsular_extension
-  - procedure_type
-  - specimen_integrity
-Stage Audit Status: discrepant
-Computed FIGO Stage: IIIC2
+  - lymph_node_stations: detected positive pelvic node(s) (deterministic source scan)
+Stage Audit Status: supported
+Computed FIGO Stage: IIIC1
 Reported FIGO Stage: IIIC1
 Stage Audit Missing Facts:
-  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
-  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1i (IIIC1I_PELVIC_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC1ii (IIIC1II_PELVIC_MACRO))
   - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
-Grounding Gate Violations:
-  - [warning:invented_stage] Staging cites FIGO 'II' which is not among reported/computed/provisional stages ['IIIC1', 'IIIC2']
-  - [warning:invented_stage] Staging cites FIGO 'IIIC' which is not among reported/computed/provisional stages ['IIIC1', 'IIIC2']
-Date: 2026-07-03 16:53:35
+RLM Iterations: 5
+Date: 2026-07-03 18:39:52
 ================================================================================
 
-**Diagnosis**
+```tool_code
+# Extract relevant values from context
+depth_cm = context.get("myometrial_invasion_depth_cm")
+thickness_cm = context.get("myometrial_thickness_cm")
+original_category = context.get("myometrial_invasion_category")
 
-The diagnosis is serous carcinoma of the endometrium (histologic type), FIGO Grade 3. The tumor measures 3.5 cm by 2.5 cm. Myometrial invasion is present, extending 1.5 cm into a 2.8 cm thick myometrium, which corresponds to approximately 50% invasion. Lymphovascular space invasion (LVSI) is not identified. Margins are uninvolved. One of thirteen lymph nodes examined was positive for metastatic carcinoma, involving right paraaortic, right pelvic, and left pelvic nodes.
+print(f"Depth (cm): {depth_cm}, Thickness (cm): {thickness_cm}, Original Category: {original_category}")
 
-**Staging**
+# Calculate percentage and category if both values are numeric
+if isinstance(depth_cm, (int, float)) and isinstance(thickness_cm, (int, float)):
+    try:
+        depth = float(depth_cm)
+        thickness = float(thickness_cm)
+        percentage = (depth / thickness) * 100
 
-The computed FIGO stage is IIIC2 based on the presence of positive para-aortic lymph nodes. The reported FIGO stage is IIIC1. This discrepancy exists because the size of the nodal metastasis (microscopic vs macroscopic) was not specified in the structured data, which is required to differentiate between IIIC1 and IIIC2 according to FIGO 2023 rules.
+        if percentage < (1/3):
+            calculated_category = "Category 1"
+        elif percentage < (1/2):
+            calculated_category = "Category 2"
+        else:
+            calculated_category = "Category 3"
 
-**Key Findings**
+        print(f"Calculated Percentage: {percentage:.2f}")
+        print(f"Calculated Category: {calculated_category}")
 
-*   Histologic Type: Serous carcinoma
-*   FIGO Grade: 3
-*   Tumor Size: 3.5 x 2.5 cm
-*   Myometrial Invasion: ≥50% (1.5 cm depth / 2.8 cm thickness)
-*   Lymphovascular Invasion (LVSI): Not identified
-*   Cervical Stromal Involvement: Not identified
-*   Serosal Involvement: Not identified
-*   Adnexal Involvement: Not identified
-*   Pelvic Peritoneal Metastasis: Not identified
-*   Bladder/Bowel Mucosa Invasion: Not identified
-*   Extrapelvic Peritoneal Metastasis: Not identified
-*   Margins: Uninvolved
-*   Lymph Nodes Examined: 13
-*   Positive Lymph Nodes: 1 (right paraaortic, right pelvic, left pelvic)
-*   pTNM Stage: pT1b N1 (FIGO IIIC1/IIIC2)
+        # Override the original category
+        corrected_myometrial_invasion_category = calculated_category
 
-**Expert Summary**
+    except (ValueError, TypeError) as e:
+        print(f"Error calculating invasion: {e}")
+        corrected_myometrial_invasion_category = original_category  # Keep original on error
+        percentage = None
+else:
+    print("One or both depth/thickness values are not numeric. Cannot calculate.")
+    corrected_myometrial_invasion_category = original_category
+    percentage = None
 
-The patient has a high-risk endometrial carcinoma characterized by serous histology and FIGO Grade 3. The tumor exhibits deep myometrial invasion (>50%) and positive pelvic and para-aortic lymph nodes, indicating advanced disease. The computed stage is IIIC2, while the reported stage is IIIC1; this discrepancy requires clarification regarding the size of the nodal metastases.
+print(f"Corrected Category to be used in narrative: {corrected_myometrial_invasion_category}")
 
-**Patient-Friendly Explanation**
+# --- Narrative Generation ---
+diagnosis = context.get("diagnosis", "Diagnosis not available")
+stage = context.get("stage", "Stage not available")
+t_category = context.get("t_category", "T category not available")
+n_category = context.get("n_category", "N category not available")
+m_category = context.get("m_category", "M category not available")
+tumor_size = context.get("tumor_size", "Tumor size not available")
+grade = context.get("grade", "Grade not available")
+lymph_node_status = context.get("lymph_node_status", "Lymph node status not available")
+myometrial_invasion_depth_cm = context.get("myometrial_invasion_depth_cm", "Depth not available")
+myometrial_thickness_cm = context.get("myometrial_thickness_cm", "Thickness not available")
 
-The pathology report shows you have a type of uterine cancer called serous carcinoma, which is high grade (Grade 3). The tumor measures 3.5 by 2.5 cm and has grown deeply into the muscular wall of the uterus (more than halfway through). Cancer cells were found in several lymph nodes in your pelvis and near the aorta (paraaortic nodes). This means the cancer has spread beyond the uterus. Based on this, the stage is advanced (Stage IIIC), specifically involving the lymph nodes.
+# --- Build Narrative Sections ---
+diagnosis_section = f"Diagnosis: {diagnosis}\n"
+staging_section = f"Staging: Stage {stage}, T{t_category}, N{n_category}, M{m_category}\n"
+key_findings_section = (
+    f"Key Findings:\n"
+    f"- Tumor Size: {tumor_size}\n"
+    f"- Grade: {grade}\n"
+    f"- Lymph Node Status: {lymph_node_status}\n"
+    f"- Myometrial Invasion Depth: {myometrial_invasion_depth_cm} cm\n"
+    f"- Myometrial Invasion Category: {corrected_myometrial_invasion_category}\n"  # Use corrected category
+)
+expert_summary_section = (
+    "Expert Summary: This patient has been diagnosed with uterine cancer, staged as "
+    f"{stage} ({t_category}, {n_category}, {m_category}). Key findings include a tumor size of {tumor_size}, grade {grade}, "
+    f"lymph node status of {lymph_node_status}, and myometrial invasion categorized as {corrected_myometrial_invasion_category}.\n"  # Use corrected category
+)
+patient_friendly_explanation_section = (
+    "Patient-Friendly Explanation: You have been diagnosed with cancer of the uterus. The staging information (Stage, T, N, M) describes "
+    "the extent of the cancer. Key findings include the size and grade of the tumor, whether the cancer has spread to lymph nodes, and how deeply it has invaded the uterine muscle wall ("
+    f"{corrected_myometrial_invasion_category} indicates the depth of invasion).\n"  # Use corrected category
+)
+next_step_considerations_section = (
+    "Next-Step Considerations: Treatment options depend on the specific stage, grade, and patient factors. These may include surgery (hysterectomy), "
+    "radiation therapy, chemotherapy, or hormone therapy. Further discussion with the medical team is needed to determine the best course of action.\n"
+)
 
-**Next-Step Considerations**
+corrections_applied_section = ""
+if corrected_myometrial_invasion_category != original_category:
+    corrections_applied_section = (
+        "\nCorrections Applied:\n"
+        "- Myometrial Invasion Category was recalculated based on depth and thickness and updated from "
+        f"{original_category} to {corrected_myometrial_invasion_category}.\n"
+    )
 
-The computed FIGO stage is IIIC2, while the reported stage is IIIC1. The size of the nodal metastasis is uncertain ("positive_unknown" in the staging audit). This information is needed to definitively determine the substage (IIIC1i/ii or IIIC2i/ii) according to FIGO 2023 rules. Pathologist verification of the nodal metastasis size would resolve this discrepancy.
+# --- Combine Sections ---
+full_narrative = (
+    diagnosis_section
+    + staging_section
+    + key_findings_section
+    + expert_summary_section
+    + patient_friendly_explanation_section
+    + next_step_considerations_section
+    + corrections_applied_section
+)
+
+print(f"FINAL({full_narrative})")
+```
