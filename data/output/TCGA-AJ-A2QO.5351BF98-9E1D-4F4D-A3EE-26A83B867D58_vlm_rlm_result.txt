@@ -1,0 +1,69 @@
+Report: data/reports/TCGA-AJ-A2QO.5351BF98-9E1D-4F4D-A3EE-26A83B867D58.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 321.17s
+Extraction Time: 12.97s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - lymph_node_stations
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIC
+Reported FIGO Stage: IIC
+Stage Audit Missing Facts:
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 15:42:12
+================================================================================
+
+```text
+Diagnosis
+
+The patient has high grade (FIGO Grade 3) endometrioid carcinoma with some mucinous features of the endometrium. The tumor measures 3.5 x 3.3 x 1.6 cm. It invades more than half of the myometrium, specifically 16 mm into a total myometrial thickness of 19 mm (approximately 84% invasion). Lymphovascular space invasion (LVSI) is focally identified. Surgical margins are uninvolved. The cervix, parametria, ovaries, fallopian tubes, and pelvic/para-aortic lymph nodes examined (total of 16 nodes) show no evidence of metastatic carcinoma. Additional findings include adenomyosis, leiomyomas, and focal complex hyperplasia with atypia adjacent to the neoplasm.
+
+Staging
+
+The clinical stage is based on the pathology findings. The tumor invades more than half the myometrium (pT1b), there is LVSI, but no lymph node metastasis (pN0) or other distant spread identified in the submitted specimen (pM PAS 9 SPC-A). Based on FIGO 2023 criteria, this corresponds to a computed FIGO stage of IIC. The reported FIGO stage is also IIC.
+
+Key Findings
+
+*   Histologic Type: Endometrioid carcinoma with mucinous features
+*   FIGO Grade: 3 (High grade)
+*   Tumor Size: 3.5 cm
+*   Myometrial Invasion: Deep (>50%), specifically 16 mm into 19 mm total thickness
+*   Lymphovascular Invasion (LVSI): Present (focally identified)
+*   Cervical Stromal Involvement: Not identified
+*   Serosal Involvement: Not identified
+*   Adnexal Involvement: Not identified
+*   Pelvic Peritoneal Metastasis: Not identified
+*   Lymph Nodes Examined: 16 total nodes (pelvic and para-aortic)
+*   Lymph Nodes Positive: 0/16
+*   Margins: Uninvolved
+*   Additional Findings: Adenomyosis, leiomyomas, focal complex hyperplasia with atypia
+
+Expert Summary
+
+The pathology report details a high-grade (FIGO Grade 3) endometrioid carcinoma with mucinous features, measuring 3.5 cm, exhibiting deep myometrial invasion (>50%, specifically 16/19 mm), and focal lymphovascular space invasion. The surgical margins are negative for tumor. Lymph node dissection of pelvic and para-aortic nodes (total N=16) revealed no metastatic disease. The FIGO stage is IIC, based on deep myometrial invasion in the absence of other high-risk features like LVSI extent or nodal involvement according to the 2023 criteria.
+
+Patient-Friendly Explanation
+
+The biopsy showed a high-grade endometrial cancer. It measures about 3.5 cm and has grown deeply into the muscle wall of the uterus (more than half way through). There was also some evidence of cancer cells near small blood vessels (lymphovascular invasion), but it did not spread to the nearby lymph nodes that were removed, nor did it involve other organs like the cervix or ovaries. The edges of the tissue removed during surgery did not have any cancer cells on them. Based on these findings, the stage of the cancer is IIC.
+
+Next-Step Considerations
+
+The FIGO stage is computed as IIC based on deep myometrial invasion (>50%). All fields used for staging are present and consistently reported. No specific fields were marked as uncertain or low confidence in the structured extraction.
+```

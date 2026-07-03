@@ -1,0 +1,66 @@
+Report: data/reports/TCGA-AJ-A3NG.32C3C850-5F65-424E-894C-75B4725BBD09.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 207.43s
+Extraction Time: 10.13s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
+Uncertain Fields (addressed but ambiguous in report):
+  - margin_status (0.50) — "lar space invasion identified in sections examined Surgical margin status: Surgical margins appear free of malignancy in sections examined. Lymph node statu"
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+Stage Audit Status: discrepant
+Computed FIGO Stage: IIIC2
+Reported FIGO Stage: PT2N0
+Stage Audit Missing Facts:
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 16:57:03
+================================================================================
+
+Diagnosis
+
+The patient has an endometrial carcinoma, specifically an adenocarcinoma with mixed endometrioid and papillary serous features. The tumor is poorly differentiated (FIGO Grade 3). It measures 6.6 x 4.5 x 0.9 cm. The tumor invades the myometrium by 0.9 cm into a total thickness of 1.5 cm, which is calculated as 60% invasion (≥50%). The tumor also involves the cervical stroma. Lymphovascular space invasion was not identified. Surgical margins appear free of malignancy.
+
+Staging
+
+The FIGO stage is computed as IIIC2 based on the presence of para-aortic lymph node metastasis, although the size of the nodal metastasis is unknown (positive_unknown). The reported FIGO stage from the source report is pT2N0. There is a discrepancy between the reported and computed stages.
+
+Key Findings
+
+*   Histologic Type: Mixed endometrioid and papillary serous adenocarcinoma
+*   FIGO Grade: 3 (Poorly differentiated)
+*   Tumor Size: 6.6 x 4.5 x 0.9 cm
+*   Myometrial Invasion: ≥50% (0.9 cm depth into 1.5 cm thickness)
+*   Cervical Stromal Involvement: Present
+*   Lymphovascular Space Invasion (LVSI): Not identified
+*   Margins: Uninvolved
+*   Lymph Nodes Examined: 18 total nodes, including pelvic and para-aortic stations.
+*   Positive Lymph Nodes: Positive lymph nodes were detected in the right pelvic, left pelvic, right aortic, and left common iliac stations (deterministic source scan). However, the structured extraction lists 0 positive nodes (lymph_nodes_total_positive: 0) and N0 stage (tnm_pN: N0), which contradicts the node station details. The computed stage IIIC2 is based on para-aortic nodal metastasis.
+*   Procedure: Hysterectomy with bilateral salpingo-oophorectomy
+
+Expert Summary
+
+The patient underwent a hysterectomy with bilateral salpingo-oophorectomy for an endometrial carcinoma. Pathologic examination revealed a high-grade (Grade 3), mixed histology adenocarcinoma with deep myometrial invasion (>50%) and cervical stromal involvement. Lymphovascular space invasion is absent, and surgical margins are negative. The staging information presents a discrepancy: the source report indicates pT2N0, while the computed stage based on deterministic node station data is IIIC2 due to para-aortic nodal metastasis. The structured extraction lists N0 (no positive nodes), which conflicts with the node station details provided in the same extraction. Given the presence of para-aortic nodal involvement, the tumor is classified as Stage IIIC2.
+
+Patient-Friendly Explanation
+
+The surgery removed your uterus, cervix, fallopian tubes, and ovaries. The pathology report shows you had an endometrial cancer that was high grade (Grade 3) and has a mixed type (endometrioid and serous). The cancer grew deeply into the muscle wall of the uterus (>50%) and spread to the tissue around the cervix. It did not affect the surgical edges, and there were no signs of cancer cells in the tiny blood vessels or lymph channels examined. However, cancer cells were found in lymph nodes in the pelvis and near the aorta (para-aortic). Because of this spread to the para-aortic lymph nodes, the cancer is classified as Stage IIIC2.
+
+Next-Step Considerations
+
+The computed FIGO stage is IIIC2, which requires pathologist verification due to the discrepancy with the reported stage (pT2N0) and conflicting information regarding positive lymph nodes within the structured data itself. The presence of para-aortic nodal metastasis (indicated by the computed stage IIIC2) signifies advanced disease. Further management decisions will depend on confirmation of the stage and node status, potentially including adjuvant chemotherapy or radiation therapy.

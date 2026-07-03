@@ -1,0 +1,55 @@
+Report: data/reports/TCGA-AJ-A3IA.883486F6-0EDF-4BBC-8412-67F31351427B.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 373.02s
+Extraction Time: 8.71s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIC
+Reported FIGO Stage: I
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 16:32:08
+================================================================================
+
+**Diagnosis**
+
+The diagnosis is endometrioid adenocarcinoma of the uterus, FIGO grade 3, with tumor size approximately 3.0 cm. The tumor shows myometrial invasion, depth 15 mm into a total myometrial thickness of 17 mm. Lymphovascular space invasion (LVSI) is not identified. Cervical stromal involvement, serosal involvement, adnexal involvement, vaginal or parametrial involvement, pelvic peritoneal metastasis, bladder or bowel mucosa invasion, and extrapelvic peritoneal metastasis are not identified. Surgical margins are uninvolved. Lymph nodes examined were negative for malignancy. Additional findings include serous tubal intraepithelial carcinoma (STIC) and serous carcinoma features on the fallopian tube and ovarian surface, positive for p53 and MIB1.
+
+**Staging**
+
+The computed FIGO stage is IIC, based on aggressive histological type (serous carcinoma features) with any myometrial invasion. The reported FIGO stage is I.
+
+**Key Findings**
+
+*   Histologic Type: Endometrioid adenocarcinoma (with serous carcinoma features noted in fallopian tube and ovary).
+*   FIGO Grade: 3 (Poorly differentiated).
+*   Tumor Size: 3.0 cm.
+*   Myometrial Invasion: Present, depth 15 mm into 17 mm thickness (approximately 88%, calculated as (15/17)*100), categorized as ≥50%.
+*   Lymphovascular Space Invasion (LVSI): Not identified.
+*   Cervical Stromal Involvement: Not identified.
+*   Margins: Uninvolved.
+*   Lymph Nodes: Negative (0 out of 15 nodes positive).
+*   Additional Findings: Serous tubal intraepithelial carcinoma (STIC) and serous carcinoma features on fallopian tube/ovary surfaces, p53 and MIB1 positivity in these locations.
+
+**Expert Summary**
+
+The patient has a high-grade (Grade 3) endometrioid adenocarcinoma of the uterus measuring 3.0 cm with deep myometrial invasion (≥50%). The absence of lymph node metastasis and negative margins are favorable prognostic factors. However, the presence of serous carcinoma features in the fallopian tube and on the ovarian surface, along with STIC, indicates a high-risk molecular subtype associated with poorer outcomes. This finding impacts staging according to FIGO 2023 criteria, leading to a computed stage IIC despite negative lymph nodes. The reported stage is I.
+
+**Patient-Friendly Explanation**
+
+The pathology report shows you have cancer in the lining of your uterus (endometrium). It's a type called endometrioid adenocarcinoma, which is graded as 3 (poorly differentiated), meaning it looks more abnormal under the microscope. The tumor measures about 3 cm. The cancer has grown deeply into the muscular wall of the uterus (myometrium). Importantly, the cancer did not spread to nearby lymph nodes that were removed during surgery, and the edges of the tissue removed (margins) do not show cancer cells. However, there were also findings in your fallopian tubes and on the surface of your ovaries suggesting a high-risk type of endometrial cancer related to serous carcinoma, which is associated with a higher chance of recurrence. This finding changes the stage according to newer guidelines.
+
+**Next-Step Considerations**
+
+The computed FIGO stage is IIC, indicating advanced disease based on histological features (serous carcinoma components), even though lymph nodes are negative and margins are clear. The reported stage is I. The molecular subtype information derived from the additional findings (STIC/serous features) requires pathologist verification as it impacts prognosis and treatment decisions. Further management should be guided by a multidisciplinary tumor board considering the high-risk features, computed stage, and potential need for adjuvant therapy.

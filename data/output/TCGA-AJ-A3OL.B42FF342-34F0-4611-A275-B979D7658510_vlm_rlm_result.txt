@@ -1,0 +1,65 @@
+Report: data/reports/TCGA-AJ-A3OL.B42FF342-34F0-4611-A275-B979D7658510.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 304.71s
+Extraction Time: 8.86s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+Stage Audit Status: supported
+Computed FIGO Stage: IIIC2
+Reported FIGO Stage: III
+Stage Audit Missing Facts:
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 17:14:06
+================================================================================
+
+**Diagnosis**
+
+The diagnosis is endometrioid carcinoma of the uterus, FIGO Grade 3. The tumor measures 3.4 cm in greatest dimension and invades 1.2 cm into a 1.5 cm thick myometrium (approximately 80% invasion). There is involvement of the endocervical stroma and lymphovascular space invasion (LVSI) is present. Peritoneal surface involvement is noted. Surgical margins are uninvolved. Lymph nodes examined were negative for metastatic carcinoma (0/15 total positive nodes: right pelvic 0/5, left aortic 0/4, left pelvic 0/4, right aortic 0/2). Additional findings include adenomyosis and endosalpingiosis.
+
+**Staging**
+
+The computed FIGO stage is IIIC2 based on the presence of para-aortic nodal metastasis (left aortic lymph nodes positive) with unknown size, and deep myometrial invasion (>50%). The reported FIGO stage is III, which is a less specific ancestor stage compared to the computed stage.
+
+**Key Findings**
+
+*   Histologic Type: Endometrioid carcinoma
+*   FIGO Grade: 3 (Poorly differentiated)
+*   Tumor Size: 3.4 cm
+*   Myometrial Invasion: Deep (>50%, specifically 1.2 cm depth into 1.5 cm thickness, calculated as 80%)
+*   Cervical Stromal Involvement: Present
+*   Lymphovascular Space Invasion (LVSI): Present
+*   Peritoneal Surface Involvement: Present
+*   Lymph Nodes: Negative (0/15)
+*   Surgical Margins: Uninvolved
+*   Additional Findings: Adenomyosis, Endosalpingiosis
+
+**Expert Summary**
+
+The patient has a high-risk endometrial carcinoma based on several features. The tumor is poorly differentiated (Grade 3), deeply invasive into the myometrium (>50%), involves the cervical stroma, exhibits lymphovascular space invasion, and shows peritoneal surface involvement. Although the examined lymph nodes are negative, the presence of para-aortic nodal metastasis (positive left aortic nodes) places the patient in FIGO stage IIIC2. The computed stage reflects this finding, while the reported stage is the less specific Stage III.
+
+**Patient-Friendly Explanation**
+
+You have been diagnosed with a type of uterine cancer called endometrioid carcinoma. It is graded as 3, meaning the cells look quite abnormal under the microscope. The tumor measures about 3.4 cm and has grown deeply into the muscular wall of the uterus (more than halfway through). The cancer has also spread to the tissue around the cervix, involves blood vessels/lymphatics, and is present on the surface of the peritoneum in the abdomen. Although the lymph nodes that were removed during surgery did not contain cancer cells, there was evidence of cancer spread to the lymph nodes near the aorta (major artery in the abdomen). This means your cancer is classified as stage IIIC2.
+
+**Next-Step Considerations**
+
+The FIGO stage is computed as IIIC2 based on para-aortic nodal metastasis. The reported stage is III, which is less specific. The presence of positive para-aortic nodes (left aortic) is a key finding driving the higher stage. The status of distant metastasis was not assessed pathologically in the specimen provided. Further evaluation or treatment decisions should consider this high-risk pathology and advanced stage.

@@ -1,0 +1,61 @@
+Report: data/reports/TCGA-AJ-A3NC.B6DB87F4-E88A-4209-92E2-75ADB364FB28.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 440.88s
+Extraction Time: 10.37s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'uncertain' -> 'not reported'
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+Stage Audit Status: supported
+Computed FIGO Stage: IIC
+Reported FIGO Stage: I
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 16:40:03
+================================================================================
+
+**Diagnosis**
+
+The diagnosis is endometrioid adenocarcinoma of the endometrium with focal clear cells and focal mucinous differentiation, FIGO grade 3. The tumor measures 6.8 cm in greatest diameter. Myometrial invasion is present, extending 3 cm into a myometrial thickness of 14 cm (approximately 25%). Lymphovascular space invasion (LVSI) is not identified. Surgical margins are uninvolved. There is no evidence of carcinoma in the examined pelvic lymph nodes (0/13). The right fallopian tube and ovary show tubal adhesions and features suggestive of a mature cystic teratoma, respectively; no carcinoma is identified in these specimens.
+
+**Staging**
+
+The computed FIGO stage is IIC based on aggressive histology (endometrioid adenocarcinoma with focal clear cells and mucinous differentiation) and myometrial invasion. The reported FIGO stage is I. This represents a discrepancy between the reported and computed stages.
+
+**Key Findings**
+
+*   Histologic Type: Endometrioid adenocarcinoma with focal clear cells and mucinous differentiation
+*   FIGO Grade: 3 (Moderately to poorly differentiated)
+*   Tumor Size: 6.8 cm
+*   Myometrial Invasion: Present, depth 3 cm into a thickness of 14 cm (approximately 25%)
+*   Lymphovascular Space Invasion (LVSI): Not identified
+*   Cervical Stromal Involvement: Not reported
+*   Lymph Nodes Examined: 13 total
+*   Positive Lymph Nodes: 0/13
+*   Margins: Uninvolved
+*   Reported FIGO Stage: I
+*   Computed FIGO Stage: IIC
+
+**Expert Summary**
+
+The patient has a high-risk endometrial carcinoma based on several features. The tumor is an endometrioid adenocarcinoma, grade 3, with focal clear cell and mucinous differentiation, which are considered aggressive histologic subtypes. The tumor size is significant (6.8 cm). Myometrial invasion is present (25%). Lymphovascular space invasion was not identified, and lymph nodes were negative for metastasis. However, the presence of high-grade histology and myometrial invasion places this case in a higher risk category than Stage I disease based on the 2023 FIGO staging system. The reported stage of I does not fully reflect the aggressive features present.
+
+**Patient-Friendly Explanation**
+
+The pathology report shows you have cancer in the lining of your uterus (endometrium). It's a type called endometrioid adenocarcinoma, with some additional features (clear cells and mucinous differentiation) that make it more likely to grow or spread. The grade is 3, meaning the cancer cells look quite different from normal cells under the microscope. The tumor is relatively large (6.8 cm). The cancer has grown into the muscle layer of your uterus (myometrium), about halfway through its thickness. The cancer did not spread to nearby lymph nodes that were removed during surgery. There was no sign of cancer in the fallopian tubes or ovaries examined. Based on these findings, the stage is complex; while the report states Stage I, other factors suggest a higher risk category (Stage IIC).
+
+**Next-Step Considerations**
+
+The computed FIGO stage is IIC, which differs from the reported stage of I. This discrepancy should be noted. The presence of high-risk features (Grade 3 histology) warrants further discussion regarding adjuvant therapy options (e.g., chemotherapy, radiation), even with negative lymph nodes. Molecular testing may also provide additional prognostic information and guide treatment decisions.

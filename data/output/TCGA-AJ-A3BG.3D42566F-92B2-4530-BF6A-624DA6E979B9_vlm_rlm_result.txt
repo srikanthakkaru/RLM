@@ -1,0 +1,70 @@
+Report: data/reports/TCGA-AJ-A3BG.3D42566F-92B2-4530-BF6A-624DA6E979B9.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 108.50s
+Extraction Time: 9.82s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIC
+Reported FIGO Stage: I
+Stage Audit Missing Facts:
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IIB (IIB_SUBSTANTIAL_LVSI))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IIB (IIB_SUBSTANTIAL_LVSI))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IB (IB_DEEP))
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 15:54:25
+================================================================================
+
+Diagnosis
+
+The patient has high-grade endometrial adenocarcinoma with mixed endometrioid and papillary serous carcinoma components, measuring at least 8 cm. The tumor invades less than one-half (3 mm) of the myometrial thickness (9 mm). Lymphovascular space invasion is present. Surgical margins are uninvolved. No cancer was found in the cervix, ovaries, fallopian tubes, omentum, or lymph nodes examined.
+
+Staging
+
+The FIGO stage is reported as Stage I. The computed FIGO stage is indeterminate, and a provisional stage of IIC has been assigned by the staging engine. This requires pathologist verification due to missing information regarding histology aggressiveness and LVSI extent. The TNM classification is pT1aN0M0.
+
+Key Findings
+
+- Histologic Type: High-grade adenocarcinoma with endometrioid and papillary serous carcinoma components.
+- FIGO Grade: 3 (High grade).
+- Tumor Size: At least 8 cm.
+- Myometrial Invasion: Less than one-half thickness (3 mm depth / 9 mm thickness ≈ 33.3%). This is classified as <50% invasion based on calculated values, overriding the initially extracted category of ≥50%.
+- Lymphovascular Invasion (LVSI): Present.
+- Cervical Stromal Involvement: Not identified.
+- Margin Status: Uninvolved.
+- Lymph Nodes: 10 nodes examined, 0 positive.
+- High-risk features present include high FIGO grade (3), non-endometrioid histology (papillary serous carcinoma component), and LVSI positivity.
+
+Expert Summary
+
+The patient underwent a hysterectomy for high-grade endometrial adenocarcinoma with mixed histology including papillary serous carcinoma. The tumor is large (≥8 cm) and involves less than 50% of the myometrium. Lymphovascular invasion is present, but lymph nodes are negative. The reported FIGO stage is I, although computed staging suggests a potentially higher stage (provisional IIC), pending further evaluation by the pathologist due to missing data points required for definitive FIGO 2023 staging. The presence of high-grade histology, papillary serous carcinoma component, and LVSI are adverse prognostic factors.
+
+Patient-Friendly Explanation
+
+The surgery showed a high-grade cancer in the lining of the uterus (endometrium). It was a large tumor (at least 8 cm) that grew less than halfway into the muscle wall of the uterus. The cancer spread into small blood vessels, but it did not reach the cervix, ovaries, fallopian tubes, omentum, or nearby lymph nodes. The edges of the removed tissue were clear of cancer. The reported stage is I, but further review might change this to a higher stage depending on specific features of the tumor cells and extent of spread in blood vessels. This type of cancer has some features that put patients at higher risk.
+
+Next-Step Considerations
+
+The computed FIGO stage is indeterminate, and the provisional stage is IIC (requires pathologist verification). The pathology report lists "UNCERTAIN / LOW-CONFIDENCE FIELDS". Therefore, confirmation of the final FIGO stage by a pathologist is recommended.
+
+Corrections Applied
+
+myometrial_invasion_category: ‘≥50%’ → ‘<50%’ (recomputed from depth/thickness)

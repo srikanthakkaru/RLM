@@ -1,0 +1,66 @@
+Report: data/reports/TCGA-AJ-A3BI.19B5518D-075F-40BE-A104-75C925F133A4.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 434.96s
+Extraction Time: 37.60s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: None -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIC
+Reported FIGO Stage: I
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 16:01:49
+================================================================================
+
+Diagnosis
+
+The patient has an endometrioid adenocarcinoma of the endometrium, FIGO Grade 3. The tumor measures 4.1 x 3.9 cm. Myometrial invasion is present, with the malignancy invading to the inner one-half of the myometrium (3.0 mm depth into a 20 mm thick myometrium). Lymphovascular invasion, cervical stromal involvement, serosal involvement, adnexal involvement, pelvic peritoneal metastasis, bladder/bowel mucosa invasion, and extrapelvic peritoneal metastasis are not identified. The surgical margins are uninvolved. Sixteen lymph nodes were examined (right paraaortic, left paraaortic, right pelvic, left pelvic), and none were positive for metastatic carcinoma.
+
+Staging
+
+The computed FIGO stage is IIC. This is based on the presence of aggressive histological type (Grade 3) with any myometrial invasion. The reported FIGO stage is I.
+
+Key Findings
+
+*   Histologic Type: Endometrioid adenocarcinoma
+*   FIGO Grade: 3
+*   Tumor Size: 4.1 x 3.9 cm
+*   Myometrial Invasion: Present (inner one-half, calculated as ≥50%)
+*   Lymphovascular Invasion (LVSI): Not identified
+*   Cervical Stromal Involvement: Not identified
+*   Serosal Involvement: Not identified
+*   Adnexal Involvement: Not identified
+*   Pelvic Peritoneal Metastasis: Not identified
+*   Bladder/Bowel Mucosa Invasion: Not identified
+*   Extrapelvic Peritoneal Metastasis: Not identified
+*   Margins: Uninvolved
+*   Lymph Nodes Examined: 16
+*   Positive Lymph Nodes: 0
+*   FIGO Stage (Computed): IIC
+
+Expert Summary
+
+The patient underwent a radical hysterectomy for an endometrial carcinoma. The pathology reveals a Grade 3 endometrioid adenocarcinoma with deep myometrial invasion (50% based on calculated depth/thickness). There is no evidence of lymph node metastasis or other extrauterine spread identified in the examined specimen. The computed FIGO stage is IIC, reflecting the high-grade histology and extent of myometrial invasion, although the reported stage was I.
+
+Patient-Friendly Explanation
+
+The surgery showed cancer cells in the lining of the uterus (endometrium). The cancer type is endometrioid adenocarcinoma, which is Grade 3 (meaning it looks more abnormal under the microscope). The cancer grew into the muscle layer of the uterus (myometrium), reaching halfway through its thickness. The edges of the removed tissue were clear of cancer cells. Cancer was not found in the nearby lymph nodes or other areas checked during surgery.
+
+Next-Step Considerations
+
+The computed FIGO stage is IIC, which is a higher stage than the reported stage of I. This discrepancy may be due to differences in staging criteria or interpretation. The high grade (Grade 3) and deep myometrial invasion are significant factors indicating a higher risk for recurrence. Further evaluation, such as molecular testing, might be considered depending on institutional protocols and patient factors. Adjuvant therapy (like radiation or chemotherapy) should be discussed based on the final stage, grade, and other risk factors.
+
+Corrections Applied
+
+myometrial_invasion_category: ‘<50%’ → ‘≥50%’ (recomputed from depth/thickness)

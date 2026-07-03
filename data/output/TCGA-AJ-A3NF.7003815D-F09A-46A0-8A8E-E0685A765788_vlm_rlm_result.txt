@@ -1,0 +1,72 @@
+Report: data/reports/TCGA-AJ-A3NF.7003815D-F09A-46A0-8A8E-E0685A765788.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 341.36s
+Extraction Time: 8.72s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: None -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - procedure_type
+  - specimen_integrity
+Stage Audit Status: discrepant
+Computed FIGO Stage: IIIC2
+Reported FIGO Stage: IIIC1
+Stage Audit Missing Facts:
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'II' which is not among reported/computed/provisional stages ['IIIC1', 'IIIC2']
+  - [warning:invented_stage] Staging cites FIGO 'IIIC' which is not among reported/computed/provisional stages ['IIIC1', 'IIIC2']
+Date: 2026-07-03 16:53:35
+================================================================================
+
+**Diagnosis**
+
+The diagnosis is serous carcinoma of the endometrium (histologic type), FIGO Grade 3. The tumor measures 3.5 cm by 2.5 cm. Myometrial invasion is present, extending 1.5 cm into a 2.8 cm thick myometrium, which corresponds to approximately 50% invasion. Lymphovascular space invasion (LVSI) is not identified. Margins are uninvolved. One of thirteen lymph nodes examined was positive for metastatic carcinoma, involving right paraaortic, right pelvic, and left pelvic nodes.
+
+**Staging**
+
+The computed FIGO stage is IIIC2 based on the presence of positive para-aortic lymph nodes. The reported FIGO stage is IIIC1. This discrepancy exists because the size of the nodal metastasis (microscopic vs macroscopic) was not specified in the structured data, which is required to differentiate between IIIC1 and IIIC2 according to FIGO 2023 rules.
+
+**Key Findings**
+
+*   Histologic Type: Serous carcinoma
+*   FIGO Grade: 3
+*   Tumor Size: 3.5 x 2.5 cm
+*   Myometrial Invasion: ≥50% (1.5 cm depth / 2.8 cm thickness)
+*   Lymphovascular Invasion (LVSI): Not identified
+*   Cervical Stromal Involvement: Not identified
+*   Serosal Involvement: Not identified
+*   Adnexal Involvement: Not identified
+*   Pelvic Peritoneal Metastasis: Not identified
+*   Bladder/Bowel Mucosa Invasion: Not identified
+*   Extrapelvic Peritoneal Metastasis: Not identified
+*   Margins: Uninvolved
+*   Lymph Nodes Examined: 13
+*   Positive Lymph Nodes: 1 (right paraaortic, right pelvic, left pelvic)
+*   pTNM Stage: pT1b N1 (FIGO IIIC1/IIIC2)
+
+**Expert Summary**
+
+The patient has a high-risk endometrial carcinoma characterized by serous histology and FIGO Grade 3. The tumor exhibits deep myometrial invasion (>50%) and positive pelvic and para-aortic lymph nodes, indicating advanced disease. The computed stage is IIIC2, while the reported stage is IIIC1; this discrepancy requires clarification regarding the size of the nodal metastases.
+
+**Patient-Friendly Explanation**
+
+The pathology report shows you have a type of uterine cancer called serous carcinoma, which is high grade (Grade 3). The tumor measures 3.5 by 2.5 cm and has grown deeply into the muscular wall of the uterus (more than halfway through). Cancer cells were found in several lymph nodes in your pelvis and near the aorta (paraaortic nodes). This means the cancer has spread beyond the uterus. Based on this, the stage is advanced (Stage IIIC), specifically involving the lymph nodes.
+
+**Next-Step Considerations**
+
+The computed FIGO stage is IIIC2, while the reported stage is IIIC1. The size of the nodal metastasis is uncertain ("positive_unknown" in the staging audit). This information is needed to definitively determine the substage (IIIC1i/ii or IIIC2i/ii) according to FIGO 2023 rules. Pathologist verification of the nodal metastasis size would resolve this discrepancy.

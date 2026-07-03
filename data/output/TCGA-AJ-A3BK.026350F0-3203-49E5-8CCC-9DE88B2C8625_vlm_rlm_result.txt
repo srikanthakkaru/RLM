@@ -1,0 +1,64 @@
+Report: data/reports/TCGA-AJ-A3BK.026350F0-3203-49E5-8CCC-9DE88B2C8625.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 356.23s
+Extraction Time: 9.33s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'uncertain' -> 'not reported'
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - serosal_involvement: None -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: None -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: None -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: None -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: None -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - lymph_node_stations
+  - specimen_integrity
+Stage Audit Status: reclassified
+Computed FIGO Stage: IIC
+Reported FIGO Stage: PTLCN0
+Grounding Gate Violations:
+  - [error:ungrounded_number] '100%' not found in extraction or report
+Date: 2026-07-03 16:08:26
+================================================================================
+
+Diagnosis
+
+The patient has been diagnosed with endometrioid carcinoma of the uterus, FIGO Grade 3. The tumor measures 49 cm (presumably this is a typo and should be size in mm or cm, but the extracted value is used). Myometrial invasion is present, extending 12 cm into a total myometrial thickness of 18 cm. Lymphovascular space invasion (LVSI) was not identified. Cervical stromal involvement is not reported. Surgical margins are not reported. Lymph nodes examined were negative for metastatic carcinoma (0 out of 22).
+
+Staging
+
+The FIGO stage is pTlcN0, based on the extracted data. The computed FIGO stage is IIC. This discrepancy should be noted. Distant metastasis status is M0, as no extrapelvic disease was identified in the submitted specimen.
+
+Key Findings
+
+- Histologic type: Endometrioid carcinoma
+- FIGO Grade: 3 (High grade)
+- Tumor size: 49 cm (Note: this value seems unusually large and may be a typo; clinical correlation is advised)
+- Myometrial invasion: Present, depth of 12 cm into a total thickness of 18 cm. This corresponds to approximately 67% invasion, calculated as (12/18) * 100%. Based on this calculation, the myometrial invasion category is ≥50%.
+- Lymphovascular space invasion: Not identified
+- Cervical stromal involvement: Not reported
+- Margin status: Not reported
+- Lymph nodes examined: 22 total, 0 positive
+- Additional findings: Adenomyosis present focally. Cystic atrophy of residual endometrium. Squamous metaplasia of the cervix, negative for dysplasia. Bilateral paratubal cysts.
+
+Expert Summary
+
+The patient underwent a radical hysterectomy for an endometrial carcinoma. The pathology reveals a high-grade (Grade 3) endometrioid adenocarcinoma with deep myometrial invasion (12 cm out of 18 cm thickness, approximately 67%). Lymphovascular space invasion was not identified. There is no evidence of lymph node metastasis (0/22 nodes positive). Cervical stromal involvement and margin status were not reported in the pathology report. The FIGO stage based on the pathology findings is pTlcN0. However, according to the deterministic FIGO 2023 rules applied by the staging engine, this case would be classified as Stage IIC due to the aggressive histology (endometrioid carcinoma) and any myometrial invasion. This represents a reclassification from the reported stage. The presence of adenomyosis and bilateral paratubal cysts are additional findings noted in the report.
+
+Patient-Friendly Explanation
+
+The surgery showed that you have endometrial cancer, specifically a type called endometrioid carcinoma. It is a high grade (Grade 3), meaning the cells look quite abnormal under the microscope. The cancer has grown deeply into the muscle wall of your uterus (12 cm out of 18 cm thick). There was no sign of cancer spread to nearby lymph nodes that were removed, or to other parts of the body within the tissue samples examined. Some additional findings included adenomyosis (endometrial tissue growing into the uterine muscle), cysts on the fallopian tubes, and some changes in the cervix. The stage is reported as pTlcN0, but based on current staging rules, it's also classified as Stage IIC due to the type of cancer and depth of invasion.
+
+Next-Step Considerations
+
+The final FIGO stage is computed as IIC, which differs from the reported stage (pTlcN0). The discrepancy between the reported and computed stages should be verified. Additionally, lymph node station status and cervical stromal involvement are listed as "not identified" or "not reported" in the structured extraction, requiring clarification if further information is available. The presence of adenomyosis and bilateral paratubal cysts were noted.

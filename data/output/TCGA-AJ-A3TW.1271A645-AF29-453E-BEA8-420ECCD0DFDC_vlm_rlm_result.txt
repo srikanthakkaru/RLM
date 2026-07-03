@@ -1,0 +1,66 @@
+Report: data/reports/TCGA-AJ-A3TW.1271A645-AF29-453E-BEA8-420ECCD0DFDC.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 306.79s
+Extraction Time: 7.93s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: None -> 'not identified' (staging re-read)
+  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - procedure_type
+  - specimen_integrity
+Stage Audit Status: discrepant
+Computed FIGO Stage: IIIC2
+Reported FIGO Stage: IB
+Stage Audit Missing Facts:
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 17:20:46
+================================================================================
+
+Diagnosis
+
+The diagnosis is serous carcinoma of the endometrium, FIGO grade 3. The tumor measures 4.8 x 4.0 x 3.0 cm and invades 1.5 cm into a myometrium with a thickness of 2.0 cm. Lymphovascular invasion, cervical stromal involvement, serosal involvement, adnexal involvement, pelvic peritoneal metastasis, bladder or bowel mucosa invasion, and extrapelvic peritoneal metastasis are not identified. The surgical margins are uninvolved.
+
+Staging
+
+The computed FIGO stage is IIIC2, based on the presence of positive para-aortic lymph nodes (Right common and lower aortic lymph node). The reported FIGO stage is IB. There is a discrepancy between the reported and computed stages.
+
+Key Findings
+
+*   Histologic Type: Serous carcinoma
+*   FIGO Grade: 3
+*   Tumor Size: 4.8 x 4.0 x 3.0 cm
+*   Myometrial Invasion: 1.5 cm depth into 2.0 cm thickness (≥50%)
+*   Lymphovascular Invasion (LVI): Not identified
+*   Cervical Stromal Involvement: Not identified
+*   Lymph Nodes Examined: 14 total, 0 positive by H&E (Note: Discrepancy exists in the source report's description of lymph node status vs. the structured extraction's summary fields; using extracted values for staging).
+*   Para-aortic Lymph Node Involvement: Positive (Right common and lower aortic)
+*   FIGO Stage (Computed): IIIC2
+
+Expert Summary
+
+The patient has a high-grade (Grade 3) serous endometrial carcinoma, measuring 4.8 x 4.0 x 3.0 cm with deep myometrial invasion (1.5 cm depth in a 2.0 cm thick myometrium, approximately 75% based on reported measurements, categorized as ≥50%). There is no evidence of lymphovascular invasion or cervical stromal involvement. While the report states 14 lymph nodes were examined and initially describes them as negative, the structured extraction indicates positive para-aortic lymph node involvement (Right common and lower aortic). This finding leads to a computed FIGO stage IIIC2, which differs from the reported stage IB. The presence of high-grade histology, deep myometrial invasion, and positive para-aortic nodes indicate a high-risk disease profile.
+
+Patient-Friendly Explanation
+
+The pathology report shows you have a type of endometrial cancer called serous carcinoma. It is a high grade (Grade 3), meaning the cells look very abnormal under the microscope. The tumor measures about 4.8 x 4.0 x 3.0 cm and has grown deeply into the muscle wall of your uterus (1.5 cm out of 2.0 cm thickness). Cancer was found in some lymph nodes in the area near the major blood vessels in your abdomen (para-aortic nodes). Based on this, the cancer is staged as IIIC2 according to the computed staging system, although the original report stated IB. This means the cancer has spread to nearby lymph nodes and potentially beyond the pelvis.
+
+Next-Step Considerations
+
+The computed FIGO stage is IIIC2, which requires pathologist verification due to a discrepancy with the reported stage (IB). The status of nodal metastasis size is uncertain/low confidence, which is needed for further substaging within category IIIC2. The presence of positive para-aortic lymph nodes indicates advanced disease and typically warrants adjuvant chemotherapy following surgery. Further evaluation may be needed based on the final confirmed stage and treatment decisions.
+
+Corrections Applied
+
+myometrial_invasion_category: ‘<50%’ → ‘≥50%’ (recomputed from depth/thickness)

@@ -1,0 +1,63 @@
+Report: data/reports/TCGA-AJ-A3EL.CB5EF343-EDD4-46B1-82DD-48C49FF7E778.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 323.87s
+Extraction Time: 8.36s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - serosal_involvement: 'identified' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - lymph_node_stations
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIIA1
+Reported FIGO Stage: I
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 16:20:59
+================================================================================
+
+Diagnosis
+
+The diagnosis is endometrioid adenocarcinoma, FIGO grade 3, of the endometrium. The tumor measures 3.0 cm in its greatest dimension. Myometrial invasion is present, with a depth of 0.3 cm into a total myometrial thickness of 1.8 cm. Lymphovascular space invasion (LVSI) and cervical stromal involvement are not identified. Surgical margins are uninvolved. Adenomyosis and endometriosis involving the serosa and right ovary were also noted.
+
+Staging
+
+The computed FIGO stage is IIIA1 based on adnexal involvement, which is a less specific ancestor of the reported stage I. The pathological TNM classification is pT1a (tumor invades <50% of the myometrium), pN0 (no lymph node metastasis), and pM1 (metastasis not assessed).
+
+Key Findings
+
+High-risk features include:
+- High FIGO grade (Grade 3)
+- Deep myometrial invasion (0.3 cm depth in 1.8 cm thickness, calculated as 16.7% or <50%)
+- Adnexal involvement (right ovary)
+
+Other findings:
+- Tumor size: 3.0 cm
+- LVSI: Not identified
+- Cervical stromal involvement: Not identified
+- Lymph nodes examined: 28 total, 0 positive
+- Margins: Uninvolved
+- Additional findings: Adenomyosis, endometriosis involving serosa and right ovary
+
+Expert Summary
+
+The patient has a high-grade (G3) endometrioid adenocarcinoma of the endometrium with deep myometrial invasion (16.7%) and adnexal involvement. Lymph nodes are negative for metastasis, and margins are clear. The computed stage is IIIA1 based on adnexal involvement, while the reported stage is I. This discrepancy should be noted. The presence of high-grade histology, deep myometrial invasion, and adnexal involvement places this patient in a higher risk category.
+
+Patient-Friendly Explanation
+
+You have been diagnosed with endometrial cancer. It is an endometrioid type, which is common. The tumor grade is 3, meaning the cells look quite different from normal cells under the microscope. The cancer has grown into the muscle layer of the uterus (myometrium) to a depth of 0.3 cm (about 1/8 inch), out of a total thickness of 1.8 cm (about 3/4 inch). This is considered deep invasion. The tumor also involves the right ovary. The cancer has not spread to nearby lymph nodes that were removed, and the edges of the tissue removed during surgery do not show cancer cells. There was also adenomyosis (endometrial tissue within the uterine muscle) and endometriosis (endometrial tissue outside the uterus, on the serosa and ovary).
+
+Next-Step Considerations
+
+The computed FIGO stage is IIIA1 based on adnexal involvement, which differs from the reported stage I. The presence of high-risk features (high grade, deep myometrial invasion, adnexal involvement) warrants consideration for adjuvant therapy following surgery. Pathologist verification of the final stage and review of uncertain fields may be necessary.

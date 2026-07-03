@@ -1,0 +1,25 @@
+Report: data/reports/TCGA-AJ-A3EM.E5CE38FD-DB53-49D9-92B3-BA075BDDC5CF.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 244.41s
+Extraction Time: 8.82s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: None -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIC
+Reported FIGO Stage: I
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 16:25:18
+================================================================================
+
+endometrioid carcinoma, Grade 3. Tumor size is 7.4 x 5.0 x 3.2. Myometrial invasion depth is 0.9 cm into a myometrium of thickness 2.0 cm, corresponding to a category of >=50%. Lymphovascular invasion is not identified. Margins are uninvolved. TNM stage is pTT1b, pNN0, pMM0. FIGO stage is Stage I.

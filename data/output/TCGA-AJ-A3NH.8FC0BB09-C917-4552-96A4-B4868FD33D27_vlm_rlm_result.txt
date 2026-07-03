@@ -1,0 +1,59 @@
+Report: data/reports/TCGA-AJ-A3NH.8FC0BB09-C917-4552-96A4-B4868FD33D27.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 314.83s
+Extraction Time: 8.40s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'uncertain' -> 'not reported'
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - adnexal_involvement: 'identified' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - myometrial_thickness_cm
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - lymph_node_stations
+  - specimen_integrity
+Stage Audit Status: discrepant
+Computed FIGO Stage: IIIA2
+Reported FIGO Stage: IB
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 17:02:54
+================================================================================
+
+Diagnosis
+
+The diagnosis is serous carcinoma of the endometrium, FIGO grade 3. The tumor measures 4.9 x 4.8 cm. It invades the myometrium to a depth of 1.8 cm. Lymphovascular invasion was not identified. The margins are uninvolved. No lymph nodes were examined.
+
+Staging
+
+The computed FIGO stage is IIIA2, based on serosal involvement. The reported FIGO stage is IB. This discrepancy requires clarification. The pTNM stage is pT1b NX M0.
+
+Key Findings
+
+High-risk features include:
+- Serous histology (non-endometrioid)
+- High grade (FIGO Grade 3)
+- Deep myometrial invasion (1.8 cm depth, derived from reported measurements; computed as ≥50% invasion based on a thickness of >0 cm, though thickness is not reported)
+- Serosal involvement
+
+Patient-Friendly Explanation
+
+The patient has an aggressive type of endometrial cancer called serous carcinoma. It is high grade and has grown deeply into the uterine muscle wall (1.8 cm). The tumor has also spread to the outer surface (serosa) of the uterus. No lymph nodes were examined in this specimen. The surgical treatment involved removing the uterus, fallopian tubes, and ovaries.
+
+Expert Summary
+
+This is a high-risk endometrial carcinoma characterized by serous histology, high FIGO grade (Grade 3), deep myometrial invasion (1.8 cm), and serosal involvement. Lymphovascular space invasion was not identified. The margins are uninvolved. No lymph nodes were examined. The computed stage based on the presence of serosal involvement is IIIA2, which differs from the reported stage of IB.
+
+Next-Step Considerations
+
+The FIGO staging discrepancy (reported IB vs. computed IIIA2) requires clarification, potentially through review of imaging or further pathological assessment if available. The provisional status of the computed stage should be noted. Additionally, the missing myometrial thickness measurement and lymph node examination are uncertain fields requiring pathologist verification.

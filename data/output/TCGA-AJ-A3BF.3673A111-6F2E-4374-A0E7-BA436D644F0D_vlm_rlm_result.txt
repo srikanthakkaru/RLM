@@ -1,0 +1,64 @@
+Report: data/reports/TCGA-AJ-A3BF.3673A111-6F2E-4374-A0E7-BA436D644F0D.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 300.27s
+Extraction Time: 8.04s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIIC2
+Reported FIGO Stage: IIIC2
+Stage Audit Missing Facts:
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 15:52:36
+================================================================================
+
+```text
+Diagnosis
+
+The diagnosis is serous adenocarcinoma of the endometrium (FIGO Grade 3). The tumor measures 2.7 x 2.5 cm. There is extensive lymphovascular space invasion (LVSI) throughout the myometrium and within the left ovary. Myometrial invasion is present, with a depth of not identified cm in a total thickness of 1.8 cm. The margins are uninvolved. Lymph nodes were examined: 28 total, 13 positive. Positive lymph nodes involve para-aortic (C, D, F) and pelvic (D, E) stations.
+
+Staging
+
+The computed FIGO stage is IIIC2, based on the presence of positive para-aortic lymph nodes. This staging is supported by deterministic rules applied to the extracted data. The reported FIGO stage is also IIIC2.
+
+Key Findings
+
+High-risk features include:
+- High FIGO grade (Grade 3)
+- Serous adenocarcinoma histology
+- Extensive lymphovascular space invasion (LVSI)
+- Positive pelvic and para-aortic lymph nodes (N2 disease)
+- Myometrial invasion present (depth not identified, thickness 1.8 cm)
+
+Expert Summary
+
+The patient has a high-grade serous endometrial carcinoma with extensive LVSI and metastatic spread to both pelvic and para-aortic lymph nodes (N2). The tumor size is 2.7 x 2.5 cm. Myometrial invasion is present, but the depth was not identified in the report, although the thickness is reported as 1.8 cm. The surgical margins are negative. This represents advanced stage disease (Stage IIIC2).
+
+Patient-Friendly Explanation
+
+The pathology results show a high-grade cancer of the uterine lining called serous adenocarcinoma. It measures about 2.7 by 2.5 cm. The cancer has spread to lymph nodes in the pelvis and near the major blood vessels in the abdomen (para-aortic nodes). There is also extensive invasion into small blood vessels within the tumor, which increases the risk of further spread. The cancer invaded through the muscle layer of the uterus (myometrium), but the depth was not specified. The edges of the removed tissue were clear of cancer cells. This is an advanced stage cancer.
+
+Next-Step Considerations
+
+The FIGO stage is computed as IIIC2, supported by the presence of positive para-aortic lymph nodes. No uncertain fields are identified in this report.
+```

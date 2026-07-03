@@ -1,0 +1,65 @@
+Report: data/reports/TCGA-AJ-A3BD.8B7CB7C6-86B5-41EA-A6CB-FC496C311888.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 295.43s
+Extraction Time: 12.46s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - serosal_involvement: 'identified' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIIC2
+Reported FIGO Stage: IIIC2
+Stage Audit Missing Facts:
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 15:47:21
+================================================================================
+
+**Diagnosis**
+
+The diagnosis is FIGO Grade 3 Papillary Serous Carcinoma of the endometrium. The tumor measures 4.5 x 2.0 x 2.0 cm. It invades the myometrium, extending throughout the entire wall and coming within 0.1 cm of the serosal surface. There is involvement of the endocervical glands and cervical stroma. A small focus of tumor (0.1 cm) is present in one ovary. Lymphovascular space invasion (LVSI) was identified. Surgical margins are uninvolved. Five out of nineteen lymph nodes examined were positive for metastatic carcinoma, including pelvic and para-aortic nodes.
+
+**Staging**
+
+The computed FIGO stage is IIIC2 based on the presence of positive para-aortic lymph nodes. The reported FIGO stage is also IIIC2. This staging reflects the extent of tumor spread according to the International Federation of Gynecology and Obstetrics (FIGO) 2023 criteria.
+
+**Key Findings**
+
+*   Histologic Type: Papillary Serous Carcinoma
+*   FIGO Grade: 3 (High-grade)
+*   Tumor Size: 4.5 x 2.0 x 2.0 cm
+*   Myometrial Invasion: Deep invasion, tumor extends throughout the entire myometrium, within 0.1 cm of the serosa. Computed as ≥50% based on reported depth (0.1 cm) and thickness (1.4 cm).
+*   Cervical Stromal Involvement: Present
+*   Adnexal Involvement: Present in one ovary (0.1 cm focus)
+*   Lymphovascular Invasion (LVSI): Present
+*   Positive Lymph Nodes: 5 out of 19 nodes examined (pelvic and para-aortic)
+*   Margins: Uninvolved
+*   FIGO Stage: IIIC2
+
+**Expert Summary**
+
+The patient has a high-grade (Grade 3) papillary serous carcinoma of the endometrium, which is an aggressive subtype. The tumor demonstrates deep myometrial invasion, cervical stromal involvement, adnexal involvement, and positive lymphovascular space invasion. Pathological staging reveals metastasis to both pelvic and para-aortic lymph nodes (N2), classifying the disease as Stage IIIC2. This stage indicates advanced disease with significant risk factors for recurrence. The surgical margins are negative.
+
+**Patient-Friendly Explanation**
+
+The biopsy showed a high-grade cancer called papillary serous carcinoma, which started in the lining of your uterus (endometrium). The cancer cells have spread deeply into the muscle wall of the uterus and reached the cervix. It also involved one ovary. Additionally, cancer cells were found in several lymph nodes in your pelvis and near major blood vessels in your abdomen (para-aortic nodes). This means the cancer is at an advanced stage (Stage IIIC2). The surgery removed all visible cancer, as the edges of the tissue removed did not show any cancer cells.
+
+**Next-Step Considerations**
+
+The patient has Stage IIIC2 endometrial carcinoma, which is considered high-risk disease. Adjuvant chemotherapy and/or radiation therapy are typically recommended following hysterectomy with bilateral salpingo-oophorectomy for this stage. Further evaluation may include imaging studies to assess for distant metastasis, although the pM status is M0 based on pathology alone. The specific treatment plan should be discussed with an oncologist specializing in gynecologic cancers.

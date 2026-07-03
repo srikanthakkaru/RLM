@@ -1,0 +1,37 @@
+Report: data/reports/TCGA-AJ-A3OJ.89CAF35B-187A-499C-9E01-3992A0DEBCFD.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 330.39s
+Extraction Time: 10.05s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'uncertain' -> 'not reported'
+  - cervical_stromal_involvement: 'identified' -> 'uncertain' (staging re-read)
+  - serosal_involvement: 'identified' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'identified' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Uncertain Fields (addressed but ambiguous in report):
+  - margin_status (0.50) — "0.1 cm of inked and cauterized posterior cervical surgical margin; unequivocal surgical margin involvement not identified. Extent of involvement of other o"
+Missing Fields (absent from report):
+  - nuclear_grade
+  - lymph_node_stations
+  - figo_stage
+Stage Audit Status: indeterminate
+Computed FIGO Stage: IIC
+Reported FIGO Stage: not reported
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 17:08:41
+================================================================================
+
+```tool_code
+print(context['myometrial_invasion_depth_cm'])
+print(context['myometrial_thickness_cm'])
+print(type(context['myometrial_invasion_depth_cm']))
+print(type(context['myometrial_thickness_cm']))
+```
