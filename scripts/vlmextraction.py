@@ -1693,23 +1693,63 @@ def _node_station_group(line_low: str) -> str | None:
     return None
 
 
+# Benign nodal findings that mimic a positive verdict (glandular / Müllerian inclusions,
+# endosalpingiosis or endometriosis lying within a node) but are NOT metastasis. Checked
+# clause-scoped, so they only suppress a "positive" read when they share the verdict's clause.
+_NODE_BENIGN_TERMS = (
+    "glandular inclusion", "endosalpingiosis", "endometriosis",
+    "mullerian inclusion", "müllerian inclusion", "bland glandular",
+    "nevus", "decidual",
+)
+_NODE_POSITIVE_COUNT_RE = re.compile(r"\(\s*[1-9]\d*\s*/\s*\d+\s*\)")
+_NODE_ZERO_COUNT_RE = re.compile(r"\(\s*0+\s*/\s*\d+\s*\)")
+_NODE_POSITIVE_PROSE_COUNT_RE = re.compile(
+    r"\b[1-9]\d*\s+(?:out\s+of|of)\s+\d+\s+(?:lymph\s+)?nodes?"
+)
+_NODE_VERDICT_RE = re.compile(r"metastatic|positive for|involved by|macrometastas|micrometastas")
+_NODE_NEGATION_RE = re.compile(r"\b(?:no|not|negative|free of|without|absence of|none)\b")
+# Synoptic template label — "Number of lymph nodes ... containing/demonstrating metastatic ..." —
+# carries the word "metastatic" without asserting positivity; the real answer is the adjacent count.
+_NODE_LABEL_RE = re.compile(
+    r"number\s+of\b[^.;:\n]*\b(?:metastatic|positive|containing|demonstrating)"
+)
+
+
 def _window_has_positive_node(window: str) -> bool:
-    if re.search(r"\(\s*[1-9]\d*\s*/\s*\d+\s*\)", window):
+    """True only when a station window carries genuine POSITIVE nodal evidence.
+
+    Negation-safe and fails downward (never invent a positive): an explicit ``(>=1/n)`` count wins
+    outright; an explicit ``(0/n)`` count documents the station as negative even if the word
+    "metastatic" appears elsewhere (e.g. a "demonstrating metastatic ...: 0 (0/2)" synoptic label);
+    only then is a prose verdict considered, scoped to its own clause so a distant negation
+    ("... negative for metastatic disease") still applies, and rejecting synoptic count labels and
+    benign glandular/inclusion mimics.
+    """
+    # 1. An explicit positive count anywhere in the block is authoritative.
+    if _NODE_POSITIVE_COUNT_RE.search(window):
         return True
-    if re.search(r"\b[1-9]\d*\s+(?:out\s+of|of)\s+\d+\s+(?:lymph\s+)?nodes?", window):
+    # 2. An explicit zero count documents this station as negative — do not read any stray
+    #    "metastatic" token in the same block as a positive.
+    if _NODE_ZERO_COUNT_RE.search(window):
+        return False
+    # 3. Prose verdict / spelled-out positive count, scoped to its own clause so the negation and
+    #    benign-context checks bind to the same statement rather than a fixed-width lookback.
+    for clause in re.split(r"[.;:\n]", window):
+        if not (_NODE_VERDICT_RE.search(clause) or _NODE_POSITIVE_PROSE_COUNT_RE.search(clause)):
+            continue
+        if _NODE_NEGATION_RE.search(clause):
+            continue  # "negative for metastatic", "no metastatic carcinoma", "free of ..."
+        if _NODE_LABEL_RE.search(clause):
+            continue  # synoptic "Number of nodes ... metastatic ..." label, not a verdict
+        if any(term in clause for term in _NODE_BENIGN_TERMS):
+            continue  # benign glandular inclusions / endosalpingiosis, not tumor
         return True
-    # A non-negated "metastatic / positive for / involved by" verdict. Negated forms such as
-    # "no metastatic carcinoma identified" are excluded by inspecting the preceding text.
-    for match in re.finditer(r"metastatic|positive for|involved by", window):
-        preceding = window[max(0, match.start() - 9):match.start()]
-        if not re.search(r"(?:\bno\b|negative|free of|without)\s*$", preceding):
-            return True
     return False
 
 
 def _window_has_negative_node(window: str) -> bool:
     return bool(
-        re.search(r"\(\s*0\s*/\s*\d+\s*\)", window)
+        _NODE_ZERO_COUNT_RE.search(window)
         or re.search(r"\bno\b\s+(?:tumou?r|metasta|malignan|carcinoma|evidence|lymph node)", window)
         or "negative for" in window
     )

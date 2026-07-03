@@ -71,6 +71,56 @@ def test_apply_nodal_station_detection_notes_positive_group() -> None:
     assert any("para-aortic" in note for note in notes)
 
 
+def test_detect_nodal_stations_zero_count_overrides_metastatic_label() -> None:
+    # Synoptic "... demonstrating metastatic malignancy: 0 (0/2)" must read NEGATIVE: the (0/2)
+    # count is authoritative even though the label line contains the word "metastatic". (A3EK class)
+    report = (
+        "Lymph nodes, right aortic area, regional dissection:\n"
+        "Number of lymph nodes demonstrating metastatic malignancy: 0 (0/2)\n"
+    )
+    stations = detect_nodal_stations(report)
+    assert stations and all(s["positive"] is False for s in stations)
+    assert any(s["group"] == "para_aortic" for s in stations)
+
+
+def test_detect_nodal_stations_negative_for_metastatic_without_count() -> None:
+    # "negative for metastatic disease" — the negation sits >9 chars before "metastatic", so the
+    # old fixed-width lookback misread this as positive. Clause-scoped negation must catch it. (A3TW)
+    report = (
+        "F. Left common and lower aortic lymph nodes, excision:\n"
+        "One lymph node, negative for metastatic disease.\n"
+    )
+    stations = detect_nodal_stations(report)
+    assert stations and all(s["positive"] is False for s in stations)
+
+
+def test_detect_nodal_stations_benign_glandular_inclusion_not_positive() -> None:
+    # Bland glandular inclusions / endosalpingiosis within a node are benign, not metastasis. (A3NE)
+    report = (
+        "Right aortic lymph node, regional resection:\n"
+        "Glandular inclusions consistent with endosalpingiosis within one (1) lymph node.\n"
+        "No metastatic carcinoma identified within five lymph nodes (0/5).\n"
+    )
+    stations = detect_nodal_stations(report)
+    assert stations and all(s["positive"] is False for s in stations)
+
+
+def test_detect_nodal_stations_pelvic_positive_para_aortic_negative_is_iiic1() -> None:
+    # Pelvic node positive + para-aortic "negative for metastatic disease" => IIIC1, not IIIC2:
+    # the para-aortic station must NOT be read positive off its negated verdict line. (A3NF/A3QS)
+    report = (
+        "B. Right paraaortic lymph nodes, excision:\n"
+        "Nine lymph nodes, negative for metastatic disease.\n"
+        "D. Left pelvic lymph nodes, excision:\n"
+        "One of thirteen lymph nodes positive for metastatic carcinoma.\n"
+    )
+    stations = detect_nodal_stations(report)
+    groups = {(s["group"], s["positive"]) for s in stations}
+    assert ("pelvic", True) in groups
+    assert ("para_aortic", True) not in groups
+    assert ("para_aortic", False) in groups
+
+
 def test_detect_histology_grade_recovers_aggressive_type() -> None:
     # Serous histology + an explicit FIGO grade must be recovered from prose.
     found = detect_histology_grade(
