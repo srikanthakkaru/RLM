@@ -1,0 +1,65 @@
+Report: data/reports/TCGA-AJ-A5DW.8B641F9B-ACF5-448B-9AC3-8C8E6B1F0724.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 349.85s
+Extraction Time: 7.97s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IB
+Reported FIGO Stage: IA
+Stage Audit Missing Facts:
+  - myometrial_invasion_percent: No extracted or mapped value is available (IB (IB_DEEP))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+Grounding Gate: passed (no violations)
+Date: 2026-07-03 17:26:53
+================================================================================
+
+```text
+Diagnosis
+
+The diagnosis is endometrioid adenocarcinoma of the uterus, FIGO grade 2. The tumor measures 5.2 cm in greatest dimension with myometrial invasion extending 0.2 cm into a total myometrial thickness of 1.7 cm. Lymphovascular space invasion, cervical stromal involvement, serosal involvement, and adnexal involvement are not identified. Surgical margins are uninvolved. Twenty lymph nodes were examined (stations A through D), and none are positive for metastatic carcinoma. Extracapsular extension is absent. Immunohistochemistry reveals intact expression of MLH1, MSH2, MSH6, and PMS2 mismatch repair proteins.
+
+Staging
+
+The computed FIGO stage is indeterminate based on the available data, specifically lacking information to definitively classify myometrial invasion depth (IA vs IB). The reported FIGO stage is IA. The staging audit notes that a definitive FIGO 2023 rule could not be fully satisfied due to missing myometrial invasion percentage data. Provisional staging suggests IB (IB_DEEP), pending further clarification of myometrial invasion depth.
+
+Key Findings
+
+- Histologic Type: Endometrioid adenocarcinoma
+- FIGO Grade: 2
+- Tumor Size: 5.2 cm
+- Myometrial Invasion: Present, extending 0.2 cm into a 1.7 cm thick myometrium (derived as approximately 12% invasion). This is classified as <50% based on calculated percentage.
+- Lymph Nodes: Negative (0/20)
+- Margins: Uninvolved
+- LVSI: Not identified
+- Cervical Stromal Involvement: Not identified
+- Serosal Involvement: Not identified
+- Adnexal Involvement: Not identified
+- MMR Status: Intact expression of MLH1, MSH2, MSH6, PMS2
+
+Expert Summary
+
+The patient has a FIGO grade 2 endometrioid adenocarcinoma measuring 5.2 cm with less than 50% myometrial invasion (approximately 12%). Lymph nodes are negative, margins are uninvolved, and there is no evidence of lymphovascular space invasion or other extrauterine spread based on the pathology report. The immunohistochemistry for mismatch repair proteins is intact. The FIGO stage reported is IA, but the computed stage is indeterminate due to missing myometrial invasion percentage data required for precise FIGO 2023 staging (specifically distinguishing between IA and IB).
+
+Patient-Friendly Explanation
+
+The biopsy shows a type of uterine cancer called endometrioid adenocarcinoma, which is grade 2. The tumor is 5.2 cm in size and has grown less than halfway into the muscle wall of the uterus. Cancer was not found in the nearby lymph nodes that were removed. The edges of the tissue removed during surgery (margins) do not show any cancer cells. There's no sign of cancer spreading to other areas like the cervix, ovaries, fallopian tubes, or surrounding tissues based on this examination. Special tests on the tumor showed normal levels of certain proteins involved in DNA repair (MLH1, MSH2, MSH6, PMS2). The stage is reported as IA, but further details about the depth of invasion are needed for a more precise stage according to the latest guidelines.
+
+Next-Step Considerations
+
+The FIGO stage is reported as IA, however, the computed stage is indeterminate and provisional staging suggests IB due to missing myometrial invasion percentage data. The specific depth of myometrial invasion (whether it meets criteria for IA or IB under FIGO 2023) requires clarification. Pathologist verification of the myometrial invasion percentage is recommended.
+```
