@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import re
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Annotated, Any
@@ -33,20 +34,12 @@ OLLAMA_URL = "http://localhost:11434"
 # namespaced "alibayram/medgemma:latest"; a bare "medgemma:latest" 404s on /api/chat.
 VLM_MODEL = os.environ.get("MEDGEMMA_MODEL", "alibayram/medgemma:latest")
 RLM_MODEL = os.environ.get("RLM_MODEL", "qordmlwls/llama3.1-medical")
-# RLM Stage 3 backend. Defaults to local Ollama, but any backend the RLM core supports can be
-# selected (openai, openrouter, vllm, vercel, anthropic, gemini, azure_openai, portkey, litellm)
-# so Stage 3 can run on a hosted open-weight 70B without local GPU. The Stage-1 VLM extraction
-# always runs on Ollama.
 RLM_BACKEND = os.environ.get("RLM_BACKEND", "ollama")
-RLM_BASE_URL = os.environ.get("RLM_BASE_URL")  # e.g. https://openrouter.ai/api/v1
+RLM_BASE_URL = os.environ.get("RLM_BASE_URL")
 RLM_API_KEY = os.environ.get("RLM_API_KEY")
 MAX_ITERATIONS = 3
-# Extra RLM regeneration attempts when a narrative trips the grounding gate or is structurally
-# unusable. The RLM is always re-run with a correction note — there is no non-RLM fallback.
 MAX_RETRIES = 2
 
-# Ollama runtime options for the RLM stage. temperature 0 for the deterministic single sample;
-# self-consistency sampling overrides temperature/seed per sample.
 _OLLAMA_RLM_OPTIONS: dict[str, Any] = {"num_ctx": 32768, "num_predict": 4096, "temperature": 0}
 
 PATHOLOGY_RLM_SYSTEM_PROMPT = """You are a concise pathology narrative generator.
@@ -324,9 +317,6 @@ _RLM_PLACEHOLDER_FINAL_TOKENS = frozenset(
     {"final_answer", "answer", "result", "my_answer"},
 )
 
-# Substrings that mark a non-narrative refusal/apology instead of a clinical narrative. When the
-# RLM emits one of these (e.g. after an indeterminate stage audit) the response is unusable and
-# must be replaced by the report-grounded fallback narrative.
 _RLM_REFUSAL_MARKERS = (
     "unable to complete",
     "i am unable",
@@ -338,14 +328,48 @@ _RLM_REFUSAL_MARKERS = (
     "i can't fulfill",
 )
 
-# A valid narrative must contain the required section headers. A stray refusal or a raw notes
-# blob will not, which lets us catch malformed output that is non-empty but unusable.
 _REQUIRED_SECTION_HEADERS = ("diagnosis", "staging", "key findings", "expert summary")
 _MIN_HEADERS_FOR_VALID_NARRATIVE = 2
+
+_STRUCTURAL_VIOLATION_KINDS = frozenset({"empty", "placeholder", "refusal", "missing_headers"})
+
+_STRUCTURAL_CORRECTION = (
+    "- Output the COMPLETE narrative as plain text using every required section "
+    "header (Diagnosis, Staging, Key Findings, Expert Summary, "
+    "Patient-Friendly Explanation, Next-Step Considerations). Do not refuse and do "
+    "not return a bare token."
+)
+
+_PLAIN_TEXT_OVERRIDE = (
+    "RESPONSE FORMAT (this overrides any earlier termination rules): Output the finished "
+    "narrative as plain text only, using the required section headers. Do NOT write code, do NOT "
+    "use a REPL, and do NOT wrap the answer in FINAL(...) or FINAL_VAR(...)."
+)
+
+_FINAL_WRAPPER_RE = re.compile(r"(?is)^\s*final(?:_var)?\s*\((.*)\)\s*$")
+_SELF_CONSISTENCY_TEMPERATURE = 0.4
 
 _SCRIPT_DIR = Path(__file__).resolve().parent
 _REPO_ROOT = _SCRIPT_DIR.parent
 _DEFAULT_OUTPUT_DIR = _REPO_ROOT / "data" / "output"
+
+
+def _count_violations(
+    violations: list[grounding.Violation],
+    severity: str,
+) -> int:
+    return sum(1 for v in violations if v.severity == severity)
+
+
+def _severity_score(item: tuple[str, float, list[grounding.Violation]]) -> tuple[int, int]:
+    viol = item[2]
+    return _count_violations(viol, "error"), _count_violations(viol, "warning")
+
+
+def _with_correction(prompt: str, correction: str) -> str:
+    if not correction:
+        return prompt
+    return f"{prompt}\n\n{correction}"
 
 
 def _build_rlm_backend_kwargs(
@@ -356,11 +380,6 @@ def _build_rlm_backend_kwargs(
     api_key: str | None = None,
     ollama_options: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    """Construct backend_kwargs for the configured RLM backend.
-
-    Ollama uses model_name/base_url/timeout/ollama_options; the OpenAI-compatible and other
-    hosted backends use model_name plus optional base_url/api_key.
-    """
     if backend == "ollama":
         return {
             "model_name": model,
@@ -388,14 +407,13 @@ def _make_rlm(
         backend_kwargs=dict(backend_kwargs),
         environment="local",
         max_iterations=max_iterations,
-        max_depth=1,
+        max_depth=3,
         custom_system_prompt=custom_system_prompt,
         verbose=verbose,
     )
 
 
 def _make_rlm_client(backend: str, backend_kwargs: dict[str, Any]):
-    """Create a plain LM client for the configured backend (single-pass / fallback / sampling)."""
     from rlm.clients import get_client
 
     return get_client(backend, dict(backend_kwargs))
@@ -444,11 +462,6 @@ def _print_stage_audit_summary(stage_audit: StageAuditResult) -> None:
 
 
 def _structural_violations(text: str) -> list[grounding.Violation]:
-    """Structural problems that make an RLM response unusable as a narrative.
-
-    Returned as ``grounding.Violation`` items (severity "error") so they flow through the same
-    severity scoring and regeneration loop as the grounding gate's numeric/staging violations.
-    """
     stripped = text.strip()
     if not stripped:
         return [grounding.Violation("error", "empty", "RLM returned no text")]
@@ -474,55 +487,36 @@ def _structural_violations(text: str) -> list[grounding.Violation]:
     return []
 
 
+def _correction_line(violation: grounding.Violation) -> str:
+    if violation.kind in _STRUCTURAL_VIOLATION_KINDS:
+        return _STRUCTURAL_CORRECTION
+    if violation.kind == "ungrounded_number":
+        return (
+            f"- {violation.detail}. State ONLY numbers that appear in the structured extraction or "
+            "the source report; remove any other figure."
+        )
+    if violation.kind == "invented_stage":
+        return (
+            f"- {violation.detail}. Use ONLY a FIGO stage present in the reported/computed/"
+            "provisional stage fields; do not invent a stage or substage."
+        )
+    if violation.kind == "false_reported_attribution":
+        return (
+            f"- {violation.detail}. Do not call a stage 'reported' unless reported_figo_stage is "
+            "present; label it 'computed' or 'provisional' instead."
+        )
+    return f"- {violation.detail}"
+
+
 def _build_correction(violations: list[grounding.Violation]) -> str:
-    """Turn a candidate's violations into an explicit corrective instruction for the next attempt."""
-    lines: list[str] = []
-    for v in violations:
-        if v.kind in ("empty", "placeholder", "missing_headers", "refusal"):
-            lines.append(
-                "- Output the COMPLETE narrative as plain text using every required section "
-                "header (Diagnosis, Staging, Key Findings, Expert Summary, "
-                "Patient-Friendly Explanation, Next-Step Considerations). Do not refuse and do "
-                "not return a bare token."
-            )
-        elif v.kind == "ungrounded_number":
-            lines.append(
-                f"- {v.detail}. State ONLY numbers that appear in the structured extraction or "
-                "the source report; remove any other figure."
-            )
-        elif v.kind == "invented_stage":
-            lines.append(
-                f"- {v.detail}. Use ONLY a FIGO stage present in the reported/computed/"
-                "provisional stage fields; do not invent a stage or substage."
-            )
-        elif v.kind == "false_reported_attribution":
-            lines.append(
-                f"- {v.detail}. Do not call a stage 'reported' unless reported_figo_stage is "
-                "present; label it 'computed' or 'provisional' instead."
-            )
-        else:
-            lines.append(f"- {v.detail}")
-    body = "\n".join(dict.fromkeys(lines))  # dedupe, preserve order
+    lines = list(dict.fromkeys(_correction_line(v) for v in violations))
+    body = "\n".join(lines)
     return (
         f"YOUR PREVIOUS ATTEMPT HAD PROBLEMS. Regenerate the full narrative and fix ALL of:\n{body}"
     )
 
 
-_PLAIN_TEXT_OVERRIDE = (
-    "RESPONSE FORMAT (this overrides any earlier termination rules): Output the finished "
-    "narrative as plain text only, using the required section headers. Do NOT write code, do NOT "
-    "use a REPL, and do NOT wrap the answer in FINAL(...) or FINAL_VAR(...)."
-)
-
-_FINAL_WRAPPER_RE = re.compile(r"(?is)^\s*final(?:_var)?\s*\((.*)\)\s*$")
-
-# Sampling settings for self-consistency (only meaningfully diverse on Ollama, which accepts a
-# per-request temperature/seed). One sample == deterministic single generation.
-_SELF_CONSISTENCY_TEMPERATURE = 0.4
-
-
 def _strip_final_wrapper(text: str) -> str:
-    """Remove a stray FINAL(...) / FINAL_VAR(...) wrapper a single-pass model may still emit."""
     stripped = text.strip()
     match = _FINAL_WRAPPER_RE.match(stripped)
     if match:
@@ -535,9 +529,6 @@ def _single_pass_narrative(
     backend: str,
     backend_kwargs: dict[str, Any],
 ) -> tuple[str, float]:
-    """One constrained generation, bypassing the agentic REPL loop (Tier 3 #7)."""
-    import time
-
     client = _make_rlm_client(backend, backend_kwargs)
     t_start = time.perf_counter()
     response = client.completion(full_prompt)
@@ -549,10 +540,6 @@ def _sample_backend_kwargs(
     backend_kwargs: dict[str, Any],
     attempt_index: int,
 ) -> dict[str, Any]:
-    """Per-attempt backend kwargs. Attempt 0 is the deterministic base; later attempts (grounding
-    retries or extra self-consistency samples) raise temperature and vary the seed so they diverge
-    from the previous output. Only meaningful on Ollama, which accepts a per-request
-    temperature/seed."""
     if attempt_index == 0 or backend != "ollama":
         return dict(backend_kwargs)
     bk = dict(backend_kwargs)
@@ -561,10 +548,6 @@ def _sample_backend_kwargs(
     options["seed"] = attempt_index
     bk["ollama_options"] = options
     return bk
-
-
-# Structural violation kinds that are not grounding-gate findings; excluded from the output footer.
-_STRUCTURAL_VIOLATION_KINDS = frozenset({"empty", "placeholder", "refusal", "missing_headers"})
 
 
 def _generate_rlm_narrative(
@@ -583,42 +566,24 @@ def _generate_rlm_narrative(
     grounding_context: dict[str, Any],
     verbose: bool,
 ) -> tuple[str, float, list[grounding.Violation]]:
-    """Run the RLM stage with self-consistency sampling and a grounding gate that DRIVES
-    regeneration (no non-RLM fallback). Returns (narrative, total_exec_time, grounding violations
-    of the chosen narrative).
-
-    Each attempt is checked for structural problems (empty / refusal / missing headers) and
-    grounding violations (ungrounded numbers, invented stage). Only a *blocking* (error-severity)
-    violation triggers a correction retry; non-blocking warnings are accepted as-is so a benign
-    warning never burns the retry budget.
-
-    The first ``samples`` attempts honor the requested mode (agentic or single-pass) and form the
-    self-consistency pool. Any further correction retry runs in the fast single-pass path — re-
-    running the whole agentic REPL loop just to fix a named grounding issue is what makes a failing
-    report take tens of minutes — and the loop stops as soon as a retry stops reducing the blocking
-    count (no-progress guard). The best-scored RLM candidate is always kept.
-    """
     samples = max(1, samples)
     max_attempts = max(samples, max_retries + 1)
     candidates: list[tuple[str, float, list[grounding.Violation]]] = []
     correction = ""
-    best_blocking: int | None = None  # fewest blocking violations seen so far
+    best_blocking: int | None = None
 
     for attempt in range(max_attempts):
         bk = _sample_backend_kwargs(backend, backend_kwargs, attempt)
-        # Sample attempts (index < samples) honor the requested mode; correction retries beyond the
-        # sample pool always use the cheap single-pass path so a failing report can't spend the
-        # retry budget on full agentic re-runs.
         attempt_single_pass = single_pass or attempt >= samples
         if attempt_single_pass:
-            prompt = (
-                single_pass_prompt if not correction else f"{single_pass_prompt}\n\n{correction}"
-            )
+            prompt = _with_correction(single_pass_prompt, correction)
             raw, exec_time = _single_pass_narrative(prompt, backend, bk)
         else:
             rlm = _make_rlm(backend, bk, max_iterations, system_prompt, verbose)
-            attempt_root = root_prompt if not correction else f"{root_prompt}\n\n{correction}"
-            result = rlm.completion(prompt=context_payload, root_prompt=attempt_root)
+            result = rlm.completion(
+                prompt=context_payload,
+                root_prompt=_with_correction(root_prompt, correction),
+            )
             raw, exec_time = result.response, result.execution_time
 
         text = _strip_final_wrapper(raw)
@@ -627,14 +592,10 @@ def _generate_rlm_narrative(
         )
         candidates.append((text, exec_time, violations))
 
-        blocking = sum(1 for v in violations if v.severity == "error")
-        # Accept once no blocking violation remains (non-blocking warnings are fine), but always
-        # finish the requested self-consistency samples first.
-        produced_requested_samples = attempt + 1 >= samples
-        if produced_requested_samples and blocking == 0:
+        blocking = _count_violations(violations, "error")
+        if attempt + 1 >= samples and blocking == 0:
             break
-        # No-progress guard: a correction retry that fails to beat the best blocking count so far is
-        # unlikely to improve, so stop and keep the best candidate.
+
         in_retry_phase = attempt >= samples
         if in_retry_phase and best_blocking is not None and blocking >= best_blocking:
             print(
@@ -642,6 +603,7 @@ def _generate_rlm_narrative(
                 f"({blocking} remaining); stopping and keeping the best candidate."
             )
             break
+
         best_blocking = blocking if best_blocking is None else min(best_blocking, blocking)
         correction = _build_correction(violations)
         if attempt + 1 < max_attempts:
@@ -651,17 +613,11 @@ def _generate_rlm_narrative(
                 f"running a {next_mode} with a correction note."
             )
 
-    def _severity_score(item: tuple[str, float, list[grounding.Violation]]) -> tuple[int, int]:
-        viol = item[2]
-        errors = sum(1 for v in viol if v.severity == "error")
-        warnings = sum(1 for v in viol if v.severity == "warning")
-        return errors, warnings
-
     best_text, _, best_violations = min(candidates, key=_severity_score)
     total_time = sum(item[1] for item in candidates)
 
-    errors = sum(1 for v in best_violations if v.severity == "error")
-    warnings = sum(1 for v in best_violations if v.severity == "warning")
+    errors = _count_violations(best_violations, "error")
+    warnings = _count_violations(best_violations, "warning")
     if errors:
         print(
             f"  Grounding gate: best of {len(candidates)} RLM attempt(s) still has {errors} "
@@ -675,7 +631,6 @@ def _generate_rlm_narrative(
     else:
         print("  Grounding gate: chosen narrative fully grounded.")
 
-    # The footer reports grounding-gate findings only; structural problems are loop-internal.
     grounding_violations = [v for v in best_violations if v.kind not in _STRUCTURAL_VIOLATION_KINDS]
     return best_text, total_time, grounding_violations
 
@@ -698,8 +653,6 @@ def _build_rlm_context(
         "reported_figo_stage": stage_audit.reported_stage,
         "computed_figo_stage": stage_audit.computed_stage,
         "provisional_figo_stage": stage_audit.provisional_stage,
-        # Raw report for verification/grounding only — the structured fields above stay
-        # authoritative for staging.
         "source_report": report_text,
     }
 
@@ -716,8 +669,6 @@ def run_vlm_rlm_pipeline(
     max_retries: int = MAX_RETRIES,
     verbose: bool = True,
 ) -> tuple[str, float, list[grounding.Violation], ExtractionResult, StageAuditResult]:
-    """Full VLM→Validation→Audit→RLM pipeline. Returns
-    (narrative, total_time, grounding_violations, extraction, stage_audit)."""
     _print_stage_banner("STAGE 1: MedGemma Structured Extraction")
 
     extraction = extract_report(
@@ -725,7 +676,6 @@ def run_vlm_rlm_pipeline(
         model=vlm_model,
         base_url=ollama_url,
     )
-
     _print_extraction_summary(extraction)
 
     print()
@@ -785,16 +735,11 @@ def run_direct_rlm(
     max_retries: int = MAX_RETRIES,
     verbose: bool = True,
 ) -> tuple[str, float, list[grounding.Violation]]:
-    """Direct RLM pipeline (no VLM). Returns (response, exec_time, grounding_violations)."""
     _print_stage_banner("DIRECT RLM: Pathology Report Analysis")
-
-    # Direct mode has no structured extraction, so grounding is checked against the raw report.
-    grounding_context: dict[str, Any] = {}
-    single_pass_prompt = DIRECT_NARRATIVE_PROMPT.format(report_text=report_text)
 
     final_response, exec_time, violations = _generate_rlm_narrative(
         context_payload=report_text,
-        single_pass_prompt=single_pass_prompt,
+        single_pass_prompt=DIRECT_NARRATIVE_PROMPT.format(report_text=report_text),
         report_text=report_text,
         backend=rlm_backend,
         backend_kwargs=rlm_backend_kwargs,
@@ -804,7 +749,7 @@ def run_direct_rlm(
         single_pass=single_pass,
         samples=samples,
         max_retries=max_retries,
-        grounding_context=grounding_context,
+        grounding_context={},
         verbose=verbose,
     )
 
@@ -842,18 +787,16 @@ def save_result(
                 f.write("Normalizations Applied:\n")
                 for item in extraction.normalizations:
                     f.write(f"  - {item}\n")
-            uncertain = extraction.uncertain_fields
-            if uncertain:
+            if extraction.uncertain_fields:
                 f.write("Uncertain Fields (addressed but ambiguous in report):\n")
-                for key in uncertain:
+                for key in extraction.uncertain_fields:
                     conf = extraction.field_confidence.get(key, 0.0)
                     quote = extraction.field_evidence.get(key, "")
                     detail = f' — "{quote}"' if quote else ""
                     f.write(f"  - {key} ({conf:.2f}){detail}\n")
-            missing = extraction.missing_fields
-            if missing:
+            if extraction.missing_fields:
                 f.write("Missing Fields (absent from report):\n")
-                for key in missing:
+                for key in extraction.missing_fields:
                     f.write(f"  - {key}\n")
         if stage_audit:
             f.write(f"Stage Audit Status: {stage_audit.status.value}\n")
@@ -962,6 +905,9 @@ def run(
         )
 
         report_name = report_path.stem
+        extraction: ExtractionResult | None = None
+        stage_audit: StageAuditResult | None = None
+        vlm_for_save: str | None = None
 
         if direct:
             final_response, exec_time, violations = run_direct_rlm(
@@ -976,9 +922,6 @@ def run(
             )
             output_file = output_dir / f"{report_name}_rlm_result.txt"
             mode = "direct_rlm"
-            vlm_for_save: str | None = None
-            extraction: ExtractionResult | None = None
-            stage_audit: StageAuditResult | None = None
         else:
             final_response, exec_time, violations, extraction, stage_audit = run_vlm_rlm_pipeline(
                 report_text,

@@ -160,8 +160,35 @@ You'll have the option to select saved `.jsonl` files
 </p>
 
 
-<p># 3) VLM -> RLM pipeline for one report
-python scripts/pathologyrlm.py data/reports/TCGA-2E-A9G8.921E6140-A03E-4FBD-9FB8-554AE96FD16C.txt \
-  --vlm-model medgemma:27b \
-  --rlm-model medgemma:27b \
-  --max-iterations 10</p>
+## Pathology Report Analysis
+
+This repo includes a VLM→RLM pipeline for endometrial carcinoma pathology reports in [`scripts/pathologyrlm.py`](scripts/pathologyrlm.py):
+
+1. **Stage 1** — MedGemma structured extraction (Ollama)
+2. **Stage 2** — FIGO 2023 staging audit
+3. **Stage 3** — RLM clinical narrative generation with a grounding gate
+
+Stage 3 uses the local RLM with `max_depth=3` and defaults to `--max-iterations 3`. Outputs are written to `data/output/`.
+
+```bash
+python scripts/pathologyrlm.py data/reports/TCGA-2E-A9G8.921E6140-A03E-4FBD-9FB8-554AE96FD16C.txt
+```
+
+With explicit models:
+
+```bash
+python scripts/pathologyrlm.py data/reports/<report>.txt \
+  --vlm-model alibayram/medgemma:latest \
+  --rlm-model qordmlwls/llama3.1-medical \
+  --rlm-backend ollama \
+  --max-iterations 3
+```
+
+Useful flags:
+
+- `--direct` — skip VLM extraction and run RLM on the raw report
+- `--single-pass` — one-shot generation instead of the agentic REPL loop
+- `--samples N` — self-consistency sampling; keep the best-grounded narrative
+- `--max-retries N` — extra regeneration attempts when the grounding gate fails
+
+Environment variables: `MEDGEMMA_MODEL`, `RLM_MODEL`, `RLM_BACKEND`, `RLM_BASE_URL`, `RLM_API_KEY`.
