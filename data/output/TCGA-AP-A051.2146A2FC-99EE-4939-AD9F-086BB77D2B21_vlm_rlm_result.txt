@@ -1,0 +1,62 @@
+Report: data/reports/TCGA-AP-A051.2146A2FC-99EE-4939-AD9F-086BB77D2B21.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 82.73s
+Extraction Time: 9.56s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - lymphovascular_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - tumor_size_cm
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIC
+Reported FIGO Stage: III
+Stage Audit Missing Facts:
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+Grounding Gate: passed (no violations)
+Date: 2026-07-04 09:57:24
+================================================================================
+
+Diagnosis
+
+The patient has an adenocarcinoma of the endometrium, endometrioid type (NOS), FIGO Grade 3, with nuclear grade III. The tumor invades up to half of the myometrium (10 mm depth) in an area where the total myometrial thickness is 27 mm. There is no endocervical invasion identified. Lymph nodes examined were negative for metastasis.
+
+Staging
+
+The FIGO stage is reported as Stage III. The computed FIGO stage is indeterminate, but a provisional stage of IIC has been assigned by the staging engine, pending pathologist verification regarding histology aggressiveness. The TNM classification is pT1 (based on invasion ≤ half myometrium), N0, and M0.
+
+Key Findings
+
+*   Histologic Type: Adenocarcinoma, endometrioid type
+*   FIGO Grade: 3 (High grade)
+*   Myometrial Invasion: Invades up to half of the myometrium (10 mm depth out of 27 mm thickness). Computed percentage invasion is approximately 37%, categorized as <50%.
+*   Cervical Involvement: No endocervical invasion.
+*   Lymph Nodes: 3 pelvic lymph nodes examined were negative for tumor.
+*   Margins: Uninvolved (based on hysterectomy specimen).
+*   Other Findings: Endometrial atrophy and complex hyperplasia without atypia, leiomyoma of the myometrium, nabothian cyst.
+
+Expert Summary
+
+The surgical pathology report details a high-grade (FIGO Grade 3) endometrioid adenocarcinoma of the endometrium. The tumor demonstrates significant myometrial invasion, reaching half the thickness of the myometrium (10 mm depth in 27 mm total). There is no evidence of lymph node metastasis among the examined nodes or involvement of the cervix, vagina, parametria, peritoneum, or distant sites based on the pathology report. The reported FIGO stage is III, while the computed stage is indeterminate with a provisional stage of IIC pending further information.
+
+Patient-Friendly Explanation
+
+The biopsy showed cancer in the lining of the uterus (endometrium). It's a type called adenocarcinoma, specifically endometrioid type. The cancer cells look quite abnormal under the microscope (Grade 3), which means they are likely to grow and spread more quickly than lower-grade cancers. The cancer has grown into about half the thickness of the muscle wall of the uterus (myometrium). It has not spread to the cervix, nearby tissues like the vagina or parametria, lymph nodes that were checked, or other parts of the body based on this examination. The reported stage is III.
+
+Next-Step Considerations
+
+The computed FIGO stage is indeterminate, and a provisional stage of IIC has been assigned by the staging engine. This provisional stage depends on factors related to histology aggressiveness which are not explicitly confirmed in the provided data or extracted fields. Therefore, verification of the final stage (including substage) by a pathologist is recommended. Additionally, the field confidence for tumor size is low (missing), and specimen integrity is also missing from the report.

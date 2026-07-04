@@ -1,0 +1,82 @@
+Report: data/reports/TCGA-AP-A05N.E4FF43F2-5CBD-4B68-9CD5-BE4E84AD67D5.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 326.78s
+Extraction Time: 7.58s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - lymphovascular_invasion: 'suspicious for lymphovascular invasion' -> 'not reported'
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - lymphovascular_invasion: 'not reported' -> 'suspicious for lymphovascular invasion' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - tumor_size_cm
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIB
+Reported FIGO Stage: I
+Stage Audit Missing Facts:
+  - lvsi_extent: No extracted or mapped value is available (IIB (IIB_SUBSTANTIAL_LVSI))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IB (IB_DEEP))
+  - lvsi_extent: No extracted or mapped value is available (IB (IB_DEEP))
+  - myometrial_invasion_percent: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+  - lvsi_extent: No extracted or mapped value is available (IA2 (IA2_SUPERFICIAL))
+Grounding Gate: passed (no violations)
+Date: 2026-07-04 12:44:24
+================================================================================
+
+Diagnosis
+
+The diagnosis is adenocarcinoma, endometrioid type with squamous differentiation, FIGO grade 1. The tumor exhibits complex hyperplasia with atypia. Additional findings include adenomyosis and multiple leiomyomata.
+
+Staging
+
+The clinical stage is based on the computed FIGO 2023 stage. The reported FIGO stage is I. The computed FIGO stage is indeterminate. The provisional FIGO stage is IIB, requiring pathologist verification. This discrepancy arises because the staging engine requires information about LVSI extent and myometrial invasion percentage, which are not definitively available or categorized in the structured data.
+
+Key Findings
+
+- Histologic type: Adenocarcinoma, endometrioid type with squamous differentiation
+- FIGO grade: 1
+- Myometrial invasion depth: 4-5 mm
+- Myometrial thickness: 22 mm
+- Myometrial invasion category: <50% (derived from reported measurements)
+- Lymphovascular invasion (LVI): Suspicious for LVI, but formally categorized as 'not reported' in the structured data.
+- Cervical stromal involvement: Not identified
+- Serosal involvement: Not identified
+- Adnexal involvement: Not identified
+- Vaginal or parametrial involvement: Not identified
+- Pelvic peritoneal metastasis: Not identified
+- Bladder or bowel mucosa invasion: Not identified
+- Extrapelvic peritoneal metastasis: Not identified
+- Margin status: Uninvolved
+- Lymph nodes examined: 2 (right and left sentinel)
+- Lymph nodes positive: 0
+- Procedure: Hysterectomy and bilateral salpingo-oophorectomy
+
+Expert Summary
+
+The patient underwent a hysterectomy with bilateral salpingo-oophorectomy for an endometrial adenocarcinoma, endometrioid type, FIGO grade 1. The tumor shows complex hyperplasia with atypia. Myometrial invasion is present, estimated at 4-5 mm out of a 22 mm myometrial thickness, corresponding to <50% invasion. Lymphovascular invasion is suspicious but not confirmed. There is no evidence of cervical stromal, serosal, adnexal, vaginal/parametrial involvement, or peritoneal metastasis. Sentinel lymph nodes were negative for malignancy. The reported stage is I, but the computed stage is indeterminate, with a provisional stage of IIB pending further information (specifically LVSI extent).
+
+Patient-Friendly Explanation
+
+The surgery removed the uterus, cervix, fallopian tubes, and ovaries. The pathology report shows endometrial cancer, specifically an endometrioid type adenocarcinoma, which is grade 1 (less aggressive). The cancer had grown into the muscle layer of the uterus (myometrium) to a depth of about 4-5 millimeters out of a total thickness of 22 mm. This means it invaded less than half of the muscle wall. There were no signs of the cancer spreading to the cervix, nearby tissues, lymph nodes, or distant sites. The edges of the removed tissue were clear of cancer cells. Some features suggested possible spread through blood vessels (lymphovascular invasion), but this was not confirmed. Based on the available information, the stage is reported as Stage I. However, further details needed for precise staging are uncertain, leading to a provisional higher stage calculation that requires confirmation by the pathologist.
+
+Next-Step Considerations
+
+The final FIGO stage is listed as indeterminate based on computed rules, with a provisional stage of IIB (requires pathologist verification). The following fields were identified as uncertain or low confidence: lymphovascular invasion status and myometrial invasion percentage. Pathologist review and clarification regarding LVSI extent are needed to confirm the definitive stage.
+
+Corrections Applied
+
+myometrial_invasion_category: ‘<50%’ (recomputed from depth/thickness)

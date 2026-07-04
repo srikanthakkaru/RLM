@@ -1,0 +1,69 @@
+Report: data/reports/TCGA-AP-A059.29A150D3-D5F0-4222-B082-6ABE35A2BB46.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 330.12s
+Extraction Time: 9.50s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - tumor_size_cm
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - tnm_pT
+  - tnm_pN
+  - tnm_pM
+  - figo_stage
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIC
+Reported FIGO Stage: not reported
+Stage Audit Missing Facts:
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+Grounding Gate Violations:
+  - [warning:false_reported_attribution] narrative attributes a FIGO stage as 'reported' but the extraction has no reported_figo_stage
+Date: 2026-07-04 10:17:23
+================================================================================
+
+Diagnosis
+
+The diagnosis is adenocarcinoma of the endometrium, endometrioid type, FIGO grade 3. The tumor invades to half of the myometrium (≤5 mm depth). There is no lymphovascular invasion identified. All margins are uninvolved. Lymph nodes examined were negative for malignancy. Additional findings include complex hyperplasia, leiomyoma(s), and adenomyosis. Immunohistochemical stains show apparent loss of MSH6 protein, although intact expression of MLH1 and MSH2 proteins was noted.
+
+Staging
+
+The computed FIGO stage is indeterminate based on the available data. The provisional FIGO stage is IIC. This requires pathologist verification due to missing information regarding histology aggressiveness. The reported FIGO stage is not reported.
+
+Key Findings
+
+- Histologic Type: Adenocarcinoma, endometrioid type
+- FIGO Grade: 3 (high grade)
+- Myometrial Invasion: ≤ half of myometrium (approximately 3 mm depth in a 25 mm thick myometrium), corresponding to ≥50% invasion.
+- Lymphovascular Invasion (LVI): Not identified
+- Cervical Stromal Involvement: Not identified
+- Margin Status: Uninvolved
+- Lymph Nodes Examined: 21 total, 0 positive
+- Additional Findings: Complex hyperplasia, leiomyoma(s), adenomyosis, MSH6 loss (possible MSI-H)
+
+Expert Summary
+
+The patient has a high-grade (FIGO Grade 3) endometrioid adenocarcinoma of the endometrium. The tumor demonstrates deep myometrial invasion (≥50%, invading to half or more of the myometrial thickness). Lymphovascular invasion, cervical stromal involvement, and lymph node metastasis are absent based on the pathology report. The specimen also shows complex hyperplasia, leiomyoma(s), and adenomyosis. Immunohistochemistry suggests possible microsatellite instability-high (MSI-H) status due to MSH6 loss. Staging is indeterminate according to FIGO 2023 rules, with a provisional stage of IIC pending further information on histology aggressiveness.
+
+Patient-Friendly Explanation
+
+The pathology report shows you have endometrial cancer, specifically an adenocarcinoma, endometrioid type. It's a high-grade cancer (Grade 3). The cancer has grown deeply into the muscle wall of your uterus (invading half or more of the thickness). However, it hasn't spread to nearby lymph nodes, blood vessels, or cervical tissue. The edges of the removed tissue are clear of cancer cells. Additional findings in your uterus include complex hyperplasia, fibroids (leiomyomas), and adenomyosis. Special stains suggest the tumor might have a specific characteristic called microsatellite instability-high (MSI-H). Further information is needed to determine the exact stage of your cancer based on current guidelines.
+
+Next-Step Considerations
+
+The computed FIGO stage is indeterminate, and the provisional stage is IIC (requires pathologist verification). The field 'histology_aggressiveness' is uncertain/low-confidence and required for definitive staging according to FIGO 2023 rules. Pathologist verification of the provisional stage and assessment of histology aggressiveness are needed.

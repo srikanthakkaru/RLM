@@ -1,0 +1,58 @@
+Report: data/reports/TCGA-AJ-A8CT.67EF8128-8F99-4B19-9B64-9C5E5BD0786F.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 325.64s
+Extraction Time: 8.88s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - lymph_node_stations
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IA2
+Reported FIGO Stage: I
+Grounding Gate: passed (no violations)
+Date: 2026-07-04 09:45:51
+================================================================================
+
+Diagnosis
+
+The diagnosis is endometrioid adenocarcinoma of the endometrium, FIGO grade 1, with tumor size measuring 3 cm. The tumor invades the myometrium to a depth of 2.5 cm. The myometrial thickness in the area of maximum invasion is 14.5 cm. Lymphovascular space involvement (LVSI), cervical stromal involvement, serosal involvement, adnexal involvement, vaginal or parametrial involvement, pelvic peritoneal metastasis, bladder or bowel mucosa invasion, and extrapelvic peritoneal metastasis were not identified. The margins are negative. Lymph nodes examined (n=18) show no malignancy (0/18). Additional findings include adenomyosis, leiomyomata uteri, and an endometrial polyp.
+
+Staging
+
+The computed FIGO stage is IA2 based on non-aggressive histology (endometrioid adenocarcinoma, grade 1), less than half myometrial invasion (2.5 cm depth out of 14.5 cm thickness, which is approximately 17.2% invasion), and absence of LVSI. The reported FIGO stage is I, which is a less specific ancestor stage to the computed IA2. TNM staging is pT1a, pN0, pMX.
+
+Key Findings
+
+- Histologic Type: Endometrioid adenocarcinoma
+- FIGO Grade: 1 (Low grade)
+- Tumor Size: 3 cm
+- Myometrial Invasion: 2.5 cm depth out of 14.5 cm thickness (approximately 17.2%)
+- Lymphovascular Space Involvement (LVSI): Not identified
+- Cervical Stromal Involvement: Not identified
+- Lymph Nodes: Negative (0/18)
+- Margins: Negative
+- Additional Findings: Adenomyosis, Leiomyomata uteri, Endometrial polyp
+
+Expert Summary
+
+The patient has a Stage IA2 endometrioid adenocarcinoma of the endometrium based on FIGO 2023 criteria. The tumor is low grade (FIGO Grade 1), measures 3 cm, and invades less than half of the myometrium (depth 2.5 cm, thickness 14.5 cm). There is no evidence of lymphovascular invasion, cervical stromal involvement, positive lymph nodes, or other high-risk features such as serosal involvement or adnexal involvement. The surgical procedure performed was a laparoscopic assisted vaginal hysterectomy with bilateral salpingo-oophorectomy and lymphadenectomy.
+
+Patient-Friendly Explanation
+
+The pathology report shows you have endometrial cancer (cancer of the uterine lining). It is a type called endometrioid adenocarcinoma, which is generally considered less aggressive. The grade is 1, indicating it's low grade. The tumor size is 3 cm. It has grown into the muscle layer of the uterus (myometrium) to a depth of 2.5 cm out of a total thickness of 14.5 cm in that area. There were no signs of cancer spread to nearby lymph nodes, blood vessels, or other parts of the uterus like the cervix. The surgical procedure removed your uterus, fallopian tubes, ovaries, and pelvic lymph nodes.
+
+Next-Step Considerations
+
+The computed FIGO stage is IA2, which requires pathologist verification according to the staging audit notes. Molecular subtype analysis (e.g., POLEmut, microsatellite instability) was not reported and may influence prognosis and adjuvant therapy decisions in some cases. The field "lymph_node_stations" is missing from the structured extraction, although the summary states 0/18 nodes were positive.

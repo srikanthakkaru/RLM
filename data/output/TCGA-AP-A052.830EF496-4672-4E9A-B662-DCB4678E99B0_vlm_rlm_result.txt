@@ -1,0 +1,71 @@
+Report: data/reports/TCGA-AP-A052.830EF496-4672-4E9A-B662-DCB4678E99B0.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 326.05s
+Extraction Time: 7.02s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'uncertain' -> 'not reported'
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - vaginal_or_parametrial_involvement: None -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: None -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: None -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - tumor_size_cm
+  - myometrial_invasion_depth_cm
+  - myometrial_thickness_cm
+  - myometrial_invasion_percentage
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - lymph_node_stations
+  - extracapsular_extension
+  - procedure_type
+  - specimen_integrity
+Stage Audit Status: discrepant
+Computed FIGO Stage: IVA
+Reported FIGO Stage: III
+Stage Audit Missing Facts:
+  - cervical_stromal_involvement: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_CERVIX))
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-07-04 10:03:06
+================================================================================
+
+Diagnosis
+
+The patient has papillary serous carcinoma of the endometrium, FIGO grade 3. The tumor involves the endometrial polyps and the serosal surface of the uterus. There is also involvement of the right and left ovaries, the left fallopian tube, the omentum, and the bladder serosa/fibroadipose tissue. Lymphovascular tumor emboli are present in the ovary. Margins are involved.
+
+Staging
+
+The computed FIGO stage is IVA based on bladder mucosal invasion. The reported FIGO stage is III. This discrepancy is noted.
+
+Key Findings
+
+- Histologic Type: Papillary serous carcinoma
+- FIGO Grade: 3 (High grade)
+- Myometrial Invasion: ≥50%
+- Lymphovascular Invasion (LVI): Identified
+- Cervical Stromal Involvement: Not reported
+- Serosal Involvement: Identified
+- Adnexal Involvement: Identified (ovaries and left fallopian tube)
+- Bladder/Bowel Mucosa Invasion: Identified (bladder serosa and fibroadipose tissue)
+- Margin Status: Involved
+- Lymph Nodes: 11 total examined, 0 positive
+- Additional Findings: Metastatic papillary serous carcinoma involving omentum, ovaries, fallopian tube, uterus serosa, and bladder serosa/fibroadipose tissue.
+
+Expert Summary
+
+The pathology report describes a high-grade (FIGO grade 3) papillary serous carcinoma of the endometrium with extensive spread. The tumor demonstrates deep myometrial invasion (≥50%), lymphovascular invasion, serosal involvement, adnexal involvement, and bladder serosal/fibroadipose tissue involvement. Margins are involved. Lymph nodes examined were negative for metastasis. Based on the presence of bladder mucosal invasion, the computed FIGO stage is IVA. The reported stage is III. This represents a high-risk endometrial cancer with widespread metastatic disease at the time of surgery.
+
+Patient-Friendly Explanation
+
+The biopsy shows a very aggressive type of uterine cancer called papillary serous carcinoma, which is high grade (grade 3). The cancer has grown deeply into the muscle wall of the uterus and has spread to nearby organs including the ovaries, fallopian tube, the outer lining of the uterus, the bladder area, and the omentum. There are also signs that cancer cells have entered blood vessels or lymphatics. The edges of the removed tissue contain cancer cells. Lymph nodes that were checked did not show any cancer spread. This is a serious diagnosis indicating advanced disease.
+
+Next-Step Considerations
+
+The computed FIGO stage is IVA, which differs from the reported stage of III. The presence of distant metastases (omentum, ovaries, fallopian tube, bladder serosa) indicates Stage IV disease according to FIGO 2023 criteria. The specific substage (IVA vs IVB/IVC) requires further assessment, particularly regarding potential involvement of other pelvic or extrapelvic peritoneal sites and distant organ metastasis. The report documents metastatic disease involving the omentum, ovaries, fallopian tube, uterus serosa, and bladder serosa/fibroadipose tissue. The finding of "bladder_or_bowel_mucosa_invasion" is listed as present in the structured data, which aligns with the computed stage IVA based on FIGO 2023 rules (Table 1). However, the source report specifies involvement of the bladder serosa and fibroadipose tissue, not necessarily mucosal invasion. Pathologist verification of the extent of bladder involvement (mucosal vs serosal) is recommended to confirm the correct substage. Additionally, the status of cervical stromal involvement and LVSI extent are uncertain based on the provided data and may impact staging if different criteria were applied or if further information becomes available.

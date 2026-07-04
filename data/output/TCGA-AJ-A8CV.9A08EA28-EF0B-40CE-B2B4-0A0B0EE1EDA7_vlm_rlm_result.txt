@@ -1,0 +1,65 @@
+Report: data/reports/TCGA-AJ-A8CV.9A08EA28-EF0B-40CE-B2B4-0A0B0EE1EDA7.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 258.95s
+Extraction Time: 10.65s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'uncertain' -> 'not reported'
+  - cervical_stromal_involvement: 'not identified' -> 'uncertain' (staging re-read)
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: None -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: None -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: None -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: None -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - procedure_type
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IA2
+Reported FIGO Stage: I
+Stage Audit Missing Facts:
+  - cervical_stromal_involvement: No extracted or mapped value is available (IIA (IIA_CERVIX))
+Grounding Gate: passed (no violations)
+Date: 2026-07-04 09:50:10
+================================================================================
+
+Diagnosis
+
+The diagnosis is endometrioid carcinoma of the uterus, FIGO Grade 2. The tumor measures 4.5 cm in size. It invades more than one half of the myometrium (1.7 cm depth into a 17 cm thick myometrium). Lymphovascular invasion was not identified. Surgical margins are negative. No metastatic carcinoma was found in the examined lymph nodes (0/14 pelvic nodes). Additional findings include complex hyperplasia with atypia, leiomyoma, focal endometriosis on the serosa, and a benign appendix epiploica.
+
+Staging
+
+The computed FIGO stage is IA2 based on non-aggressive histology (endometrioid), less than half myometrial invasion (derived from 1.7 cm depth / 17 cm thickness ≈ 10.0% invasion), and no or focal LVSI (not identified). The reported FIGO stage is I, which is a less specific ancestor of the computed IA2 stage.
+
+Key Findings
+
+- Histologic Type: Endometrioid
+- FIGO Grade: 2 (Moderately differentiated)
+- Tumor Size: 4.5 cm
+- Myometrial Invasion: Invades more than one half of the myometrium (1.7 cm depth into 17 cm thickness). Calculated percentage invasion is approximately 10.0%.
+- Lymphovascular Invasion (LVSI): Not identified
+- Cervical Stromal Involvement: Not reported
+- Lymph Node Metastasis: Negative (0/14 pelvic nodes)
+- Margin Status: Negative
+- TNM Stage: pT1bN0
+
+Expert Summary
+
+The patient has a FIGO Grade 2 endometrioid endometrial carcinoma, measuring 4.5 cm. The tumor demonstrates invasion into more than half of the myometrium (1.7 cm depth in a 17 cm thick myometrium), corresponding to approximately 10% invasion. Lymphovascular invasion is absent, and surgical margins are negative. Pelvic lymph node dissection revealed no metastatic disease (pN0). Based on FIGO 2023 criteria, the computed stage is IA2. The reported stage is I. High-risk features include deep myometrial invasion (>50% of thickness), although the calculated percentage is 10%.
+
+Patient-Friendly Explanation
+
+You have been diagnosed with endometrial cancer. It is a type called endometrioid carcinoma and it is moderately differentiated (Grade 2). The tumor measures 4.5 cm. It has grown into more than half of the muscle wall of your uterus (myometrium), specifically 1.7 cm deep out of a total thickness of 17 cm. There was no sign of cancer cells in the nearby lymph nodes that were removed, and the edges of the tissue removed during surgery did not show any cancer cells. The pathologists have calculated the stage to be IA2 based on the depth of invasion and other features.
+
+Next-Step Considerations
+
+The computed FIGO stage is IA2 (provisional requires pathologist verification). The reported stage is I. The myometrial invasion percentage was derived from reported measurements (1.7 cm depth / 17 cm thickness ≈ 10.0%). This differs from the extracted category of "≥50%". Pathologist verification of the computed stage and assessment of uncertain/low-confidence fields (cervical stromal involvement) is recommended.

@@ -1,0 +1,74 @@
+Report: data/reports/TCGA-AP-A054.72028DF7-DAD0-487E-914B-C3AA69A1E6C4.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 164.41s
+Extraction Time: 9.42s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - tumor_size_cm
+  - myometrial_invasion_depth_cm
+  - myometrial_thickness_cm
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: supported
+Computed FIGO Stage: IIIA2
+Reported FIGO Stage: III
+Stage Audit Missing Facts:
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IIB (IIB_SUBSTANTIAL_LVSI))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IIB (IIB_SUBSTANTIAL_LVSI))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IB (IB_DEEP))
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate: passed (no violations)
+Date: 2026-07-04 10:05:50
+================================================================================
+
+Diagnosis
+
+The diagnosis is adenocarcinoma of the endometrium, endometrioid type, NOS, FIGO Grade III (high grade). The tumor shows vascular invasion.
+
+Staging
+
+The computed FIGO stage is IIIA2, based on serosal involvement. The reported FIGO stage is III. This represents a less specific ancestor stage compared to the computed stage. Lymph nodes were examined and found to be negative for metastasis (pN0). Distant metastasis was not assessed pathologically (pM0).
+
+Key Findings
+
+- Histologic Type: Adenocarcinoma, endometrioid type, NOS
+- FIGO Grade: 3 (High grade)
+- Myometrial Invasion: Invades through the entire thickness of the myometrium and into the serosa. Computed as ≥50% based on reported measurements.
+- Lymphovascular Invasion (LVI): Identified.
+- Cervical Stromal Involvement: Not identified.
+- Serosal Involvement: Identified.
+- Adnexal Involvement: Identified (right tube and ovary removed).
+- Vaginal/Parametrial Involvement: Not identified.
+- Pelvic Peritoneal Metastasis: Not identified.
+- Bladder/Bowel Mucosa Invasion: Not identified.
+- Extrapelvic Peritoneal Metastasis: Not identified.
+- Lymph Nodes: 11 nodes examined, 0 positive (N0).
+- Margins: Uninvolved.
+- Additional Findings: Vascular invasion, serosal involvement, adnexal involvement, lymphovascular invasion.
+- Sigmoid nodule metastasis confirmed.
+
+Expert Summary
+
+The patient has a high-grade (FIGO Grade 3) endometrioid adenocarcinoma of the endometrium that invades through the entire myometrium and involves the uterine serosa, consistent with FIGO stage IIIA2 based on deterministic rules. There is associated lymphovascular invasion and vascular invasion. The tumor also metastasized to a sigmoid nodule. Lymph nodes are negative for metastasis. The procedure performed was a total hysterectomy and bilateral salpingo-oophorectomy.
+
+Patient-Friendly Explanation
+
+The patient has been diagnosed with an aggressive type of uterine cancer (adenocarcinoma, endometrioid type) that is high grade. The cancer has grown through the entire muscle wall of the uterus (myometrium) and reached the outer surface (serosa). It also spread to a nearby nodule in the sigmoid colon. The lymph nodes checked were clear of cancer. The treatment involved removing the uterus, cervix, fallopian tubes, and ovaries.
+
+Next-Step Considerations
+
+The computed FIGO stage is IIIA2. The reported stage is III. These stages are consistent. Further clinical correlation and consideration of adjuvant therapy (chemotherapy/radiation) should be based on this staging information and institutional guidelines for high-risk endometrial cancer features (high grade, deep invasion, serosal involvement, LVSI, metastasis).

@@ -1,0 +1,69 @@
+Report: data/reports/TCGA-AP-A05D.3312F531-00A3-4104-8C9C-8734C32C89C0.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 84.99s
+Extraction Time: 9.06s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - cervical_stromal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - lymph_node_stations: detected positive para-aortic, pelvic node(s) (deterministic source scan)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - tumor_size_cm
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - specimen_integrity
+Stage Audit Status: conflict
+Computed FIGO Stage: IIIC2
+Reported FIGO Stage: IIIC
+Stage Audit Missing Facts:
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2i (IIIC2I_PARA_MICRO))
+  - nodal_metastasis_size: Mapped value is positive_unknown, which is not specific enough (IIIC2ii (IIIC2II_PARA_MACRO))
+  - nodal_metastasis_size: Node metastasis size is unknown (IIIC1i/ii or IIIC2i/ii)
+Stage Audit Contradictions:
+  - Positive lymph nodes conflict with pN0
+Grounding Gate: passed (no violations)
+Date: 2026-07-04 12:32:21
+================================================================================
+
+Diagnosis
+
+The patient has been diagnosed with FIGO Grade 3, papillary serous adenocarcinoma of the endometrium. The tumor invades more than half of the myometrium (11 mm depth out of 15 mm thickness). Lymphovascular invasion is not identified. Margins are uninvolved. Two out of twenty examined lymph nodes were positive for metastatic carcinoma (left external iliac and left para-aortic nodes).
+
+Staging
+
+The computed FIGO stage is IIIC2, based on the presence of positive para-aortic lymph nodes. The reported FIGO stage was IIIC. There is a conflict between the reported and computed stages; the computed stage provides more specific information according to the deterministic rules. The audit status is 'conflict'.
+
+Key Findings
+
+- Histologic Type: Adenocarcinoma, serous, NOS (Papillary Serous)
+- FIGO Grade: 3
+- Myometrial Invasion: >50% (11 mm depth / 15 mm thickness)
+- Lymphovascular Invasion (LVI): Not identified
+- Cervical Stromal Involvement: Not identified
+- Lymph Nodes Examined: 20
+- Positive Lymph Nodes: 2 (Left external iliac, Left para-aortic)
+- FIGO Stage: Computed IIIC2
+
+Expert Summary
+
+The patient presents with a high-grade (Grade 3), serous type endometrial carcinoma. The tumor demonstrates deep myometrial invasion (>50%) and has metastasized to pelvic and para-aortic lymph nodes. This represents advanced stage disease according to FIGO staging criteria. The computed stage is IIIC2, reflecting the involvement of para-aortic lymph nodes.
+
+Patient-Friendly Explanation
+
+The pathology report shows a high-grade cancer (Grade 3) of the uterine lining, specifically a serous type. The cancer has grown deeply into the muscle wall of the uterus (>50%). Cancer cells have also spread to nearby lymph nodes in the pelvis and near the major blood vessels in the abdomen (para-aortic nodes). This means the cancer is at an advanced stage (FIGO Stage IIIC2).
+
+Next-Step Considerations
+
+The FIGO stage is computed as IIIC2, which requires pathologist verification. The node metastasis size is unknown, which impacts the substage (IIIC2i vs IIIC2ii).

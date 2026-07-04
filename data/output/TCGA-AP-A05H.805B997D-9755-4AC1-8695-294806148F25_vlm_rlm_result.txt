@@ -1,0 +1,67 @@
+Report: data/reports/TCGA-AP-A05H.805B997D-9755-4AC1-8695-294806148F25.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 289.56s
+Extraction Time: 7.77s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - serosal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: reclassified
+Computed FIGO Stage: IIC
+Reported FIGO Stage: IIIC
+Grounding Gate: passed (no violations)
+Date: 2026-07-04 12:37:25
+================================================================================
+
+Diagnosis
+
+The diagnosis is endometrial adenocarcinoma, serous type (NOS), FIGO grade 3. The tumor measures 11 mm in maximum depth, invading the myometrium by 11 mm. The myometrial thickness is 18 mm. Lymphovascular invasion, cervical stromal involvement, serosal involvement, and adnexal involvement are not identified. Margins are uninvolved. Twenty-two lymph nodes were examined, and none were positive for metastasis. Extracapsular extension is absent.
+
+Staging
+
+The computed FIGO stage is IIC based on the presence of aggressive histological type (serous) with any myometrial invasion. The reported FIGO stage from the source report is IIIC. This represents a discrepancy between the computed and reported stages, likely due to differences in interpretation or application of staging criteria (e.g., molecular substaging not applied here).
+
+Key Findings
+
+*   Histologic Type: Adenocarcinoma, serous type (NOS)
+*   FIGO Grade: 3
+*   Tumor Size: 11 mm
+*   Myometrial Invasion: 11 mm depth / 18 mm thickness (≥50%)
+*   Lymphovascular Invasion (LVI): Not identified
+*   Cervical Stromal Involvement: Not identified
+*   Serosal Involvement: Not identified
+*   Adnexal Involvement: Not identified
+*   Pelvic Peritoneal Metastasis: Not identified
+*   Extrapelvic Peritoneal Metastasis: Not identified
+*   Bladder/Bowel Mucosa Invasion: Not identified
+*   Lymph Nodes Examined: 22
+*   Positive Lymph Nodes: 0
+*   Margins: Uninvolved
+
+Expert Summary
+
+The patient has a high-risk endometrial carcinoma, specifically a FIGO grade 3 serous adenocarcinoma with deep myometrial invasion (11 mm out of 18 mm thickness, approximately 61%). The tumor does not involve the cervix, adnexa, or pelvic/extra-pelvic peritoneum. Lymphovascular invasion is absent. Surgical margins are negative. Twenty-two lymph nodes were examined and found to be negative for metastatic disease. Based on deterministic FIGO 2023 rules applied by the staging engine, the computed stage is IIC due to aggressive histology and myometrial invasion. The reported stage in the source report is IIIC.
+
+Patient-Friendly Explanation
+
+The patient was diagnosed with a high-grade (Grade 3) endometrial cancer called serous adenocarcinoma. The cancer cells grew into more than half of the muscle layer of the uterus (11 mm out of 18 mm). The cancer did not spread to the cervix, ovaries, fallopian tubes, or nearby surfaces within the pelvis or abdomen. There was no sign of cancer in the lymph nodes that were removed. The edges of the tissue removed during surgery were clear of cancer cells.
+
+Next-Step Considerations
+
+The computed FIGO stage is IIC, while the reported stage is IIIC. This discrepancy should be reviewed. Additionally, several fields have low confidence scores (0.50), including histologic type, grade, tumor size, invasion depth/thickness, LVI status, involvement of various structures, lymph node findings, and TNM/FIGO stage components. These findings require pathologist verification.
+
+Corrections Applied
+None.

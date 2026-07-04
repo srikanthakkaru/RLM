@@ -1,0 +1,65 @@
+Report: data/reports/TCGA-AJ-A8CW.146E0540-B6F0-495F-ADD5-90F7564C14CA.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 334.62s
+Extraction Time: 7.89s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: discrepant
+Computed FIGO Stage: IB
+Reported FIGO Stage: IA
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'II' which is not among reported/computed/provisional stages ['IA', 'IB']
+Date: 2026-07-04 09:56:01
+================================================================================
+
+**Diagnosis**
+
+The diagnosis is endometrioid adenocarcinoma of the uterus, FIGO Grade 2. The tumor measures 5.5 cm in greatest dimension. It invades the myometrium focally to a depth of 0.2 cm into a 3.5 cm thick myometrium. Lymphovascular space invasion (LVSI) is not identified. Cervical stromal involvement, serosal involvement, adnexal involvement, vaginal or parametrial involvement, pelvic peritoneal metastasis, bladder or bowel mucosa invasion, and extrapelvic peritoneal metastasis are not identified. Surgical margins are uninvolved. Sixteen lymph nodes were examined in total, and none were positive for metastatic disease. Extracapsular extension is absent.
+
+**Staging**
+
+The computed FIGO stage is IB. This stage is derived based on the presence of endometrioid adenocarcinoma with at least half myometrial invasion (0.2 cm depth into 3.5 cm thickness = ~5.7% invasion, which does not meet the ≥50% criterion for Stage II in the 2023 FIGO staging system; however, the source report states pT1a NO (FIGO IA), and the computed stage is IB based on deterministic rules). The reported FIGO stage is IA. There is a discrepancy between the reported stage (IA) and the computed stage (IB).
+
+**Key Findings**
+
+*   Histologic Type: Endometrioid adenocarcinoma
+*   FIGO Grade: 2
+*   Tumor Size: 5.5 cm
+*   Myometrial Invasion: Focal invasion to a depth of 0.2 cm into a 3.5 cm thick myometrium (approximately 5.7%)
+*   Lymphovascular Space Invasion (LVSI): Not identified
+*   Cervical Stromal Involvement: Not identified
+*   Serosal Involvement: Not identified
+*   Adnexal Involvement: Not identified
+*   Vaginal/Parametrial Involvement: Not identified
+*   Pelvic Peritoneal Metastasis: Not identified
+*   Bladder/Bowel Mucosa Invasion: Not identified
+*   Extrapelvic Peritoneal Metastasis: Not identified
+*   Margin Status: Uninvolved
+*   Lymph Nodes Examined: 16
+*   Positive Lymph Nodes: 0
+*   Extracapsular Extension: Absent
+
+**Expert Summary**
+
+The patient has an endometrioid adenocarcinoma of the uterus, FIGO Grade 2. The tumor is 5.5 cm in size and demonstrates focal myometrial invasion (approximately 5.7%). There is no evidence of lymphovascular space invasion, cervical stromal involvement, serosal involvement, adnexal involvement, vaginal or parametrial involvement, pelvic peritoneal metastasis, bladder/bowel mucosa invasion, extrapelvic peritoneal metastasis, positive lymph nodes, or extracapsular extension. The surgical margins are negative. Based on the reported findings and FIGO 2023 criteria, the stage is reported as IA but computed as IB due to the discrepancy between the source report's staging (pT1a N0 M0 = IA) and the deterministic rules applied for computation (which consider myometrial invasion percentage).
+
+**Patient-Friendly Explanation**
+
+You have been diagnosed with a type of uterine cancer called endometrioid adenocarcinoma. The cancer cells are Grade 2, which means they look fairly similar to normal cells under the microscope but show some abnormal features. The tumor is about 5.5 cm in size and has grown slightly into the muscle wall of the uterus (myometrium). However, it has not spread to nearby tissues like the cervix, vagina, or surrounding organs, nor has it reached the lymph nodes that were removed during surgery. The edges of the tissue removed after surgery (margins) do not show any cancer cells.
+
+**Next-Step Considerations**
+
+The reported FIGO stage is IA, while the computed FIGO stage is IB. This discrepancy should be noted. Additionally, the field confidence for "nuclear_grade" is missing, and specimen integrity is not reported. These uncertain fields (nuclear grade, specimen integrity) and the provisional nature of the computed stage may require further pathologist verification.

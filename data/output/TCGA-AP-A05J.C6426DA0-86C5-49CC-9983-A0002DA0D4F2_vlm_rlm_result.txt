@@ -1,0 +1,69 @@
+Report: data/reports/TCGA-AP-A05J.C6426DA0-86C5-49CC-9983-A0002DA0D4F2.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 75.46s
+Extraction Time: 7.73s
+Extraction Retries: 1
+Extraction Valid: True
+Normalizations Applied:
+  - adnexal_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - tumor_size_cm
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - extracapsular_extension
+  - tnm_pT
+  - tnm_pN
+  - tnm_pM
+  - figo_stage
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: IIC
+Reported FIGO Stage: not reported
+Stage Audit Missing Facts:
+  - limited_to_polyp: No extracted or mapped value is available (IC (IC_AGGRESSIVE_POLYP))
+  - confined_to_endometrium: No extracted or mapped value is available (IC (IC_AGGRESSIVE_ENDOMETRIUM))
+  - limited_to_polyp: Distinguishes IA1/IC polyp-limited disease (IA1/IC)
+  - confined_to_endometrium: Distinguishes IA1/IC endometrium-confined disease (IA1/IC)
+Grounding Gate Violations:
+  - [warning:false_reported_attribution] narrative attributes a FIGO stage as 'reported' but the extraction has no reported_figo_stage
+Date: 2026-07-04 12:38:41
+================================================================================
+
+Diagnosis
+
+The diagnosis is adenocarcinoma, serous type, FIGO grade 3 endometrial carcinoma. The report documents myometrial invasion with a depth of 1 mm and thickness of 16 mm. Cervical stromal involvement is identified. Lymphovascular invasion is not identified. All margins are uninvolved. Twenty lymph nodes were examined, and none were positive for metastatic disease.
+
+Staging
+
+The computed FIGO stage is IIC. This is based on aggressive histological type (serous carcinoma) with cervical stromal invasion. The reported FIGO stage is not available.
+
+Key Findings
+
+*   Histologic Type: Serous adenocarcinoma
+*   FIGO Grade: 3
+*   Myometrial Invasion: Present, depth 1 mm (calculated as approximately 6.2%)
+*   Cervical Stromal Involvement: Identified
+*   Lymphovascular Invasion (LVI): Not identified
+*   Margins: Uninvolved
+*   Lymph Nodes: Negative (0/20)
+
+Expert Summary
+
+The patient has a high-grade (Grade 3), serous adenocarcinoma of the endometrium. The tumor exhibits deep myometrial invasion (1 mm depth, approximately 6.2% of myometrial thickness). There is also involvement of the cervical stroma. Lymphovascular invasion is absent, and surgical margins are negative. Twenty pelvic and para-aortic lymph nodes were examined and found to be negative for metastatic disease. Based on FIGO 2023 criteria, this corresponds to a computed stage IIC due to the aggressive histology (serous) and cervical stromal involvement.
+
+Patient-Friendly Explanation
+
+The patient has been diagnosed with an aggressive type of uterine cancer called serous adenocarcinoma. It is a high grade (Grade 3). The cancer cells have grown into the muscle layer of the uterus (myometrium) and also into the tissue of the cervix. However, the lymph nodes that were removed during surgery do not show any signs of cancer spread. The edges of the removed tissue are also clear of cancer cells.
+
+Next-Step Considerations
+
+The computed FIGO stage is IIC. The final pathologic stage should be confirmed by a pathologist.

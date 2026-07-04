@@ -1,0 +1,72 @@
+Report: data/reports/TCGA-AP-A056.008786AD-6CA8-488D-A5AC-BA558985E765.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 329.60s
+Extraction Time: 8.26s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - pelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIC
+Reported FIGO Stage: IIC
+Stage Audit Missing Facts:
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_CERVIX))
+  - histology_aggressiveness: No extracted or mapped value is available (IIB (IIB_SUBSTANTIAL_LVSI))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IIB (IIB_SUBSTANTIAL_LVSI))
+  - histology_aggressiveness: No extracted or mapped value is available (IIA (IIA_CERVIX))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+  - lvsi_extent: Mapped value is positive_unknown, which is not specific enough (IB (IB_DEEP))
+  - lvsi_extent: LVSI is positive, but focal vs substantial extent is unknown (IA/IB vs IIB)
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'III' which is not among reported/computed/provisional stages ['IIC']
+  - [warning:invented_stage] Staging cites FIGO 'IB' which is not among reported/computed/provisional stages ['IIC']
+  - [warning:invented_stage] Staging cites FIGO 'IA' which is not among reported/computed/provisional stages ['IIC']
+Date: 2026-07-04 10:11:35
+================================================================================
+
+**Diagnosis**
+
+The diagnosis is adenocarcinoma, endometroid type, NOS, FIGO Grade III (nuclear grade 3), arising in the uterus. The tumor invades more than half of the myometrium (depth = 2.4 cm). The myometrial thickness at the site of maximal invasion is 2.5 cm. Endocervical invasion is present in both the mucosa and stroma. Lymphovascular invasion is identified. Leiomyoma is noted in the myometrium. Endometriosis is present in the right ovary. Reactive changes are seen in the vaginal mucosa and lymph nodes, likely due to packing. The uterine serosa is negative for carcinoma. Margins are uninvolved.
+
+**Staging**
+
+The clinical stage is FIGO Stage IIC based on the reported findings of deep myometrial invasion (>50%) and cervical stromal involvement.
+- TNM: pT2 N0 M0
+- Reported FIGO Stage: IIC
+- Computed FIGO Stage: indeterminate (requires pathologist verification)
+- Provisional FIGO Stage: IIC
+
+**Key Findings**
+
+*   Histologic Type: Adenocarcinoma, endometroid type, NOS
+*   FIGO Grade: 3
+*   Myometrial Invasion: >50% (2.4 cm depth / 2.5 cm thickness = 96%)
+*   Cervical Stromal Involvement: Present
+*   Lymphovascular Invasion (LVI): Present
+*   Lymph Nodes Examined: 32
+*   Positive Lymph Nodes: 0 (N0)
+*   Margins: Uninvolved
+*   Procedure: Hysterectomy with bilateral salpingo-oophorectomy
+
+**Expert Summary**
+
+The patient has a high-risk endometrial carcinoma, specifically an FIGO Grade III adenocarcinoma, endometroid type, with deep myometrial invasion (>50%) and cervical stromal involvement. Lymphovascular invasion is also present. The lymph nodes examined were negative for metastasis (N0). The reported stage is IIC. However, the computed stage based on deterministic rules is indeterminate due to missing information regarding histology aggressiveness needed for FIGO 2023 staging beyond Stage IA/IB. The provisional stage remains IIC, pending pathologist verification of aggressiveness factors.
+
+**Patient-Friendly Explanation**
+
+The pathology report shows you have a type of uterine cancer called adenocarcinoma, specifically the endometroid type. It is graded as high risk (Grade III). The cancer has grown deeply into the muscle wall of your uterus (more than half way) and has spread into the tissue around the cervix. There are also signs that cancer cells may have entered small blood vessels or lymphatics (lymphovascular invasion). Fortunately, the cancer did not spread to the lymph nodes that were removed during surgery, and the edges of the removed tissue were clear of cancer. The reported stage is IIC, indicating locally advanced disease based on depth of invasion and cervical involvement.
+
+**Next-Step Considerations**
+
+The computed FIGO stage is indeterminate, requiring pathologist verification, specifically regarding histology aggressiveness factors needed for definitive staging under FIGO 2023 rules. The provisional stage remains IIC. Additional findings include a leiomyoma (fibroid) and endometriosis. The reactive changes in the vaginal mucosa and lymph nodes are likely related to prior packing. Clinical correlation and further management decisions should be made based on the final pathology report, including staging details and risk factors.

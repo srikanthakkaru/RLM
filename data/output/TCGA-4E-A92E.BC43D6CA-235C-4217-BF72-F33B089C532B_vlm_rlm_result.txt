@@ -1,0 +1,65 @@
+Report: data/reports/TCGA-4E-A92E.BC43D6CA-235C-4217-BF72-F33B089C532B.txt
+Pipeline: vlm_rlm
+VLM Model: alibayram/medgemma:latest
+RLM Backend: ollama
+RLM Model: medgemma:27b
+Max Iterations: 10
+Execution Time: 327.75s
+Extraction Time: 9.53s
+Extraction Retries: 0
+Extraction Valid: True
+Normalizations Applied:
+  - vaginal_or_parametrial_involvement: 'not reported' -> 'not identified' (staging re-read)
+  - bladder_or_bowel_mucosa_invasion: 'not reported' -> 'not identified' (staging re-read)
+  - extrapelvic_peritoneal_metastasis: 'not reported' -> 'not identified' (staging re-read)
+Missing Fields (absent from report):
+  - nuclear_grade
+  - closest_margin_distance_cm
+  - closest_margin_location
+  - specimen_integrity
+Stage Audit Status: indeterminate
+Computed FIGO Stage: indeterminate
+Provisional FIGO Stage: IIC
+Reported FIGO Stage: I
+Stage Audit Missing Facts:
+  - histology_aggressiveness: No extracted or mapped value is available (IIC (IIC_AGGRESSIVE_INVASION))
+  - histology_aggressiveness: No extracted or mapped value is available (IB (IB_DEEP))
+Grounding Gate Violations:
+  - [warning:invented_stage] Staging cites FIGO 'IB' which is not among reported/computed/provisional stages ['I', 'IIC']
+Date: 2026-07-04 09:30:15
+================================================================================
+
+```text
+Diagnosis
+
+The diagnosis is well-differentiated adenocarcinoma (endometrioid type, FIGO grade 1) confined to the endometrium. The tumor measures 7.2 cm in greatest dimension. There is no evidence of myometrial invasion or lymphovascular invasion. Additional findings include focal adenomyosis and leiomyomas.
+
+Staging
+
+The computed FIGO stage is indeterminate based on available data, specifically histology aggressiveness for Stage IB (deep invasion) and IIC (aggressive invasion). The provisional FIGO stage is IIC, pending pathologist verification of histology aggressiveness. The reported FIGO stage is I. The pathologic TNM classification is pT1a, N0, M0.
+
+Key Findings
+
+- Histologic Type: Endometrioid adenocarcinoma
+- FIGO Grade: 1 (Well-differentiated)
+- Tumor Size: 7.2 cm
+- Myometrial Invasion: No invasion identified in examined sections.
+- Lymphovascular Invasion (LVI): Not identified
+- Cervical Stromal Involvement: Not identified
+- Margin Status: Uninvolved
+- Lymph Nodes Examined: 6 total lymph nodes (Left external iliac, Left internal iliac, Left aortic, Right external iliac, Right internal iliac, Right obturator).
+- Lymph Nodes Positive: 0/6
+- Additional Findings: Focal adenomyosis, leiomyomas.
+
+Expert Summary
+
+The patient has a Stage I endometrioid adenocarcinoma of the endometrium (FIGO grade 1) measuring 7.2 cm. The tumor is confined to the endometrium with no myometrial invasion or lymphovascular invasion identified. Lymph nodes are negative for metastasis. While the reported stage is I, the computed stage is indeterminate due to missing information regarding histology aggressiveness required for FIGO 2023 staging rules (specifically IB and IIC). A provisional stage of IIC has been assigned by the engine based on potential aggressive features but requires pathologist confirmation.
+
+Patient-Friendly Explanation
+
+You have been diagnosed with a type of uterine cancer called endometrioid adenocarcinoma. It is well-differentiated (low grade) and located only in the lining of the uterus (endometrium). The tumor measures 7.2 cm. The cancer has not spread into the muscle wall of the uterus, nor has it been found in nearby lymph nodes or blood vessels. Based on the current information, the stage is reported as Stage I. However, further details are needed to determine the precise FIGO 2023 stage (specifically regarding deep invasion or aggressive features), which might be Stage IB or IIC depending on these factors. The pathologist will need to review additional aspects of the tumor tissue to confirm the final stage.
+
+Next-Step Considerations
+
+The computed FIGO stage is indeterminate, and a provisional stage of IIC has been assigned by the staging engine due to missing information regarding histology aggressiveness (required for FIGO 2023 rules). This requires pathologist verification. The field confidence score for several fields is 0.50 [missing], indicating potential uncertainty or lack of detailed reporting for nuclear grade, specimen integrity, closest margin distance, and closest margin location. These factors should be considered during treatment planning.
+```
