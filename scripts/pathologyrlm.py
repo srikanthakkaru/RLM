@@ -49,13 +49,15 @@ is not to perform open-ended research. Use the provided context as the source of
 the final narrative quickly.
 
 Rules:
-- Do not call llm_query or llm_query_batched.
-- Use at most one ```repl``` block, only for simple deterministic inspection or arithmetic.
+- You may call llm_query or llm_query_batched when a recursive sub-call helps verify,
+  decompose, or resolve the provided context.
+- Use ```repl``` blocks for focused inspection, deterministic calculations, or recursive
+  sub-calls that directly support the final narrative.
 - If the provided context is already sufficient, answer immediately with FINAL(<full narrative>).
 - Do not narrate your analysis process.
 - Do not keep asking yourself what to check next; unresolved or missing facts should be stated as
   "not reported" or "requires pathologist verification".
-- Finish within two turns whenever possible: optional one REPL turn, then FINAL or FINAL_VAR.
+- Finish promptly once the context and any recursive checks are sufficient.
 """
 
 STRUCTURED_MEDICAL_PROMPT = """You are a clinical reasoning and validation engine working from a validated, structured extraction of a surgical pathology report for endometrial carcinoma.
@@ -205,7 +207,7 @@ STRUCTURED_ROOT_PROMPT = """The ```repl``` variable `context` is a dict containi
 
 The structured extraction fields are authoritative. `context['source_report']` is available ONLY so you can verify wording and ground statements — read it to confirm or quote a detail, but never re-extract or re-stage from it or override the extraction's staging values.
 
-Use at most one REPL block to inspect fields and recompute myometrial invasion percentage/category when both `context['myometrial_invasion_depth_cm']` and `context['myometrial_thickness_cm']` are numeric. Do not call llm_query or llm_query_batched.
+Use REPL blocks to inspect fields, recompute myometrial invasion percentage/category when both `context['myometrial_invasion_depth_cm']` and `context['myometrial_thickness_cm']` are numeric, and call llm_query or llm_query_batched when recursive review helps resolve ambiguities.
 
 Numeric override applies only to myometrial invasion. All other fields (FIGO grade, histology, LVSI, margins, TNM, FIGO stage) must be used exactly as extracted.
 
@@ -286,7 +288,7 @@ DIRECT_COMBINED_PROMPT = (
 
 DIRECT_ROOT_PROMPT = """Analyze the pathology report stored in the ```repl``` variable `context`.
 
-Use at most one REPL block to extract findings and produce a clinically grounded narrative using the required section headers. Do not call llm_query or llm_query_batched. Do not invent helper functions.
+Use REPL blocks to extract findings, perform focused checks, and call llm_query or llm_query_batched when recursive review helps produce a clinically grounded narrative using the required section headers. Do not invent helper functions.
 
 Finalization rules:
 - Do not call FINAL(...) inside ```repl``` blocks
